@@ -1,5 +1,5 @@
 import React from 'react';
-import { signInWithPopup, signOut, User } from 'firebase/auth';
+import { signInWithPopup, signOut, type User } from 'firebase/auth';
 import { auth, googleProvider } from '../firebase';
 
 interface AuthProps {

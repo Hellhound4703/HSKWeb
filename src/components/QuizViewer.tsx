@@ -1,7 +1,7 @@
 import React, { useState, useEffect, useCallback } from 'react';
-import { User } from 'firebase/auth';
+import { type User } from 'firebase/auth';
 import { db } from '../firebase';
-import { doc, setDoc, getDoc, increment } from 'firebase/firestore';
+import { doc, setDoc, increment } from 'firebase/firestore';
 
 interface Word {
   word: string;
@@ -67,9 +67,6 @@ const QuizViewer: React.FC<QuizViewerProps> = ({ words, user }) => {
       const userRef = doc(db, 'users', user.uid);
       const progressRef = doc(userRef, 'stats', 'overall');
       
-      const currentStats = await getDoc(progressRef);
-      const data = currentStats.exists() ? currentStats.data() : { totalQuizzes: 0, totalCorrect: 0, totalQuestions: 0 };
-
       await setDoc(progressRef, {
         totalQuizzes: increment(1),
         totalCorrect: increment(finalScore),

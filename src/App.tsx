@@ -1,5 +1,5 @@
 import { useState, useMemo, useEffect } from 'react';
-import { onAuthStateChanged, User } from 'firebase/auth';
+import { onAuthStateChanged, type User } from 'firebase/auth';
 import { auth } from './firebase';
 import hsk1Data from './data/hsk1-data.json';
 import hsk2Data from './data/hsk2-data.json';
@@ -166,7 +166,7 @@ function App() {
           )}
 
           {learningMode === 'vocabulary' && (
-            <FlashcardViewer words={selectedWords} />
+            <FlashcardViewer words={selectedWords} user={user} />
           )}
 
           {learningMode === 'grammar' && (

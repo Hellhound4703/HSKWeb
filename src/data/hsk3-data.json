@@ -21,10 +21,18 @@
     ],
     "grammar": [
       {
-        "point": "打算 (dǎsuàn)",
-        "explanation": "打算 can be a verb (to plan) or a noun (plan).",
+        "point": "The structure '又...又...' (yòu... yòu...)",
+        "explanation": "Used to indicate two qualities or actions existing at the same time ('both... and...').",
         "examples": [
-          {"chinese": "你周末有什么打算？", "pinyin": "Nǐ zhōumò yǒu shénme dǎsuàn?", "english": "What's your plan for the weekend?"}
+          {"chinese": "这家超市的蛋糕又好吃又便宜。", "pinyin": "Zhè jiā chāoshì de dàngāo yòu hǎochī yòu piányi.", "english": "The cakes in this supermarket are both delicious and cheap."}
+        ]
+      },
+      {
+        "point": "还是 (háishì) vs 或者 (huòzhě)",
+        "explanation": "Both mean 'or', but 还是 is used in questions, while 或者 is used in statements.",
+        "examples": [
+          {"chinese": "你喝茶还是喝咖啡？", "pinyin": "Nǐ hē chá háishì hē kāfēi?", "english": "Do you drink tea or coffee?"},
+          {"chinese": "我喝茶或者喝咖啡都可以。", "pinyin": "Wǒ hē chá huòzhě hē kāfēi dōu kěyǐ.", "english": "I can drink either tea or coffee."}
         ]
       }
     ]
@@ -83,6 +91,15 @@
       {"word": "舒服", "pinyin": "shūfu", "definition": "comfortable"},
       {"word": "花", "pinyin": "huā", "definition": "flower"},
       {"word": "绿", "pinyin": "lǜ", "definition": "green"}
+    ],
+    "grammar": [
+      {
+        "point": "The particle 着 (zhe) indicating the manner of an action",
+        "explanation": "V1 + 着 + V2 indicates that V1 is the manner or state in which V2 is performed.",
+        "examples": [
+          {"chinese": "她总是笑着跟客人说话。", "pinyin": "Tā zǒngshì xiào zhe gēn kèrén shuōhuà.", "english": "She always speaks to customers with a smile."}
+        ]
+      }
     ]
   },
   {
@@ -103,6 +120,16 @@
       {"word": "年轻", "pinyin": "niánqīng", "definition": "young"},
       {"word": "认真", "pinyin": "rènzhēn", "definition": "serious, earnest"},
       {"word": "客人", "pinyin": "kèrén", "definition": "customer, guest"}
+    ],
+    "grammar": [
+      {
+        "point": "又 (yòu) vs 再 (zài)",
+        "explanation": "又 usually refers to an action that has already repeated, while 再 refers to an action that will repeat in the future.",
+        "examples": [
+          {"chinese": "你怎么又迟到了？", "pinyin": "Nǐ zěnme yòu chídào le?", "english": "How come you are late again?"},
+          {"chinese": "请再说一遍。", "pinyin": "Qǐng zài shuō yí biàn.", "english": "Please say it again."}
+        ]
+      }
     ]
   },
   {
@@ -122,6 +149,15 @@
       {"word": "裙子", "pinyin": "qúnzi", "definition": "skirt, dress"},
       {"word": "最近", "pinyin": "zuìjìn", "definition": "recently"},
       {"word": "越来越", "pinyin": "yuè lái yuè", "definition": "more and more"}
+    ],
+    "grammar": [
+      {
+        "point": "The structure '越来越...' (yuè lái yuè...)",
+        "explanation": "Indicates that a quality or state changes over time ('more and more...').",
+        "examples": [
+          {"chinese": "天气越来越热了。", "pinyin": "Tiānqì yuè lái yuè rè le.", "english": "The weather is getting hotter and hotter."}
+        ]
+      }
     ]
   },
   {
@@ -143,6 +179,16 @@
       {"word": "聊天儿", "pinyin": "liáo tiānr", "definition": "to chat"},
       {"word": "睡着", "pinyin": "shuìzháo", "definition": "to fall asleep"},
       {"word": "更", "pinyin": "gèng", "definition": "more"}
+    ],
+    "grammar": [
+      {
+        "point": "The potential complement 'V + 得/不 + Result/Direction'",
+        "explanation": "Indicates whether a result or direction can be achieved.",
+        "examples": [
+          {"chinese": "我看清楚了。", "pinyin": "Wǒ kàn qīngchu le.", "english": "I saw it clearly."},
+          {"chinese": "我看不清楚。", "pinyin": "Wǒ kàn bù qīngchu.", "english": "I can't see it clearly."}
+        ]
+      }
     ]
   },
   {
@@ -161,6 +207,15 @@
       {"word": "接", "pinyin": "jiē", "definition": "to meet, to pick up"},
       {"word": "刻", "pinyin": "kè", "definition": "quarter (of an hour)"},
       {"word": "差", "pinyin": "chà", "definition": "to fall short of"}
+    ],
+    "grammar": [
+      {
+        "point": "Duration of an action: 'Verb + 了 + Time + 了'",
+        "explanation": "Indicates that an action has been going on for a certain period and is still continuing.",
+        "examples": [
+          {"chinese": "我们认识五年了。", "pinyin": "Wǒmen rènshi wǔ nián le.", "english": "We have known each other for five years (and still do)."}
+        ]
+      }
     ]
   },
   {
@@ -183,6 +238,15 @@
       {"word": "变化", "pinyin": "biànhuà", "definition": "change"},
       {"word": "健康", "pinyin": "jiànkāng", "definition": "healthy"},
       {"word": "重要", "pinyin": "zhòngyào", "definition": "important"}
+    ],
+    "grammar": [
+      {
+        "point": "The '就' (jiù) structure for correlation",
+        "explanation": "Used to connect two identical interrogative pronouns to indicate that the second depends on the first.",
+        "examples": [
+          {"chinese": "你去哪儿，我就去哪儿。", "pinyin": "Nǐ qù nǎr, wǒ jiù qù nǎr.", "english": "Wherever you go, I will follow."}
+        ]
+      }
     ]
   },
   {
@@ -202,6 +266,15 @@
       {"word": "中间", "pinyin": "zhōngjiān", "definition": "middle"},
       {"word": "参加", "pinyin": "cānjiā", "definition": "to participate"},
       {"word": "影响", "pinyin": "yǐngxiǎng", "definition": "influence, to affect"}
+    ],
+    "grammar": [
+      {
+        "point": "Comparison using '跟...一样' (gēn... yíyàng)",
+        "explanation": "Used to indicate that two things are the same.",
+        "examples": [
+          {"chinese": "他的汉语说得跟中国人一样好。", "pinyin": "Tā de Hànyǔ shuō de gēn Zhōngguórén yíyàng hǎo.", "english": "He speaks Chinese as well as a Chinese person."}
+        ]
+      }
     ]
   },
   {
@@ -223,6 +296,15 @@
       {"word": "主要", "pinyin": "zhǔyào", "definition": "main, primary"},
       {"word": "环境", "pinyin": "huánjìng", "definition": "environment"},
       {"word": "附近", "pinyin": "fùjìn", "definition": "nearby"}
+    ],
+    "grammar": [
+      {
+        "point": "Comparison using 比 (bǐ) + Complement of degree",
+        "explanation": "A + 比 + B + Adj + 多了 / 得多 / 一点儿 / 一些.",
+        "examples": [
+          {"chinese": "数学比历史难多了。", "pinyin": "Shùxué bǐ lìshǐ nán duō le.", "english": "Maths is much harder than history."}
+        ]
+      }
     ]
   },
   {
@@ -248,6 +330,15 @@
       {"word": "笔记本", "pinyin": "bǐjìběn", "definition": "notebook"},
       {"word": "电子邮件", "pinyin": "diànzǐ yóujiàn", "definition": "email"},
       {"word": "习惯", "pinyin": "xíguàn", "definition": "habit, to be used to"}
+    ],
+    "grammar": [
+      {
+        "point": "The '把' (bǎ) sentence (2)",
+        "explanation": "Used when the action results in the object moving to a new place or changing its status.",
+        "examples": [
+          {"chinese": "请把空调关了。", "pinyin": "Qǐng bǎ kōngtiáo guān le.", "english": "Please turn off the air conditioner."}
+        ]
+      }
     ]
   },
   {
@@ -268,6 +359,15 @@
       {"word": "画", "pinyin": "huà", "definition": "to draw, painting"},
       {"word": "需要", "pinyin": "xūyào", "definition": "to need"},
       {"word": "黑板", "pinyin": "hēibǎn", "definition": "blackboard"}
+    ],
+    "grammar": [
+      {
+        "point": "The auxiliary verb 敢 (gǎn)",
+        "explanation": "Means 'to dare to do something'.",
+        "examples": [
+          {"chinese": "你敢一个人去吗？", "pinyin": "Nǐ gǎn yí ge rén qù ma?", "english": "Do you dare to go alone?"}
+        ]
+      }
     ]
   },
   {
@@ -289,6 +389,15 @@
       {"word": "校长", "pinyin": "xiàozhǎng", "definition": "principal, headmaster"},
       {"word": "坏", "pinyin": "huài", "definition": "bad, broken"},
       {"word": "经常", "pinyin": "jīngcháng", "definition": "often"}
+    ],
+    "grammar": [
+      {
+        "point": "The structure '只有...才...' (zhǐyǒu... cái...)",
+        "explanation": "Indicates that the condition introduced by 只有 is the only one that can lead to the result ('only if... then...').",
+        "examples": [
+          {"chinese": "只有努力学习，才能学好汉语。", "pinyin": "Zhǐyǒu nǔlì xuéxí, cái néng xué hǎo Hànyǔ.", "english": "Only if you study hard can you learn Chinese well."}
+        ]
+      }
     ]
   },
   {
@@ -312,6 +421,15 @@
       {"word": "菜单", "pinyin": "càidān", "definition": "menu"},
       {"word": "简单", "pinyin": "jiǎndān", "definition": "simple"},
       {"word": "香蕉", "pinyin": "xiāngjiāo", "definition": "banana"}
+    ],
+    "grammar": [
+      {
+        "point": "The structure '既然...就...' (jìrán... jiù...)",
+        "explanation": "Used to state a fact and then draw a conclusion or suggestion ('since... then...').",
+        "examples": [
+          {"chinese": "既然你不想去，就别去了。", "pinyin": "Jìrán nǐ bù xiǎng qù, jiù bié qù le.", "english": "Since you don't want to go, then don't go."}
+        ]
+      }
     ]
   },
   {
@@ -337,6 +455,15 @@
       {"word": "举行", "pinyin": "jǔxíng", "definition": "to hold (an event)"},
       {"word": "世界", "pinyin": "shìjiè", "definition": "world"},
       {"word": "街道", "pinyin": "jiēdào", "definition": "street"}
+    ],
+    "grammar": [
+      {
+        "point": "The structure '连...都/也...' (lián... dōu/yě...)",
+        "explanation": "Used to emphasize an extreme case ('even...').",
+        "examples": [
+          {"chinese": "他太忙了，连吃饭的时间都没有。", "pinyin": "Tā tài máng le, lián chīfàn de shíjiān dōu méiyǒu.", "english": "He is so busy that he doesn't even have time to eat."}
+        ]
+      }
     ]
   },
   {
@@ -357,6 +484,15 @@
       {"word": "检查", "pinyin": "jiǎnchá", "definition": "to check, to examine"},
       {"word": "刷牙", "pinyin": "shuā yá", "definition": "to brush teeth"},
       {"word": "词语", "pinyin": "cíyǔ", "definition": "word, expression"}
+    ],
+    "grammar": [
+      {
+        "point": "The complement of degree: 'Verb/Adj + 得 + ...'",
+        "explanation": "Used to describe the state or degree resulting from an action or quality.",
+        "examples": [
+          {"chinese": "他累得不想说话。", "pinyin": "Tā lèi de bù xiǎng shuōhuà.", "english": "He is so tired that he doesn't want to talk."}
+        ]
+      }
     ]
   },
   {
@@ -374,6 +510,15 @@
       {"word": "情况", "pinyin": "qíngkuàng", "definition": "situation"},
       {"word": "口", "pinyin": "kǒu", "definition": "measure word for family"},
       {"word": "渴", "pinyin": "kě", "definition": "thirsty"}
+    ],
+    "grammar": [
+      {
+        "point": "The interrogative pronoun 谁 (shéi) for any/everyone",
+        "explanation": "When 谁 is followed by 都/也, it means 'everyone' or 'anyone'.",
+        "examples": [
+          {"chinese": "这件事谁都知道。", "pinyin": "Zhè jiàn shì shéi dōu zhīdào.", "english": "Everyone knows this."}
+        ]
+      }
     ]
   },
   {
@@ -390,6 +535,15 @@
       {"word": "决定", "pinyin": "juédìng", "definition": "to decide"},
       {"word": "照顾", "pinyin": "zhàogù", "definition": "to take care of"},
       {"word": "选择", "pinyin": "xuǎnzé", "definition": "to choose"}
+    ],
+    "grammar": [
+      {
+        "point": "Auxiliary verb 愿意 (yuànyì)",
+        "explanation": "Means 'to be willing' or 'to wish to'.",
+        "examples": [
+          {"chinese": "我愿意帮你。", "pinyin": "Wǒ yuànyì bāng nǐ.", "english": "I am willing to help you."}
+        ]
+      }
     ]
   },
   {
@@ -405,6 +559,15 @@
       {"word": "声音", "pinyin": "shēngyīn", "definition": "voice"},
       {"word": "发现", "pinyin": "fāxiàn", "definition": "to discover"},
       {"word": "提高", "pinyin": "tígāo", "definition": "to improve"}
+    ],
+    "grammar": [
+      {
+        "point": "The directional complement '出来' (chūlái)",
+        "explanation": "Used after a verb to indicate that someone recognizes something or something becomes manifest.",
+        "examples": [
+          {"chinese": "你没看出来吗？", "pinyin": "Nǐ méi kàn chūlái ma?", "english": "Didn't you recognize it/him/her?"}
+        ]
+      }
     ]
   },
   {
@@ -418,6 +581,15 @@
       {"word": "解决", "pinyin": "jiějiué", "definition": "to solve"},
       {"word": "水平", "pinyin": "shuǐpíng", "definition": "level"},
       {"word": "完成", "pinyin": "wánchéng", "definition": "to complete"}
+    ],
+    "grammar": [
+      {
+        "point": "The '被' (bèi) sentence (passive voice) (2)",
+        "explanation": "Revisiting the passive voice where the subject is the receiver of the action.",
+        "examples": [
+          {"chinese": "我被他影响了。", "pinyin": "Wǒ bèi tā yǐngxiǎng le.", "english": "I was influenced by him."}
+        ]
+      }
     ]
   }
 ]

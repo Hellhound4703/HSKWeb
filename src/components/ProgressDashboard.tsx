@@ -1,5 +1,5 @@
 import React, { useEffect, useState } from 'react';
-import { User } from 'firebase/auth';
+import { type User } from 'firebase/auth';
 import { db } from '../firebase';
 import { doc, onSnapshot } from 'firebase/firestore';
 
@@ -14,8 +14,13 @@ interface UserStats {
   lastQuizDate?: string;
 }
 
+interface VocabularyStats {
+  learned: string[];
+}
+
 const ProgressDashboard: React.FC<ProgressDashboardProps> = ({ user }) => {
   const [stats, setStats] = useState<UserStats | null>(null);
+  const [vocab, setVocab] = useState<VocabularyStats | null>(null);
   const [loading, setLoading] = useState(true);
 
   useEffect(() => {
@@ -25,14 +30,21 @@ const ProgressDashboard: React.FC<ProgressDashboardProps> = ({ user }) => {
     }
 
     const progressRef = doc(db, 'users', user.uid, 'stats', 'overall');
-    const unsubscribe = onSnapshot(progressRef, (doc) => {
-      if (doc.exists()) {
-        setStats(doc.data() as UserStats);
-      }
+    const vocabRef = doc(db, 'users', user.uid, 'stats', 'vocabulary');
+
+    const unsubStats = onSnapshot(progressRef, (doc) => {
+      if (doc.exists()) setStats(doc.data() as UserStats);
+    });
+
+    const unsubVocab = onSnapshot(vocabRef, (doc) => {
+      if (doc.exists()) setVocab(doc.data() as VocabularyStats);
       setLoading(false);
     });
 
-    return () => unsubscribe();
+    return () => {
+      unsubStats();
+      unsubVocab();
+    };
   }, [user]);
 
   if (!user) {
@@ -69,25 +81,33 @@ const ProgressDashboard: React.FC<ProgressDashboardProps> = ({ user }) => {
           </div>
         </div>
 
-        <div className="grid grid-cols-1 sm:grid-cols-3 gap-6">
+        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6">
           <div className="bg-blue-50 p-6 rounded-xl text-center">
-            <p className="text-sm font-bold text-blue-400 uppercase tracking-widest mb-1">Quizzes Taken</p>
-            <p className="text-4xl font-black text-blue-700">{stats?.totalQuizzes || 0}</p>
-          </div>
-          <div className="bg-green-50 p-6 rounded-xl text-center">
-            <p className="text-sm font-bold text-green-400 uppercase tracking-widest mb-1">Quiz Accuracy</p>
-            <p className="text-4xl font-black text-green-700">{accuracy}%</p>
+            <p className="text-sm font-bold text-blue-400 uppercase tracking-widest mb-1">Learned</p>
+            <p className="text-4xl font-black text-blue-700">{vocab?.learned?.length || 0}</p>
+            <p className="text-xs text-blue-400 mt-1 font-bold">WORDS</p>
           </div>
           <div className="bg-purple-50 p-6 rounded-xl text-center">
-            <p className="text-sm font-bold text-purple-400 uppercase tracking-widest mb-1">Total Questions</p>
-            <p className="text-4xl font-black text-purple-700">{stats?.totalQuestions || 0}</p>
+            <p className="text-sm font-bold text-purple-400 uppercase tracking-widest mb-1">Quizzes</p>
+            <p className="text-4xl font-black text-purple-700">{stats?.totalQuizzes || 0}</p>
+            <p className="text-xs text-purple-400 mt-1 font-bold">TOTAL</p>
+          </div>
+          <div className="bg-green-50 p-6 rounded-xl text-center">
+            <p className="text-sm font-bold text-green-400 uppercase tracking-widest mb-1">Accuracy</p>
+            <p className="text-4xl font-black text-green-700">{accuracy}%</p>
+            <p className="text-xs text-green-400 mt-1 font-bold">AVG SCORE</p>
+          </div>
+          <div className="bg-orange-50 p-6 rounded-xl text-center">
+            <p className="text-sm font-bold text-orange-400 uppercase tracking-widest mb-1">Questions</p>
+            <p className="text-4xl font-black text-orange-700">{stats?.totalQuestions || 0}</p>
+            <p className="text-xs text-orange-400 mt-1 font-bold">ANSWERED</p>
           </div>
         </div>
       </div>
 
-      {!stats && (
+      {!stats && !vocab && (
         <div className="text-center p-8 bg-gray-50 rounded-xl border-2 border-dashed border-gray-200">
-          <p className="text-gray-500">Take your first quiz to see detailed statistics!</p>
+          <p className="text-gray-500">Start learning or take a quiz to see your progress here!</p>
         </div>
       )}
 

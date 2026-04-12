@@ -1,4 +1,7 @@
 import React, { useState, useEffect, useCallback } from 'react';
+import { type User } from 'firebase/auth';
+import { db } from '../firebase';
+import { doc, setDoc, getDoc, updateDoc, arrayUnion, arrayRemove } from 'firebase/firestore';
 import Flashcard from './Flashcard';
 
 interface Word {
@@ -10,18 +13,38 @@ interface Word {
 
 interface FlashcardViewerProps {
   words: Word[];
+  user?: User | null;
 }
 
-const FlashcardViewer: React.FC<FlashcardViewerProps> = ({ words }) => {
+const FlashcardViewer: React.FC<FlashcardViewerProps> = ({ words, user }) => {
   const [currentIndex, setCurrentIndex] = useState(0);
   const [flipped, setFlipped] = useState(false);
   const [shuffledWords, setShuffledWords] = useState<Word[]>([]);
+  const [learnedWords, setLearnedWords] = useState<string[]>([]);
 
   useEffect(() => {
     setShuffledWords([...words]);
     setCurrentIndex(0);
     setFlipped(false);
   }, [words]);
+
+  // Load learned words from Firestore
+  useEffect(() => {
+    const fetchLearnedWords = async () => {
+      if (!user) {
+        setLearnedWords([]);
+        return;
+      }
+      const progressRef = doc(db, 'users', user.uid, 'stats', 'vocabulary');
+      const docSnap = await getDoc(progressRef);
+      if (docSnap.exists()) {
+        setLearnedWords(docSnap.data().learned || []);
+      } else {
+        setLearnedWords([]);
+      }
+    };
+    fetchLearnedWords();
+  }, [user]);
 
   const speakWord = useCallback((text: string) => {
     if ('speechSynthesis' in window) {
@@ -37,6 +60,40 @@ const FlashcardViewer: React.FC<FlashcardViewerProps> = ({ words }) => {
     setFlipped(newFlippedState);
     if (newFlippedState && shuffledWords[currentIndex]) {
       speakWord(shuffledWords[currentIndex].word);
+    }
+  };
+
+  const toggleLearned = async () => {
+    if (!user) {
+      alert("Please sign in to mark words as learned!");
+      return;
+    }
+
+    const currentWord = shuffledWords[currentIndex].word;
+    const isNowLearned = !learnedWords.includes(currentWord);
+    
+    // Optimistic UI update
+    setLearnedWords(prev => 
+      isNowLearned ? [...prev, currentWord] : prev.filter(w => w !== currentWord)
+    );
+
+    try {
+      const progressRef = doc(db, 'users', user.uid, 'stats', 'vocabulary');
+      const docSnap = await getDoc(progressRef);
+      
+      if (!docSnap.exists()) {
+        await setDoc(progressRef, { learned: [currentWord] });
+      } else {
+        await updateDoc(progressRef, {
+          learned: isNowLearned ? arrayUnion(currentWord) : arrayRemove(currentWord)
+        });
+      }
+    } catch (error) {
+      console.error("Error updating learned words", error);
+      // Revert UI on error
+      setLearnedWords(prev => 
+        !isNowLearned ? [...prev, currentWord] : prev.filter(w => w !== currentWord)
+      );
     }
   };
 
@@ -73,6 +130,7 @@ const FlashcardViewer: React.FC<FlashcardViewerProps> = ({ words }) => {
   }
 
   const currentWord = shuffledWords[currentIndex];
+  const isLearned = learnedWords.includes(currentWord.word);
 
   return (
     <div className="flex flex-col items-center">
@@ -85,6 +143,8 @@ const FlashcardViewer: React.FC<FlashcardViewerProps> = ({ words }) => {
         flipped={flipped} 
         onFlip={handleFlip} 
         onPlayAudio={speakWord}
+        isLearned={isLearned}
+        onToggleLearned={() => toggleLearned()}
       />
 
       <div className="mt-12 flex gap-4">

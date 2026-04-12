@@ -19,10 +19,17 @@
     ],
     "grammar": [
       {
-        "point": "不仅...也/还/而且... (bùjǐn...yě/hái/érqiě...)",
-        "explanation": "This structure means 'not only... but also...'. It is used to connect two clauses that have a progressive relationship.",
+        "point": "The structure '不仅...也/还/而且...' (bùjǐn...yě/hái/érqiě...)",
+        "explanation": "Used to connect two clauses that have a progressive relationship ('not only... but also...').",
         "examples": [
           {"chinese": "他不仅足球踢得好，性格也不错。", "pinyin": "Tā bùjǐn zúqiú tī de hǎo, xìnggé yě búcuò.", "english": "He not only plays football well, but also has a good personality."}
+        ]
+      },
+      {
+        "point": "The adverb 从来 (cónglái)",
+        "explanation": "Means 'always' or 'all along', usually used in negative sentences ('never').",
+        "examples": [
+          {"chinese": "我从来没见过他。", "pinyin": "Wǒ cónglái méi jiàn guo tā.", "english": "I have never seen him before."}
         ]
       }
     ]
@@ -44,6 +51,15 @@
       {"word": "毕业", "pinyin": "bìyè", "definition": "to graduate"},
       {"word": "麻烦", "pinyin": "máfan", "definition": "to bother"},
       {"word": "好像", "pinyin": "hǎoxiàng", "definition": "as if, seem"}
+    ],
+    "grammar": [
+      {
+        "point": "The structure '即使...也...' (jíshǐ... yě...)",
+        "explanation": "Used to indicate a hypothetical concession ('even if...').",
+        "examples": [
+          {"chinese": "即使下雨，我也要去。", "pinyin": "Jíshǐ xià yǔ, wǒ yě yào qù.", "english": "Even if it rains, I will still go."}
+        ]
+      }
     ]
   },
   {
@@ -62,6 +78,22 @@
       {"word": "材料", "pinyin": "cáiliào", "definition": "data, material"},
       {"word": "符合", "pinyin": "fúhé", "definition": "to accord with"},
       {"word": "通知", "pinyin": "tōngzhī", "definition": "to inform"}
+    ],
+    "grammar": [
+      {
+        "point": "The adverb 挺 (tǐng)",
+        "explanation": "Used to express degree, similar to 'very' or 'quite'. Often used with '的'.",
+        "examples": [
+          {"chinese": "经理对他印象挺好的。", "pinyin": "Jīnglǐ duì tā yìnxiàng tǐng hǎo de.", "english": "The manager has a pretty good impression of him."}
+        ]
+      },
+      {
+        "point": "The adverb 本来 (běnlái)",
+        "explanation": "Means 'originally' or 'at first'.",
+        "examples": [
+          {"chinese": "我本来不想去。", "pinyin": "Wǒ běnlái bù xiǎng qù.", "english": "I originally didn't want to go."}
+        ]
+      }
     ]
   },
   {
@@ -79,6 +111,15 @@
       {"word": "提前", "pinyin": "tíqián", "definition": "in advance"},
       {"word": "保证", "pinyin": "bǎozhèng", "definition": "to guarantee"},
       {"word": "提醒", "pinyin": "tíxǐng", "definition": "to remind"}
+    ],
+    "grammar": [
+      {
+        "point": "The structure '由于...因此...' (yóuyú... yīncǐ...)",
+        "explanation": "Used to indicate cause and effect ('due to... therefore...').",
+        "examples": [
+          {"chinese": "由于天气原因，航班取消了。", "pinyin": "Yóuyú tiānqì yuányīn, hángbān qǔxiāo le.", "english": "Due to weather reasons, the flight was cancelled."}
+        ]
+      }
     ]
   },
   {
@@ -95,6 +136,15 @@
       {"word": "顺便", "pinyin": "shùnbiàn", "definition": "in passing, on the way"},
       {"word": "台", "pinyin": "tái", "definition": "measure word for machines"},
       {"word": "光", "pinyin": "guāng", "definition": "only, merely"}
+    ],
+    "grammar": [
+      {
+        "point": "The structure '无论...都/也...' (wúlùn... dōu/yě...)",
+        "explanation": "Means 'no matter what/how...' indicating that the result remains the same under any condition.",
+        "examples": [
+          {"chinese": "无论多忙，他每天都坚持锻炼。", "pinyin": "Wúlùn duō máng, tā měitiān dōu jiānchí duànliàn.", "english": "No matter how busy he is, he insists on exercising every day."}
+        ]
+      }
     ]
   },
   {
@@ -111,6 +161,15 @@
       {"word": "倍", "pinyin": "bèi", "definition": "times, -fold"},
       {"word": "皮肤", "pinyin": "pífū", "definition": "skin"},
       {"word": "好处", "pinyin": "hǎochù", "definition": "benefit, advantage"}
+    ],
+    "grammar": [
+      {
+        "point": "The adverb 竟然 (jìngrán)",
+        "explanation": "Means 'unexpectedly' or 'to one's surprise'.",
+        "examples": [
+          {"chinese": "他竟然忘了我的生日。", "pinyin": "Tā jìngrán wàng le wǒ de shēngrì.", "english": "He actually forgot my birthday."}
+        ]
+      }
     ]
   },
   {
@@ -127,6 +186,22 @@
       {"word": "窗户", "pinyin": "chuānghu", "definition": "window"},
       {"word": "空气", "pinyin": "kōngqì", "definition": "air"},
       {"word": "抽烟", "pinyin": "chōuyān", "definition": "to smoke"}
+    ],
+    "grammar": [
+      {
+        "point": "The verb 估计 (gūjì)",
+        "explanation": "Means 'to estimate' or 'to reckon'.",
+        "examples": [
+          {"chinese": "我估计他今天不来了。", "pinyin": "Wǒ gūjì tā jīntiān bù lái le.", "english": "I reckon he isn't coming today."}
+        ]
+      },
+      {
+        "point": "The adverb 最好 (zuìhǎo)",
+        "explanation": "Means 'had better' or 'it would be best to'.",
+        "examples": [
+          {"chinese": "你最好早点儿休息。", "pinyin": "Nǐ zuìhǎo zǎodiǎnr xiūxi.", "english": "You had better rest a bit earlier."}
+        ]
+      }
     ]
   },
   {
@@ -143,6 +218,15 @@
       {"word": "放松", "pinyin": "fàngsōng", "definition": "to relax"},
       {"word": "压力", "pinyin": "yālì", "definition": "pressure, stress"},
       {"word": "回忆", "pinyin": "huíyì", "definition": "to recall, memory"}
+    ],
+    "grammar": [
+      {
+        "point": "The verb 使 (shǐ) for causation",
+        "explanation": "Similar to 让 (ràng) or 叫 (jiào), meaning 'to make' or 'to cause'.",
+        "examples": [
+          {"chinese": "这种景色使人心情愉快。", "pinyin": "Zhè zhǒng jǐngsè shǐ rén xīnqíng yúkuài.", "english": "This kind of scenery makes one feel cheerful."}
+        ]
+      }
     ]
   },
   {
@@ -159,6 +243,15 @@
       {"word": "精神", "pinyin": "jīngshén", "definition": "spirit"},
       {"word": "总结", "pinyin": "zǒngjié", "definition": "to summarize"},
       {"word": "取", "pinyin": "qǔ", "definition": "to take, to get"}
+    ],
+    "grammar": [
+      {
+        "point": "The structure '阳光总在风雨后'",
+        "explanation": "A common idiom meaning 'sunshine always comes after wind and rain' (metaphor for success after hardship).",
+        "examples": [
+          {"chinese": "阳光总在风雨后，坚持就是胜利。", "pinyin": "Yángguāng zǒng zài fēngyǔ hòu, jiānchí jiùshì shènglì.", "english": "Sunshine always comes after the storm; persistence is victory."}
+        ]
+      }
     ]
   },
   {
@@ -175,6 +268,15 @@
       {"word": "感觉", "pinyin": "gǎnjué", "definition": "feeling"},
       {"word": "态度", "pinyin": "tàidù", "definition": "attitude"},
       {"word": "经济", "pinyin": "jīngjì", "definition": "economy"}
+    ],
+    "grammar": [
+      {
+        "point": "The conjunction 然而 (rán'ér)",
+        "explanation": "Means 'however' or 'but', used to indicate a turn in thought.",
+        "examples": [
+          {"chinese": "他虽然很有钱，然而并不幸福。", "pinyin": "Tā suīrán hěn yǒu qián, rán'ér bìng bù xìngfú.", "english": "Although he is very rich, however, he is not happy."}
+        ]
+      }
     ]
   },
   {
@@ -191,6 +293,15 @@
       {"word": "养成", "pinyin": "yǎngchéng", "definition": "to form (a habit)"},
       {"word": "习惯", "pinyin": "xíguàn", "definition": "habit"},
       {"word": "确实", "pinyin": "quèshí", "definition": "indeed"}
+    ],
+    "grammar": [
+      {
+        "point": "The adverb 确实 (quèshí)",
+        "explanation": "Means 'indeed' or 'really', used to confirm a fact.",
+        "examples": [
+          {"chinese": "读书确实有很多好处。", "pinyin": "Dúshū quèshí yǒu hěn duō hǎochù.", "english": "Reading indeed has many benefits."}
+        ]
+      }
     ]
   },
   {
@@ -207,6 +318,15 @@
       {"word": "方法", "pinyin": "fāngfǎ", "definition": "method"},
       {"word": "准确", "pinyin": "zhǔnquè", "definition": "accurate"},
       {"word": "通过", "pinyin": "tōngguò", "definition": "through"}
+    ],
+    "grammar": [
+      {
+        "point": "The preposition 通过 (tōngguò)",
+        "explanation": "Means 'through' or 'by means of', used to indicate the way or channel.",
+        "examples": [
+          {"chinese": "通过观察，他发现了问题。", "pinyin": "Tōngguò guānchá, tā fāxiàn le wèntí.", "english": "Through observation, he discovered the problem."}
+        ]
+      }
     ]
   },
   {
@@ -223,6 +343,15 @@
       {"word": "复杂", "pinyin": "fùzá", "definition": "complex"},
       {"word": "简单", "pinyin": "jiǎndān", "definition": "simple"},
       {"word": "真诚", "pinyin": "zhēnchéng", "definition": "sincere"}
+    ],
+    "grammar": [
+      {
+        "point": "The adverb 慢慢 (mànmàn)",
+        "explanation": "Reduplicated adjective used as an adverb to mean 'slowly' or 'gradually'.",
+        "examples": [
+          {"chinese": "慢慢享受这种感觉。", "pinyin": "Mànmàn xiǎngshòu zhè zhǒng gǎnjué.", "english": "Slowly enjoy this feeling."}
+        ]
+      }
     ]
   },
   {
@@ -238,7 +367,16 @@
       {"word": "重视", "pinyin": "zhòngshì", "definition": "to attach importance to"},
       {"word": "垃圾", "pinyin": "lājī", "definition": "garbage"},
       {"word": "分类", "pinyin": "fēnlèi", "definition": "classification"},
-      {"word": "自然", "pinyin": "zìrán", "definition": "nature"}
+      {"word": "自然", "pinyin": "zìrn", "definition": "nature"}
+    ],
+    "grammar": [
+      {
+        "point": "The verb 重视 (zhòngshì)",
+        "explanation": "Means 'to attach importance to' or 'to value'.",
+        "examples": [
+          {"chinese": "我们应该重视环境保护。", "pinyin": "Wǒmen yīnggāi zhòngshì huánjìng bǎohù.", "english": "We should value environmental protection."}
+        ]
+      }
     ]
   },
   {
@@ -255,6 +393,15 @@
       {"word": "将来", "pinyin": "jiānglái", "definition": "future"},
       {"word": "负责", "pinyin": "fùzé", "definition": "responsible"},
       {"word": "培养", "pinyin": "péiyǎng", "definition": "to cultivate"}
+    ],
+    "grammar": [
+      {
+        "point": "The adjective 严格 (yángé)",
+        "explanation": "Means 'strict' or 'rigorous'. Often used with 对.",
+        "examples": [
+          {"chinese": "老师对他很严格。", "pinyin": "Lǎoshī duì tā hěn yángé.", "english": "The teacher is very strict with him."}
+        ]
+      }
     ]
   },
   {
@@ -271,6 +418,15 @@
       {"word": "珍惜", "pinyin": "zhēnxī", "definition": "to cherish"},
       {"word": "获得", "pinyin": "huòdé", "definition": "to obtain"},
       {"word": "满足", "pinyin": "mǎnzú", "definition": "satisfaction"}
+    ],
+    "grammar": [
+      {
+        "point": "The verb 珍惜 (zhēnxī)",
+        "explanation": "Means 'to cherish' or 'to treasure'.",
+        "examples": [
+          {"chinese": "我们要珍惜时间。", "pinyin": "Wǒmen yào zhēnxī shíjiān.", "english": "We should cherish time."}
+        ]
+      }
     ]
   },
   {
@@ -287,6 +443,15 @@
       {"word": "关系", "pinyin": "guānxì", "definition": "relationship"},
       {"word": "友谊", "pinyin": "yǒuyì", "definition": "friendship"},
       {"word": "和谐", "pinyin": "héxié", "definition": "harmony"}
+    ],
+    "grammar": [
+      {
+        "point": "The verb 信任 (xìnrèn)",
+        "explanation": "Means 'to trust' or 'to have confidence in'.",
+        "examples": [
+          {"chinese": "朋友之间要互相信任。", "pinyin": "Péngyou zhījiān yào hùxiāng xìnrèn.", "english": "Friends should trust each other."}
+        ]
+      }
     ]
   },
   {
@@ -303,6 +468,15 @@
       {"word": "普遍", "pinyin": "pǔbiàn", "definition": "universal, widespread"},
       {"word": "改善", "pinyin": "gǎishàn", "definition": "to improve"},
       {"word": "进步", "pinyin": "jìnbù", "definition": "progress"}
+    ],
+    "grammar": [
+      {
+        "point": "The structure 'A 对 B 有影响'",
+        "explanation": "Means 'A has an influence on B'.",
+        "examples": [
+          {"chinese": "网络对生活有很大影响。", "pinyin": "Wǎngluò duì shēnghuó yǒu hěn dà yǐngxiǎng.", "english": "The internet has a great influence on life."}
+        ]
+      }
     ]
   },
   {
@@ -319,6 +493,15 @@
       {"word": "效率", "pinyin": "xiàolǜ", "definition": "efficiency"},
       {"word": "成果", "pinyin": "chéngguǒ", "definition": "result, fruit"},
       {"word": "成功", "pinyin": "chénggōng", "definition": "success"}
+    ],
+    "grammar": [
+      {
+        "point": "The verb 挑战 (tiǎozhàn)",
+        "explanation": "Can be a noun (challenge) or a verb (to challenge).",
+        "examples": [
+          {"chinese": "这是一次很大的挑战。", "pinyin": "Zhè shì yí cì hěn dà de tiǎozhàn.", "english": "This is a very big challenge."}
+        ]
+      }
     ]
   },
   {
@@ -335,6 +518,15 @@
       {"word": "希望", "pinyin": "xīwàng", "definition": "hope"},
       {"word": "目标", "pinyin": "mùbiāo", "definition": "goal"},
       {"word": "努力", "pinyin": "nǔlì", "definition": "effort"}
+    ],
+    "grammar": [
+      {
+        "point": "The structure '对...充满希望'",
+        "explanation": "Means 'to be full of hope for...'.",
+        "examples": [
+          {"chinese": "我对未来充满希望。", "pinyin": "Wǒ duì wèilái chōngmǎn xīwàng.", "english": "I am full of hope for the future."}
+        ]
+      }
     ]
   }
 ]
