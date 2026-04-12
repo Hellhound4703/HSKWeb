@@ -1,0 +1,74 @@
+[
+  {
+    "id": "HSK3-R1",
+    "level": 3,
+    "type": "reorder",
+    "parts": ["去", "银行", "想", "我", "办事"],
+    "translation": "I want to go to the bank to do some business.",
+    "correct": "我想去银行办事"
+  },
+  {
+    "id": "HSK3-F1",
+    "level": 3,
+    "type": "fill",
+    "sentencePrefix": "老师总是",
+    "blankPinyin": "xiào",
+    "sentenceSuffix": "着跟学生说话。",
+    "translation": "The teacher always speaks to students with a smile.",
+    "answer": "笑"
+  },
+  {
+    "id": "HSK3-R2",
+    "level": 3,
+    "type": "reorder",
+    "parts": ["那个", "是", "送报纸的", "人"],
+    "translation": "That person is the one who delivers newspapers.",
+    "correct": "那个人是送报纸的"
+  },
+  {
+    "id": "HSK3-F2",
+    "level": 3,
+    "type": "fill",
+    "sentencePrefix": "我",
+    "blankPinyin": "jué de",
+    "sentenceSuffix": "北京的秋天最漂亮。",
+    "translation": "I think autumn in Beijing is the most beautiful.",
+    "answer": "觉得"
+  },
+  {
+    "id": "HSK4-R1",
+    "level": 4,
+    "type": "reorder",
+    "parts": ["从来", "我", "见过", "不仅", "没", "他"],
+    "translation": "I have not only never seen him before...",
+    "correct": "我不仅从来没见过他"
+  },
+  {
+    "id": "HSK4-F1",
+    "level": 4,
+    "type": "fill",
+    "sentencePrefix": "这个任务",
+    "blankPinyin": "zhì liàng",
+    "sentenceSuffix": "非常重要。",
+    "translation": "The quality of this task is very important.",
+    "answer": "质量"
+  },
+  {
+    "id": "HSK4-R2",
+    "level": 4,
+    "type": "reorder",
+    "parts": ["坚持", "他", "由于", "努力", "成功了", "所以"],
+    "translation": "Due to his persistence and effort, he succeeded.",
+    "correct": "由于他努力坚持所以成功了"
+  },
+  {
+    "id": "HSK4-F2",
+    "level": 4,
+    "type": "fill",
+    "sentencePrefix": "请",
+    "blankPinyin": "yuán liàng",
+    "sentenceSuffix": "我这次的错误。",
+    "translation": "Please forgive my mistake this time.",
+    "answer": "原谅"
+  }
+]
