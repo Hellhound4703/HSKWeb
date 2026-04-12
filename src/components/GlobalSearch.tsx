@@ -75,36 +75,36 @@ const GlobalSearch: React.FC = () => {
             placeholder="Search word, pinyin, or grammar..."
             value={query}
             onChange={(e) => setQuery(e.target.value)}
-            className="w-full pl-12 pr-4 py-4 bg-white rounded-2xl border-2 border-gray-100 outline-none focus:border-blue-500 shadow-sm transition-all text-lg font-medium"
+            className="w-full pl-10 sm:pl-12 pr-4 py-3 sm:py-4 bg-white rounded-2xl border-2 border-gray-100 outline-none focus:border-blue-500 shadow-sm transition-all text-base sm:text-lg font-medium"
           />
         </div>
       </div>
 
       {query.length > 0 && query.length < 2 && (
-        <p className="text-center text-gray-400 mt-10 font-medium italic">Type at least 2 characters to search...</p>
+        <p className="text-center text-gray-400 mt-10 text-sm font-medium italic">Type at least 2 characters to search...</p>
       )}
 
       {query.length >= 2 && (
-        <div className="mt-8 space-y-12 animate-in fade-in slide-in-from-top-4 duration-500">
+        <div className="mt-6 sm:mt-8 space-y-8 sm:space-y-12 animate-in fade-in slide-in-from-top-4 duration-500">
           {/* Words Section */}
           <section>
-            <h3 className="text-xs font-black text-blue-400 uppercase tracking-[0.3em] mb-6 flex items-center gap-2">
-              <span className="w-8 h-px bg-blue-100"></span>
-              Vocabulary Results ({results.words.length})
+            <h3 className="text-[10px] sm:text-xs font-black text-blue-400 uppercase tracking-[0.2em] sm:tracking-[0.3em] mb-4 sm:mb-6 flex items-center gap-2">
+              <span className="w-4 sm:w-8 h-px bg-blue-100"></span>
+              Vocabulary ({results.words.length})
             </h3>
-            <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4">
+            <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-3 sm:gap-4">
               {results.words.map((w, idx) => (
                 <button 
                   key={idx}
                   onClick={() => setSelectedWord(w)}
-                  className="bg-white p-5 rounded-2xl shadow-sm border border-gray-100 text-left hover:border-blue-300 hover:shadow-md transition-all group"
+                  className="bg-white p-4 sm:p-5 rounded-2xl shadow-sm border border-gray-100 text-left hover:border-blue-300 hover:shadow-md transition-all group"
                 >
-                  <div className="flex justify-between items-start mb-2">
-                    <span className="text-2xl font-bold text-gray-800">{w.word}</span>
-                    <span className="text-[10px] font-black bg-blue-50 text-blue-600 px-2 py-0.5 rounded">HSK {w.level}</span>
+                  <div className="flex justify-between items-start mb-1 sm:mb-2">
+                    <span className="text-xl sm:text-2xl font-bold text-gray-800">{w.word}</span>
+                    <span className="text-[8px] sm:text-[10px] font-black bg-blue-50 text-blue-600 px-1.5 py-0.5 rounded">HSK {w.level}</span>
                   </div>
-                  <p className="text-sm text-gray-400 font-medium italic mb-1">{w.pinyin}</p>
-                  <p className="text-sm text-gray-600 line-clamp-1 group-hover:text-blue-600 transition-colors">{w.definition}</p>
+                  <p className="text-xs sm:text-sm text-gray-400 font-medium italic mb-1">{w.pinyin}</p>
+                  <p className="text-xs sm:text-sm text-gray-600 line-clamp-1 group-hover:text-blue-600 transition-colors">{w.definition}</p>
                 </button>
               ))}
               {results.words.length === 0 && <p className="text-gray-400 text-sm italic">No words found.</p>}
@@ -113,28 +113,28 @@ const GlobalSearch: React.FC = () => {
 
           {/* Grammar Section */}
           <section>
-            <h3 className="text-xs font-black text-blue-400 uppercase tracking-[0.3em] mb-6 flex items-center gap-2">
-              <span className="w-8 h-px bg-blue-100"></span>
-              Grammar Results ({results.grammar.length})
+            <h3 className="text-[10px] sm:text-xs font-black text-blue-400 uppercase tracking-[0.2em] sm:tracking-[0.3em] mb-4 sm:mb-6 flex items-center gap-2">
+              <span className="w-4 sm:w-8 h-px bg-blue-100"></span>
+              Grammar ({results.grammar.length})
             </h3>
             <div className="space-y-4">
               {results.grammar.map((g, idx) => (
-                <div key={idx} className="bg-white p-6 rounded-2xl shadow-sm border border-gray-100 border-l-4 border-blue-600">
-                  <div className="flex justify-between items-start mb-3">
-                    <h4 className="text-lg font-bold text-gray-900">{g.point}</h4>
-                    <span className="text-[10px] font-black bg-blue-100 text-blue-800 px-2 py-0.5 rounded">HSK {g.level} • L{g.lesson}</span>
+                <div key={idx} className="bg-white p-5 sm:p-6 rounded-2xl shadow-sm border border-gray-100 border-l-4 border-blue-600">
+                  <div className="flex justify-between items-start mb-3 gap-2">
+                    <h4 className="text-base sm:text-lg font-bold text-gray-900 leading-tight">{g.point}</h4>
+                    <span className="text-[8px] sm:text-[10px] font-black bg-blue-100 text-blue-800 px-1.5 py-0.5 rounded whitespace-nowrap">HSK {g.level} • L{g.lesson}</span>
                   </div>
-                  <p className="text-sm text-gray-600 mb-4">{g.explanation}</p>
+                  <p className="text-xs sm:text-sm text-gray-600 mb-4">{g.explanation}</p>
                   <div className="space-y-2">
                     {g.examples.slice(0, 1).map((ex, i) => (
                       <div key={i} className="pl-3 border-l-2 border-blue-50 flex items-center justify-between group">
-                        <div>
+                        <div className="pr-2">
                           <p className="text-sm font-bold text-gray-800">{ex.chinese}</p>
                           <p className="text-[10px] text-gray-400 italic">{ex.english}</p>
                         </div>
                         <button 
                           onClick={() => speakChinese(ex.chinese)}
-                          className="p-1.5 bg-blue-50 text-blue-600 rounded-full opacity-0 group-hover:opacity-100 transition-all"
+                          className="p-1.5 bg-blue-50 text-blue-600 rounded-full flex-shrink-0 hover:bg-blue-100 transition-colors"
                         >
                           <svg xmlns="http://www.w3.org/2000/svg" className="h-4 w-4" fill="none" viewBox="0 0 24 24" stroke="currentColor">
                             <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M15.536 8.464a5 5 0 010 7.072m2.828-9.9a9 9 0 010 12.728M5.586 15H4a1 1 0 01-1-1v-4a1 1 0 011-1h1.586l4.707-4.707C10.923 3.663 12 4.109 12 5v14c0 .891-1.077 1.337-1.707.707L5.586 15z" />
@@ -153,17 +153,17 @@ const GlobalSearch: React.FC = () => {
 
       {/* Modal for Word Details */}
       {selectedWord && (
-        <div className="fixed inset-0 z-50 flex items-center justify-center bg-black/60 backdrop-blur-sm p-4">
-          <div className="bg-white rounded-3xl shadow-2xl w-full max-w-sm relative animate-in fade-in zoom-in duration-300">
+        <div className="fixed inset-0 z-50 flex items-center justify-center bg-black/60 backdrop-blur-sm p-2 sm:p-4">
+          <div className="bg-white rounded-3xl shadow-2xl w-full max-w-sm relative animate-in fade-in zoom-in duration-300 overflow-y-auto max-h-[95vh]">
             <button 
               onClick={() => setSelectedWord(null)}
-              className="absolute top-4 right-4 text-gray-400 hover:text-gray-600 z-10"
+              className="absolute top-3 right-3 sm:top-4 sm:right-4 text-gray-400 hover:text-gray-600 z-10 p-2"
             >
               <svg xmlns="http://www.w3.org/2000/svg" className="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor">
                 <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M6 18L18 6M6 6l12 12" />
               </svg>
             </button>
-            <div className="p-8 pb-12">
+            <div className="p-4 sm:p-8 pb-8 sm:pb-12">
               <Flashcard 
                 word={selectedWord}
                 flipped={true}

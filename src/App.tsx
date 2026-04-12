@@ -110,23 +110,23 @@ function App() {
   }, [selectedLessons, lessons]);
 
   return (
-    <div className="min-h-screen bg-gray-50 py-6 sm:py-12 px-2 sm:px-6 lg:px-8">
+    <div className="min-h-screen bg-gray-50 py-4 sm:py-12 px-2 sm:px-6 lg:px-8">
       <div className="max-w-4xl mx-auto">
-        <header className="flex flex-col sm:flex-row justify-between items-center mb-8 sm:mb-12 gap-4 sm:gap-6 px-2">
+        <header className="flex flex-col sm:flex-row justify-between items-center mb-6 sm:mb-12 gap-4 sm:gap-6 px-2">
           <div className="text-center sm:text-left">
-            <h1 className="text-3xl sm:text-4xl font-extrabold text-blue-800 mb-1 sm:mb-2">HSK Mastery</h1>
-            <p className="text-gray-500 text-sm sm:text-base font-medium italic">Your personalized Chinese study app</p>
+            <h1 className="text-2xl sm:text-4xl font-extrabold text-blue-800 mb-1 sm:mb-2">HSK Mastery</h1>
+            <p className="text-gray-500 text-xs sm:text-base font-medium italic">Your personalized Chinese study app</p>
           </div>
           <Auth user={user} />
         </header>
 
-        <nav className="flex flex-col items-center mb-6 sm:mb-8 gap-4 sm:gap-6 sticky top-0 z-10 bg-gray-50/95 backdrop-blur-sm py-2">
-          <div className="flex justify-center gap-1.5 sm:gap-2 overflow-x-auto pb-1 w-full no-scrollbar">
+        <nav className="flex flex-col items-center mb-6 sm:mb-8 gap-3 sm:gap-6 sticky top-0 z-10 bg-gray-50/95 backdrop-blur-sm py-2 border-b border-transparent transition-all">
+          <div className="flex justify-start sm:justify-center gap-1.5 sm:gap-2 overflow-x-auto pb-1 w-full no-scrollbar px-2">
             {[1, 2, 3, 4].map((level) => (
               <button
                 key={level}
                 onClick={() => setSelectedLevel(level)}
-                className={`px-4 sm:px-6 py-1.5 sm:py-2 rounded-full font-bold transition-all whitespace-nowrap text-xs sm:text-sm ${
+                className={`px-4 sm:px-6 py-1.5 sm:py-2 rounded-full font-bold transition-all whitespace-nowrap text-xs sm:text-sm flex-shrink-0 ${
                   selectedLevel === level
                     ? 'bg-blue-600 text-white shadow-md'
                     : 'bg-white text-gray-500 hover:bg-gray-100 border border-gray-200'
@@ -137,12 +137,12 @@ function App() {
             ))}
           </div>
 
-          <div className="flex bg-white p-1 rounded-xl shadow-sm border border-gray-200 overflow-x-auto w-full no-scrollbar justify-center">
+          <div className="flex bg-white p-1 rounded-xl shadow-sm border border-gray-200 overflow-x-auto w-full no-scrollbar justify-start sm:justify-center px-2">
             {(['vocabulary', 'grammar', 'quiz', 'srs', 'sentences', 'exams', 'search', 'progress'] as LearningMode[]).map((mode) => (
               <button
                 key={mode}
                 onClick={() => setLearningMode(mode)}
-                className={`px-4 sm:px-8 py-1.5 sm:py-2 rounded-lg font-semibold transition-all capitalize whitespace-nowrap text-xs sm:text-sm ${
+                className={`px-4 sm:px-8 py-1.5 sm:py-2 rounded-lg font-semibold transition-all capitalize whitespace-nowrap text-xs sm:text-sm flex-shrink-0 ${
                   learningMode === mode
                     ? 'bg-blue-50 text-blue-700 font-bold'
                     : 'text-gray-400 hover:text-gray-600'

@@ -197,34 +197,34 @@ const SRSViewer: React.FC<SRSViewerProps> = ({ user, level, allWords }) => {
       />
 
       {flipped && (
-        <div className="mt-8 grid grid-cols-2 sm:grid-cols-4 gap-2 w-full max-w-md animate-in fade-in slide-in-from-bottom-4 duration-300">
+        <div className="mt-6 sm:mt-8 grid grid-cols-2 sm:grid-cols-4 gap-2 sm:gap-3 w-full max-w-md animate-in fade-in slide-in-from-bottom-4 duration-300">
           <button 
             onClick={() => handleGrade('again')}
-            className="flex flex-col items-center p-2 bg-red-50 text-red-700 rounded-xl border border-red-100 hover:bg-red-100 transition-all shadow-sm active:scale-95"
+            className="flex flex-col items-center p-3 sm:p-2 bg-red-50 text-red-700 rounded-xl border-2 border-red-100 hover:bg-red-100 transition-all shadow-sm active:scale-95"
           >
-            <span className="font-bold">Again</span>
-            <span className="text-[10px] opacity-60">1 day</span>
+            <span className="font-black text-sm sm:text-base">Again</span>
+            <span className="text-[9px] sm:text-[10px] opacity-60 font-bold uppercase tracking-tighter">1 day</span>
           </button>
           <button 
             onClick={() => handleGrade('hard')}
-            className="flex flex-col items-center p-2 bg-orange-50 text-orange-700 rounded-xl border border-orange-100 hover:bg-orange-100 transition-all shadow-sm active:scale-95"
+            className="flex flex-col items-center p-3 sm:p-2 bg-orange-50 text-orange-700 rounded-xl border-2 border-orange-100 hover:bg-orange-100 transition-all shadow-sm active:scale-95"
           >
-            <span className="font-bold">Hard</span>
-            <span className="text-[10px] opacity-60">Wait...</span>
+            <span className="font-black text-sm sm:text-base">Hard</span>
+            <span className="text-[9px] sm:text-[10px] opacity-60 font-bold uppercase tracking-tighter">Wait...</span>
           </button>
           <button 
             onClick={() => handleGrade('good')}
-            className="flex flex-col items-center p-2 bg-blue-50 text-blue-700 rounded-xl border border-blue-100 hover:bg-blue-100 transition-all shadow-sm active:scale-95"
+            className="flex flex-col items-center p-3 sm:p-2 bg-blue-50 text-blue-700 rounded-xl border-2 border-blue-100 hover:bg-blue-100 transition-all shadow-sm active:scale-95"
           >
-            <span className="font-bold">Good</span>
-            <span className="text-[10px] opacity-60">Wait...</span>
+            <span className="font-black text-sm sm:text-base">Good</span>
+            <span className="text-[9px] sm:text-[10px] opacity-60 font-bold uppercase tracking-tighter">Wait...</span>
           </button>
           <button 
             onClick={() => handleGrade('easy')}
-            className="flex flex-col items-center p-2 bg-green-50 text-green-700 rounded-xl border border-green-100 hover:bg-green-100 transition-all shadow-sm active:scale-95"
+            className="flex flex-col items-center p-3 sm:p-2 bg-green-50 text-green-700 rounded-xl border-2 border-green-100 hover:bg-green-100 transition-all shadow-sm active:scale-95"
           >
-            <span className="font-bold">Easy</span>
-            <span className="text-[10px] opacity-60">Wait...</span>
+            <span className="font-black text-sm sm:text-base">Easy</span>
+            <span className="text-[9px] sm:text-[10px] opacity-60 font-bold uppercase tracking-tighter">Wait...</span>
           </button>
         </div>
       )}
