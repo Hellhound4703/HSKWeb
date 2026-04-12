@@ -3,19 +3,53 @@
     "lesson": 1,
     "title": "你好",
     "vocabulary": [
-      {"word": "你", "pinyin": "nǐ", "definition": "you"},
-      {"word": "好", "pinyin": "hǎo", "definition": "good/well"},
-      {"word": "您", "pinyin": "nín", "definition": "you (polite)"},
-      {"word": "你们", "pinyin": "nǐmen", "definition": "you (plural)"},
-      {"word": "对不起", "pinyin": "duìbuqǐ", "definition": "sorry"},
-      {"word": "没关系", "pinyin": "méi guānxi", "definition": "it doesn't matter"}
+      {
+        "word": "你",
+        "pinyin": "nǐ",
+        "definition": "you",
+        "hint": "Focus on 'nǐ' to remember it means 'you'."
+      },
+      {
+        "word": "好",
+        "pinyin": "hǎo",
+        "definition": "good/well",
+        "hint": "Focus on 'hǎo' to remember it means 'good/well'."
+      },
+      {
+        "word": "您",
+        "pinyin": "nín",
+        "definition": "you (polite)",
+        "hint": "Focus on 'nín' to remember it means 'you (polite)'."
+      },
+      {
+        "word": "你们",
+        "pinyin": "nǐmen",
+        "definition": "you (plural)",
+        "hint": "Focus on 'nǐmen' to remember it means 'you (plural)'."
+      },
+      {
+        "word": "对不起",
+        "pinyin": "duìbuqǐ",
+        "definition": "sorry",
+        "hint": "Focus on 'duìbuqǐ' to remember it means 'sorry'."
+      },
+      {
+        "word": "没关系",
+        "pinyin": "méi guānxi",
+        "definition": "it doesn't matter",
+        "hint": "Focus on 'méi guānxi' to remember it means 'it doesn't matter'."
+      }
     ],
     "grammar": [
       {
         "point": "The pronoun 您 (nín)",
         "explanation": "您 is the polite form of 你 (nǐ), used to show respect to elders or superiors.",
         "examples": [
-          {"chinese": "老师，您好！", "pinyin": "Lǎoshī, nín hǎo!", "english": "Teacher, hello!"}
+          {
+            "chinese": "老师，您好！",
+            "pinyin": "Lǎoshī, nín hǎo!",
+            "english": "Teacher, hello!"
+          }
         ]
       }
     ]
@@ -24,17 +58,41 @@
     "lesson": 2,
     "title": "谢谢你",
     "vocabulary": [
-      {"word": "谢谢", "pinyin": "xièxie", "definition": "thanks"},
-      {"word": "不", "pinyin": "bù", "definition": "no/not"},
-      {"word": "不客气", "pinyin": "bú kèqi", "definition": "you're welcome"},
-      {"word": "再见", "pinyin": "zàijiàn", "definition": "goodbye"}
+      {
+        "word": "谢谢",
+        "pinyin": "xièxie",
+        "definition": "thanks",
+        "hint": "Focus on 'xièxie' to remember it means 'thanks'."
+      },
+      {
+        "word": "不",
+        "pinyin": "bù",
+        "definition": "no/not",
+        "hint": "Focus on 'bù' to remember it means 'no/not'."
+      },
+      {
+        "word": "不客气",
+        "pinyin": "bú kèqi",
+        "definition": "you're welcome",
+        "hint": "Focus on 'bú kèqi' to remember it means 'you're welcome'."
+      },
+      {
+        "word": "再见",
+        "pinyin": "zàijiàn",
+        "definition": "goodbye",
+        "hint": "Focus on 'zàijiàn' to remember it means 'goodbye'."
+      }
     ],
     "grammar": [
       {
         "point": "Negation with 不 (bù)",
         "explanation": "不 is used to negate verbs and adjectives. When followed by a 4th tone syllable, it changes to 2nd tone (bú).",
         "examples": [
-          {"chinese": "不客气。", "pinyin": "Bú kèqi.", "english": "You're welcome."}
+          {
+            "chinese": "不客气。",
+            "pinyin": "Bú kèqi.",
+            "english": "You're welcome."
+          }
         ]
       }
     ]
@@ -43,28 +101,76 @@
     "lesson": 3,
     "title": "你叫什么名字",
     "vocabulary": [
-      {"word": "叫", "pinyin": "jiào", "definition": "to be called"},
-      {"word": "什么", "pinyin": "shénme", "definition": "what"},
-      {"word": "名字", "pinyin": "míngzi", "definition": "name"},
-      {"word": "我", "pinyin": "wǒ", "definition": "I/me"},
-      {"word": "李月", "pinyin": "Lǐ Yuè", "definition": "Li Yue (name)"},
-      {"word": "老师", "pinyin": "lǎoshī", "definition": "teacher"},
-      {"word": "学生", "pinyin": "xuésheng", "definition": "student"},
-      {"word": "人", "pinyin": "rén", "definition": "person/people"}
+      {
+        "word": "叫",
+        "pinyin": "jiào",
+        "definition": "to be called",
+        "hint": "Focus on 'jiào' to remember it means 'to be called'."
+      },
+      {
+        "word": "什么",
+        "pinyin": "shénme",
+        "definition": "what",
+        "hint": "Focus on 'shénme' to remember it means 'what'."
+      },
+      {
+        "word": "名字",
+        "pinyin": "míngzi",
+        "definition": "name",
+        "hint": "Focus on 'míngzi' to remember it means 'name'."
+      },
+      {
+        "word": "我",
+        "pinyin": "wǒ",
+        "definition": "I/me",
+        "hint": "Focus on 'wǒ' to remember it means 'I/me'."
+      },
+      {
+        "word": "李月",
+        "pinyin": "Lǐ Yuè",
+        "definition": "Li Yue (name)",
+        "hint": "Focus on 'Lǐ Yuè' to remember it means 'Li Yue (name)'."
+      },
+      {
+        "word": "老师",
+        "pinyin": "lǎoshī",
+        "definition": "teacher",
+        "hint": "Focus on 'lǎoshī' to remember it means 'teacher'."
+      },
+      {
+        "word": "学生",
+        "pinyin": "xuésheng",
+        "definition": "student",
+        "hint": "Focus on 'xuésheng' to remember it means 'student'."
+      },
+      {
+        "word": "人",
+        "pinyin": "rén",
+        "definition": "person/people",
+        "hint": "Focus on 'rén' to remember it means 'person/people'."
+      }
     ],
     "grammar": [
       {
         "point": "Interrogative pronoun 什么 (shénme)",
         "explanation": "什么 is used to ask 'what'. It can be used alone or before a noun.",
         "examples": [
-          {"chinese": "你叫什么名字？", "pinyin": "Nǐ jiào shénme míngzi?", "english": "What is your name?"}
+          {
+            "chinese": "你叫什么名字？",
+            "pinyin": "Nǐ jiào shénme míngzi?",
+            "english": "What is your name?"
+          }
         ]
       },
       {
         "point": "The '是' (shì) sentence",
         "explanation": "The verb 是 is used to equate two things (A is B).",
         "examples": [
-          {"chinese": "我是学生。", "pinyin": "Wǒ shì xuésheng.", "english": "I am a student."}
+          {
+            "chinese": "我是学生。",
+            "pinyin": "Wǒ shì xuésheng.",
+            "english": "I am a student."
+          }
         ]
       }
     ]
@@ -73,30 +179,87 @@
     "lesson": 4,
     "title": "她是我的汉语老师",
     "vocabulary": [
-      {"word": "她", "pinyin": "tā", "definition": "she/her"},
-      {"word": "谁", "pinyin": "shéi/shuí", "definition": "who"},
-      {"word": "的", "pinyin": "de", "definition": "possessive particle"},
-      {"word": "汉语", "pinyin": "Hànyǔ", "definition": "Chinese (language)"},
-      {"word": "哪", "pinyin": "nǎ/něi", "definition": "which"},
-      {"word": "国", "pinyin": "guó", "definition": "country/nation"},
-      {"word": "他", "pinyin": "tā", "definition": "he/him"},
-      {"word": "同学", "pinyin": "tóngxué", "definition": "classmate"},
-      {"word": "朋友", "pinyin": "péngyou", "definition": "friend"}
+      {
+        "word": "她",
+        "pinyin": "tā",
+        "definition": "she/her",
+        "hint": "Focus on 'tā' to remember it means 'she/her'."
+      },
+      {
+        "word": "谁",
+        "pinyin": "shéi/shuí",
+        "definition": "who",
+        "hint": "Focus on 'shéi/shuí' to remember it means 'who'."
+      },
+      {
+        "word": "的",
+        "pinyin": "de",
+        "definition": "possessive particle",
+        "hint": "Focus on 'de' to remember it means 'possessive particle'."
+      },
+      {
+        "word": "汉语",
+        "pinyin": "Hànyǔ",
+        "definition": "Chinese (language)",
+        "hint": "Focus on 'Hànyǔ' to remember it means 'Chinese (language)'."
+      },
+      {
+        "word": "哪",
+        "pinyin": "nǎ/něi",
+        "definition": "which",
+        "hint": "Focus on 'nǎ/něi' to remember it means 'which'."
+      },
+      {
+        "word": "国",
+        "pinyin": "guó",
+        "definition": "country/nation",
+        "hint": "Focus on 'guó' to remember it means 'country/nation'."
+      },
+      {
+        "word": "他",
+        "pinyin": "tā",
+        "definition": "he/him",
+        "hint": "Focus on 'tā' to remember it means 'he/him'."
+      },
+      {
+        "word": "同学",
+        "pinyin": "tóngxué",
+        "definition": "classmate",
+        "hint": "Focus on 'tóngxué' to remember it means 'classmate'."
+      },
+      {
+        "word": "朋友",
+        "pinyin": "péngyou",
+        "definition": "friend",
+        "hint": "Focus on 'péngyou' to remember it means 'friend'."
+      }
     ],
     "grammar": [
       {
         "point": "Interrogative pronouns 谁 (shéi) and 哪 (nǎ)",
         "explanation": "谁 means 'who' and 哪 means 'which'.",
         "examples": [
-          {"chinese": "他是谁？", "pinyin": "Tā shì shéi?", "english": "Who is he?"},
-          {"chinese": "你是哪国人？", "pinyin": "Nǐ shì nǎ guó rén?", "english": "Which country are you from?"}
+          {
+            "chinese": "他是谁？",
+            "pinyin": "Tā shì shéi?",
+            "english": "Who is he?"
+          },
+          {
+            "chinese": "你是哪国人？",
+            "pinyin": "Nǐ shì nǎ guó rén?",
+            "english": "Which country are you from?"
+          }
         ]
       },
       {
         "point": "Structural particle 的 (de)",
         "explanation": "的 is used after a noun or pronoun to indicate possession.",
         "examples": [
-          {"chinese": "我的老师", "pinyin": "wǒ de lǎoshī", "english": "my teacher"}
+          {
+            "chinese": "我的老师",
+            "pinyin": "wǒ de lǎoshī",
+            "english": "my teacher"
+          }
         ]
       }
     ]
@@ -105,30 +268,88 @@
     "lesson": 5,
     "title": "她女儿今年二十岁",
     "vocabulary": [
-      {"word": "家", "pinyin": "jiā", "definition": "family/home"},
-      {"word": "有", "pinyin": "yǒu", "definition": "to have"},
-      {"word": "口", "pinyin": "kǒu", "definition": "measure word for family"},
-      {"word": "女儿", "pinyin": "nǚ'ér", "definition": "daughter"},
-      {"word": "几", "pinyin": "jǐ", "definition": "how many"},
-      {"word": "岁", "pinyin": "suì", "definition": "year (of age)"},
-      {"word": "了", "pinyin": "le", "definition": "particle indicating change"},
-      {"word": "今年", "pinyin": "jīnnián", "definition": "this year"},
-      {"word": "多", "pinyin": "duō", "definition": "many/much"},
-      {"word": "大", "pinyin": "dà", "definition": "big/old"}
+      {
+        "word": "家",
+        "pinyin": "jiā",
+        "definition": "family/home",
+        "hint": "Focus on 'jiā' to remember it means 'family/home'."
+      },
+      {
+        "word": "有",
+        "pinyin": "yǒu",
+        "definition": "to have",
+        "hint": "Focus on 'yǒu' to remember it means 'to have'."
+      },
+      {
+        "word": "口",
+        "pinyin": "kǒu",
+        "definition": "measure word for family",
+        "hint": "Focus on 'kǒu' to remember it means 'measure word for family'."
+      },
+      {
+        "word": "女儿",
+        "pinyin": "nǚ'ér",
+        "definition": "daughter",
+        "hint": "Focus on 'nǚ'ér' to remember it means 'daughter'."
+      },
+      {
+        "word": "几",
+        "pinyin": "jǐ",
+        "definition": "how many",
+        "hint": "Focus on 'jǐ' to remember it means 'how many'."
+      },
+      {
+        "word": "岁",
+        "pinyin": "suì",
+        "definition": "year (of age)",
+        "hint": "Focus on 'suì' to remember it means 'year (of age)'."
+      },
+      {
+        "word": "了",
+        "pinyin": "le",
+        "definition": "particle indicating change",
+        "hint": "Focus on 'le' to remember it means 'particle indicating change'."
+      },
+      {
+        "word": "今年",
+        "pinyin": "jīnnián",
+        "definition": "this year",
+        "hint": "Focus on 'jīnnián' to remember it means 'this year'."
+      },
+      {
+        "word": "多",
+        "pinyin": "duō",
+        "definition": "many/much",
+        "hint": "Focus on 'duō' to remember it means 'many/much'."
+      },
+      {
+        "word": "大",
+        "pinyin": "dà",
+        "definition": "big/old",
+        "hint": "Focus on 'dà' to remember it means 'big/old'."
+      }
     ],
     "grammar": [
       {
         "point": "Interrogative pronoun 几 (jǐ)",
         "explanation": "几 is used to ask about numbers, usually for amounts less than 10.",
         "examples": [
-          {"chinese": "你家有几口人？", "pinyin": "Nǐ jiā yǒu jǐ kǒu rén?", "english": "How many people are there in your family?"}
+          {
+            "chinese": "你家有几口人？",
+            "pinyin": "Nǐ jiā yǒu jǐ kǒu rén?",
+            "english": "How many people are there in your family?"
+          }
         ]
       },
       {
         "point": "The particle 了 (le) for change",
         "explanation": "Used at the end of a sentence to indicate a change in a situation or a new state.",
         "examples": [
-          {"chinese": "她女儿二十岁了。", "pinyin": "Tā nǚ'ér èrshí suì le.", "english": "Her daughter is 20 years old now."}
+          {
+            "chinese": "她女儿二十岁了。",
+            "pinyin": "Tā nǚ'ér èrshí suì le.",
+            "english": "Her daughter is 20 years old now."
+          }
         ]
       }
     ]
@@ -137,32 +358,100 @@
     "lesson": 6,
     "title": "我会说汉语",
     "vocabulary": [
-      {"word": "会", "pinyin": "huì", "definition": "can/to be able to"},
-      {"word": "说", "pinyin": "shuō", "definition": "to speak"},
-      {"word": "妈妈", "pinyin": "māma", "definition": "mother"},
-      {"word": "菜", "pinyin": "cài", "definition": "dish/vegetable"},
-      {"word": "很", "pinyin": "hěn", "definition": "very"},
-      {"word": "好吃", "pinyin": "hǎochī", "definition": "delicious"},
-      {"word": "做", "pinyin": "zuò", "definition": "to do/make"},
-      {"word": "写", "pinyin": "xiě", "definition": "to write"},
-      {"word": "汉字", "pinyin": "Hànzì", "definition": "Chinese character"},
-      {"word": "字", "pinyin": "zì", "definition": "character"},
-      {"word": "怎么", "pinyin": "zěnme", "definition": "how"},
-      {"word": "读", "pinyin": "dú", "definition": "to read"}
+      {
+        "word": "会",
+        "pinyin": "huì",
+        "definition": "can/to be able to",
+        "hint": "Focus on 'huì' to remember it means 'can/to be able to'."
+      },
+      {
+        "word": "说",
+        "pinyin": "shuō",
+        "definition": "to speak",
+        "hint": "Focus on 'shuō' to remember it means 'to speak'."
+      },
+      {
+        "word": "妈妈",
+        "pinyin": "māma",
+        "definition": "mother",
+        "hint": "Focus on 'māma' to remember it means 'mother'."
+      },
+      {
+        "word": "菜",
+        "pinyin": "cài",
+        "definition": "dish/vegetable",
+        "hint": "Focus on 'cài' to remember it means 'dish/vegetable'."
+      },
+      {
+        "word": "很",
+        "pinyin": "hěn",
+        "definition": "very",
+        "hint": "Focus on 'hěn' to remember it means 'very'."
+      },
+      {
+        "word": "好吃",
+        "pinyin": "hǎochī",
+        "definition": "delicious",
+        "hint": "Focus on 'hǎochī' to remember it means 'delicious'."
+      },
+      {
+        "word": "做",
+        "pinyin": "zuò",
+        "definition": "to do/make",
+        "hint": "Focus on 'zuò' to remember it means 'to do/make'."
+      },
+      {
+        "word": "写",
+        "pinyin": "xiě",
+        "definition": "to write",
+        "hint": "Focus on 'xiě' to remember it means 'to write'."
+      },
+      {
+        "word": "汉字",
+        "pinyin": "Hànzì",
+        "definition": "Chinese character",
+        "hint": "Focus on 'Hànzì' to remember it means 'Chinese character'."
+      },
+      {
+        "word": "字",
+        "pinyin": "zì",
+        "definition": "character",
+        "hint": "Focus on 'zì' to remember it means 'character'."
+      },
+      {
+        "word": "怎么",
+        "pinyin": "zěnme",
+        "definition": "how",
+        "hint": "Focus on 'zěnme' to remember it means 'how'."
+      },
+      {
+        "word": "读",
+        "pinyin": "dú",
+        "definition": "to read",
+        "hint": "Focus on 'dú' to remember it means 'to read'."
+      }
     ],
     "grammar": [
       {
         "point": "Modal verb 会 (huì)",
         "explanation": "会 indicates an acquired skill ('know how to').",
         "examples": [
-          {"chinese": "我会说汉语。", "pinyin": "Wǒ huì shuō Hànyǔ.", "english": "I can speak Chinese."}
+          {
+            "chinese": "我会说汉语。",
+            "pinyin": "Wǒ huì shuō Hànyǔ.",
+            "english": "I can speak Chinese."
+          }
         ]
       },
       {
         "point": "Interrogative pronoun 怎么 (zěnme)",
         "explanation": "怎么 is used before a verb to ask about the manner of an action.",
         "examples": [
-          {"chinese": "这个字怎么写？", "pinyin": "Zhège zì zěnme xiě?", "english": "How do you write this character?"}
+          {
+            "chinese": "这个字怎么写？",
+            "pinyin": "Zhège zì zěnme xiě?",
+            "english": "How do you write this character?"
+          }
         ]
       }
     ]
@@ -171,32 +460,100 @@
     "lesson": 7,
     "title": "今天几号",
     "vocabulary": [
-      {"word": "请", "pinyin": "qǐng", "definition": "please"},
-      {"word": "问", "pinyin": "wèn", "definition": "to ask"},
-      {"word": "今天", "pinyin": "jīntiān", "definition": "today"},
-      {"word": "号", "pinyin": "hào", "definition": "date/number"},
-      {"word": "月", "pinyin": "yuè", "definition": "month"},
-      {"word": "星期", "pinyin": "xīngqī", "definition": "week"},
-      {"word": "昨天", "pinyin": "zuótiān", "definition": "yesterday"},
-      {"word": "明天", "pinyin": "míngtiān", "definition": "tomorrow"},
-      {"word": "去", "pinyin": "qù", "definition": "to go"},
-      {"word": "学校", "pinyin": "xuéxiào", "definition": "school"},
-      {"word": "看", "pinyin": "kàn", "definition": "to look/read/see"},
-      {"word": "书", "pinyin": "shū", "definition": "book"}
+      {
+        "word": "请",
+        "pinyin": "qǐng",
+        "definition": "please",
+        "hint": "Focus on 'qǐng' to remember it means 'please'."
+      },
+      {
+        "word": "问",
+        "pinyin": "wèn",
+        "definition": "to ask",
+        "hint": "Focus on 'wèn' to remember it means 'to ask'."
+      },
+      {
+        "word": "今天",
+        "pinyin": "jīntiān",
+        "definition": "today",
+        "hint": "Focus on 'jīntiān' to remember it means 'today'."
+      },
+      {
+        "word": "号",
+        "pinyin": "hào",
+        "definition": "date/number",
+        "hint": "Focus on 'hào' to remember it means 'date/number'."
+      },
+      {
+        "word": "月",
+        "pinyin": "yuè",
+        "definition": "month",
+        "hint": "Focus on 'yuè' to remember it means 'month'."
+      },
+      {
+        "word": "星期",
+        "pinyin": "xīngqī",
+        "definition": "week",
+        "hint": "Focus on 'xīngqī' to remember it means 'week'."
+      },
+      {
+        "word": "昨天",
+        "pinyin": "zuótiān",
+        "definition": "yesterday",
+        "hint": "Focus on 'zuótiān' to remember it means 'yesterday'."
+      },
+      {
+        "word": "明天",
+        "pinyin": "míngtiān",
+        "definition": "tomorrow",
+        "hint": "Focus on 'míngtiān' to remember it means 'tomorrow'."
+      },
+      {
+        "word": "去",
+        "pinyin": "qù",
+        "definition": "to go",
+        "hint": "Focus on 'qù' to remember it means 'to go'."
+      },
+      {
+        "word": "学校",
+        "pinyin": "xuéxiào",
+        "definition": "school",
+        "hint": "Focus on 'xuéxiào' to remember it means 'school'."
+      },
+      {
+        "word": "看",
+        "pinyin": "kàn",
+        "definition": "to look/read/see",
+        "hint": "Focus on 'kàn' to remember it means 'to look/read/see'."
+      },
+      {
+        "word": "书",
+        "pinyin": "shū",
+        "definition": "book",
+        "hint": "Focus on 'shū' to remember it means 'book'."
+      }
     ],
     "grammar": [
       {
         "point": "Sentence with a nominal predicate",
         "explanation": "A sentence where the predicate is a noun or noun phrase, often used for dates, time, or age.",
         "examples": [
-          {"chinese": "今天九月一号。", "pinyin": "Jīntiān jiǔyuè yī hào.", "english": "Today is September 1st."}
+          {
+            "chinese": "今天九月一号。",
+            "pinyin": "Jīntiān jiǔyuè yī hào.",
+            "english": "Today is September 1st."
+          }
         ]
       },
       {
         "point": "Serial verb construction: 去 + Place + To do",
         "explanation": "Used to express going somewhere to perform an action.",
         "examples": [
-          {"chinese": "我去学校看书。", "pinyin": "Wǒ qù xuéxiào kàn shū.", "english": "I go to school to read books."}
+          {
+            "chinese": "我去学校看书。",
+            "pinyin": "Wǒ qù xuéxiào kàn shū.",
+            "english": "I go to school to read books."
+          }
         ]
       }
     ]
@@ -205,35 +562,118 @@
     "lesson": 8,
     "title": "我想喝茶",
     "vocabulary": [
-      {"word": "想", "pinyin": "xiǎng", "definition": "to want/think"},
-      {"word": "喝", "pinyin": "hē", "definition": "to drink"},
-      {"word": "茶", "pinyin": "chá", "definition": "tea"},
-      {"word": "吃", "pinyin": "chī", "definition": "to eat"},
-      {"word": "米饭", "pinyin": "mǐfàn", "definition": "cooked rice"},
-      {"word": "下午", "pinyin": "xiàwǔ", "definition": "afternoon"},
-      {"word": "商店", "pinyin": "shāngdiàn", "definition": "shop/store"},
-      {"word": "买", "pinyin": "mǎi", "definition": "to buy"},
-      {"word": "个", "pinyin": "ge", "definition": "general measure word"},
-      {"word": "杯子", "pinyin": "bēizi", "definition": "cup/glass"},
-      {"word": "这", "pinyin": "zhè", "definition": "this"},
-      {"word": "多少", "pinyin": "duōshao", "definition": "how much"},
-      {"word": "钱", "pinyin": "qián", "definition": "money"},
-      {"word": "块", "pinyin": "kuài", "definition": "unit of money (informal)"},
-      {"word": "那", "pinyin": "nà", "definition": "that"}
+      {
+        "word": "想",
+        "pinyin": "xiǎng",
+        "definition": "to want/think",
+        "hint": "Focus on 'xiǎng' to remember it means 'to want/think'."
+      },
+      {
+        "word": "喝",
+        "pinyin": "hē",
+        "definition": "to drink",
+        "hint": "Focus on 'hē' to remember it means 'to drink'."
+      },
+      {
+        "word": "茶",
+        "pinyin": "chá",
+        "definition": "tea",
+        "hint": "Focus on 'chá' to remember it means 'tea'."
+      },
+      {
+        "word": "吃",
+        "pinyin": "chī",
+        "definition": "to eat",
+        "hint": "Focus on 'chī' to remember it means 'to eat'."
+      },
+      {
+        "word": "米饭",
+        "pinyin": "mǐfàn",
+        "definition": "cooked rice",
+        "hint": "Focus on 'mǐfàn' to remember it means 'cooked rice'."
+      },
+      {
+        "word": "下午",
+        "pinyin": "xiàwǔ",
+        "definition": "afternoon",
+        "hint": "Focus on 'xiàwǔ' to remember it means 'afternoon'."
+      },
+      {
+        "word": "商店",
+        "pinyin": "shāngdiàn",
+        "definition": "shop/store",
+        "hint": "Focus on 'shāngdiàn' to remember it means 'shop/store'."
+      },
+      {
+        "word": "买",
+        "pinyin": "mǎi",
+        "definition": "to buy",
+        "hint": "Focus on 'mǎi' to remember it means 'to buy'."
+      },
+      {
+        "word": "个",
+        "pinyin": "ge",
+        "definition": "general measure word",
+        "hint": "Focus on 'ge' to remember it means 'general measure word'."
+      },
+      {
+        "word": "杯子",
+        "pinyin": "bēizi",
+        "definition": "cup/glass",
+        "hint": "Focus on 'bēizi' to remember it means 'cup/glass'."
+      },
+      {
+        "word": "这",
+        "pinyin": "zhè",
+        "definition": "this",
+        "hint": "Focus on 'zhè' to remember it means 'this'."
+      },
+      {
+        "word": "多少",
+        "pinyin": "duōshao",
+        "definition": "how much",
+        "hint": "Focus on 'duōshao' to remember it means 'how much'."
+      },
+      {
+        "word": "钱",
+        "pinyin": "qián",
+        "definition": "money",
+        "hint": "Focus on 'qián' to remember it means 'money'."
+      },
+      {
+        "word": "块",
+        "pinyin": "kuài",
+        "definition": "unit of money (informal)",
+        "hint": "Focus on 'kuài' to remember it means 'unit of money (informal)'."
+      },
+      {
+        "word": "那",
+        "pinyin": "nà",
+        "definition": "that",
+        "hint": "Focus on 'nà' to remember it means 'that'."
+      }
     ],
     "grammar": [
       {
         "point": "Modal verb 想 (xiǎng)",
         "explanation": "想 indicates a desire or intention ('would like to').",
         "examples": [
-          {"chinese": "我想喝茶。", "pinyin": "Wǒ xiǎng hē chá.", "english": "I would like to drink tea."}
+          {
+            "chinese": "我想喝茶。",
+            "pinyin": "Wǒ xiǎng hē chá.",
+            "english": "I would like to drink tea."
+          }
         ]
       },
       {
         "point": "Interrogative pronoun 多少 (duōshao)",
         "explanation": "多少 is used to ask for an amount, usually for numbers greater than 10.",
         "examples": [
-          {"chinese": "这个杯子多少钱？", "pinyin": "Zhège bēizi duōshao qián?", "english": "How much is this cup?"}
+          {
+            "chinese": "这个杯子多少钱？",
+            "pinyin": "Zhège bēizi duōshao qián?",
+            "english": "How much is this cup?"
+          }
         ]
       }
     ]
@@ -242,32 +682,100 @@
     "lesson": 9,
     "title": "你儿子在哪儿工作",
     "vocabulary": [
-      {"word": "小", "pinyin": "xiǎo", "definition": "small"},
-      {"word": "猫", "pinyin": "māo", "definition": "cat"},
-      {"word": "在", "pinyin": "zài", "definition": "at/in/on"},
-      {"word": "那儿", "pinyin": "nàr", "definition": "there"},
-      {"word": "狗", "pinyin": "gǒu", "definition": "dog"},
-      {"word": "椅子", "pinyin": "yǐzi", "definition": "chair"},
-      {"word": "下面", "pinyin": "xiàmiàn", "definition": "under/below"},
-      {"word": "哪儿", "pinyin": "nǎr", "definition": "where"},
-      {"word": "工作", "pinyin": "gōngzuò", "definition": "work/to work"},
-      {"word": "儿子", "pinyin": "érzi", "definition": "son"},
-      {"word": "医院", "pinyin": "yīyuàn", "definition": "hospital"},
-      {"word": "爸爸", "pinyin": "bàba", "definition": "father"}
+      {
+        "word": "小",
+        "pinyin": "xiǎo",
+        "definition": "small",
+        "hint": "Focus on 'xiǎo' to remember it means 'small'."
+      },
+      {
+        "word": "猫",
+        "pinyin": "māo",
+        "definition": "cat",
+        "hint": "Focus on 'māo' to remember it means 'cat'."
+      },
+      {
+        "word": "在",
+        "pinyin": "zài",
+        "definition": "at/in/on",
+        "hint": "Focus on 'zài' to remember it means 'at/in/on'."
+      },
+      {
+        "word": "那儿",
+        "pinyin": "nàr",
+        "definition": "there",
+        "hint": "Focus on 'nàr' to remember it means 'there'."
+      },
+      {
+        "word": "狗",
+        "pinyin": "gǒu",
+        "definition": "dog",
+        "hint": "Focus on 'gǒu' to remember it means 'dog'."
+      },
+      {
+        "word": "椅子",
+        "pinyin": "yǐzi",
+        "definition": "chair",
+        "hint": "Focus on 'yǐzi' to remember it means 'chair'."
+      },
+      {
+        "word": "下面",
+        "pinyin": "xiàmiàn",
+        "definition": "under/below",
+        "hint": "Focus on 'xiàmiàn' to remember it means 'under/below'."
+      },
+      {
+        "word": "哪儿",
+        "pinyin": "nǎr",
+        "definition": "where",
+        "hint": "Focus on 'nǎr' to remember it means 'where'."
+      },
+      {
+        "word": "工作",
+        "pinyin": "gōngzuò",
+        "definition": "work/to work",
+        "hint": "Focus on 'gōngzuò' to remember it means 'work/to work'."
+      },
+      {
+        "word": "儿子",
+        "pinyin": "érzi",
+        "definition": "son",
+        "hint": "Focus on 'érzi' to remember it means 'son'."
+      },
+      {
+        "word": "医院",
+        "pinyin": "yīyuàn",
+        "definition": "hospital",
+        "hint": "Focus on 'yīyuàn' to remember it means 'hospital'."
+      },
+      {
+        "word": "爸爸",
+        "pinyin": "bàba",
+        "definition": "father",
+        "hint": "Focus on 'bàba' to remember it means 'father'."
+      }
     ],
     "grammar": [
       {
         "point": "Preposition 在 (zài)",
         "explanation": "Used to indicate the location of someone or something.",
         "examples": [
-          {"chinese": "我在家。", "pinyin": "Wǒ zài jiā.", "english": "I am at home."}
+          {
+            "chinese": "我在家。",
+            "pinyin": "Wǒ zài jiā.",
+            "english": "I am at home."
+          }
         ]
       },
       {
         "point": "Interrogative pronoun 哪儿 (nǎr)",
         "explanation": "Used to ask 'where'.",
         "examples": [
-          {"chinese": "你在哪儿？", "pinyin": "Nǐ zài nǎr?", "english": "Where are you?"}
+          {
+            "chinese": "你在哪儿？",
+            "pinyin": "Nǐ zài nǎr?",
+            "english": "Where are you?"
+          }
         ]
       }
     ]
@@ -276,33 +784,106 @@
     "lesson": 10,
     "title": "我能坐这儿吗",
     "vocabulary": [
-      {"word": "桌子", "pinyin": "zhuōzi", "definition": "table/desk"},
-      {"word": "上", "pinyin": "shàng", "definition": "on/up"},
-      {"word": "电脑", "pinyin": "diànnǎo", "definition": "computer"},
-      {"word": "和", "pinyin": "hé", "definition": "and"},
-      {"word": "本", "pinyin": "běn", "definition": "measure word for books"},
-      {"word": "里", "pinyin": "lǐ", "definition": "inside"},
-      {"word": "前面", "pinyin": "qiánmiàn", "definition": "front"},
-      {"word": "后面", "pinyin": "hòumiàn", "definition": "back"},
-      {"word": "能量", "pinyin": "néngliàng", "definition": "energy"},
-      {"word": "这儿", "pinyin": "zhèr", "definition": "here"},
-      {"word": "没有", "pinyin": "méiyǒu", "definition": "not have/there is no"},
-      {"word": "能", "pinyin": "néng", "definition": "can/may"},
-      {"word": "坐", "pinyin": "zuò", "definition": "to sit"}
+      {
+        "word": "桌子",
+        "pinyin": "zhuōzi",
+        "definition": "table/desk",
+        "hint": "Focus on 'zhuōzi' to remember it means 'table/desk'."
+      },
+      {
+        "word": "上",
+        "pinyin": "shàng",
+        "definition": "on/up",
+        "hint": "Focus on 'shàng' to remember it means 'on/up'."
+      },
+      {
+        "word": "电脑",
+        "pinyin": "diànnǎo",
+        "definition": "computer",
+        "hint": "Focus on 'diànnǎo' to remember it means 'computer'."
+      },
+      {
+        "word": "和",
+        "pinyin": "hé",
+        "definition": "and",
+        "hint": "Focus on 'hé' to remember it means 'and'."
+      },
+      {
+        "word": "本",
+        "pinyin": "běn",
+        "definition": "measure word for books",
+        "hint": "Focus on 'běn' to remember it means 'measure word for books'."
+      },
+      {
+        "word": "里",
+        "pinyin": "lǐ",
+        "definition": "inside",
+        "hint": "Focus on 'lǐ' to remember it means 'inside'."
+      },
+      {
+        "word": "前面",
+        "pinyin": "qiánmiàn",
+        "definition": "front",
+        "hint": "Focus on 'qiánmiàn' to remember it means 'front'."
+      },
+      {
+        "word": "后面",
+        "pinyin": "hòumiàn",
+        "definition": "back",
+        "hint": "Focus on 'hòumiàn' to remember it means 'back'."
+      },
+      {
+        "word": "能量",
+        "pinyin": "néngliàng",
+        "definition": "energy",
+        "hint": "Focus on 'néngliàng' to remember it means 'energy'."
+      },
+      {
+        "word": "这儿",
+        "pinyin": "zhèr",
+        "definition": "here",
+        "hint": "Focus on 'zhèr' to remember it means 'here'."
+      },
+      {
+        "word": "没有",
+        "pinyin": "méiyǒu",
+        "definition": "not have/there is no",
+        "hint": "Focus on 'méiyǒu' to remember it means 'not have/there is no'."
+      },
+      {
+        "word": "能",
+        "pinyin": "néng",
+        "definition": "can/may",
+        "hint": "Focus on 'néng' to remember it means 'can/may'."
+      },
+      {
+        "word": "坐",
+        "pinyin": "zuò",
+        "definition": "to sit",
+        "hint": "Focus on 'zuò' to remember it means 'to sit'."
+      }
     ],
     "grammar": [
       {
         "point": "Sentences with 有 (yǒu) indicating possession",
         "explanation": "有 indicates that someone has something.",
         "examples": [
-          {"chinese": "桌子上有电脑。", "pinyin": "Zhuōzi shang yǒu diànnǎo.", "english": "There is a computer on the table."}
+          {
+            "chinese": "桌子上有电脑。",
+            "pinyin": "Zhuōzi shang yǒu diànnǎo.",
+            "english": "There is a computer on the table."
+          }
         ]
       },
       {
         "point": "Modal verb 能 (néng)",
         "explanation": "能 indicates possibility or permission.",
         "examples": [
-          {"chinese": "我能坐这儿吗？", "pinyin": "Wǒ néng zuò zhèr ma?", "english": "Can I sit here?"}
+          {
+            "chinese": "我能坐这儿吗？",
+            "pinyin": "Wǒ néng zuò zhèr ma?",
+            "english": "Can I sit here?"
+          }
         ]
       }
     ]
@@ -311,24 +892,83 @@
     "lesson": 11,
     "title": "现在几点",
     "vocabulary": [
-      {"word": "现在", "pinyin": "xiànzài", "definition": "now"},
-      {"word": "点", "pinyin": "diǎn", "definition": "o'clock"},
-      {"word": "分", "pinyin": "fēn", "definition": "minute"},
-      {"word": "中午", "pinyin": "zhōngwǔ", "definition": "noon"},
-      {"word": "吃饭", "pinyin": "chī fàn", "definition": "to eat a meal"},
-      {"word": "时候", "pinyin": "shíhou", "definition": "time/moment"},
-      {"word": "回", "pinyin": "huí", "definition": "to return"},
-      {"word": "我们", "pinyin": "wǒmen", "definition": "we/us"},
-      {"word": "电影", "pinyin": "diànyǐng", "definition": "movie"},
-      {"word": "住", "pinyin": "zhù", "definition": "to live/stay"},
-      {"word": "前", "pinyin": "qián", "definition": "before/front"}
+      {
+        "word": "现在",
+        "pinyin": "xiànzài",
+        "definition": "now",
+        "hint": "Focus on 'xiànzài' to remember it means 'now'."
+      },
+      {
+        "word": "点",
+        "pinyin": "diǎn",
+        "definition": "o'clock",
+        "hint": "Focus on 'diǎn' to remember it means 'o'clock'."
+      },
+      {
+        "word": "分",
+        "pinyin": "fēn",
+        "definition": "minute",
+        "hint": "Focus on 'fēn' to remember it means 'minute'."
+      },
+      {
+        "word": "中午",
+        "pinyin": "zhōngwǔ",
+        "definition": "noon",
+        "hint": "Focus on 'zhōngwǔ' to remember it means 'noon'."
+      },
+      {
+        "word": "吃饭",
+        "pinyin": "chī fàn",
+        "definition": "to eat a meal",
+        "hint": "Focus on 'chī fàn' to remember it means 'to eat a meal'."
+      },
+      {
+        "word": "时候",
+        "pinyin": "shíhou",
+        "definition": "time/moment",
+        "hint": "Focus on 'shíhou' to remember it means 'time/moment'."
+      },
+      {
+        "word": "回",
+        "pinyin": "huí",
+        "definition": "to return",
+        "hint": "Focus on 'huí' to remember it means 'to return'."
+      },
+      {
+        "word": "我们",
+        "pinyin": "wǒmen",
+        "definition": "we/us",
+        "hint": "Focus on 'wǒmen' to remember it means 'we/us'."
+      },
+      {
+        "word": "电影",
+        "pinyin": "diànyǐng",
+        "definition": "movie",
+        "hint": "Focus on 'diànyǐng' to remember it means 'movie'."
+      },
+      {
+        "word": "住",
+        "pinyin": "zhù",
+        "definition": "to live/stay",
+        "hint": "Focus on 'zhù' to remember it means 'to live/stay'."
+      },
+      {
+        "word": "前",
+        "pinyin": "qián",
+        "definition": "before/front",
+        "hint": "Focus on 'qián' to remember it means 'before/front'."
+      }
     ],
     "grammar": [
       {
         "point": "Telling time with 点 (diǎn) and 分 (fēn)",
         "explanation": "点 is used for hours and 分 for minutes.",
         "examples": [
-          {"chinese": "现在十点十分。", "pinyin": "Xiànzài shí diǎn shí fēn.", "english": "It is ten past ten now."}
+          {
+            "chinese": "现在十点十分。",
+            "pinyin": "Xiànzài shí diǎn shí fēn.",
+            "english": "It is ten past ten now."
+          }
         ]
       }
     ]
@@ -337,32 +977,100 @@
     "lesson": 12,
     "title": "明天天气怎么样",
     "vocabulary": [
-      {"word": "天气", "pinyin": "tiānqì", "definition": "weather"},
-      {"word": "怎么样", "pinyin": "zěnmeyàng", "definition": "how about"},
-      {"word": "太", "pinyin": "tài", "definition": "too/extremely"},
-      {"word": "热", "pinyin": "rè", "definition": "hot"},
-      {"word": "冷", "pinyin": "lěng", "definition": "cold"},
-      {"word": "下雨", "pinyin": "xià yǔ", "definition": "to rain"},
-      {"word": "水", "pinyin": "shuǐ", "definition": "water"},
-      {"word": "水果", "pinyin": "shuǐguǒ", "definition": "fruit"},
-      {"word": "医生", "pinyin": "yīshēng", "definition": "doctor"},
-      {"word": "爱", "pinyin": "ài", "definition": "to love"},
-      {"word": "身体", "pinyin": "shēntǐ", "definition": "body/health"},
-      {"word": "些", "pinyin": "xiē", "definition": "some/a few"}
+      {
+        "word": "天气",
+        "pinyin": "tiānqì",
+        "definition": "weather",
+        "hint": "Focus on 'tiānqì' to remember it means 'weather'."
+      },
+      {
+        "word": "怎么样",
+        "pinyin": "zěnmeyàng",
+        "definition": "how about",
+        "hint": "Focus on 'zěnmeyàng' to remember it means 'how about'."
+      },
+      {
+        "word": "太",
+        "pinyin": "tài",
+        "definition": "too/extremely",
+        "hint": "Focus on 'tài' to remember it means 'too/extremely'."
+      },
+      {
+        "word": "热",
+        "pinyin": "rè",
+        "definition": "hot",
+        "hint": "Focus on 'rè' to remember it means 'hot'."
+      },
+      {
+        "word": "冷",
+        "pinyin": "lěng",
+        "definition": "cold",
+        "hint": "Focus on 'lěng' to remember it means 'cold'."
+      },
+      {
+        "word": "下雨",
+        "pinyin": "xià yǔ",
+        "definition": "to rain",
+        "hint": "Focus on 'xià yǔ' to remember it means 'to rain'."
+      },
+      {
+        "word": "水",
+        "pinyin": "shuǐ",
+        "definition": "water",
+        "hint": "Focus on 'shuǐ' to remember it means 'water'."
+      },
+      {
+        "word": "水果",
+        "pinyin": "shuǐguǒ",
+        "definition": "fruit",
+        "hint": "Focus on 'shuǐguǒ' to remember it means 'fruit'."
+      },
+      {
+        "word": "医生",
+        "pinyin": "yīshēng",
+        "definition": "doctor",
+        "hint": "Focus on 'yīshēng' to remember it means 'doctor'."
+      },
+      {
+        "word": "爱",
+        "pinyin": "ài",
+        "definition": "to love",
+        "hint": "Focus on 'ài' to remember it means 'to love'."
+      },
+      {
+        "word": "身体",
+        "pinyin": "shēntǐ",
+        "definition": "body/health",
+        "hint": "Focus on 'shēntǐ' to remember it means 'body/health'."
+      },
+      {
+        "word": "些",
+        "pinyin": "xiē",
+        "definition": "some/a few",
+        "hint": "Focus on 'xiē' to remember it means 'some/a few'."
+      }
     ],
     "grammar": [
       {
         "point": "Interrogative pronoun 怎么样 (zěnmeyàng)",
         "explanation": "Used to ask about the condition of something or someone.",
         "examples": [
-          {"chinese": "明天天气怎么样？", "pinyin": "Míngtiān tiānqì zěnmeyàng?", "english": "How will the weather be tomorrow?"}
+          {
+            "chinese": "明天天气怎么样？",
+            "pinyin": "Míngtiān tiānqì zěnmeyàng?",
+            "english": "How will the weather be tomorrow?"
+          }
         ]
       },
       {
         "point": "Adverb of degree 太 (tài)",
         "explanation": "太 is often used with 了 to express 'too much' or 'extremely'.",
         "examples": [
-          {"chinese": "太热了！", "pinyin": "Tài rè le!", "english": "It's too hot!"}
+          {
+            "chinese": "太热了！",
+            "pinyin": "Tài rè le!",
+            "english": "It's too hot!"
+          }
         ]
       }
     ]
@@ -371,20 +1079,59 @@
     "lesson": 13,
     "title": "他在学做中国菜吗",
     "vocabulary": [
-      {"word": "喂", "pinyin": "wèi", "definition": "hello (on phone)"},
-      {"word": "也", "pinyin": "yě", "definition": "also/too"},
-      {"word": "学习", "pinyin": "xuéxí", "definition": "to study"},
-      {"word": "喜欢", "pinyin": "xǐhuan", "definition": "to like"},
-      {"word": "电视", "pinyin": "diànshì", "definition": "TV"},
-      {"word": "打电话", "pinyin": "dǎ diànhuà", "definition": "to make a phone call"},
-      {"word": "吧", "pinyin": "ba", "definition": "modal particle"}
+      {
+        "word": "喂",
+        "pinyin": "wèi",
+        "definition": "hello (on phone)",
+        "hint": "Focus on 'wèi' to remember it means 'hello (on phone)'."
+      },
+      {
+        "word": "也",
+        "pinyin": "yě",
+        "definition": "also/too",
+        "hint": "Focus on 'yě' to remember it means 'also/too'."
+      },
+      {
+        "word": "学习",
+        "pinyin": "xuéxí",
+        "definition": "to study",
+        "hint": "Focus on 'xuéxí' to remember it means 'to study'."
+      },
+      {
+        "word": "喜欢",
+        "pinyin": "xǐhuan",
+        "definition": "to like",
+        "hint": "Focus on 'xǐhuan' to remember it means 'to like'."
+      },
+      {
+        "word": "电视",
+        "pinyin": "diànshì",
+        "definition": "TV",
+        "hint": "Focus on 'diànshì' to remember it means 'TV'."
+      },
+      {
+        "word": "打电话",
+        "pinyin": "dǎ diànhuà",
+        "definition": "to make a phone call",
+        "hint": "Focus on 'dǎ diànhuà' to remember it means 'to make a phone call'."
+      },
+      {
+        "word": "吧",
+        "pinyin": "ba",
+        "definition": "modal particle",
+        "hint": "Focus on 'ba' to remember it means 'modal particle'."
+      }
     ],
     "grammar": [
       {
         "point": "The particle 呢 (ne) for action in progress",
         "explanation": "Used at the end of a sentence to indicate that an action is currently happening.",
         "examples": [
-          {"chinese": "他在打电话呢。", "pinyin": "Tā zài dǎ diànhuà ne.", "english": "He is making a phone call."}
+          {
+            "chinese": "他在打电话呢。",
+            "pinyin": "Tā zài dǎ diànhuà ne.",
+            "english": "He is making a phone call."
+          }
         ]
       }
     ]
@@ -393,29 +1140,113 @@
     "lesson": 14,
     "title": "她买了不少衣服",
     "vocabulary": [
-      {"word": "东西", "pinyin": "dōngxi", "definition": "thing/object"},
-      {"word": "一点儿", "pinyin": "yìdiǎnr", "definition": "a bit"},
-      {"word": "苹果", "pinyin": "píngguǒ", "definition": "apple"},
-      {"word": "看见", "pinyin": "kànjiàn", "definition": "to see/catch sight of"},
-      {"word": "先生", "pinyin": "xiānsheng", "definition": "Mr./gentleman"},
-      {"word": "开", "pinyin": "kāi", "definition": "to drive/open"},
-      {"word": "车", "pinyin": "chē", "definition": "car/vehicle"},
-      {"word": "回来", "pinyin": "huílai", "definition": "to come back"},
-      {"word": "分钟", "pinyin": "fēnzhōng", "definition": "minute"},
-      {"word": "后", "pinyin": "hòu", "definition": "after/back"},
-      {"word": "张", "pinyin": "zhāng", "definition": "measure word for flat things"},
-      {"word": "漂亮", "pinyin": "piàoliang", "definition": "beautiful"},
-      {"word": "啊", "pinyin": "a", "definition": "modal particle"},
-      {"word": "少", "pinyin": "shǎo", "definition": "few/little"},
-      {"word": "不少", "pinyin": "bùshǎo", "definition": "quite a few"},
-      {"word": "衣服", "pinyin": "yīfu", "definition": "clothes"}
+      {
+        "word": "东西",
+        "pinyin": "dōngxi",
+        "definition": "thing/object",
+        "hint": "Focus on 'dōngxi' to remember it means 'thing/object'."
+      },
+      {
+        "word": "一点儿",
+        "pinyin": "yìdiǎnr",
+        "definition": "a bit",
+        "hint": "Focus on 'yìdiǎnr' to remember it means 'a bit'."
+      },
+      {
+        "word": "苹果",
+        "pinyin": "píngguǒ",
+        "definition": "apple",
+        "hint": "Focus on 'píngguǒ' to remember it means 'apple'."
+      },
+      {
+        "word": "看见",
+        "pinyin": "kànjiàn",
+        "definition": "to see/catch sight of",
+        "hint": "Focus on 'kànjiàn' to remember it means 'to see/catch sight of'."
+      },
+      {
+        "word": "先生",
+        "pinyin": "xiānsheng",
+        "definition": "Mr./gentleman",
+        "hint": "Focus on 'xiānsheng' to remember it means 'Mr./gentleman'."
+      },
+      {
+        "word": "开",
+        "pinyin": "kāi",
+        "definition": "to drive/open",
+        "hint": "Focus on 'kāi' to remember it means 'to drive/open'."
+      },
+      {
+        "word": "车",
+        "pinyin": "chē",
+        "definition": "car/vehicle",
+        "hint": "Focus on 'chē' to remember it means 'car/vehicle'."
+      },
+      {
+        "word": "回来",
+        "pinyin": "huílai",
+        "definition": "to come back",
+        "hint": "Focus on 'huílai' to remember it means 'to come back'."
+      },
+      {
+        "word": "分钟",
+        "pinyin": "fēnzhōng",
+        "definition": "minute",
+        "hint": "Focus on 'fēnzhōng' to remember it means 'minute'."
+      },
+      {
+        "word": "后",
+        "pinyin": "hòu",
+        "definition": "after/back",
+        "hint": "Focus on 'hòu' to remember it means 'after/back'."
+      },
+      {
+        "word": "张",
+        "pinyin": "zhāng",
+        "definition": "measure word for flat things",
+        "hint": "Focus on 'zhāng' to remember it means 'measure word for flat things'."
+      },
+      {
+        "word": "漂亮",
+        "pinyin": "piàoliang",
+        "definition": "beautiful",
+        "hint": "Focus on 'piàoliang' to remember it means 'beautiful'."
+      },
+      {
+        "word": "啊",
+        "pinyin": "a",
+        "definition": "modal particle",
+        "hint": "Focus on 'a' to remember it means 'modal particle'."
+      },
+      {
+        "word": "少",
+        "pinyin": "shǎo",
+        "definition": "few/little",
+        "hint": "Focus on 'shǎo' to remember it means 'few/little'."
+      },
+      {
+        "word": "不少",
+        "pinyin": "bùshǎo",
+        "definition": "quite a few",
+        "hint": "Focus on 'bùshǎo' to remember it means 'quite a few'."
+      },
+      {
+        "word": "衣服",
+        "pinyin": "yīfu",
+        "definition": "clothes",
+        "hint": "Focus on 'yīfu' to remember it means 'clothes'."
+      }
     ],
     "grammar": [
       {
         "point": "The particle 了 (le) for completion",
         "explanation": "Indicates that an action has been completed.",
         "examples": [
-          {"chinese": "她买了点儿苹果。", "pinyin": "Tā mǎi le diǎnr píngguǒ.", "english": "She bought some apples."}
+          {
+            "chinese": "她买了点儿苹果。",
+            "pinyin": "Tā mǎi le diǎnr píngguǒ.",
+            "english": "She bought some apples."
+          }
         ]
       }
     ]
@@ -424,22 +1255,71 @@
     "lesson": 15,
     "title": "我是坐飞机来的",
     "vocabulary": [
-      {"word": "认识", "pinyin": "rènshi", "definition": "to know/recognize"},
-      {"word": "年", "pinyin": "nián", "definition": "year"},
-      {"word": "大学", "pinyin": "dàxué", "definition": "university"},
-      {"word": "饭店", "pinyin": "fàndiàn", "definition": "hotel/restaurant"},
-      {"word": "出租车", "pinyin": "chūzūchē", "definition": "taxi"},
-      {"word": "一起", "pinyin": "yìqǐ", "definition": "together"},
-      {"word": "高兴", "pinyin": "gāoxìng", "definition": "happy/glad"},
-      {"word": "听", "pinyin": "tīng", "definition": "to listen"},
-      {"word": "飞机", "pinyin": "fēijī", "definition": "airplane"}
+      {
+        "word": "认识",
+        "pinyin": "rènshi",
+        "definition": "to know/recognize",
+        "hint": "Focus on 'rènshi' to remember it means 'to know/recognize'."
+      },
+      {
+        "word": "年",
+        "pinyin": "nián",
+        "definition": "year",
+        "hint": "Focus on 'nián' to remember it means 'year'."
+      },
+      {
+        "word": "大学",
+        "pinyin": "dàxué",
+        "definition": "university",
+        "hint": "Focus on 'dàxué' to remember it means 'university'."
+      },
+      {
+        "word": "饭店",
+        "pinyin": "fàndiàn",
+        "definition": "hotel/restaurant",
+        "hint": "Focus on 'fàndiàn' to remember it means 'hotel/restaurant'."
+      },
+      {
+        "word": "出租车",
+        "pinyin": "chūzūchē",
+        "definition": "taxi",
+        "hint": "Focus on 'chūzūchē' to remember it means 'taxi'."
+      },
+      {
+        "word": "一起",
+        "pinyin": "yìqǐ",
+        "definition": "together",
+        "hint": "Focus on 'yìqǐ' to remember it means 'together'."
+      },
+      {
+        "word": "高兴",
+        "pinyin": "gāoxìng",
+        "definition": "happy/glad",
+        "hint": "Focus on 'gāoxìng' to remember it means 'happy/glad'."
+      },
+      {
+        "word": "听",
+        "pinyin": "tīng",
+        "definition": "to listen",
+        "hint": "Focus on 'tīng' to remember it means 'to listen'."
+      },
+      {
+        "word": "飞机",
+        "pinyin": "fēijī",
+        "definition": "airplane",
+        "hint": "Focus on 'fēijī' to remember it means 'airplane'."
+      }
     ],
     "grammar": [
       {
         "point": "The '是...的' construction for emphasis",
         "explanation": "Used to emphasize the time, place, or manner of a past event.",
         "examples": [
-          {"chinese": "我是昨天来的。", "pinyin": "Wǒ shì zuótiān lái de.", "english": "It was yesterday that I arrived."}
+          {
+            "chinese": "我是昨天来的。",
+            "pinyin": "Wǒ shì zuótiān lái de.",
+            "english": "It was yesterday that I arrived."
+          }
         ]
       }
     ]

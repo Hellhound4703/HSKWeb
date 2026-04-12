@@ -5,6 +5,7 @@ interface FlashcardProps {
     word: string;
     pinyin: string;
     definition: string;
+    hint?: string;
   };
   flipped: boolean;
   onFlip: () => void;
@@ -78,7 +79,17 @@ const Flashcard: React.FC<FlashcardProps> = ({
           </div>
 
           <hr className="w-16 border-blue-200 mb-4" />
-          <p className="text-xl text-gray-800">{word.definition}</p>
+          <p className="text-xl text-gray-800 mb-4">{word.definition}</p>
+
+          {word.hint && (
+            <div className="mt-auto bg-yellow-50 p-3 rounded-lg border border-yellow-100 flex items-start gap-2 max-w-[90%]">
+              <span className="text-yellow-600 mt-0.5">💡</span>
+              <p className="text-xs text-yellow-800 italic text-left">
+                <span className="font-bold not-italic mr-1">Hint:</span>
+                {word.hint}
+              </p>
+            </div>
+          )}
         </div>
       </div>
     </div>

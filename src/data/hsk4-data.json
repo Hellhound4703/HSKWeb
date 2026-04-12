@@ -3,33 +3,106 @@
     "lesson": 1,
     "title": "简单的爱情",
     "vocabulary": [
-      {"word": "法律", "pinyin": "fǎlǜ", "definition": "law"},
-      {"word": "俩", "pinyin": "liǎ", "definition": "two, both"},
-      {"word": "印象", "pinyin": "yìnxiàng", "definition": "impression"},
-      {"word": "深", "pinyin": "shēn", "definition": "deep"},
-      {"word": "熟悉", "pinyin": "shúxi", "definition": "to be familiar with"},
-      {"word": "不仅", "pinyin": "bùjǐn", "definition": "not only"},
-      {"word": "性格", "pinyin": "xìnggé", "definition": "character, personality"},
-      {"word": "开玩笑", "pinyin": "kāi wánxiào", "definition": "to joke"},
-      {"word": "从来", "pinyin": "cónglái", "definition": "always, all along"},
-      {"word": "最好", "pinyin": "zuìhǎo", "definition": "had better"},
-      {"word": "共同", "pinyin": "gòngtóng", "definition": "common, shared"},
-      {"word": "适合", "pinyin": "shìhé", "definition": "to suit, to fit"},
-      {"word": "幸福", "pinyin": "xìngfú", "definition": "happy, happiness"}
+      {
+        "word": "法律",
+        "pinyin": "fǎlǜ",
+        "definition": "law",
+        "hint": "Focus on 'fǎlǜ' to remember it means 'law'."
+      },
+      {
+        "word": "俩",
+        "pinyin": "liǎ",
+        "definition": "two, both",
+        "hint": "Focus on 'liǎ' to remember it means 'two, both'."
+      },
+      {
+        "word": "印象",
+        "pinyin": "yìnxiàng",
+        "definition": "impression",
+        "hint": "Focus on 'yìnxiàng' to remember it means 'impression'."
+      },
+      {
+        "word": "深",
+        "pinyin": "shēn",
+        "definition": "deep",
+        "hint": "Focus on 'shēn' to remember it means 'deep'."
+      },
+      {
+        "word": "熟悉",
+        "pinyin": "shúxi",
+        "definition": "to be familiar with",
+        "hint": "Focus on 'shúxi' to remember it means 'to be familiar with'."
+      },
+      {
+        "word": "不仅",
+        "pinyin": "bùjǐn",
+        "definition": "not only",
+        "hint": "Focus on 'bùjǐn' to remember it means 'not only'."
+      },
+      {
+        "word": "性格",
+        "pinyin": "xìnggé",
+        "definition": "character, personality",
+        "hint": "Focus on 'xìnggé' to remember it means 'character, personality'."
+      },
+      {
+        "word": "开玩笑",
+        "pinyin": "kāi wánxiào",
+        "definition": "to joke",
+        "hint": "Focus on 'kāi wánxiào' to remember it means 'to joke'."
+      },
+      {
+        "word": "从来",
+        "pinyin": "cónglái",
+        "definition": "always, all along",
+        "hint": "Focus on 'cónglái' to remember it means 'always, all along'."
+      },
+      {
+        "word": "最好",
+        "pinyin": "zuìhǎo",
+        "definition": "had better",
+        "hint": "Focus on 'zuìhǎo' to remember it means 'had better'."
+      },
+      {
+        "word": "共同",
+        "pinyin": "gòngtóng",
+        "definition": "common, shared",
+        "hint": "Focus on 'gòngtóng' to remember it means 'common, shared'."
+      },
+      {
+        "word": "适合",
+        "pinyin": "shìhé",
+        "definition": "to suit, to fit",
+        "hint": "Focus on 'shìhé' to remember it means 'to suit, to fit'."
+      },
+      {
+        "word": "幸福",
+        "pinyin": "xìngfú",
+        "definition": "happy, happiness",
+        "hint": "Focus on 'xìngfú' to remember it means 'happy, happiness'."
+      }
     ],
     "grammar": [
       {
         "point": "The structure '不仅...也/还/而且...' (bùjǐn...yě/hái/érqiě...)",
         "explanation": "Used to connect two clauses that have a progressive relationship ('not only... but also...').",
         "examples": [
-          {"chinese": "他不仅足球踢得好，性格也不错。", "pinyin": "Tā bùjǐn zúqiú tī de hǎo, xìnggé yě búcuò.", "english": "He not only plays football well, but also has a good personality."}
+          {
+            "chinese": "他不仅足球踢得好，性格也不错。",
+            "pinyin": "Tā bùjǐn zúqiú tī de hǎo, xìnggé yě búcuò.",
+            "english": "He not only plays football well, but also has a good personality."
+          }
         ]
       },
       {
         "point": "The adverb 从来 (cónglái)",
         "explanation": "Means 'always' or 'all along', usually used in negative sentences ('never').",
         "examples": [
-          {"chinese": "我从来没见过他。", "pinyin": "Wǒ cónglái méi jiàn guo tā.", "english": "I have never seen him before."}
+          {
+            "chinese": "我从来没见过他。",
+            "pinyin": "Wǒ cónglái méi jiàn guo tā.",
+            "english": "I have never seen him before."
+          }
         ]
       }
     ]
@@ -38,26 +111,95 @@
     "lesson": 2,
     "title": "真正的朋友",
     "vocabulary": [
-      {"word": "适应", "pinyin": "shìyìng", "definition": "to adapt, to get used to"},
-      {"word": "交", "pinyin": "jiāo", "definition": "to make (friends)"},
-      {"word": "平时", "pinyin": "píngshí", "definition": "normally, usually"},
-      {"word": "逛", "pinyin": "guàng", "definition": "to stroll, to roam"},
-      {"word": "短信", "pinyin": "duǎnxìn", "definition": "text message"},
-      {"word": "正好", "pinyin": "zhènghǎo", "definition": "just in time, just right"},
-      {"word": "聚会", "pinyin": "jùhuì", "definition": "to gather; party"},
-      {"word": "联系", "pinyin": "liánxì", "definition": "to contact"},
-      {"word": "差不多", "pinyin": "chàbuduō", "definition": "almost, nearly"},
-      {"word": "专门", "pinyin": "zhuānmén", "definition": "specially"},
-      {"word": "毕业", "pinyin": "bìyè", "definition": "to graduate"},
-      {"word": "麻烦", "pinyin": "máfan", "definition": "to bother"},
-      {"word": "好像", "pinyin": "hǎoxiàng", "definition": "as if, seem"}
+      {
+        "word": "适应",
+        "pinyin": "shìyìng",
+        "definition": "to adapt, to get used to",
+        "hint": "Focus on 'shìyìng' to remember it means 'to adapt, to get used to'."
+      },
+      {
+        "word": "交",
+        "pinyin": "jiāo",
+        "definition": "to make (friends)",
+        "hint": "Focus on 'jiāo' to remember it means 'to make (friends)'."
+      },
+      {
+        "word": "平时",
+        "pinyin": "píngshí",
+        "definition": "normally, usually",
+        "hint": "Focus on 'píngshí' to remember it means 'normally, usually'."
+      },
+      {
+        "word": "逛",
+        "pinyin": "guàng",
+        "definition": "to stroll, to roam",
+        "hint": "Focus on 'guàng' to remember it means 'to stroll, to roam'."
+      },
+      {
+        "word": "短信",
+        "pinyin": "duǎnxìn",
+        "definition": "text message",
+        "hint": "Focus on 'duǎnxìn' to remember it means 'text message'."
+      },
+      {
+        "word": "正好",
+        "pinyin": "zhènghǎo",
+        "definition": "just in time, just right",
+        "hint": "Focus on 'zhènghǎo' to remember it means 'just in time, just right'."
+      },
+      {
+        "word": "聚会",
+        "pinyin": "jùhuì",
+        "definition": "to gather; party",
+        "hint": "Focus on 'jùhuì' to remember it means 'to gather; party'."
+      },
+      {
+        "word": "联系",
+        "pinyin": "liánxì",
+        "definition": "to contact",
+        "hint": "Focus on 'liánxì' to remember it means 'to contact'."
+      },
+      {
+        "word": "差不多",
+        "pinyin": "chàbuduō",
+        "definition": "almost, nearly",
+        "hint": "Focus on 'chàbuduō' to remember it means 'almost, nearly'."
+      },
+      {
+        "word": "专门",
+        "pinyin": "zhuānmén",
+        "definition": "specially",
+        "hint": "Focus on 'zhuānmén' to remember it means 'specially'."
+      },
+      {
+        "word": "毕业",
+        "pinyin": "bìyè",
+        "definition": "to graduate",
+        "hint": "Focus on 'bìyè' to remember it means 'to graduate'."
+      },
+      {
+        "word": "麻烦",
+        "pinyin": "máfan",
+        "definition": "to bother",
+        "hint": "Focus on 'máfan' to remember it means 'to bother'."
+      },
+      {
+        "word": "好像",
+        "pinyin": "hǎoxiàng",
+        "definition": "as if, seem",
+        "hint": "Focus on 'hǎoxiàng' to remember it means 'as if, seem'."
+      }
     ],
     "grammar": [
       {
         "point": "The structure '即使...也...' (jíshǐ... yě...)",
         "explanation": "Used to indicate a hypothetical concession ('even if...').",
         "examples": [
-          {"chinese": "即使下雨，我也要去。", "pinyin": "Jíshǐ xià yǔ, wǒ yě yào qù.", "english": "Even if it rains, I will still go."}
+          {
+            "chinese": "即使下雨，我也要去。",
+            "pinyin": "Jíshǐ xià yǔ, wǒ yě yào qù.",
+            "english": "Even if it rains, I will still go."
+          }
         ]
       }
     ]
@@ -66,32 +208,100 @@
     "lesson": 3,
     "title": "经理对我印象不错",
     "vocabulary": [
-      {"word": "挺", "pinyin": "tǐng", "definition": "quite, rather"},
-      {"word": "紧张", "pinyin": "jǐnzhāng", "definition": "nervous"},
-      {"word": "信心", "pinyin": "xìnxīn", "definition": "confidence"},
-      {"word": "能力", "pinyin": "nénglì", "definition": "ability, competence"},
-      {"word": "招聘", "pinyin": "zhāopìn", "definition": "to recruit"},
-      {"word": "提供", "pinyin": "tígōng", "definition": "to provide"},
-      {"word": "负责", "pinyin": "fùzé", "definition": "to be in charge of"},
-      {"word": "本来", "pinyin": "běnlái", "definition": "originally"},
-      {"word": "应聘", "pinyin": "yìngpìn", "definition": "to apply for a job"},
-      {"word": "材料", "pinyin": "cáiliào", "definition": "data, material"},
-      {"word": "符合", "pinyin": "fúhé", "definition": "to accord with"},
-      {"word": "通知", "pinyin": "tōngzhī", "definition": "to inform"}
+      {
+        "word": "挺",
+        "pinyin": "tǐng",
+        "definition": "quite, rather",
+        "hint": "Focus on 'tǐng' to remember it means 'quite, rather'."
+      },
+      {
+        "word": "紧张",
+        "pinyin": "jǐnzhāng",
+        "definition": "nervous",
+        "hint": "Focus on 'jǐnzhāng' to remember it means 'nervous'."
+      },
+      {
+        "word": "信心",
+        "pinyin": "xìnxīn",
+        "definition": "confidence",
+        "hint": "Focus on 'xìnxīn' to remember it means 'confidence'."
+      },
+      {
+        "word": "能力",
+        "pinyin": "nénglì",
+        "definition": "ability, competence",
+        "hint": "Focus on 'nénglì' to remember it means 'ability, competence'."
+      },
+      {
+        "word": "招聘",
+        "pinyin": "zhāopìn",
+        "definition": "to recruit",
+        "hint": "Focus on 'zhāopìn' to remember it means 'to recruit'."
+      },
+      {
+        "word": "提供",
+        "pinyin": "tígōng",
+        "definition": "to provide",
+        "hint": "Focus on 'tígōng' to remember it means 'to provide'."
+      },
+      {
+        "word": "负责",
+        "pinyin": "fùzé",
+        "definition": "to be in charge of",
+        "hint": "Focus on 'fùzé' to remember it means 'to be in charge of'."
+      },
+      {
+        "word": "本来",
+        "pinyin": "běnlái",
+        "definition": "originally",
+        "hint": "Focus on 'běnlái' to remember it means 'originally'."
+      },
+      {
+        "word": "应聘",
+        "pinyin": "yìngpìn",
+        "definition": "to apply for a job",
+        "hint": "Focus on 'yìngpìn' to remember it means 'to apply for a job'."
+      },
+      {
+        "word": "材料",
+        "pinyin": "cáiliào",
+        "definition": "data, material",
+        "hint": "Focus on 'cáiliào' to remember it means 'data, material'."
+      },
+      {
+        "word": "符合",
+        "pinyin": "fúhé",
+        "definition": "to accord with",
+        "hint": "Focus on 'fúhé' to remember it means 'to accord with'."
+      },
+      {
+        "word": "通知",
+        "pinyin": "tōngzhī",
+        "definition": "to inform",
+        "hint": "Focus on 'tōngzhī' to remember it means 'to inform'."
+      }
     ],
     "grammar": [
       {
         "point": "The adverb 挺 (tǐng)",
         "explanation": "Used to express degree, similar to 'very' or 'quite'. Often used with '的'.",
         "examples": [
-          {"chinese": "经理对他印象挺好的。", "pinyin": "Jīnglǐ duì tā yìnxiàng tǐng hǎo de.", "english": "The manager has a pretty good impression of him."}
+          {
+            "chinese": "经理对他印象挺好的。",
+            "pinyin": "Jīnglǐ duì tā yìnxiàng tǐng hǎo de.",
+            "english": "The manager has a pretty good impression of him."
+          }
         ]
       },
       {
         "point": "The adverb 本来 (běnlái)",
         "explanation": "Means 'originally' or 'at first'.",
         "examples": [
-          {"chinese": "我本来不想去。", "pinyin": "Wǒ běnlái bù xiǎng qù.", "english": "I originally didn't want to go."}
+          {
+            "chinese": "我本来不想去。",
+            "pinyin": "Wǒ běnlái bù xiǎng qù.",
+            "english": "I originally didn't want to go."
+          }
         ]
       }
     ]
@@ -100,24 +310,83 @@
     "lesson": 4,
     "title": "不要太着急赚钱",
     "vocabulary": [
-      {"word": "提", "pinyin": "tí", "definition": "to mention"},
-      {"word": "以为", "pinyin": "yǐwéi", "definition": "to think (mistakenly)"},
-      {"word": "份", "pinyin": "fèn", "definition": "measure word for jobs"},
-      {"word": "完全", "pinyin": "wánquán", "definition": "completely"},
-      {"word": "赚", "pinyin": "zhuàn", "definition": "to earn"},
-      {"word": "调查", "pinyin": "diàochá", "definition": "to survey"},
-      {"word": "原来", "pinyin": "yuánlái", "definition": "original, formerly"},
-      {"word": "计划", "pinyin": "jìhuà", "definition": "plan, intend to"},
-      {"word": "提前", "pinyin": "tíqián", "definition": "in advance"},
-      {"word": "保证", "pinyin": "bǎozhèng", "definition": "to guarantee"},
-      {"word": "提醒", "pinyin": "tíxǐng", "definition": "to remind"}
+      {
+        "word": "提",
+        "pinyin": "tí",
+        "definition": "to mention",
+        "hint": "Focus on 'tí' to remember it means 'to mention'."
+      },
+      {
+        "word": "以为",
+        "pinyin": "yǐwéi",
+        "definition": "to think (mistakenly)",
+        "hint": "Focus on 'yǐwéi' to remember it means 'to think (mistakenly)'."
+      },
+      {
+        "word": "份",
+        "pinyin": "fèn",
+        "definition": "measure word for jobs",
+        "hint": "Focus on 'fèn' to remember it means 'measure word for jobs'."
+      },
+      {
+        "word": "完全",
+        "pinyin": "wánquán",
+        "definition": "completely",
+        "hint": "Focus on 'wánquán' to remember it means 'completely'."
+      },
+      {
+        "word": "赚",
+        "pinyin": "zhuàn",
+        "definition": "to earn",
+        "hint": "Focus on 'zhuàn' to remember it means 'to earn'."
+      },
+      {
+        "word": "调查",
+        "pinyin": "diàochá",
+        "definition": "to survey",
+        "hint": "Focus on 'diàochá' to remember it means 'to survey'."
+      },
+      {
+        "word": "原来",
+        "pinyin": "yuánlái",
+        "definition": "original, formerly",
+        "hint": "Focus on 'yuánlái' to remember it means 'original, formerly'."
+      },
+      {
+        "word": "计划",
+        "pinyin": "jìhuà",
+        "definition": "plan, intend to",
+        "hint": "Focus on 'jìhuà' to remember it means 'plan, intend to'."
+      },
+      {
+        "word": "提前",
+        "pinyin": "tíqián",
+        "definition": "in advance",
+        "hint": "Focus on 'tíqián' to remember it means 'in advance'."
+      },
+      {
+        "word": "保证",
+        "pinyin": "bǎozhèng",
+        "definition": "to guarantee",
+        "hint": "Focus on 'bǎozhèng' to remember it means 'to guarantee'."
+      },
+      {
+        "word": "提醒",
+        "pinyin": "tíxǐng",
+        "definition": "to remind",
+        "hint": "Focus on 'tíxǐng' to remember it means 'to remind'."
+      }
     ],
     "grammar": [
       {
         "point": "The structure '由于...因此...' (yóuyú... yīncǐ...)",
         "explanation": "Used to indicate cause and effect ('due to... therefore...').",
         "examples": [
-          {"chinese": "由于天气原因，航班取消了。", "pinyin": "Yóuyú tiānqì yuányīn, hángbān qǔxiāo le.", "english": "Due to weather reasons, the flight was cancelled."}
+          {
+            "chinese": "由于天气原因，航班取消了。",
+            "pinyin": "Yóuyú tiānqì yuányīn, hángbān qǔxiāo le.",
+            "english": "Due to weather reasons, the flight was cancelled."
+          }
         ]
       }
     ]
@@ -126,23 +395,77 @@
     "lesson": 5,
     "title": "只买对的，不买贵的",
     "vocabulary": [
-      {"word": "家具", "pinyin": "jiājù", "definition": "furniture"},
-      {"word": "沙发", "pinyin": "shāfā", "definition": "sofa"},
-      {"word": "打折", "pinyin": "dǎzhé", "definition": "to give a discount"},
-      {"word": "价格", "pinyin": "jiàgé", "definition": "price"},
-      {"word": "质量", "pinyin": "zhìliàng", "definition": "quality"},
-      {"word": "肯定", "pinyin": "kěndìng", "definition": "surely, certainly"},
-      {"word": "流行", "pinyin": "liúxíng", "definition": "popular"},
-      {"word": "顺便", "pinyin": "shùnbiàn", "definition": "in passing, on the way"},
-      {"word": "台", "pinyin": "tái", "definition": "measure word for machines"},
-      {"word": "光", "pinyin": "guāng", "definition": "only, merely"}
+      {
+        "word": "家具",
+        "pinyin": "jiājù",
+        "definition": "furniture",
+        "hint": "Focus on 'jiājù' to remember it means 'furniture'."
+      },
+      {
+        "word": "沙发",
+        "pinyin": "shāfā",
+        "definition": "sofa",
+        "hint": "Focus on 'shāfā' to remember it means 'sofa'."
+      },
+      {
+        "word": "打折",
+        "pinyin": "dǎzhé",
+        "definition": "to give a discount",
+        "hint": "Focus on 'dǎzhé' to remember it means 'to give a discount'."
+      },
+      {
+        "word": "价格",
+        "pinyin": "jiàgé",
+        "definition": "price",
+        "hint": "Focus on 'jiàgé' to remember it means 'price'."
+      },
+      {
+        "word": "质量",
+        "pinyin": "zhìliàng",
+        "definition": "quality",
+        "hint": "Focus on 'zhìliàng' to remember it means 'quality'."
+      },
+      {
+        "word": "肯定",
+        "pinyin": "kěndìng",
+        "definition": "surely, certainly",
+        "hint": "Focus on 'kěndìng' to remember it means 'surely, certainly'."
+      },
+      {
+        "word": "流行",
+        "pinyin": "liúxíng",
+        "definition": "popular",
+        "hint": "Focus on 'liúxíng' to remember it means 'popular'."
+      },
+      {
+        "word": "顺便",
+        "pinyin": "shùnbiàn",
+        "definition": "in passing, on the way",
+        "hint": "Focus on 'shùnbiàn' to remember it means 'in passing, on the way'."
+      },
+      {
+        "word": "台",
+        "pinyin": "tái",
+        "definition": "measure word for machines",
+        "hint": "Focus on 'tái' to remember it means 'measure word for machines'."
+      },
+      {
+        "word": "光",
+        "pinyin": "guāng",
+        "definition": "only, merely",
+        "hint": "Focus on 'guāng' to remember it means 'only, merely'."
+      }
     ],
     "grammar": [
       {
         "point": "The structure '无论...都/也...' (wúlùn... dōu/yě...)",
         "explanation": "Means 'no matter what/how...' indicating that the result remains the same under any condition.",
         "examples": [
-          {"chinese": "无论多忙，他每天都坚持锻炼。", "pinyin": "Wúlùn duō máng, tā měitiān dōu jiānchí duànliàn.", "english": "No matter how busy he is, he insists on exercising every day."}
+          {
+            "chinese": "无论多忙，他每天都坚持锻炼。",
+            "pinyin": "Wúlùn duō máng, tā měitiān dōu jiānchí duànliàn.",
+            "english": "No matter how busy he is, he insists on exercising every day."
+          }
         ]
       }
     ]
@@ -151,23 +474,77 @@
     "lesson": 6,
     "title": "一分钱一分货",
     "vocabulary": [
-      {"word": "果汁", "pinyin": "guǒzhī", "definition": "fruit juice"},
-      {"word": "售货员", "pinyin": "shòuhuòyuán", "definition": "salesperson"},
-      {"word": "袜子", "pinyin": "wàzi", "definition": "socks"},
-      {"word": "打扰", "pinyin": "dǎrǎo", "definition": "to disturb"},
-      {"word": "竟然", "pinyin": "jìngrán", "definition": "unexpectedly"},
-      {"word": "西红柿", "pinyin": "xīhóngshì", "definition": "tomato"},
-      {"word": "百分之", "pinyin": "bǎifēnzhī", "definition": "percent"},
-      {"word": "倍", "pinyin": "bèi", "definition": "times, -fold"},
-      {"word": "皮肤", "pinyin": "pífū", "definition": "skin"},
-      {"word": "好处", "pinyin": "hǎochù", "definition": "benefit, advantage"}
+      {
+        "word": "果汁",
+        "pinyin": "guǒzhī",
+        "definition": "fruit juice",
+        "hint": "Focus on 'guǒzhī' to remember it means 'fruit juice'."
+      },
+      {
+        "word": "售货员",
+        "pinyin": "shòuhuòyuán",
+        "definition": "salesperson",
+        "hint": "Focus on 'shòuhuòyuán' to remember it means 'salesperson'."
+      },
+      {
+        "word": "袜子",
+        "pinyin": "wàzi",
+        "definition": "socks",
+        "hint": "Focus on 'wàzi' to remember it means 'socks'."
+      },
+      {
+        "word": "打扰",
+        "pinyin": "dǎrǎo",
+        "definition": "to disturb",
+        "hint": "Focus on 'dǎrǎo' to remember it means 'to disturb'."
+      },
+      {
+        "word": "竟然",
+        "pinyin": "jìngrán",
+        "definition": "unexpectedly",
+        "hint": "Focus on 'jìngrán' to remember it means 'unexpectedly'."
+      },
+      {
+        "word": "西红柿",
+        "pinyin": "xīhóngshì",
+        "definition": "tomato",
+        "hint": "Focus on 'xīhóngshì' to remember it means 'tomato'."
+      },
+      {
+        "word": "百分之",
+        "pinyin": "bǎifēnzhī",
+        "definition": "percent",
+        "hint": "Focus on 'bǎifēnzhī' to remember it means 'percent'."
+      },
+      {
+        "word": "倍",
+        "pinyin": "bèi",
+        "definition": "times, -fold",
+        "hint": "Focus on 'bèi' to remember it means 'times, -fold'."
+      },
+      {
+        "word": "皮肤",
+        "pinyin": "pífū",
+        "definition": "skin",
+        "hint": "Focus on 'pífū' to remember it means 'skin'."
+      },
+      {
+        "word": "好处",
+        "pinyin": "hǎochù",
+        "definition": "benefit, advantage",
+        "hint": "Focus on 'hǎochù' to remember it means 'benefit, advantage'."
+      }
     ],
     "grammar": [
       {
         "point": "The adverb 竟然 (jìngrán)",
         "explanation": "Means 'unexpectedly' or 'to one's surprise'.",
         "examples": [
-          {"chinese": "他竟然忘了我的生日。", "pinyin": "Tā jìngrán wàng le wǒ de shēngrì.", "english": "He actually forgot my birthday."}
+          {
+            "chinese": "他竟然忘了我的生日。",
+            "pinyin": "Tā jìngrán wàng le wǒ de shēngrì.",
+            "english": "He actually forgot my birthday."
+          }
         ]
       }
     ]
@@ -176,30 +553,88 @@
     "lesson": 7,
     "title": "最好的医生是自己",
     "vocabulary": [
-      {"word": "鼻子", "pinyin": "bízi", "definition": "nose"},
-      {"word": "流血", "pinyin": "liúxuè", "definition": "to bleed"},
-      {"word": "擦", "pinyin": "cā", "definition": "to wipe"},
-      {"word": "气候", "pinyin": "qìhòu", "definition": "climate"},
-      {"word": "估计", "pinyin": "gūjì", "definition": "to estimate, to reckon"},
-      {"word": "咳嗽", "pinyin": "késou", "definition": "to cough"},
-      {"word": "严重", "pinyin": "yánzhòng", "definition": "serious, severe"},
-      {"word": "窗户", "pinyin": "chuānghu", "definition": "window"},
-      {"word": "空气", "pinyin": "kōngqì", "definition": "air"},
-      {"word": "抽烟", "pinyin": "chōuyān", "definition": "to smoke"}
+      {
+        "word": "鼻子",
+        "pinyin": "bízi",
+        "definition": "nose",
+        "hint": "Focus on 'bízi' to remember it means 'nose'."
+      },
+      {
+        "word": "流血",
+        "pinyin": "liúxuè",
+        "definition": "to bleed",
+        "hint": "Focus on 'liúxuè' to remember it means 'to bleed'."
+      },
+      {
+        "word": "擦",
+        "pinyin": "cā",
+        "definition": "to wipe",
+        "hint": "Focus on 'cā' to remember it means 'to wipe'."
+      },
+      {
+        "word": "气候",
+        "pinyin": "qìhòu",
+        "definition": "climate",
+        "hint": "Focus on 'qìhòu' to remember it means 'climate'."
+      },
+      {
+        "word": "估计",
+        "pinyin": "gūjì",
+        "definition": "to estimate, to reckon",
+        "hint": "Focus on 'gūjì' to remember it means 'to estimate, to reckon'."
+      },
+      {
+        "word": "咳嗽",
+        "pinyin": "késou",
+        "definition": "to cough",
+        "hint": "Focus on 'késou' to remember it means 'to cough'."
+      },
+      {
+        "word": "严重",
+        "pinyin": "yánzhòng",
+        "definition": "serious, severe",
+        "hint": "Focus on 'yánzhòng' to remember it means 'serious, severe'."
+      },
+      {
+        "word": "窗户",
+        "pinyin": "chuānghu",
+        "definition": "window",
+        "hint": "Focus on 'chuānghu' to remember it means 'window'."
+      },
+      {
+        "word": "空气",
+        "pinyin": "kōngqì",
+        "definition": "air",
+        "hint": "Focus on 'kōngqì' to remember it means 'air'."
+      },
+      {
+        "word": "抽烟",
+        "pinyin": "chōuyān",
+        "definition": "to smoke",
+        "hint": "Focus on 'chōuyān' to remember it means 'to smoke'."
+      }
     ],
     "grammar": [
       {
         "point": "The verb 估计 (gūjì)",
         "explanation": "Means 'to estimate' or 'to reckon'.",
         "examples": [
-          {"chinese": "我估计他今天不来了。", "pinyin": "Wǒ gūjì tā jīntiān bù lái le.", "english": "I reckon he isn't coming today."}
+          {
+            "chinese": "我估计他今天不来了。",
+            "pinyin": "Wǒ gūjì tā jīntiān bù lái le.",
+            "english": "I reckon he isn't coming today."
+          }
         ]
       },
       {
         "point": "The adverb 最好 (zuìhǎo)",
         "explanation": "Means 'had better' or 'it would be best to'.",
         "examples": [
-          {"chinese": "你最好早点儿休息。", "pinyin": "Nǐ zuìhǎo zǎodiǎnr xiūxi.", "english": "You had better rest a bit earlier."}
+          {
+            "chinese": "你最好早点儿休息。",
+            "pinyin": "Nǐ zuìhǎo zǎodiǎnr xiūxi.",
+            "english": "You had better rest a bit earlier."
+          }
         ]
       }
     ]
@@ -208,23 +643,77 @@
     "lesson": 8,
     "title": "生活中不缺少美",
     "vocabulary": [
-      {"word": "巧克力", "pinyin": "qiǎokèlì", "definition": "chocolate"},
-      {"word": "亲戚", "pinyin": "qīnqi", "definition": "relative"},
-      {"word": "伤心", "pinyin": "shāngxīn", "definition": "sad, sorrowful"},
-      {"word": "使", "pinyin": "shǐ", "definition": "to make, to cause"},
-      {"word": "心情", "pinyin": "xīnqíng", "definition": "mood"},
-      {"word": "愉快", "pinyin": "yúkuài", "definition": "pleasant, cheerful"},
-      {"word": "景色", "pinyin": "jǐngsè", "definition": "scenery, view"},
-      {"word": "放松", "pinyin": "fàngsōng", "definition": "to relax"},
-      {"word": "压力", "pinyin": "yālì", "definition": "pressure, stress"},
-      {"word": "回忆", "pinyin": "huíyì", "definition": "to recall, memory"}
+      {
+        "word": "巧克力",
+        "pinyin": "qiǎokèlì",
+        "definition": "chocolate",
+        "hint": "Focus on 'qiǎokèlì' to remember it means 'chocolate'."
+      },
+      {
+        "word": "亲戚",
+        "pinyin": "qīnqi",
+        "definition": "relative",
+        "hint": "Focus on 'qīnqi' to remember it means 'relative'."
+      },
+      {
+        "word": "伤心",
+        "pinyin": "shāngxīn",
+        "definition": "sad, sorrowful",
+        "hint": "Focus on 'shāngxīn' to remember it means 'sad, sorrowful'."
+      },
+      {
+        "word": "使",
+        "pinyin": "shǐ",
+        "definition": "to make, to cause",
+        "hint": "Focus on 'shǐ' to remember it means 'to make, to cause'."
+      },
+      {
+        "word": "心情",
+        "pinyin": "xīnqíng",
+        "definition": "mood",
+        "hint": "Focus on 'xīnqíng' to remember it means 'mood'."
+      },
+      {
+        "word": "愉快",
+        "pinyin": "yúkuài",
+        "definition": "pleasant, cheerful",
+        "hint": "Focus on 'yúkuài' to remember it means 'pleasant, cheerful'."
+      },
+      {
+        "word": "景色",
+        "pinyin": "jǐngsè",
+        "definition": "scenery, view",
+        "hint": "Focus on 'jǐngsè' to remember it means 'scenery, view'."
+      },
+      {
+        "word": "放松",
+        "pinyin": "fàngsōng",
+        "definition": "to relax",
+        "hint": "Focus on 'fàngsōng' to remember it means 'to relax'."
+      },
+      {
+        "word": "压力",
+        "pinyin": "yālì",
+        "definition": "pressure, stress",
+        "hint": "Focus on 'yālì' to remember it means 'pressure, stress'."
+      },
+      {
+        "word": "回忆",
+        "pinyin": "huíyì",
+        "definition": "to recall, memory",
+        "hint": "Focus on 'huíyì' to remember it means 'to recall, memory'."
+      }
     ],
     "grammar": [
       {
         "point": "The verb 使 (shǐ) for causation",
         "explanation": "Similar to 让 (ràng) or 叫 (jiào), meaning 'to make' or 'to cause'.",
         "examples": [
-          {"chinese": "这种景色使人心情愉快。", "pinyin": "Zhè zhǒng jǐngsè shǐ rén xīnqíng yúkuài.", "english": "This kind of scenery makes one feel cheerful."}
+          {
+            "chinese": "这种景色使人心情愉快。",
+            "pinyin": "Zhè zhǒng jǐngsè shǐ rén xīnqíng yúkuài.",
+            "english": "This kind of scenery makes one feel cheerful."
+          }
         ]
       }
     ]
@@ -233,23 +722,77 @@
     "lesson": 9,
     "title": "阳光总在风雨后",
     "vocabulary": [
-      {"word": "阳光", "pinyin": "yángguāng", "definition": "sunshine"},
-      {"word": "风雨", "pinyin": "fēngyǔ", "definition": "wind and rain"},
-      {"word": "成功", "pinyin": "chénggōng", "definition": "success"},
-      {"word": "失败", "pinyin": "shībài", "definition": "failure"},
-      {"word": "勇敢", "pinyin": "yǒnggǎn", "definition": "brave"},
-      {"word": "结果", "pinyin": "jiéguǒ", "definition": "result"},
-      {"word": "至少", "pinyin": "zhìshǎo", "definition": "at least"},
-      {"word": "精神", "pinyin": "jīngshén", "definition": "spirit"},
-      {"word": "总结", "pinyin": "zǒngjié", "definition": "to summarize"},
-      {"word": "取", "pinyin": "qǔ", "definition": "to take, to get"}
+      {
+        "word": "阳光",
+        "pinyin": "yángguāng",
+        "definition": "sunshine",
+        "hint": "Focus on 'yángguāng' to remember it means 'sunshine'."
+      },
+      {
+        "word": "风雨",
+        "pinyin": "fēngyǔ",
+        "definition": "wind and rain",
+        "hint": "Focus on 'fēngyǔ' to remember it means 'wind and rain'."
+      },
+      {
+        "word": "成功",
+        "pinyin": "chénggōng",
+        "definition": "success",
+        "hint": "Focus on 'chénggōng' to remember it means 'success'."
+      },
+      {
+        "word": "失败",
+        "pinyin": "shībài",
+        "definition": "failure",
+        "hint": "Focus on 'shībài' to remember it means 'failure'."
+      },
+      {
+        "word": "勇敢",
+        "pinyin": "yǒnggǎn",
+        "definition": "brave",
+        "hint": "Focus on 'yǒnggǎn' to remember it means 'brave'."
+      },
+      {
+        "word": "结果",
+        "pinyin": "jiéguǒ",
+        "definition": "result",
+        "hint": "Focus on 'jiéguǒ' to remember it means 'result'."
+      },
+      {
+        "word": "至少",
+        "pinyin": "zhìshǎo",
+        "definition": "at least",
+        "hint": "Focus on 'zhìshǎo' to remember it means 'at least'."
+      },
+      {
+        "word": "精神",
+        "pinyin": "jīngshén",
+        "definition": "spirit",
+        "hint": "Focus on 'jīngshén' to remember it means 'spirit'."
+      },
+      {
+        "word": "总结",
+        "pinyin": "zǒngjié",
+        "definition": "to summarize",
+        "hint": "Focus on 'zǒngjié' to remember it means 'to summarize'."
+      },
+      {
+        "word": "取",
+        "pinyin": "qǔ",
+        "definition": "to take, to get",
+        "hint": "Focus on 'qǔ' to remember it means 'to take, to get'."
+      }
     ],
     "grammar": [
       {
         "point": "The structure '阳光总在风雨后'",
         "explanation": "A common idiom meaning 'sunshine always comes after wind and rain' (metaphor for success after hardship).",
         "examples": [
-          {"chinese": "阳光总在风雨后，坚持就是胜利。", "pinyin": "Yángguāng zǒng zài fēngyǔ hòu, jiānchí jiùshì shènglì.", "english": "Sunshine always comes after the storm; persistence is victory."}
+          {
+            "chinese": "阳光总在风雨后，坚持就是胜利。",
+            "pinyin": "Yángguāng zǒng zài fēngyǔ hòu, jiānchí jiùshì shènglì.",
+            "english": "Sunshine always comes after the storm; persistence is victory."
+          }
         ]
       }
     ]
@@ -258,23 +801,77 @@
     "lesson": 10,
     "title": "幸福的标准",
     "vocabulary": [
-      {"word": "标准", "pinyin": "biāozhǔn", "definition": "standard"},
-      {"word": "幸福", "pinyin": "xìngfú", "definition": "happiness"},
-      {"word": "无论", "pinyin": "wúlùn", "definition": "no matter what"},
-      {"word": "由于", "pinyin": "yóuyú", "definition": "due to"},
-      {"word": "然而", "pinyin": "rán'ér", "definition": "however"},
-      {"word": "质量", "pinyin": "zhìliàng", "definition": "quality"},
-      {"word": "生活", "pinyin": "shēnghuó", "definition": "life"},
-      {"word": "感觉", "pinyin": "gǎnjué", "definition": "feeling"},
-      {"word": "态度", "pinyin": "tàidù", "definition": "attitude"},
-      {"word": "经济", "pinyin": "jīngjì", "definition": "economy"}
+      {
+        "word": "标准",
+        "pinyin": "biāozhǔn",
+        "definition": "standard",
+        "hint": "Focus on 'biāozhǔn' to remember it means 'standard'."
+      },
+      {
+        "word": "幸福",
+        "pinyin": "xìngfú",
+        "definition": "happiness",
+        "hint": "Focus on 'xìngfú' to remember it means 'happiness'."
+      },
+      {
+        "word": "无论",
+        "pinyin": "wúlùn",
+        "definition": "no matter what",
+        "hint": "Focus on 'wúlùn' to remember it means 'no matter what'."
+      },
+      {
+        "word": "由于",
+        "pinyin": "yóuyú",
+        "definition": "due to",
+        "hint": "Focus on 'yóuyú' to remember it means 'due to'."
+      },
+      {
+        "word": "然而",
+        "pinyin": "rán'ér",
+        "definition": "however",
+        "hint": "Focus on 'rán'ér' to remember it means 'however'."
+      },
+      {
+        "word": "质量",
+        "pinyin": "zhìliàng",
+        "definition": "quality",
+        "hint": "Focus on 'zhìliàng' to remember it means 'quality'."
+      },
+      {
+        "word": "生活",
+        "pinyin": "shēnghuó",
+        "definition": "life",
+        "hint": "Focus on 'shēnghuó' to remember it means 'life'."
+      },
+      {
+        "word": "感觉",
+        "pinyin": "gǎnjué",
+        "definition": "feeling",
+        "hint": "Focus on 'gǎnjué' to remember it means 'feeling'."
+      },
+      {
+        "word": "态度",
+        "pinyin": "tàidù",
+        "definition": "attitude",
+        "hint": "Focus on 'tàidù' to remember it means 'attitude'."
+      },
+      {
+        "word": "经济",
+        "pinyin": "jīngjì",
+        "definition": "economy",
+        "hint": "Focus on 'jīngjì' to remember it means 'economy'."
+      }
     ],
     "grammar": [
       {
         "point": "The conjunction 然而 (rán'ér)",
         "explanation": "Means 'however' or 'but', used to indicate a turn in thought.",
         "examples": [
-          {"chinese": "他虽然很有钱，然而并不幸福。", "pinyin": "Tā suīrán hěn yǒu qián, rán'ér bìng bù xìngfú.", "english": "Although he is very rich, however, he is not happy."}
+          {
+            "chinese": "他虽然很有钱，然而并不幸福。",
+            "pinyin": "Tā suīrán hěn yǒu qián, rán'ér bìng bù xìngfú.",
+            "english": "Although he is very rich, however, he is not happy."
+          }
         ]
       }
     ]
@@ -283,23 +880,77 @@
     "lesson": 11,
     "title": "读书好，读好书，好读书",
     "vocabulary": [
-      {"word": "阅读", "pinyin": "yuèdú", "definition": "reading"},
-      {"word": "知识", "pinyin": "zhīshi", "definition": "knowledge"},
-      {"word": "增加", "pinyin": "zēngjiā", "definition": "to increase"},
-      {"word": "丰富", "pinyin": "fēngfù", "definition": "rich, abundant"},
-      {"word": "经验", "pinyin": "jīngyàn", "definition": "experience"},
-      {"word": "困难", "pinyin": "kùnnán", "definition": "difficulty"},
-      {"word": "解决", "pinyin": "jiějiué", "definition": "to solve"},
-      {"word": "养成", "pinyin": "yǎngchéng", "definition": "to form (a habit)"},
-      {"word": "习惯", "pinyin": "xíguàn", "definition": "habit"},
-      {"word": "确实", "pinyin": "quèshí", "definition": "indeed"}
+      {
+        "word": "阅读",
+        "pinyin": "yuèdú",
+        "definition": "reading",
+        "hint": "Focus on 'yuèdú' to remember it means 'reading'."
+      },
+      {
+        "word": "知识",
+        "pinyin": "zhīshi",
+        "definition": "knowledge",
+        "hint": "Focus on 'zhīshi' to remember it means 'knowledge'."
+      },
+      {
+        "word": "增加",
+        "pinyin": "zēngjiā",
+        "definition": "to increase",
+        "hint": "Focus on 'zēngjiā' to remember it means 'to increase'."
+      },
+      {
+        "word": "丰富",
+        "pinyin": "fēngfù",
+        "definition": "rich, abundant",
+        "hint": "Focus on 'fēngfù' to remember it means 'rich, abundant'."
+      },
+      {
+        "word": "经验",
+        "pinyin": "jīngyàn",
+        "definition": "experience",
+        "hint": "Focus on 'jīngyàn' to remember it means 'experience'."
+      },
+      {
+        "word": "困难",
+        "pinyin": "kùnnán",
+        "definition": "difficulty",
+        "hint": "Focus on 'kùnnán' to remember it means 'difficulty'."
+      },
+      {
+        "word": "解决",
+        "pinyin": "jiějiué",
+        "definition": "to solve",
+        "hint": "Focus on 'jiějiué' to remember it means 'to solve'."
+      },
+      {
+        "word": "养成",
+        "pinyin": "yǎngchéng",
+        "definition": "to form (a habit)",
+        "hint": "Focus on 'yǎngchéng' to remember it means 'to form (a habit)'."
+      },
+      {
+        "word": "习惯",
+        "pinyin": "xíguàn",
+        "definition": "habit",
+        "hint": "Focus on 'xíguàn' to remember it means 'habit'."
+      },
+      {
+        "word": "确实",
+        "pinyin": "quèshí",
+        "definition": "indeed",
+        "hint": "Focus on 'quèshí' to remember it means 'indeed'."
+      }
     ],
     "grammar": [
       {
         "point": "The adverb 确实 (quèshí)",
         "explanation": "Means 'indeed' or 'really', used to confirm a fact.",
         "examples": [
-          {"chinese": "读书确实有很多好处。", "pinyin": "Dúshū quèshí yǒu hěn duō hǎochù.", "english": "Reading indeed has many benefits."}
+          {
+            "chinese": "读书确实有很多好处。",
+            "pinyin": "Dúshū quèshí yǒu hěn duō hǎochù.",
+            "english": "Reading indeed has many benefits."
+          }
         ]
       }
     ]
@@ -308,23 +959,77 @@
     "lesson": 12,
     "title": "用心发现世界",
     "vocabulary": [
-      {"word": "发现", "pinyin": "fāxiàn", "definition": "to discover"},
-      {"word": "世界", "pinyin": "shìjiè", "definition": "world"},
-      {"word": "精彩", "pinyin": "jīngcǎi", "definition": "wonderful"},
-      {"word": "观察", "pinyin": "guānchá", "definition": "to observe"},
-      {"word": "仔细", "pinyin": "zǐxì", "definition": "careful, detailed"},
-      {"word": "考虑", "pinyin": "kǎolǜ", "definition": "to consider"},
-      {"word": "原因", "pinyin": "yuányīn", "definition": "reason"},
-      {"word": "方法", "pinyin": "fāngfǎ", "definition": "method"},
-      {"word": "准确", "pinyin": "zhǔnquè", "definition": "accurate"},
-      {"word": "通过", "pinyin": "tōngguò", "definition": "through"}
+      {
+        "word": "发现",
+        "pinyin": "fāxiàn",
+        "definition": "to discover",
+        "hint": "Focus on 'fāxiàn' to remember it means 'to discover'."
+      },
+      {
+        "word": "世界",
+        "pinyin": "shìjiè",
+        "definition": "world",
+        "hint": "Focus on 'shìjiè' to remember it means 'world'."
+      },
+      {
+        "word": "精彩",
+        "pinyin": "jīngcǎi",
+        "definition": "wonderful",
+        "hint": "Focus on 'jīngcǎi' to remember it means 'wonderful'."
+      },
+      {
+        "word": "观察",
+        "pinyin": "guānchá",
+        "definition": "to observe",
+        "hint": "Focus on 'guānchá' to remember it means 'to observe'."
+      },
+      {
+        "word": "仔细",
+        "pinyin": "zǐxì",
+        "definition": "careful, detailed",
+        "hint": "Focus on 'zǐxì' to remember it means 'careful, detailed'."
+      },
+      {
+        "word": "考虑",
+        "pinyin": "kǎolǜ",
+        "definition": "to consider",
+        "hint": "Focus on 'kǎolǜ' to remember it means 'to consider'."
+      },
+      {
+        "word": "原因",
+        "pinyin": "yuányīn",
+        "definition": "reason",
+        "hint": "Focus on 'yuányīn' to remember it means 'reason'."
+      },
+      {
+        "word": "方法",
+        "pinyin": "fāngfǎ",
+        "definition": "method",
+        "hint": "Focus on 'fāngfǎ' to remember it means 'method'."
+      },
+      {
+        "word": "准确",
+        "pinyin": "zhǔnquè",
+        "definition": "accurate",
+        "hint": "Focus on 'zhǔnquè' to remember it means 'accurate'."
+      },
+      {
+        "word": "通过",
+        "pinyin": "tōngguò",
+        "definition": "through",
+        "hint": "Focus on 'tōngguò' to remember it means 'through'."
+      }
     ],
     "grammar": [
       {
         "point": "The preposition 通过 (tōngguò)",
         "explanation": "Means 'through' or 'by means of', used to indicate the way or channel.",
         "examples": [
-          {"chinese": "通过观察，他发现了问题。", "pinyin": "Tōngguò guānchá, tā fāxiàn le wèntí.", "english": "Through observation, he discovered the problem."}
+          {
+            "chinese": "通过观察，他发现了问题。",
+            "pinyin": "Tōngguò guānchá, tā fāxiàn le wèntí.",
+            "english": "Through observation, he discovered the problem."
+          }
         ]
       }
     ]
@@ -333,23 +1038,77 @@
     "lesson": 13,
     "title": "喝着茶看真情",
     "vocabulary": [
-      {"word": "茶叶", "pinyin": "cháyè", "definition": "tea leaves"},
-      {"word": "茶具", "pinyin": "chájù", "definition": "tea set"},
-      {"word": "味道", "pinyin": "wèidào", "definition": "taste, flavor"},
-      {"word": "感觉", "pinyin": "gǎnjué", "definition": "to feel"},
-      {"word": "慢慢", "pinyin": "mànmàn", "definition": "slowly"},
-      {"word": "享受", "pinyin": "xiǎngshòu", "definition": "to enjoy"},
-      {"word": "心情", "pinyin": "xīnqíng", "definition": "mood"},
-      {"word": "复杂", "pinyin": "fùzá", "definition": "complex"},
-      {"word": "简单", "pinyin": "jiǎndān", "definition": "simple"},
-      {"word": "真诚", "pinyin": "zhēnchéng", "definition": "sincere"}
+      {
+        "word": "茶叶",
+        "pinyin": "cháyè",
+        "definition": "tea leaves",
+        "hint": "Focus on 'cháyè' to remember it means 'tea leaves'."
+      },
+      {
+        "word": "茶具",
+        "pinyin": "chájù",
+        "definition": "tea set",
+        "hint": "Focus on 'chájù' to remember it means 'tea set'."
+      },
+      {
+        "word": "味道",
+        "pinyin": "wèidào",
+        "definition": "taste, flavor",
+        "hint": "Focus on 'wèidào' to remember it means 'taste, flavor'."
+      },
+      {
+        "word": "感觉",
+        "pinyin": "gǎnjué",
+        "definition": "to feel",
+        "hint": "Focus on 'gǎnjué' to remember it means 'to feel'."
+      },
+      {
+        "word": "慢慢",
+        "pinyin": "mànmàn",
+        "definition": "slowly",
+        "hint": "Focus on 'mànmàn' to remember it means 'slowly'."
+      },
+      {
+        "word": "享受",
+        "pinyin": "xiǎngshòu",
+        "definition": "to enjoy",
+        "hint": "Focus on 'xiǎngshòu' to remember it means 'to enjoy'."
+      },
+      {
+        "word": "心情",
+        "pinyin": "xīnqíng",
+        "definition": "mood",
+        "hint": "Focus on 'xīnqíng' to remember it means 'mood'."
+      },
+      {
+        "word": "复杂",
+        "pinyin": "fùzá",
+        "definition": "complex",
+        "hint": "Focus on 'fùzá' to remember it means 'complex'."
+      },
+      {
+        "word": "简单",
+        "pinyin": "jiǎndān",
+        "definition": "simple",
+        "hint": "Focus on 'jiǎndān' to remember it means 'simple'."
+      },
+      {
+        "word": "真诚",
+        "pinyin": "zhēnchéng",
+        "definition": "sincere",
+        "hint": "Focus on 'zhēnchéng' to remember it means 'sincere'."
+      }
     ],
     "grammar": [
       {
         "point": "The adverb 慢慢 (mànmàn)",
         "explanation": "Reduplicated adjective used as an adverb to mean 'slowly' or 'gradually'.",
         "examples": [
-          {"chinese": "慢慢享受这种感觉。", "pinyin": "Mànmàn xiǎngshòu zhè zhǒng gǎnjué.", "english": "Slowly enjoy this feeling."}
+          {
+            "chinese": "慢慢享受这种感觉。",
+            "pinyin": "Mànmàn xiǎngshòu zhè zhǒng gǎnjué.",
+            "english": "Slowly enjoy this feeling."
+          }
         ]
       }
     ]
@@ -358,23 +1117,77 @@
     "lesson": 14,
     "title": "保护环境",
     "vocabulary": [
-      {"word": "保护", "pinyin": "bǎohù", "definition": "to protect"},
-      {"word": "环境", "pinyin": "huánjìng", "definition": "environment"},
-      {"word": "节约", "pinyin": "jiéyuē", "definition": "to save, to conserve"},
-      {"word": "能源", "pinyin": "néngyuán", "definition": "energy"},
-      {"word": "污染", "pinyin": "wūrǎn", "definition": "pollution"},
-      {"word": "严重", "pinyin": "yánzhòng", "definition": "serious"},
-      {"word": "重视", "pinyin": "zhòngshì", "definition": "to attach importance to"},
-      {"word": "垃圾", "pinyin": "lājī", "definition": "garbage"},
-      {"word": "分类", "pinyin": "fēnlèi", "definition": "classification"},
-      {"word": "自然", "pinyin": "zìrn", "definition": "nature"}
+      {
+        "word": "保护",
+        "pinyin": "bǎohù",
+        "definition": "to protect",
+        "hint": "Focus on 'bǎohù' to remember it means 'to protect'."
+      },
+      {
+        "word": "环境",
+        "pinyin": "huánjìng",
+        "definition": "environment",
+        "hint": "Focus on 'huánjìng' to remember it means 'environment'."
+      },
+      {
+        "word": "节约",
+        "pinyin": "jiéyuē",
+        "definition": "to save, to conserve",
+        "hint": "Focus on 'jiéyuē' to remember it means 'to save, to conserve'."
+      },
+      {
+        "word": "能源",
+        "pinyin": "néngyuán",
+        "definition": "energy",
+        "hint": "Focus on 'néngyuán' to remember it means 'energy'."
+      },
+      {
+        "word": "污染",
+        "pinyin": "wūrǎn",
+        "definition": "pollution",
+        "hint": "Focus on 'wūrǎn' to remember it means 'pollution'."
+      },
+      {
+        "word": "严重",
+        "pinyin": "yánzhòng",
+        "definition": "serious",
+        "hint": "Focus on 'yánzhòng' to remember it means 'serious'."
+      },
+      {
+        "word": "重视",
+        "pinyin": "zhòngshì",
+        "definition": "to attach importance to",
+        "hint": "Focus on 'zhòngshì' to remember it means 'to attach importance to'."
+      },
+      {
+        "word": "垃圾",
+        "pinyin": "lājī",
+        "definition": "garbage",
+        "hint": "Focus on 'lājī' to remember it means 'garbage'."
+      },
+      {
+        "word": "分类",
+        "pinyin": "fēnlèi",
+        "definition": "classification",
+        "hint": "Focus on 'fēnlèi' to remember it means 'classification'."
+      },
+      {
+        "word": "自然",
+        "pinyin": "zìrn",
+        "definition": "nature",
+        "hint": "Focus on 'zìrn' to remember it means 'nature'."
+      }
     ],
     "grammar": [
       {
         "point": "The verb 重视 (zhòngshì)",
         "explanation": "Means 'to attach importance to' or 'to value'.",
         "examples": [
-          {"chinese": "我们应该重视环境保护。", "pinyin": "Wǒmen yīnggāi zhòngshì huánjìng bǎohù.", "english": "We should value environmental protection."}
+          {
+            "chinese": "我们应该重视环境保护。",
+            "pinyin": "Wǒmen yīnggāi zhòngshì huánjìng bǎohù.",
+            "english": "We should value environmental protection."
+          }
         ]
       }
     ]
@@ -383,23 +1196,77 @@
     "lesson": 15,
     "title": "教育的孩子",
     "vocabulary": [
-      {"word": "教育", "pinyin": "jiàoyù", "definition": "education"},
-      {"word": "孩子", "pinyin": "háizi", "definition": "child"},
-      {"word": "严格", "pinyin": "yángé", "definition": "strict"},
-      {"word": "鼓励", "pinyin": "gǔlì", "definition": "to encourage"},
-      {"word": "赞扬", "pinyin": "zànyáng", "definition": "to praise"},
-      {"word": "自信", "pinyin": "zìxìn", "definition": "self-confidence"},
-      {"word": "成功", "pinyin": "chénggōng", "definition": "success"},
-      {"word": "将来", "pinyin": "jiānglái", "definition": "future"},
-      {"word": "负责", "pinyin": "fùzé", "definition": "responsible"},
-      {"word": "培养", "pinyin": "péiyǎng", "definition": "to cultivate"}
+      {
+        "word": "教育",
+        "pinyin": "jiàoyù",
+        "definition": "education",
+        "hint": "Focus on 'jiàoyù' to remember it means 'education'."
+      },
+      {
+        "word": "孩子",
+        "pinyin": "háizi",
+        "definition": "child",
+        "hint": "Focus on 'háizi' to remember it means 'child'."
+      },
+      {
+        "word": "严格",
+        "pinyin": "yángé",
+        "definition": "strict",
+        "hint": "Focus on 'yángé' to remember it means 'strict'."
+      },
+      {
+        "word": "鼓励",
+        "pinyin": "gǔlì",
+        "definition": "to encourage",
+        "hint": "Focus on 'gǔlì' to remember it means 'to encourage'."
+      },
+      {
+        "word": "赞扬",
+        "pinyin": "zànyáng",
+        "definition": "to praise",
+        "hint": "Focus on 'zànyáng' to remember it means 'to praise'."
+      },
+      {
+        "word": "自信",
+        "pinyin": "zìxìn",
+        "definition": "self-confidence",
+        "hint": "Focus on 'zìxìn' to remember it means 'self-confidence'."
+      },
+      {
+        "word": "成功",
+        "pinyin": "chénggōng",
+        "definition": "success",
+        "hint": "Focus on 'chénggōng' to remember it means 'success'."
+      },
+      {
+        "word": "将来",
+        "pinyin": "jiānglái",
+        "definition": "future",
+        "hint": "Focus on 'jiānglái' to remember it means 'future'."
+      },
+      {
+        "word": "负责",
+        "pinyin": "fùzé",
+        "definition": "responsible",
+        "hint": "Focus on 'fùzé' to remember it means 'responsible'."
+      },
+      {
+        "word": "培养",
+        "pinyin": "péiyǎng",
+        "definition": "to cultivate",
+        "hint": "Focus on 'péiyǎng' to remember it means 'to cultivate'."
+      }
     ],
     "grammar": [
       {
         "point": "The adjective 严格 (yángé)",
         "explanation": "Means 'strict' or 'rigorous'. Often used with 对.",
         "examples": [
-          {"chinese": "老师对他很严格。", "pinyin": "Lǎoshī duì tā hěn yángé.", "english": "The teacher is very strict with him."}
+          {
+            "chinese": "老师对他很严格。",
+            "pinyin": "Lǎoshī duì tā hěn yángé.",
+            "english": "The teacher is very strict with him."
+          }
         ]
       }
     ]
@@ -408,23 +1275,77 @@
     "lesson": 16,
     "title": "人生的哲理",
     "vocabulary": [
-      {"word": "哲理", "pinyin": "zhélǐ", "definition": "philosophy"},
-      {"word": "人生", "pinyin": "rénshēng", "definition": "life"},
-      {"word": "理解", "pinyin": "lǐjiě", "definition": "to understand"},
-      {"word": "深刻", "pinyin": "shēnkè", "definition": "deep, profound"},
-      {"word": "幸福", "pinyin": "xìngfú", "definition": "happiness"},
-      {"word": "标准", "pinyin": "biāozhǔn", "definition": "standard"},
-      {"word": "选择", "pinyin": "xuǎnzé", "definition": "choice"},
-      {"word": "珍惜", "pinyin": "zhēnxī", "definition": "to cherish"},
-      {"word": "获得", "pinyin": "huòdé", "definition": "to obtain"},
-      {"word": "满足", "pinyin": "mǎnzú", "definition": "satisfaction"}
+      {
+        "word": "哲理",
+        "pinyin": "zhélǐ",
+        "definition": "philosophy",
+        "hint": "Focus on 'zhélǐ' to remember it means 'philosophy'."
+      },
+      {
+        "word": "人生",
+        "pinyin": "rénshēng",
+        "definition": "life",
+        "hint": "Focus on 'rénshēng' to remember it means 'life'."
+      },
+      {
+        "word": "理解",
+        "pinyin": "lǐjiě",
+        "definition": "to understand",
+        "hint": "Focus on 'lǐjiě' to remember it means 'to understand'."
+      },
+      {
+        "word": "深刻",
+        "pinyin": "shēnkè",
+        "definition": "deep, profound",
+        "hint": "Focus on 'shēnkè' to remember it means 'deep, profound'."
+      },
+      {
+        "word": "幸福",
+        "pinyin": "xìngfú",
+        "definition": "happiness",
+        "hint": "Focus on 'xìngfú' to remember it means 'happiness'."
+      },
+      {
+        "word": "标准",
+        "pinyin": "biāozhǔn",
+        "definition": "standard",
+        "hint": "Focus on 'biāozhǔn' to remember it means 'standard'."
+      },
+      {
+        "word": "选择",
+        "pinyin": "xuǎnzé",
+        "definition": "choice",
+        "hint": "Focus on 'xuǎnzé' to remember it means 'choice'."
+      },
+      {
+        "word": "珍惜",
+        "pinyin": "zhēnxī",
+        "definition": "to cherish",
+        "hint": "Focus on 'zhēnxī' to remember it means 'to cherish'."
+      },
+      {
+        "word": "获得",
+        "pinyin": "huòdé",
+        "definition": "to obtain",
+        "hint": "Focus on 'huòdé' to remember it means 'to obtain'."
+      },
+      {
+        "word": "满足",
+        "pinyin": "mǎnzú",
+        "definition": "satisfaction",
+        "hint": "Focus on 'mǎnzú' to remember it means 'satisfaction'."
+      }
     ],
     "grammar": [
       {
         "point": "The verb 珍惜 (zhēnxī)",
         "explanation": "Means 'to cherish' or 'to treasure'.",
         "examples": [
-          {"chinese": "我们要珍惜时间。", "pinyin": "Wǒmen yào zhēnxī shíjiān.", "english": "We should cherish time."}
+          {
+            "chinese": "我们要珍惜时间。",
+            "pinyin": "Wǒmen yào zhēnxī shíjiān.",
+            "english": "We should cherish time."
+          }
         ]
       }
     ]
@@ -433,23 +1354,77 @@
     "lesson": 17,
     "title": "人际交往",
     "vocabulary": [
-      {"word": "交往", "pinyin": "jiāowǎng", "definition": "intercourse, contact"},
-      {"word": "礼貌", "pinyin": "lǐmào", "definition": "politeness"},
-      {"word": "诚实", "pinyin": "chéngshí", "definition": "honest"},
-      {"word": "信任", "pinyin": "xìnrèn", "definition": "trust"},
-      {"word": "支持", "pinyin": "zhīchí", "definition": "support"},
-      {"word": "理解", "pinyin": "lǐjiě", "definition": "understanding"},
-      {"word": "沟通", "pinyin": "gōutōng", "definition": "communication"},
-      {"word": "关系", "pinyin": "guānxì", "definition": "relationship"},
-      {"word": "友谊", "pinyin": "yǒuyì", "definition": "friendship"},
-      {"word": "和谐", "pinyin": "héxié", "definition": "harmony"}
+      {
+        "word": "交往",
+        "pinyin": "jiāowǎng",
+        "definition": "intercourse, contact",
+        "hint": "Focus on 'jiāowǎng' to remember it means 'intercourse, contact'."
+      },
+      {
+        "word": "礼貌",
+        "pinyin": "lǐmào",
+        "definition": "politeness",
+        "hint": "Focus on 'lǐmào' to remember it means 'politeness'."
+      },
+      {
+        "word": "诚实",
+        "pinyin": "chéngshí",
+        "definition": "honest",
+        "hint": "Focus on 'chéngshí' to remember it means 'honest'."
+      },
+      {
+        "word": "信任",
+        "pinyin": "xìnrèn",
+        "definition": "trust",
+        "hint": "Focus on 'xìnrèn' to remember it means 'trust'."
+      },
+      {
+        "word": "支持",
+        "pinyin": "zhīchí",
+        "definition": "support",
+        "hint": "Focus on 'zhīchí' to remember it means 'support'."
+      },
+      {
+        "word": "理解",
+        "pinyin": "lǐjiě",
+        "definition": "understanding",
+        "hint": "Focus on 'lǐjiě' to remember it means 'understanding'."
+      },
+      {
+        "word": "沟通",
+        "pinyin": "gōutōng",
+        "definition": "communication",
+        "hint": "Focus on 'gōutōng' to remember it means 'communication'."
+      },
+      {
+        "word": "关系",
+        "pinyin": "guānxì",
+        "definition": "relationship",
+        "hint": "Focus on 'guānxì' to remember it means 'relationship'."
+      },
+      {
+        "word": "友谊",
+        "pinyin": "yǒuyì",
+        "definition": "friendship",
+        "hint": "Focus on 'yǒuyì' to remember it means 'friendship'."
+      },
+      {
+        "word": "和谐",
+        "pinyin": "héxié",
+        "definition": "harmony",
+        "hint": "Focus on 'héxié' to remember it means 'harmony'."
+      }
     ],
     "grammar": [
       {
         "point": "The verb 信任 (xìnrèn)",
         "explanation": "Means 'to trust' or 'to have confidence in'.",
         "examples": [
-          {"chinese": "朋友之间要互相信任。", "pinyin": "Péngyou zhījiān yào hùxiāng xìnrèn.", "english": "Friends should trust each other."}
+          {
+            "chinese": "朋友之间要互相信任。",
+            "pinyin": "Péngyou zhījiān yào hùxiāng xìnrèn.",
+            "english": "Friends should trust each other."
+          }
         ]
       }
     ]
@@ -458,23 +1433,77 @@
     "lesson": 18,
     "title": "科技的发展",
     "vocabulary": [
-      {"word": "科技", "pinyin": "kējì", "definition": "science and technology"},
-      {"word": "发展", "pinyin": "fāzhǎn", "definition": "development"},
-      {"word": "改变", "pinyin": "gǎibiàn", "definition": "change"},
-      {"word": "速度", "pinyin": "sùdù", "definition": "speed"},
-      {"word": "便利", "pinyin": "biànlì", "definition": "convenience"},
-      {"word": "网络", "pinyin": "wǎngluò", "definition": "network, internet"},
-      {"word": "影响", "pinyin": "yǐngxiǎng", "definition": "influence"},
-      {"word": "普遍", "pinyin": "pǔbiàn", "definition": "universal, widespread"},
-      {"word": "改善", "pinyin": "gǎishàn", "definition": "to improve"},
-      {"word": "进步", "pinyin": "jìnbù", "definition": "progress"}
+      {
+        "word": "科技",
+        "pinyin": "kējì",
+        "definition": "science and technology",
+        "hint": "Focus on 'kējì' to remember it means 'science and technology'."
+      },
+      {
+        "word": "发展",
+        "pinyin": "fāzhǎn",
+        "definition": "development",
+        "hint": "Focus on 'fāzhǎn' to remember it means 'development'."
+      },
+      {
+        "word": "改变",
+        "pinyin": "gǎibiàn",
+        "definition": "change",
+        "hint": "Focus on 'gǎibiàn' to remember it means 'change'."
+      },
+      {
+        "word": "速度",
+        "pinyin": "sùdù",
+        "definition": "speed",
+        "hint": "Focus on 'sùdù' to remember it means 'speed'."
+      },
+      {
+        "word": "便利",
+        "pinyin": "biànlì",
+        "definition": "convenience",
+        "hint": "Focus on 'biànlì' to remember it means 'convenience'."
+      },
+      {
+        "word": "网络",
+        "pinyin": "wǎngluò",
+        "definition": "network, internet",
+        "hint": "Focus on 'wǎngluò' to remember it means 'network, internet'."
+      },
+      {
+        "word": "影响",
+        "pinyin": "yǐngxiǎng",
+        "definition": "influence",
+        "hint": "Focus on 'yǐngxiǎng' to remember it means 'influence'."
+      },
+      {
+        "word": "普遍",
+        "pinyin": "pǔbiàn",
+        "definition": "universal, widespread",
+        "hint": "Focus on 'pǔbiàn' to remember it means 'universal, widespread'."
+      },
+      {
+        "word": "改善",
+        "pinyin": "gǎishàn",
+        "definition": "to improve",
+        "hint": "Focus on 'gǎishàn' to remember it means 'to improve'."
+      },
+      {
+        "word": "进步",
+        "pinyin": "jìnbù",
+        "definition": "progress",
+        "hint": "Focus on 'jìnbù' to remember it means 'progress'."
+      }
     ],
     "grammar": [
       {
         "point": "The structure 'A 对 B 有影响'",
         "explanation": "Means 'A has an influence on B'.",
         "examples": [
-          {"chinese": "网络对生活有很大影响。", "pinyin": "Wǎngluò duì shēnghuó yǒu hěn dà yǐngxiǎng.", "english": "The internet has a great influence on life."}
+          {
+            "chinese": "网络对生活有很大影响。",
+            "pinyin": "Wǎngluò duì shēnghuó yǒu hěn dà yǐngxiǎng.",
+            "english": "The internet has a great influence on life."
+          }
         ]
       }
     ]
@@ -483,23 +1512,77 @@
     "lesson": 19,
     "title": "职场生活",
     "vocabulary": [
-      {"word": "职场", "pinyin": "zhíchǎng", "definition": "workplace"},
-      {"word": "压力", "pinyin": "yālì", "definition": "pressure"},
-      {"word": "竞争", "pinyin": "jìngzhēng", "definition": "competition"},
-      {"word": "挑战", "pinyin": "tiǎozhàn", "definition": "challenge"},
-      {"word": "机会", "pinyin": "jīhuì", "definition": "opportunity"},
-      {"word": "能力", "pinyin": "nénglì", "definition": "ability"},
-      {"word": "管理", "pinyin": "guǎnlǐ", "definition": "management"},
-      {"word": "效率", "pinyin": "xiàolǜ", "definition": "efficiency"},
-      {"word": "成果", "pinyin": "chéngguǒ", "definition": "result, fruit"},
-      {"word": "成功", "pinyin": "chénggōng", "definition": "success"}
+      {
+        "word": "职场",
+        "pinyin": "zhíchǎng",
+        "definition": "workplace",
+        "hint": "Focus on 'zhíchǎng' to remember it means 'workplace'."
+      },
+      {
+        "word": "压力",
+        "pinyin": "yālì",
+        "definition": "pressure",
+        "hint": "Focus on 'yālì' to remember it means 'pressure'."
+      },
+      {
+        "word": "竞争",
+        "pinyin": "jìngzhēng",
+        "definition": "competition",
+        "hint": "Focus on 'jìngzhēng' to remember it means 'competition'."
+      },
+      {
+        "word": "挑战",
+        "pinyin": "tiǎozhàn",
+        "definition": "challenge",
+        "hint": "Focus on 'tiǎozhàn' to remember it means 'challenge'."
+      },
+      {
+        "word": "机会",
+        "pinyin": "jīhuì",
+        "definition": "opportunity",
+        "hint": "Focus on 'jīhuì' to remember it means 'opportunity'."
+      },
+      {
+        "word": "能力",
+        "pinyin": "nénglì",
+        "definition": "ability",
+        "hint": "Focus on 'nénglì' to remember it means 'ability'."
+      },
+      {
+        "word": "管理",
+        "pinyin": "guǎnlǐ",
+        "definition": "management",
+        "hint": "Focus on 'guǎnlǐ' to remember it means 'management'."
+      },
+      {
+        "word": "效率",
+        "pinyin": "xiàolǜ",
+        "definition": "efficiency",
+        "hint": "Focus on 'xiàolǜ' to remember it means 'efficiency'."
+      },
+      {
+        "word": "成果",
+        "pinyin": "chéngguǒ",
+        "definition": "result, fruit",
+        "hint": "Focus on 'chéngguǒ' to remember it means 'result, fruit'."
+      },
+      {
+        "word": "成功",
+        "pinyin": "chénggōng",
+        "definition": "success",
+        "hint": "Focus on 'chénggōng' to remember it means 'success'."
+      }
     ],
     "grammar": [
       {
         "point": "The verb 挑战 (tiǎozhàn)",
         "explanation": "Can be a noun (challenge) or a verb (to challenge).",
         "examples": [
-          {"chinese": "这是一次很大的挑战。", "pinyin": "Zhè shì yí cì hěn dà de tiǎozhàn.", "english": "This is a very big challenge."}
+          {
+            "chinese": "这是一次很大的挑战。",
+            "pinyin": "Zhè shì yí cì hěn dà de tiǎozhàn.",
+            "english": "This is a very big challenge."
+          }
         ]
       }
     ]
@@ -508,23 +1591,77 @@
     "lesson": 20,
     "title": "未来的世界",
     "vocabulary": [
-      {"word": "未来", "pinyin": "wèilái", "definition": "future"},
-      {"word": "想象", "pinyin": "xiǎngxiàng", "definition": "imagination"},
-      {"word": "期待", "pinyin": "qīdài", "definition": "to expect"},
-      {"word": "梦想", "pinyin": "mèngxiǎng", "definition": "dream"},
-      {"word": "现实", "pinyin": "xiànshí", "definition": "reality"},
-      {"word": "创造", "pinyin": "chuàngzào", "definition": "to create"},
-      {"word": "奇迹", "pinyin": "qíjì", "definition": "miracle"},
-      {"word": "希望", "pinyin": "xīwàng", "definition": "hope"},
-      {"word": "目标", "pinyin": "mùbiāo", "definition": "goal"},
-      {"word": "努力", "pinyin": "nǔlì", "definition": "effort"}
+      {
+        "word": "未来",
+        "pinyin": "wèilái",
+        "definition": "future",
+        "hint": "Focus on 'wèilái' to remember it means 'future'."
+      },
+      {
+        "word": "想象",
+        "pinyin": "xiǎngxiàng",
+        "definition": "imagination",
+        "hint": "Focus on 'xiǎngxiàng' to remember it means 'imagination'."
+      },
+      {
+        "word": "期待",
+        "pinyin": "qīdài",
+        "definition": "to expect",
+        "hint": "Focus on 'qīdài' to remember it means 'to expect'."
+      },
+      {
+        "word": "梦想",
+        "pinyin": "mèngxiǎng",
+        "definition": "dream",
+        "hint": "Focus on 'mèngxiǎng' to remember it means 'dream'."
+      },
+      {
+        "word": "现实",
+        "pinyin": "xiànshí",
+        "definition": "reality",
+        "hint": "Focus on 'xiànshí' to remember it means 'reality'."
+      },
+      {
+        "word": "创造",
+        "pinyin": "chuàngzào",
+        "definition": "to create",
+        "hint": "Focus on 'chuàngzào' to remember it means 'to create'."
+      },
+      {
+        "word": "奇迹",
+        "pinyin": "qíjì",
+        "definition": "miracle",
+        "hint": "Focus on 'qíjì' to remember it means 'miracle'."
+      },
+      {
+        "word": "希望",
+        "pinyin": "xīwàng",
+        "definition": "hope",
+        "hint": "Focus on 'xīwàng' to remember it means 'hope'."
+      },
+      {
+        "word": "目标",
+        "pinyin": "mùbiāo",
+        "definition": "goal",
+        "hint": "Focus on 'mùbiāo' to remember it means 'goal'."
+      },
+      {
+        "word": "努力",
+        "pinyin": "nǔlì",
+        "definition": "effort",
+        "hint": "Focus on 'nǔlì' to remember it means 'effort'."
+      }
     ],
     "grammar": [
       {
         "point": "The structure '对...充满希望'",
         "explanation": "Means 'to be full of hope for...'.",
         "examples": [
-          {"chinese": "我对未来充满希望。", "pinyin": "Wǒ duì wèilái chōngmǎn xīwàng.", "english": "I am full of hope for the future."}
+          {
+            "chinese": "我对未来充满希望。",
+            "pinyin": "Wǒ duì wèilái chōngmǎn xīwàng.",
+            "english": "I am full of hope for the future."
+          }
         ]
       }
     ]

@@ -8,6 +8,7 @@ interface Word {
   word: string;
   pinyin: string;
   definition: string;
+  hint?: string;
   lesson?: number;
 }
 

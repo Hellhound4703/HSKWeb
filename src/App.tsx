@@ -29,6 +29,7 @@ interface Word {
   word: string;
   pinyin: string;
   definition: string;
+  hint?: string;
 }
 
 interface Lesson {
