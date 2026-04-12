@@ -32,10 +32,12 @@ const SRSViewer: React.FC<SRSViewerProps> = ({ user, level, allWords }) => {
   const [flipped, setFlipped] = useState(false);
   const [loading, setLoading] = useState(true);
   const [debugInfo, setDebugInfo] = useState<{totalInDb: number, due: number}>({ totalInDb: 0, due: 0 });
+  const [isInstant, setIsInstant] = useState(false);
 
-  const fetchSRSQueue = useCallback(async () => {
+  const fetchSRSQueue = useCallback(async (forceAll = false) => {
     if (!user) return;
     setLoading(true);
+    setIsInstant(forceAll);
     try {
       const srsRef = collection(db, 'users', user.uid, `hsk${level}_srs`);
       const querySnapshot = await getDocs(srsRef);
@@ -48,7 +50,7 @@ const SRSViewer: React.FC<SRSViewerProps> = ({ user, level, allWords }) => {
       querySnapshot.forEach((doc) => {
         total++;
         const data = doc.data() as SRSData;
-        if (data.nextReview.toDate() <= now) {
+        if (forceAll || data.nextReview.toDate() <= now) {
           srsMap.set(data.word, data);
         }
       });
@@ -74,7 +76,7 @@ const SRSViewer: React.FC<SRSViewerProps> = ({ user, level, allWords }) => {
   }, [user, level, allWords]);
 
   useEffect(() => {
-    fetchSRSQueue();
+    fetchSRSQueue(false);
   }, [fetchSRSQueue]);
 
   const handleGrade = async (grade: 'again' | 'hard' | 'good' | 'easy') => {
@@ -110,7 +112,7 @@ const SRSViewer: React.FC<SRSViewerProps> = ({ user, level, allWords }) => {
         setFlipped(false);
       } else {
         setQueue([]); // Queue finished
-        setDebugInfo(prev => ({ ...prev, due: prev.due - 1 }));
+        setDebugInfo(prev => ({ ...prev, due: Math.max(0, prev.due - 1) }));
       }
     } catch (error) {
       console.error("Error saving SRS progress:", error);
@@ -145,12 +147,25 @@ const SRSViewer: React.FC<SRSViewerProps> = ({ user, level, allWords }) => {
         <p className="text-xs text-gray-400 mb-6 font-medium">
           Words in your HSK {level} library: {debugInfo.totalInDb} | Due for review: {debugInfo.due}
         </p>
-        <button 
-          onClick={fetchSRSQueue}
-          className="px-6 py-2 bg-green-600 text-white rounded-full font-bold hover:bg-green-700 transition-all shadow-md active:scale-95"
-        >
-          Check Again
-        </button>
+        
+        <div className="flex flex-col gap-3 max-w-xs mx-auto">
+          <button 
+            onClick={() => fetchSRSQueue(false)}
+            className="px-6 py-2 bg-green-600 text-white rounded-full font-bold hover:bg-green-700 transition-all shadow-md active:scale-95"
+          >
+            Check Again
+          </button>
+          
+          {debugInfo.totalInDb > 0 && (
+            <button 
+              onClick={() => fetchSRSQueue(true)}
+              className="px-6 py-2 bg-white text-blue-600 border-2 border-blue-600 rounded-full font-bold hover:bg-blue-50 transition-all shadow-sm active:scale-95"
+            >
+              🚀 Instant Review All ({debugInfo.totalInDb})
+            </button>
+          )}
+        </div>
+
         {debugInfo.totalInDb === 0 && (
           <div className="mt-8 bg-blue-50 p-4 rounded-xl border border-blue-100">
             <p className="text-sm text-blue-800 font-bold mb-1">How to start reviewing:</p>
@@ -170,8 +185,11 @@ const SRSViewer: React.FC<SRSViewerProps> = ({ user, level, allWords }) => {
 
   return (
     <div className="flex flex-col items-center w-full px-2">
-      <div className="mb-4 text-blue-600 font-black text-xs uppercase tracking-widest">
-        Reviewing: {currentIndex + 1} / {queue.length}
+      <div className="mb-4 flex flex-col items-center gap-1">
+        <div className="text-blue-600 font-black text-xs uppercase tracking-widest">
+          {isInstant ? '🚀 Practice Mode' : '📅 SRS Review'}: {currentIndex + 1} / {queue.length}
+        </div>
+        {isInstant && <p className="text-[10px] text-gray-400">Practicing all words regardless of due date</p>}
       </div>
 
       <Flashcard 
