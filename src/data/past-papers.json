@@ -1,0 +1,114 @@
+[
+  {
+    "id": "H10901",
+    "level": 1,
+    "year": "2009",
+    "sections": { "listening": 100, "reading": 100 },
+    "passingTotal": 120
+  },
+  {
+    "id": "H10902",
+    "level": 1,
+    "year": "2009",
+    "sections": { "listening": 100, "reading": 100 },
+    "passingTotal": 120
+  },
+  {
+    "id": "H11329",
+    "level": 1,
+    "year": "2013",
+    "sections": { "listening": 100, "reading": 100 },
+    "passingTotal": 120
+  },
+  {
+    "id": "H11330",
+    "level": 1,
+    "year": "2013",
+    "sections": { "listening": 100, "reading": 100 },
+    "passingTotal": 120
+  },
+  {
+    "id": "H20901",
+    "level": 2,
+    "year": "2009",
+    "sections": { "listening": 100, "reading": 100 },
+    "passingTotal": 120
+  },
+  {
+    "id": "H20902",
+    "level": 2,
+    "year": "2009",
+    "sections": { "listening": 100, "reading": 100 },
+    "passingTotal": 120
+  },
+  {
+    "id": "H21329",
+    "level": 2,
+    "year": "2013",
+    "sections": { "listening": 100, "reading": 100 },
+    "passingTotal": 120
+  },
+  {
+    "id": "H21330",
+    "level": 2,
+    "year": "2013",
+    "sections": { "listening": 100, "reading": 100 },
+    "passingTotal": 120
+  },
+  {
+    "id": "H30901",
+    "level": 3,
+    "year": "2009",
+    "sections": { "listening": 100, "reading": 100, "writing": 100 },
+    "passingTotal": 180
+  },
+  {
+    "id": "H30902",
+    "level": 3,
+    "year": "2009",
+    "sections": { "listening": 100, "reading": 100, "writing": 100 },
+    "passingTotal": 180
+  },
+  {
+    "id": "H31329",
+    "level": 3,
+    "year": "2013",
+    "sections": { "listening": 100, "reading": 100, "writing": 100 },
+    "passingTotal": 180
+  },
+  {
+    "id": "H31330",
+    "level": 3,
+    "year": "2013",
+    "sections": { "listening": 100, "reading": 100, "writing": 100 },
+    "passingTotal": 180
+  },
+  {
+    "id": "H40901",
+    "level": 4,
+    "year": "2009",
+    "sections": { "listening": 100, "reading": 100, "writing": 100 },
+    "passingTotal": 180
+  },
+  {
+    "id": "H40902",
+    "level": 4,
+    "year": "2009",
+    "sections": { "listening": 100, "reading": 100, "writing": 100 },
+    "passingTotal": 180
+  },
+  {
+    "id": "H41329",
+    "level": 4,
+    "year": "2013",
+    "sections": { "listening": 100, "reading": 100, "writing": 100 },
+    "passingTotal": 180
+  },
+  {
+    "id": "H41330",
+    "level": 4,
+    "year": "2013",
+    "sections": { "listening": 100, "reading": 100, "writing": 100 },
+    "passingTotal": 180
+  }
+]
