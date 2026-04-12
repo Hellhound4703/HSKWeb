@@ -1,11 +1,83 @@
 [
   {
+    "id": "HSK1-R1",
+    "level": 1,
+    "type": "reorder",
+    "parts": ["是", "老师", "我"],
+    "translation": "I am a teacher.",
+    "answer": "我是老师"
+  },
+  {
+    "id": "HSK1-F1",
+    "level": 1,
+    "type": "fill",
+    "sentencePrefix": "你是",
+    "blankPinyin": "nǎ",
+    "sentenceSuffix": "国人？",
+    "translation": "Which country are you from?",
+    "answer": "哪"
+  },
+  {
+    "id": "HSK1-R2",
+    "level": 1,
+    "type": "reorder",
+    "parts": ["吗", "你好", "？"],
+    "translation": "How are you?",
+    "answer": "你好吗？"
+  },
+  {
+    "id": "HSK1-F2",
+    "level": 1,
+    "type": "fill",
+    "sentencePrefix": "谢谢",
+    "blankPinyin": "nǐ",
+    "sentenceSuffix": "。",
+    "translation": "Thank you.",
+    "answer": "你"
+  },
+  {
+    "id": "HSK2-R1",
+    "level": 2,
+    "type": "reorder",
+    "parts": ["六点", "起床", "我", "每天"],
+    "translation": "I get up at six every day.",
+    "answer": "我每天六点起床"
+  },
+  {
+    "id": "HSK2-F1",
+    "level": 2,
+    "type": "fill",
+    "sentencePrefix": "今天比昨天",
+    "blankPinyin": "rè",
+    "sentenceSuffix": "。",
+    "translation": "Today is hotter than yesterday.",
+    "answer": "热"
+  },
+  {
+    "id": "HSK2-R2",
+    "level": 2,
+    "type": "reorder",
+    "parts": ["这个", "怎么样", "你", "觉得", "？"],
+    "translation": "What do you think of this?",
+    "answer": "你觉得这个怎么样？"
+  },
+  {
+    "id": "HSK2-F2",
+    "level": 2,
+    "type": "fill",
+    "sentencePrefix": "我要去北京",
+    "blankPinyin": "lǚ yóu",
+    "sentenceSuffix": "。",
+    "translation": "I want to go to Beijing to travel.",
+    "answer": "旅游"
+  },
+  {
     "id": "HSK3-R1",
     "level": 3,
     "type": "reorder",
     "parts": ["去", "银行", "想", "我", "办事"],
     "translation": "I want to go to the bank to do some business.",
-    "correct": "我想去银行办事"
+    "answer": "我想去银行办事"
   },
   {
     "id": "HSK3-F1",
@@ -23,7 +95,7 @@
     "type": "reorder",
     "parts": ["那个", "是", "送报纸的", "人"],
     "translation": "That person is the one who delivers newspapers.",
-    "correct": "那个人是送报纸的"
+    "answer": "那个人是送报纸的"
   },
   {
     "id": "HSK3-F2",
@@ -41,7 +113,7 @@
     "type": "reorder",
     "parts": ["从来", "我", "见过", "不仅", "没", "他"],
     "translation": "I have not only never seen him before...",
-    "correct": "我不仅从来没见过他"
+    "answer": "我不仅从来没见过他"
   },
   {
     "id": "HSK4-F1",
@@ -59,7 +131,7 @@
     "type": "reorder",
     "parts": ["坚持", "他", "由于", "努力", "成功了", "所以"],
     "translation": "Due to his persistence and effort, he succeeded.",
-    "correct": "由于他努力坚持所以成功了"
+    "answer": "由于他努力坚持所以成功了"
   },
   {
     "id": "HSK4-F2",

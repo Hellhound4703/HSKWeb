@@ -106,7 +106,7 @@ const SentenceViewer: React.FC<SentenceViewerProps> = ({ user, level }) => {
   if (exercises.length === 0) {
     return (
       <div className="text-center p-12 bg-white rounded-3xl shadow-xl border border-gray-100 max-w-md mx-auto">
-        <p className="text-gray-500 font-bold">No sentence practice available for HSK {level} yet. Try HSK 3 or 4!</p>
+        <p className="text-gray-500 font-bold">No sentence practice available for HSK {level} yet.</p>
       </div>
     );
   }
