@@ -78,24 +78,44 @@
     ],
     "grammar": [
       {
-        "point": "The auxiliary verb 要 (yào)",
+        "point": "The Auxiliary Verb 要 (yào)",
         "explanation": "要 is used before a verb to indicate a desire or necessity ('to want to', 'need to').",
         "examples": [
           {
             "chinese": "我要去北京旅游。",
             "pinyin": "Wǒ yào qù Běijīng lǚyóu.",
             "english": "I want to go to Beijing to travel."
+          },
+          {
+            "chinese": "你要喝茶吗？",
+            "pinyin": "Nǐ yào hē chá ma?",
+            "english": "Do you want to drink tea?"
+          },
+          {
+            "chinese": "我们要买个新电脑。",
+            "pinyin": "Wǒmen yào mǎi ge xīn diànnǎo.",
+            "english": "We need to buy a new computer."
           }
         ]
       },
       {
-        "point": "The adverb 最 (zuì)",
-        "explanation": "最 is used before an adjective or a verb to indicate the superlative degree ('most').",
+        "point": "The Adverb 最 (zuì)",
+        "explanation": "最 is used before an adjective or a psychological verb to indicate the superlative degree ('most').",
         "examples": [
           {
             "chinese": "北京九月天气最好。",
             "pinyin": "Běijīng jiǔyuè tiānqì zuì hǎo.",
             "english": "The weather in Beijing is the best in September."
+          },
+          {
+            "chinese": "他最喜欢踢足球。",
+            "pinyin": "Tā zuì xǐhuan tī zúqiú.",
+            "english": "He likes playing football the most."
+          },
+          {
+            "chinese": "你觉得谁最漂亮？",
+            "pinyin": "Nǐ juéde shéi zuì piàoliang?",
+            "english": "Who do you think is the most beautiful?"
           }
         ]
       }
@@ -192,24 +212,44 @@
     ],
     "grammar": [
       {
-        "point": "The pronoun 每 (měi)",
-        "explanation": "每 means 'every' or 'each'. It is often used with a measure word.",
+        "point": "The Pronoun 每 (měi)",
+        "explanation": "每 means 'every' or 'each'. It is often followed by a measure word and a noun. It often works with the adverb 都 (dōu).",
         "examples": [
           {
             "chinese": "我每天六点起床。",
             "pinyin": "Wǒ měitiān liù diǎn qǐchuáng.",
             "english": "I get up at six every day."
+          },
+          {
+            "chinese": "每个学生都很努力。",
+            "pinyin": "Měi ge xuésheng dōu hěn nǔlì.",
+            "english": "Every student is very hard-working."
+          },
+          {
+            "chinese": "他每年去一次中国。",
+            "pinyin": "Tā měinián qù yí cì Zhōngguó.",
+            "english": "He goes to China once every year."
           }
         ]
       },
       {
-        "point": "Interrogative pronoun 多 (duō) + Adjective",
-        "explanation": "Used to ask about the degree of something (how tall, how old, etc.).",
+        "point": "Interrogative Pronoun 多 (duō) + Adjective",
+        "explanation": "Used to ask about the degree of a quality, such as height, age, or distance.",
         "examples": [
           {
             "chinese": "你多高？",
             "pinyin": "Nǐ duō gāo?",
             "english": "How tall are you?"
+          },
+          {
+            "chinese": "你儿子多大了？",
+            "pinyin": "Nǐ érzi duō dà le?",
+            "english": "How old is your son?"
+          },
+          {
+            "chinese": "从这儿到那儿有多远？",
+            "pinyin": "Cóng zhèr dào nàr yǒu duō yuǎn?",
+            "english": "How far is it from here to there?"
           }
         ]
       }
@@ -306,24 +346,44 @@
     ],
     "grammar": [
       {
-        "point": "The '的' phrase",
-        "explanation": "A '的' phrase is formed by adding '的' to a noun, pronoun, or adjective, acting as a noun.",
+        "point": "The '的' (de) Phrase",
+        "explanation": "A '的' phrase is formed by adding '的' to a noun, pronoun, or adjective. It functions as a noun, often allowing you to omit the noun if it is clear from context.",
         "examples": [
           {
             "chinese": "这块手表是我的。",
             "pinyin": "Zhè kuài shǒubiǎo shì wǒ de.",
             "english": "This watch is mine."
+          },
+          {
+            "chinese": "红的是我的，白的是他的。",
+            "pinyin": "Hóng de shì wǒ de, bái de shì tā de.",
+            "english": "The red one is mine, the white one is his."
+          },
+          {
+            "chinese": "我要买件便宜的。",
+            "pinyin": "Wǒ yào mǎi jiàn piányi de.",
+            "english": "I want to buy a cheap one."
           }
         ]
       },
       {
-        "point": "The numeral-classifier '一下' (yíxià)",
-        "explanation": "Used after a verb to indicate a short or brief action.",
+        "point": "The Numeral-Classifier 一下 (yíxià)",
+        "explanation": "Used after a verb to indicate that the action is short, brief, or a trial attempt. It makes the tone softer and more polite.",
         "examples": [
           {
             "chinese": "你看一下。",
             "pinyin": "Nǐ kàn yíxià.",
             "english": "Have a look."
+          },
+          {
+            "chinese": "我休息一下。",
+            "pinyin": "Wǒ xiūxi yíxià.",
+            "english": "I will take a short rest."
+          },
+          {
+            "chinese": "请等一下。",
+            "pinyin": "Qǐng děng yíxià.",
+            "english": "Please wait a moment."
           }
         ]
       }
@@ -408,24 +468,44 @@
     ],
     "grammar": [
       {
-        "point": "The '是...的' construction (emphasizing agent)",
-        "explanation": "Used to emphasize the person who performed a past action.",
+        "point": "The '是...的' (shì...de) Construction (Agent)",
+        "explanation": "Used to emphasize the person (agent) who performed a specific past action.",
         "examples": [
           {
             "chinese": "这本书是哥哥买的。",
             "pinyin": "Zhè běn shū shì gēge mǎi de.",
             "english": "This book was bought by my older brother."
+          },
+          {
+            "chinese": "这个工作是他介绍的。",
+            "pinyin": "Zhège gōngzuò shì tā jièshào de.",
+            "english": "This job was recommended by him."
+          },
+          {
+            "chinese": "那是张老师写的。",
+            "pinyin": "Nà shì Zhāng lǎoshī xiě de.",
+            "english": "That was written by Teacher Zhang."
           }
         ]
       },
       {
-        "point": "The adverb 已经 (yǐjīng)",
-        "explanation": "Used to indicate that an action has already taken place or a state has reached a certain point.",
+        "point": "The Adverb 已经 (yǐjīng)",
+        "explanation": "Used to indicate that an action has already taken place or a state has reached a certain point. Usually used with 了 at the end.",
         "examples": [
           {
             "chinese": "我已经吃药了。",
             "pinyin": "Wǒ yǐjīng chī yào le.",
             "english": "I have already taken the medicine."
+          },
+          {
+            "chinese": "他已经出院了。",
+            "pinyin": "Tā yǐjīng chūyuàn le.",
+            "english": "He has already left the hospital."
+          },
+          {
+            "chinese": "已经十点了，快睡觉吧。",
+            "pinyin": "Yǐjīng shí diǎn le, kuài shuìjiào ba.",
+            "english": "It's already 10 o'clock, go to sleep quickly."
           }
         ]
       }
@@ -516,24 +596,44 @@
     ],
     "grammar": [
       {
-        "point": "The adverb 就 (jiù)",
-        "explanation": "Used to indicate a conclusion or resolution reached based on what has been said.",
+        "point": "The Adverb 就 (jiù)",
+        "explanation": "Used to indicate a conclusion or resolution reached naturally based on what has been previously discussed ('then', 'just').",
         "examples": [
           {
             "chinese": "你就买这件吧。",
             "pinyin": "Nǐ jiù mǎi zhè jiàn ba.",
             "english": "Then just buy this one."
+          },
+          {
+            "chinese": "他说去，我就去。",
+            "pinyin": "Tā shuō qù, wǒ jiù qù.",
+            "english": "If he says he's going, then I'll go."
+          },
+          {
+            "chinese": "明天是星期六，我就不看书了。",
+            "pinyin": "Míngtiān shì xīngqīliù, wǒ jiù bú kàn shū le.",
+            "english": "Tomorrow is Saturday, so I just won't study."
           }
         ]
       },
       {
         "point": "Comparison using 比 (bǐ)",
-        "explanation": "The basic form is 'A + 比 + B + Adjective'.",
+        "explanation": "Basic structure: A + 比 + B + Adjective. It indicates that A possesses a higher degree of a quality than B.",
         "examples": [
           {
             "chinese": "今天比昨天热。",
             "pinyin": "Jīntiān bǐ zuótiān rè.",
             "english": "Today is hotter than yesterday."
+          },
+          {
+            "chinese": "他比我高。",
+            "pinyin": "Tā bǐ wǒ gāo.",
+            "english": "He is taller than me."
+          },
+          {
+            "chinese": "这件衣服比那件贵。",
+            "pinyin": "Zhè jiàn yīfu bǐ nà jiàn guì.",
+            "english": "This piece of clothing is more expensive than that one."
           }
         ]
       }
@@ -618,24 +718,44 @@
     ],
     "grammar": [
       {
-        "point": "The structure 从...到... (cóng... dào...)",
+        "point": "The Structure 从...到... (cóng...dào...)",
         "explanation": "Used to indicate a range in time or space ('from... to...').",
         "examples": [
           {
             "chinese": "从北京到上海",
             "pinyin": "cóng Běijīng dào Shànghǎi",
             "english": "from Beijing to Shanghai"
+          },
+          {
+            "chinese": "我从八点到十点在工作。",
+            "pinyin": "Wǒ cóng bā diǎn dào shí diǎn zài gōngzuò.",
+            "english": "I am working from 8:00 to 10:00."
+          },
+          {
+            "chinese": "从我家到学校很近。",
+            "pinyin": "Cóng wǒ jiā dào xuéxiào hěn jìn.",
+            "english": "From my home to school is very close."
           }
         ]
       },
       {
-        "point": "The preposition 离 (lí)",
-        "explanation": "Used to indicate the distance between two places.",
+        "point": "The Preposition 离 (lí)",
+        "explanation": "Used to indicate the distance between two places or two points in time.",
         "examples": [
           {
             "chinese": "我家离学校很近。",
             "pinyin": "Wǒ jiā lí xuéxiào hěn jìn.",
             "english": "My home is very close to the school."
+          },
+          {
+            "chinese": "公司离机场远不远？",
+            "pinyin": "Gōngsī lí jīchǎng yuǎn bù yuǎn?",
+            "english": "Is the company far from the airport?"
+          },
+          {
+            "chinese": "离我的生日还有一个星期。",
+            "pinyin": "Lí wǒ de shēngrì hái yǒu yí ge xīngqī.",
+            "english": "It is still one week away from my birthday."
           }
         ]
       }
@@ -714,13 +834,23 @@
     ],
     "grammar": [
       {
-        "point": "The particle 着 (zhe) indicating state",
-        "explanation": "Attached to a verb to indicate that a state is continuing.",
+        "point": "The Particle 着 (zhe) (State)",
+        "explanation": "Attached to a verb to indicate that a state is continuing or a situation remains unchanged.",
         "examples": [
           {
             "chinese": "门开着呢。",
             "pinyin": "Mén kāi zhe ne.",
             "english": "The door is open."
+          },
+          {
+            "chinese": "他穿着一件红衣服。",
+            "pinyin": "Tā chuān zhe yí jiàn hóng yīfu.",
+            "english": "He is wearing a red piece of clothing."
+          },
+          {
+            "chinese": "手里拿着笔",
+            "pinyin": "shǒu li ná zhe bǐ",
+            "english": "holding a pen in hand"
           }
         ]
       }
@@ -787,13 +917,23 @@
     ],
     "grammar": [
       {
-        "point": "The adverbs 也 (yě) and 都 (dōu) for total negation",
-        "explanation": "Used with '一 + Measure Word + Noun' to indicate complete negation.",
+        "point": "也 (yě) and 都 (dōu) for Total Negation",
+        "explanation": "Used with '一 + Measure Word + Noun' to indicate that nothing or nobody fits the description ('not at all', 'not even one').",
         "examples": [
           {
             "chinese": "我一个苹果也不想吃。",
             "pinyin": "Wǒ yí ge píngguǒ yě bù xiǎng chī.",
             "english": "I don't want to eat even one apple."
+          },
+          {
+            "chinese": "他一点儿水都没喝。",
+            "pinyin": "Tā yìdiǎnr shuǐ dōu méi hē.",
+            "english": "He didn't drink even a little water."
+          },
+          {
+            "chinese": "今天一个人都没来。",
+            "pinyin": "Jīntiān yí ge rén dōu méi lái.",
+            "english": "Not even one person came today."
           }
         ]
       }
@@ -872,24 +1012,44 @@
     ],
     "grammar": [
       {
-        "point": "Result Complements",
-        "explanation": "A verb or adjective used after a verb to indicate the result of the action (e.g., 完, 懂, 对, 好).",
+        "point": "Result Complements (完, 懂, 对, 好)",
+        "explanation": "A verb or adjective used after another verb to indicate the outcome or result of the action.",
         "examples": [
           {
             "chinese": "题我做完了。",
             "pinyin": "Tí wǒ zuò wán le.",
             "english": "I have finished doing the questions."
+          },
+          {
+            "chinese": "你看懂了吗？",
+            "pinyin": "Nǐ kàn dǒng le ma?",
+            "english": "Did you understand (what you read)?"
+          },
+          {
+            "chinese": "你说对了。",
+            "pinyin": "Nǐ shuō duì le.",
+            "english": "You said it correctly."
           }
         ]
       },
       {
         "point": "就 (jiù) vs 才 (cái)",
-        "explanation": "就 indicates that an action happens early/fast, while 才 indicates it happens late/slow.",
+        "explanation": "就 indicates that an action happens early, fast, or smoothly. 才 indicates that it happens late, slow, or with difficulty.",
         "examples": [
           {
             "chinese": "他八点就来了。",
             "pinyin": "Tā bā diǎn jiù lái le.",
-            "english": "He came as early as eight o'clock."
+            "english": "He came as early as 8:00."
+          },
+          {
+            "chinese": "他八点才来。",
+            "pinyin": "Tā bā diǎn cái lái.",
+            "english": "He didn't come until 8:00."
+          },
+          {
+            "chinese": "坐飞机一个小时就到了。",
+            "pinyin": "Zuò fēijī yí ge xiǎoshí jiù dào le.",
+            "english": "It only takes one hour to arrive by plane."
           }
         ]
       }
@@ -944,13 +1104,23 @@
     ],
     "grammar": [
       {
-        "point": "The particle 过 (guò)",
-        "explanation": "Used after a verb to indicate a past experience ('have done').",
+        "point": "The Particle 过 (guò) (Past Experience)",
+        "explanation": "Used after a verb to indicate that an action has been experienced in the past ('have done').",
         "examples": [
           {
             "chinese": "我见过他。",
             "pinyin": "Wǒ jiàn guo tā.",
             "english": "I have seen him before."
+          },
+          {
+            "chinese": "你去过中国吗？",
+            "pinyin": "Nǐ qù guo Zhōngguó ma?",
+            "english": "Have you been to China?"
+          },
+          {
+            "chinese": "我没看过这个电影。",
+            "pinyin": "Wǒ méi kàn guo zhège diànyǐng.",
+            "english": "I haven't seen this movie."
           }
         ]
       }
@@ -1029,13 +1199,23 @@
     ],
     "grammar": [
       {
-        "point": "Comparison using 比 (bǐ) (2)",
-        "explanation": "A + 比 + B + Adjective + Complement (e.g., 一点儿, 一些, 多了, 得多).",
+        "point": "Comparison with 比 (bǐ) (Complements)",
+        "explanation": "A + 比 + B + Adjective + Complement. The complement can be '一点儿' (a bit), '一些' (a few), '多了' (a lot), or '得多' (much more).",
         "examples": [
           {
             "chinese": "他比我大三岁。",
             "pinyin": "Tā bǐ wǒ dà sān suì.",
             "english": "He is three years older than me."
+          },
+          {
+            "chinese": "今天比昨天冷一点儿。",
+            "pinyin": "Jīntiān bǐ zuótiān lěng yìdiǎnr.",
+            "english": "Today is a bit colder than yesterday."
+          },
+          {
+            "chinese": "数学比历史难多了。",
+            "pinyin": "Shùxué bǐ lìshǐ nán duō le.",
+            "english": "Maths is much harder than history."
           }
         ]
       }
@@ -1090,13 +1270,23 @@
     ],
     "grammar": [
       {
-        "point": "The structure '要...了' (yào... le) for imminent action",
-        "explanation": "Indicates that an action is about to happen soon.",
+        "point": "The Structure 要...了 (yào...le) (Imminent Action)",
+        "explanation": "Indicates that an action is about to happen very soon ('about to'). Variants: 快要...了, 就要...了.",
         "examples": [
           {
             "chinese": "要下雨了。",
             "pinyin": "Yào xià yǔ le.",
-            "english": "It is going to rain."
+            "english": "It is about to rain."
+          },
+          {
+            "chinese": "火车就要开了。",
+            "pinyin": "Huǒchē jiùyào kāi le.",
+            "english": "The train is about to leave."
+          },
+          {
+            "chinese": "新的一年快要到了。",
+            "pinyin": "Xīn de yì nián kuàiyào dào le.",
+            "english": "The new year is coming soon."
           }
         ]
       }
@@ -1175,13 +1365,23 @@
     ],
     "grammar": [
       {
-        "point": "The '把' (bǎ) sentence (1)",
-        "explanation": "Subject + 把 + Object + Verb + Other elements. Used when an object is affected by an action.",
+        "point": "The '把' (bǎ) Sentence (1)",
+        "explanation": "Subject + 把 + Object + Verb + Other elements. Used to describe how an object is handled or affected by an action (usually results in displacement).",
         "examples": [
           {
             "chinese": "我把书放在桌子上了。",
             "pinyin": "Wǒ bǎ shū fàng zài zhuōzi shang le.",
             "english": "I put the book on the table."
+          },
+          {
+            "chinese": "请把空调关了。",
+            "pinyin": "Qǐng bǎ kōngtiáo guān le.",
+            "english": "Please turn off the air conditioner."
+          },
+          {
+            "chinese": "他把笔弄坏了。",
+            "pinyin": "Tā bǎ bǐ nòng huài le.",
+            "english": "He broke the pen."
           }
         ]
       }
@@ -1236,13 +1436,23 @@
     ],
     "grammar": [
       {
-        "point": "The '被' (bèi) sentence (passive voice)",
-        "explanation": "Object + 被 + Subject + Verb + Other elements.",
+        "point": "The '被' (bèi) Sentence (Passive Voice)",
+        "explanation": "Object + 被 + Subject + Verb + Other elements. Indicates that the object has undergone an action ('was done by').",
         "examples": [
           {
             "chinese": "蛋糕被弟弟吃了。",
             "pinyin": "Dàngāo bèi dìdi chī le.",
             "english": "The cake was eaten by my younger brother."
+          },
+          {
+            "chinese": "我的手机被他拿走了。",
+            "pinyin": "Wǒ de shǒujī bèi tā ná zǒu le.",
+            "english": "My phone was taken away by him."
+          },
+          {
+            "chinese": "衣服被洗干净了。",
+            "pinyin": "Yīfu bèi xǐ gānjìng le.",
+            "english": "The clothes were washed clean."
           }
         ]
       }
@@ -1297,13 +1507,23 @@
     ],
     "grammar": [
       {
-        "point": "Reduplication of verbs",
-        "explanation": "Verb reduplication (AA or ABAB) indicates a short, quick, or casual action.",
+        "point": "Reduplication of Verbs (AA / ABAB)",
+        "explanation": "Repeating a verb indicates that the action is short, quick, casual, or an attempt. For single-syllable verbs: AA (e.g. 看看). For double-syllable verbs: ABAB (e.g. 休息休息).",
         "examples": [
           {
             "chinese": "休息休息",
             "pinyin": "xiūxi xiūxi",
             "english": "to have a short rest"
+          },
+          {
+            "chinese": "我想看看这本书。",
+            "pinyin": "Wǒ xiǎng kànkan zhè běn shū.",
+            "english": "I want to have a look at this book."
+          },
+          {
+            "chinese": "帮我准备准备。",
+            "pinyin": "Bāng wǒ zhǔnbèi zhǔnbèi.",
+            "english": "Help me prepare a bit."
           }
         ]
       }

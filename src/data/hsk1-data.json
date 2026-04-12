@@ -43,12 +43,43 @@
     "grammar": [
       {
         "point": "The pronoun 您 (nín)",
-        "explanation": "您 is the polite form of 你 (nǐ), used to show respect to elders or superiors.",
+        "explanation": "您 is the polite form of 你 (nǐ), used to show respect when addressing elders, teachers, or superiors.",
         "examples": [
           {
             "chinese": "老师，您好！",
             "pinyin": "Lǎoshī, nín hǎo!",
             "english": "Teacher, hello!"
+          },
+          {
+            "chinese": "您是哪国人？",
+            "pinyin": "Nín shì nǎ guó rén?",
+            "english": "Which country are you from? (Polite)"
+          },
+          {
+            "chinese": "谢谢您。",
+            "pinyin": "Xièxie nín.",
+            "english": "Thank you. (Polite)"
+          }
+        ]
+      },
+      {
+        "point": "Personal Pronouns (你, 我, 他, 她, 它)",
+        "explanation": "Chinese personal pronouns are straightforward. Plurals are formed by adding 们 (men) to the singular form.",
+        "examples": [
+          {
+            "chinese": "你们好。",
+            "pinyin": "Nǐmen hǎo.",
+            "english": "Hello everyone."
+          },
+          {
+            "chinese": "我们是学生。",
+            "pinyin": "Wǒmen shì xuésheng.",
+            "english": "We are students."
+          },
+          {
+            "chinese": "他们不去学校。",
+            "pinyin": "Tāmen bú qù xuéxiào.",
+            "english": "They are not going to school."
           }
         ]
       }
@@ -86,12 +117,22 @@
     "grammar": [
       {
         "point": "Negation with 不 (bù)",
-        "explanation": "不 is used to negate verbs and adjectives. When followed by a 4th tone syllable, it changes to 2nd tone (bú).",
+        "explanation": "不 is the most common way to negate verbs and adjectives. Note: When followed by a 4th tone, 不 changes to 2nd tone (bú).",
         "examples": [
           {
-            "chinese": "不客气。",
-            "pinyin": "Bú kèqi.",
-            "english": "You're welcome."
+            "chinese": "我不喝茶。",
+            "pinyin": "Wǒ bù hē chá.",
+            "english": "I do not drink tea."
+          },
+          {
+            "chinese": "他不是老师。",
+            "pinyin": "Tā bú shì lǎoshī.",
+            "english": "He is not a teacher. (Tone change to bú)"
+          },
+          {
+            "chinese": "她不忙。",
+            "pinyin": "Tā bù máng.",
+            "english": "She is not busy."
           }
         ]
       }
@@ -152,24 +193,44 @@
     ],
     "grammar": [
       {
-        "point": "Interrogative pronoun 什么 (shénme)",
-        "explanation": "什么 is used to ask 'what'. It can be used alone or before a noun.",
+        "point": "The Interrogative Pronoun 什么 (shénme)",
+        "explanation": "什么 is used to ask 'what'. In Chinese, the word order of a question is the same as a statement—you simply replace the noun with 什么.",
         "examples": [
           {
             "chinese": "你叫什么名字？",
             "pinyin": "Nǐ jiào shénme míngzi?",
             "english": "What is your name?"
+          },
+          {
+            "chinese": "这是什么？",
+            "pinyin": "Zhè shì shénme?",
+            "english": "What is this?"
+          },
+          {
+            "chinese": "你想吃什么？",
+            "pinyin": "Nǐ xiǎng chī shénme?",
+            "english": "What do you want to eat?"
           }
         ]
       },
       {
-        "point": "The '是' (shì) sentence",
-        "explanation": "The verb 是 is used to equate two things (A is B).",
+        "point": "The '是' (shì) Sentence",
+        "explanation": "The verb 是 is used to link a subject with a noun or noun phrase (A is B). It cannot be used to link a subject with an adjective.",
         "examples": [
           {
-            "chinese": "我是学生。",
-            "pinyin": "Wǒ shì xuésheng.",
-            "english": "I am a student."
+            "chinese": "我是中国人。",
+            "pinyin": "Wǒ shì Zhōngguórén.",
+            "english": "I am Chinese."
+          },
+          {
+            "chinese": "她是我妈妈。",
+            "pinyin": "Tā shì wǒ māma.",
+            "english": "She is my mother."
+          },
+          {
+            "chinese": "李月是学生。",
+            "pinyin": "Lǐ Yuè shì xuésheng.",
+            "english": "Li Yue is a student."
           }
         ]
       }
@@ -236,8 +297,8 @@
     ],
     "grammar": [
       {
-        "point": "Interrogative pronouns 谁 (shéi) and 哪 (nǎ)",
-        "explanation": "谁 means 'who' and 哪 means 'which'.",
+        "point": "The Interrogative Pronouns 谁 (shéi) and 哪 (nǎ)",
+        "explanation": "谁 means 'who' and 哪 means 'which'. Like 'what', they occupy the same position in the sentence as the word they replace.",
         "examples": [
           {
             "chinese": "他是谁？",
@@ -248,17 +309,32 @@
             "chinese": "你是哪国人？",
             "pinyin": "Nǐ shì nǎ guó rén?",
             "english": "Which country are you from?"
+          },
+          {
+            "chinese": "谁喜欢吃苹果？",
+            "pinyin": "Shéi xǐhuan chī píngguǒ?",
+            "english": "Who likes eating apples?"
           }
         ]
       },
       {
-        "point": "Structural particle 的 (de)",
-        "explanation": "的 is used after a noun or pronoun to indicate possession.",
+        "point": "The Structural Particle 的 (de)",
+        "explanation": "的 is used to indicate possession or a descriptive relationship. It follows the possessor/modifier.",
         "examples": [
           {
-            "chinese": "我的老师",
-            "pinyin": "wǒ de lǎoshī",
-            "english": "my teacher"
+            "chinese": "我的汉语老师",
+            "pinyin": "wǒ de Hànyǔ lǎoshī",
+            "english": "My Chinese teacher"
+          },
+          {
+            "chinese": "你的名字",
+            "pinyin": "nǐ de míngzi",
+            "english": "Your name"
+          },
+          {
+            "chinese": "他的朋友",
+            "pinyin": "tā de péngyou",
+            "english": "His friend"
           }
         ]
       }
@@ -331,24 +407,44 @@
     ],
     "grammar": [
       {
-        "point": "Interrogative pronoun 几 (jǐ)",
-        "explanation": "几 is used to ask about numbers, usually for amounts less than 10.",
+        "point": "The Interrogative Pronoun 几 (jǐ)",
+        "explanation": "几 is used to ask 'how many' for small numbers (usually expected to be less than 10). It is almost always followed by a measure word.",
         "examples": [
           {
             "chinese": "你家有几口人？",
             "pinyin": "Nǐ jiā yǒu jǐ kǒu rén?",
-            "english": "How many people are there in your family?"
+            "english": "How many people are in your family?"
+          },
+          {
+            "chinese": "你有几个杯子？",
+            "pinyin": "Nǐ yǒu jǐ ge bēizi?",
+            "english": "How many cups do you have?"
+          },
+          {
+            "chinese": "现在几点？",
+            "pinyin": "Xiànzài jǐ diǎn?",
+            "english": "What time is it?"
           }
         ]
       },
       {
-        "point": "The particle 了 (le) for change",
-        "explanation": "Used at the end of a sentence to indicate a change in a situation or a new state.",
+        "point": "The Particle 了 (le) for Change",
+        "explanation": "When used at the end of a sentence, 了 indicates a change in situation or the occurrence of a new state.",
         "examples": [
           {
             "chinese": "她女儿二十岁了。",
             "pinyin": "Tā nǚ'ér èrshí suì le.",
-            "english": "Her daughter is 20 years old now."
+            "english": "Her daughter is (now) 20 years old."
+          },
+          {
+            "chinese": "太热了！",
+            "pinyin": "Tài rè le!",
+            "english": "It has become too hot!"
+          },
+          {
+            "chinese": "我不去学校了。",
+            "pinyin": "Wǒ bú qù xuéxiào le.",
+            "english": "I am not going to school anymore."
           }
         ]
       }
@@ -433,24 +529,44 @@
     ],
     "grammar": [
       {
-        "point": "Modal verb 会 (huì)",
-        "explanation": "会 indicates an acquired skill ('know how to').",
+        "point": "The Modal Verb 会 (huì)",
+        "explanation": "会 indicates an ability acquired through learning (know how to).",
         "examples": [
           {
             "chinese": "我会说汉语。",
             "pinyin": "Wǒ huì shuō Hànyǔ.",
             "english": "I can speak Chinese."
+          },
+          {
+            "chinese": "我妈妈会做中国菜。",
+            "pinyin": "Wǒ māma huì zuò Zhōngguó cài.",
+            "english": "My mother can cook Chinese food."
+          },
+          {
+            "chinese": "你会写汉字吗？",
+            "pinyin": "Nǐ huì xiě Hànzì ma?",
+            "english": "Can you write Chinese characters?"
           }
         ]
       },
       {
-        "point": "Interrogative pronoun 怎么 (zěnme)",
-        "explanation": "怎么 is used before a verb to ask about the manner of an action.",
+        "point": "Interrogative Pronoun 怎么 (zěnme)",
+        "explanation": "怎么 is used before a verb to ask about the 'how' or 'manner' of an action.",
         "examples": [
+          {
+            "chinese": "这个字怎么读？",
+            "pinyin": "Zhège zì zěnme dú?",
+            "english": "How is this character read?"
+          },
           {
             "chinese": "这个字怎么写？",
             "pinyin": "Zhège zì zěnme xiě?",
             "english": "How do you write this character?"
+          },
+          {
+            "chinese": "你的名字怎么说？",
+            "pinyin": "Nǐ de míngzi zěnme shuō?",
+            "english": "How do you say your name?"
           }
         ]
       }
@@ -535,24 +651,44 @@
     ],
     "grammar": [
       {
-        "point": "Sentence with a nominal predicate",
-        "explanation": "A sentence where the predicate is a noun or noun phrase, often used for dates, time, or age.",
+        "point": "Sentences with a Nominal Predicate",
+        "explanation": "A sentence where the predicate is a noun, number, or noun phrase, often used for dates, time, weather, or age. No verb (like 是) is strictly required.",
         "examples": [
           {
             "chinese": "今天九月一号。",
             "pinyin": "Jīntiān jiǔyuè yī hào.",
             "english": "Today is September 1st."
+          },
+          {
+            "chinese": "明天星期三。",
+            "pinyin": "Míngtiān xīngqīsān.",
+            "english": "Tomorrow is Wednesday."
+          },
+          {
+            "chinese": "我二十岁。",
+            "pinyin": "Wǒ èrshí suì.",
+            "english": "I am 20 years old."
           }
         ]
       },
       {
-        "point": "Serial verb construction: 去 + Place + To do",
-        "explanation": "Used to express going somewhere to perform an action.",
+        "point": "Sentence with a Serial Verb Construction: 去 + Place + Action",
+        "explanation": "Used to express going to a place to do something. Order: Subject + 去 + Location + Verb.",
         "examples": [
           {
             "chinese": "我去学校看书。",
             "pinyin": "Wǒ qù xuéxiào kàn shū.",
-            "english": "I go to school to read books."
+            "english": "I go to school to read."
+          },
+          {
+            "chinese": "他去中国学习汉语。",
+            "pinyin": "Tā qù Zhōngguó xuéxí Hànyǔ.",
+            "english": "He goes to China to study Chinese."
+          },
+          {
+            "chinese": "我们去商店买东西。",
+            "pinyin": "Wǒmen qù shāngdiàn mǎi dōngxi.",
+            "english": "We go to the store to buy things."
           }
         ]
       }
@@ -655,24 +791,44 @@
     ],
     "grammar": [
       {
-        "point": "Modal verb 想 (xiǎng)",
-        "explanation": "想 indicates a desire or intention ('would like to').",
+        "point": "The Modal Verb 想 (xiǎng)",
+        "explanation": "想 is used before a verb to express a desire or a plan ('would like to', 'want to').",
         "examples": [
           {
             "chinese": "我想喝茶。",
             "pinyin": "Wǒ xiǎng hē chá.",
             "english": "I would like to drink tea."
+          },
+          {
+            "chinese": "你想买什么？",
+            "pinyin": "Nǐ xiǎng mǎi shénme?",
+            "english": "What would you like to buy?"
+          },
+          {
+            "chinese": "明天我想去学校。",
+            "pinyin": "Míngtiān wǒ xiǎng qù xuéxiào.",
+            "english": "I want to go to school tomorrow."
           }
         ]
       },
       {
-        "point": "Interrogative pronoun 多少 (duōshao)",
-        "explanation": "多少 is used to ask for an amount, usually for numbers greater than 10.",
+        "point": "Interrogative Pronoun 多少 (duōshao)",
+        "explanation": "多少 is used to ask for a number or quantity, usually when the expected answer is greater than 10. Unlike 几, a measure word is optional.",
         "examples": [
+          {
+            "chinese": "你们学校有多少学生？",
+            "pinyin": "Nǐmen xuéxiào yǒu duōshao xuésheng?",
+            "english": "How many students are in your school?"
+          },
           {
             "chinese": "这个杯子多少钱？",
             "pinyin": "Zhège bēizi duōshao qián?",
             "english": "How much is this cup?"
+          },
+          {
+            "chinese": "你有多少本书？",
+            "pinyin": "Nǐ yǒu duōshao běn shū?",
+            "english": "How many books do you have?"
           }
         ]
       }
@@ -757,24 +913,44 @@
     ],
     "grammar": [
       {
-        "point": "Preposition 在 (zài)",
-        "explanation": "Used to indicate the location of someone or something.",
+        "point": "The Verb 在 (zài) for Location",
+        "explanation": "在 functions as a verb meaning 'to be at/in/on'. Sentence structure: Subject + 在 + Place.",
         "examples": [
           {
-            "chinese": "我在家。",
-            "pinyin": "Wǒ zài jiā.",
-            "english": "I am at home."
+            "chinese": "他在哪儿？",
+            "pinyin": "Tā zài nǎr?",
+            "english": "Where is he?"
+          },
+          {
+            "chinese": "我朋友在医院工作。",
+            "pinyin": "Wǒ péngyou zài yīyuàn gōngzuò.",
+            "english": "My friend works at the hospital."
+          },
+          {
+            "chinese": "小猫在椅子下面。",
+            "pinyin": "Xiǎomāo zài yǐzi xiàmiàn.",
+            "english": "The kitty is under the chair."
           }
         ]
       },
       {
-        "point": "Interrogative pronoun 哪儿 (nǎr)",
-        "explanation": "Used to ask 'where'.",
+        "point": "The Interrogative Particle 呢 (ne) (1)",
+        "explanation": "Used at the end of a sentence to ask about the location of someone or something (where is...?).",
         "examples": [
           {
-            "chinese": "你在哪儿？",
-            "pinyin": "Nǐ zài nǎr?",
-            "english": "Where are you?"
+            "chinese": "我的小猫呢？",
+            "pinyin": "Wǒ de xiǎomāo ne?",
+            "english": "Where is my kitty?"
+          },
+          {
+            "chinese": "杯子呢？",
+            "pinyin": "Bēizi ne?",
+            "english": "Where is the cup?"
+          },
+          {
+            "chinese": "他在哪儿呢？",
+            "pinyin": "Tā zài nǎr ne?",
+            "english": "Where exactly is he?"
           }
         ]
       }
@@ -865,24 +1041,44 @@
     ],
     "grammar": [
       {
-        "point": "Sentences with 有 (yǒu) indicating possession",
-        "explanation": "有 indicates that someone has something.",
+        "point": "Sentences with 有 (yǒu) indicating Existence",
+        "explanation": "Used to state that something exists in a certain place. Structure: Place + 有 + Object.",
         "examples": [
           {
-            "chinese": "桌子上有电脑。",
-            "pinyin": "Zhuōzi shang yǒu diànnǎo.",
+            "chinese": "桌子上有个电脑。",
+            "pinyin": "Zhuōzi shang yǒu ge diànnǎo.",
             "english": "There is a computer on the table."
+          },
+          {
+            "chinese": "学校里有个商店。",
+            "pinyin": "Xuéxiào li yǒu ge shāngdiàn.",
+            "english": "There is a store in the school."
+          },
+          {
+            "chinese": "椅子下面有只狗。",
+            "pinyin": "Yǐzi xiàmiàn yǒu zhī gǒu.",
+            "english": "There is a dog under the chair."
           }
         ]
       },
       {
-        "point": "Modal verb 能 (néng)",
-        "explanation": "能 indicates possibility or permission.",
+        "point": "The Modal Verb 能 (néng)",
+        "explanation": "能 indicates possibility or permission ('can', 'may').",
         "examples": [
           {
             "chinese": "我能坐这儿吗？",
             "pinyin": "Wǒ néng zuò zhèr ma?",
-            "english": "Can I sit here?"
+            "english": "May I sit here?"
+          },
+          {
+            "chinese": "他能来学校吗？",
+            "pinyin": "Tā néng lái xuéxiào ma?",
+            "english": "Can he come to school?"
+          },
+          {
+            "chinese": "我能看你的书吗？",
+            "pinyin": "Wǒ néng kàn nǐ de shū ma?",
+            "english": "May I look at your book?"
           }
         ]
       }
@@ -961,13 +1157,23 @@
     ],
     "grammar": [
       {
-        "point": "Telling time with 点 (diǎn) and 分 (fēn)",
-        "explanation": "点 is used for hours and 分 for minutes.",
+        "point": "Expression of Time (点, 分)",
+        "explanation": "In Chinese, time is expressed starting from the largest unit to the smallest. 点 (diǎn) = hour, 分 (fēn) = minute.",
         "examples": [
           {
             "chinese": "现在十点十分。",
             "pinyin": "Xiànzài shí diǎn shí fēn.",
-            "english": "It is ten past ten now."
+            "english": "It is 10:10 now."
+          },
+          {
+            "chinese": "我中午十二点吃饭。",
+            "pinyin": "Wǒ zhōngwǔ shí'èr diǎn chīfàn.",
+            "english": "I eat at 12:00 noon."
+          },
+          {
+            "chinese": "下午五点三十分",
+            "pinyin": "xiàwǔ wǔ diǎn sānshí fēn",
+            "english": "5:30 PM"
           }
         ]
       }
@@ -1052,24 +1258,44 @@
     ],
     "grammar": [
       {
-        "point": "Interrogative pronoun 怎么样 (zěnmeyàng)",
-        "explanation": "Used to ask about the condition of something or someone.",
+        "point": "Interrogative Pronoun 怎么样 (zěnmeyàng)",
+        "explanation": "Used to ask about the condition of something or a situation ('How is...?', 'What about...?').",
         "examples": [
           {
             "chinese": "明天天气怎么样？",
             "pinyin": "Míngtiān tiānqì zěnmeyàng?",
             "english": "How will the weather be tomorrow?"
+          },
+          {
+            "chinese": "你的汉语怎么样？",
+            "pinyin": "Nǐ de Hànyǔ zěnmeyàng?",
+            "english": "How is your Chinese?"
+          },
+          {
+            "chinese": "这个杯子怎么样？",
+            "pinyin": "Zhège bēizi zěnmeyàng?",
+            "english": "How about this cup?"
           }
         ]
       },
       {
-        "point": "Adverb of degree 太 (tài)",
-        "explanation": "太 is often used with 了 to express 'too much' or 'extremely'.",
+        "point": "Adverb of Degree 太...了 (tài...le)",
+        "explanation": "Used to express an excessive degree (too...). It often carries a subjective tone.",
         "examples": [
           {
             "chinese": "太热了！",
             "pinyin": "Tài rè le!",
             "english": "It's too hot!"
+          },
+          {
+            "chinese": "这个苹果太大了。",
+            "pinyin": "Zhège píngguǒ tài dà le.",
+            "english": "This apple is too big."
+          },
+          {
+            "chinese": "太好了！",
+            "pinyin": "Tài hǎo le!",
+            "english": "That's great!"
           }
         ]
       }
@@ -1124,13 +1350,23 @@
     ],
     "grammar": [
       {
-        "point": "The particle 呢 (ne) for action in progress",
-        "explanation": "Used at the end of a sentence to indicate that an action is currently happening.",
+        "point": "The Particle 呢 (ne) for Action in Progress",
+        "explanation": "Used at the end of a sentence to indicate that an action is currently happening (ongoing state). Often used with 正在 (zhèngzài) or 在 (zài).",
         "examples": [
           {
             "chinese": "他在打电话呢。",
             "pinyin": "Tā zài dǎ diànhuà ne.",
             "english": "He is making a phone call."
+          },
+          {
+            "chinese": "我们在看电视呢。",
+            "pinyin": "Wǒmen zài kàn diànshì ne.",
+            "english": "We are watching TV."
+          },
+          {
+            "chinese": "你做什么呢？",
+            "pinyin": "Nǐ zuò shénme ne?",
+            "english": "What are you doing?"
           }
         ]
       }
@@ -1239,13 +1475,23 @@
     ],
     "grammar": [
       {
-        "point": "The particle 了 (le) for completion",
-        "explanation": "Indicates that an action has been completed.",
+        "point": "The Particle 了 (le) for Completion",
+        "explanation": "When placed after a verb, 了 indicates the completion of an action. It is often used for past events but describes 'completion', not 'tense'.",
         "examples": [
           {
-            "chinese": "她买了点儿苹果。",
-            "pinyin": "Tā mǎi le diǎnr píngguǒ.",
-            "english": "She bought some apples."
+            "chinese": "她买了不少衣服。",
+            "pinyin": "Tā mǎi le bùshǎo yīfu.",
+            "english": "She bought quite a few clothes."
+          },
+          {
+            "chinese": "我看见张先生了。",
+            "pinyin": "Wǒ kànjiàn Zhāng xiānsheng le.",
+            "english": "I saw Mr. Zhang."
+          },
+          {
+            "chinese": "你吃药了吗？",
+            "pinyin": "Nǐ chī yào le ma?",
+            "english": "Did you take your medicine?"
           }
         ]
       }
@@ -1312,13 +1558,23 @@
     ],
     "grammar": [
       {
-        "point": "The '是...的' construction for emphasis",
-        "explanation": "Used to emphasize the time, place, or manner of a past event.",
+        "point": "The '是...的' Construction for Emphasis",
+        "explanation": "Used to emphasize the time, place, or manner of an action that is known to have already occurred.",
         "examples": [
           {
-            "chinese": "我是昨天来的。",
-            "pinyin": "Wǒ shì zuótiān lái de.",
-            "english": "It was yesterday that I arrived."
+            "chinese": "我是坐飞机来的。",
+            "pinyin": "Wǒ shì zuò fēijī lái de.",
+            "english": "I came by plane. (Emphasis on manner)"
+          },
+          {
+            "chinese": "我们是上午认识的。",
+            "pinyin": "Wǒmen shì shàngwǔ rènshi de.",
+            "english": "We met in the morning. (Emphasis on time)"
+          },
+          {
+            "chinese": "他是在北京大学学习的。",
+            "pinyin": "Tā shì zài Běijīng Dàxué xuéxí de.",
+            "english": "He studied at Peking University. (Emphasis on place)"
           }
         ]
       }

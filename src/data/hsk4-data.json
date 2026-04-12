@@ -84,24 +84,44 @@
     ],
     "grammar": [
       {
-        "point": "The structure '不仅...也/还/而且...' (bùjǐn...yě/hái/érqiě...)",
+        "point": "The structure '不仅...也/还/而且...' (bùjǐn... yě/hái/érqiě...)",
         "explanation": "Used to connect two clauses that have a progressive relationship ('not only... but also...').",
         "examples": [
           {
             "chinese": "他不仅足球踢得好，性格也不错。",
             "pinyin": "Tā bùjǐn zúqiú tī de hǎo, xìnggé yě búcuò.",
             "english": "He not only plays football well, but also has a good personality."
+          },
+          {
+            "chinese": "北京不仅是中国的首都，还是一个美丽的城市。",
+            "pinyin": "Běijīng bùjǐn shì Zhōngguó de shǒudū, háishì yí ge měilì de chéngshì.",
+            "english": "Beijing is not only the capital of China but also a beautiful city."
+          },
+          {
+            "chinese": "这种巧克力不仅好吃，而且很便宜。",
+            "pinyin": "Zhè zhǒng qiǎokèlì bùjǐn hǎochī, érqiě hěn piányi.",
+            "english": "This chocolate is not only delicious but also very cheap."
           }
         ]
       },
       {
-        "point": "The adverb 从来 (cónglái)",
-        "explanation": "Means 'always' or 'all along', usually used in negative sentences ('never').",
+        "point": "The Adverb 从来 (cónglái)",
+        "explanation": "Means 'always' or 'all along'. Usually used in negative sentences with 不 or 没 to mean 'never'.",
         "examples": [
           {
             "chinese": "我从来没见过他。",
             "pinyin": "Wǒ cónglái méi jiàn guo tā.",
             "english": "I have never seen him before."
+          },
+          {
+            "chinese": "他从来不迟到。",
+            "pinyin": "Tā cónglái bù chídào.",
+            "english": "He is never late."
+          },
+          {
+            "chinese": "我从来都喜欢运动。",
+            "pinyin": "Wǒ cónglái dōu xǐhuan yùndòng.",
+            "english": "I have always liked sports."
           }
         ]
       }
@@ -193,12 +213,22 @@
     "grammar": [
       {
         "point": "The structure '即使...也...' (jíshǐ... yě...)",
-        "explanation": "Used to indicate a hypothetical concession ('even if...').",
+        "explanation": "Used to indicate a hypothetical concession ('even if...'). It suggests that the result remains the same regardless of the extreme condition.",
         "examples": [
           {
             "chinese": "即使下雨，我也要去。",
             "pinyin": "Jíshǐ xià yǔ, wǒ yě yào qù.",
             "english": "Even if it rains, I will still go."
+          },
+          {
+            "chinese": "即使没钱，他也想买那个电脑。",
+            "pinyin": "Jíshǐ méi qián, tā yě xiǎng mǎi nàge diànnǎo.",
+            "english": "Even if he has no money, he still wants to buy that computer."
+          },
+          {
+            "chinese": "即使不成功，我们也要努力。",
+            "pinyin": "Jíshǐ bù chénggōng, wǒmen yě yào nǔlì.",
+            "english": "Even if we don't succeed, we still have to work hard."
           }
         ]
       }
@@ -283,24 +313,44 @@
     ],
     "grammar": [
       {
-        "point": "The adverb 挺 (tǐng)",
-        "explanation": "Used to express degree, similar to 'very' or 'quite'. Often used with '的'.",
+        "point": "The Adverb 挺 (tǐng)",
+        "explanation": "Used to express degree, similar to 'very' or 'quite'. It is almost always used with the particle 的 at the end of the phrase.",
         "examples": [
           {
             "chinese": "经理对他印象挺好的。",
             "pinyin": "Jīnglǐ duì tā yìnxiàng tǐng hǎo de.",
             "english": "The manager has a pretty good impression of him."
+          },
+          {
+            "chinese": "这件衣服挺漂亮的。",
+            "pinyin": "Zhè jiàn yīfu tǐng piàoliang de.",
+            "english": "This piece of clothing is quite beautiful."
+          },
+          {
+            "chinese": "外边挺冷的，多穿点儿衣服。",
+            "pinyin": "Wàibian tǐng lěng de, duō chuān diǎnr yīfu.",
+            "english": "It's quite cold outside, put on more clothes."
           }
         ]
       },
       {
-        "point": "The adverb 本来 (běnlái)",
-        "explanation": "Means 'originally' or 'at first'.",
+        "point": "The Adverb 本来 (běnlái)",
+        "explanation": "Means 'originally' or 'at first'. It often implies that the situation has since changed.",
         "examples": [
           {
-            "chinese": "我本来不想去。",
-            "pinyin": "Wǒ běnlái bù xiǎng qù.",
-            "english": "I originally didn't want to go."
+            "chinese": "我本来不想去，但是他非要我去。",
+            "pinyin": "Wǒ běnlái bù xiǎng qù, dànshì tā fēi yào wǒ qù.",
+            "english": "I originally didn't want to go, but he insisted that I go."
+          },
+          {
+            "chinese": "这件事本来很简单。",
+            "pinyin": "Zhè jiàn shì běnlái hěn jiǎndān.",
+            "english": "This matter was originally very simple."
+          },
+          {
+            "chinese": "本来他是要来的，但是临时有事。",
+            "pinyin": "Běnlái tā shì yào lái de, dànshì línshí yǒu shì.",
+            "english": "He was originally going to come, but something came up at the last minute."
           }
         ]
       }
@@ -380,12 +430,22 @@
     "grammar": [
       {
         "point": "The structure '由于...因此...' (yóuyú... yīncǐ...)",
-        "explanation": "Used to indicate cause and effect ('due to... therefore...').",
+        "explanation": "Used to indicate cause and effect ('due to... therefore...'). It is more formal than 因为...所以.",
         "examples": [
           {
             "chinese": "由于天气原因，航班取消了。",
             "pinyin": "Yóuyú tiānqì yuányīn, hángbān qǔxiāo le.",
             "english": "Due to weather reasons, the flight was cancelled."
+          },
+          {
+            "chinese": "由于他不努力，因此考试没及格。",
+            "pinyin": "Yóuyú tā bù nǔlì, yīncǐ kǎoshì méi jígé.",
+            "english": "Because he didn't work hard, he failed the exam."
+          },
+          {
+            "chinese": "由于网络的影响，人们的生活发生了很大变化。",
+            "pinyin": "Yóuyú wǎngluò de yǐngxiǎng, rénmen de shēnghuó fāshēng le hěn dà biànhuà.",
+            "english": "Due to the influence of the internet, people's lives have changed greatly."
           }
         ]
       }
@@ -459,12 +519,22 @@
     "grammar": [
       {
         "point": "The structure '无论...都/也...' (wúlùn... dōu/yě...)",
-        "explanation": "Means 'no matter what/how...' indicating that the result remains the same under any condition.",
+        "explanation": "Means 'no matter what/how...' indicating that the result remains the same under any condition mentioned.",
         "examples": [
           {
             "chinese": "无论多忙，他每天都坚持锻炼。",
             "pinyin": "Wúlùn duō máng, tā měitiān dōu jiānchí duànliàn.",
             "english": "No matter how busy he is, he insists on exercising every day."
+          },
+          {
+            "chinese": "无论你去哪儿，我都会跟着你。",
+            "pinyin": "Wúlùn nǐ qù nǎr, wǒ dōu huì gēn zhe nǐ.",
+            "english": "No matter where you go, I will follow you."
+          },
+          {
+            "chinese": "无论明天下不下雨，比赛都照常进行。",
+            "pinyin": "Wúlùn míngtiān xià bú xià yǔ, bǐsài dōu zhàocháng jìnxíng.",
+            "english": "No matter if it rains tomorrow or not, the match will proceed as scheduled."
           }
         ]
       }
@@ -537,13 +607,23 @@
     ],
     "grammar": [
       {
-        "point": "The adverb 竟然 (jìngrán)",
-        "explanation": "Means 'unexpectedly' or 'to one's surprise'.",
+        "point": "The Adverb 竟然 (jìngrán)",
+        "explanation": "Means 'unexpectedly' or 'to one's surprise'. It is used to emphasize that something happened that was not anticipated.",
         "examples": [
           {
             "chinese": "他竟然忘了我的生日。",
             "pinyin": "Tā jìngrán wàng le wǒ de shēngrì.",
-            "english": "He actually forgot my birthday."
+            "english": "He actually forgot my birthday (to my surprise)."
+          },
+          {
+            "chinese": "这个简单的题你竟然做错了。",
+            "pinyin": "Zhège jiǎndān de tí nǐ jìngrán zuò cuò le.",
+            "english": "You actually got this simple question wrong."
+          },
+          {
+            "chinese": "没想到他竟然会说这么多门语言。",
+            "pinyin": "Méi xiǎng dào tā jìngrán huì shuō zhème duō mén yǔyán.",
+            "english": "I didn't expect that he could speak so many languages."
           }
         ]
       }
@@ -616,24 +696,44 @@
     ],
     "grammar": [
       {
-        "point": "The verb 估计 (gūjì)",
-        "explanation": "Means 'to estimate' or 'to reckon'.",
+        "point": "The Verb 估计 (gūjì)",
+        "explanation": "Means 'to estimate' or 'to reckon'. It indicates a guess or prediction based on certain facts or signs.",
         "examples": [
           {
             "chinese": "我估计他今天不来了。",
             "pinyin": "Wǒ gūjì tā jīntiān bù lái le.",
             "english": "I reckon he isn't coming today."
+          },
+          {
+            "chinese": "我估计这次考试没问题。",
+            "pinyin": "Wǒ gūjì zhè cì kǎoshì méi wèntí.",
+            "english": "I estimate that there will be no problem with this exam."
+          },
+          {
+            "chinese": "据我估计，还要一个小时才能完成。",
+            "pinyin": "Jù wǒ gūjì, hái yào yí ge xiǎoshí cái néng wánchéng.",
+            "english": "According to my estimation, it will take another hour to finish."
           }
         ]
       },
       {
-        "point": "The adverb 最好 (zuìhǎo)",
-        "explanation": "Means 'had better' or 'it would be best to'.",
+        "point": "The Adverb 最好 (zuìhǎo)",
+        "explanation": "Means 'had better' or 'it would be best to'. It is used to give advice or suggestions.",
         "examples": [
           {
             "chinese": "你最好早点儿休息。",
             "pinyin": "Nǐ zuìhǎo zǎodiǎnr xiūxi.",
             "english": "You had better rest a bit earlier."
+          },
+          {
+            "chinese": "天气冷了，你最好多穿点儿。",
+            "pinyin": "Tiānqì lěng le, nǐ zuìhǎo duō chuān diǎnr.",
+            "english": "The weather is cold; you'd best put on more clothes."
+          },
+          {
+            "chinese": "我们最好现在就出发。",
+            "pinyin": "Wǒmen zuìhǎo xiànzài jiù chūfā.",
+            "english": "It would be best for us to set off right now."
           }
         ]
       }
@@ -706,13 +806,23 @@
     ],
     "grammar": [
       {
-        "point": "The verb 使 (shǐ) for causation",
-        "explanation": "Similar to 让 (ràng) or 叫 (jiào), meaning 'to make' or 'to cause'.",
+        "point": "The Causative Verb 使 (shǐ)",
+        "explanation": "Similar to 让 (ràng) or 叫 (jiào), meaning 'to make' or 'to cause'. It is more common in written Chinese.",
         "examples": [
           {
             "chinese": "这种景色使人心情愉快。",
             "pinyin": "Zhè zhǒng jǐngsè shǐ rén xīnqíng yúkuài.",
             "english": "This kind of scenery makes one feel cheerful."
+          },
+          {
+            "chinese": "他的话使我非常感动。",
+            "pinyin": "Tā de huà shǐ wǒ fēicháng gǎndòng.",
+            "english": "His words moved me very much."
+          },
+          {
+            "chinese": "失败使他变得更坚强。",
+            "pinyin": "Shībài shǐ tā biàn de gèng jiānqiáng.",
+            "english": "Failure made him stronger."
           }
         ]
       }
@@ -785,13 +895,23 @@
     ],
     "grammar": [
       {
-        "point": "The structure '阳光总在风雨后'",
-        "explanation": "A common idiom meaning 'sunshine always comes after wind and rain' (metaphor for success after hardship).",
+        "point": "Common Idiom: 阳光总在风雨后",
+        "explanation": "A metaphor meaning 'success comes after hardship'. In Chinese, idioms (成语 or 俗语) are used to convey deep cultural wisdom concisely.",
         "examples": [
           {
-            "chinese": "阳光总在风雨后，坚持就是胜利。",
-            "pinyin": "Yángguāng zǒng zài fēngyǔ hòu, jiānchí jiùshì shènglì.",
-            "english": "Sunshine always comes after the storm; persistence is victory."
+            "chinese": "不要放弃，阳光总在风雨后。",
+            "pinyin": "Búyào fàngqì, yángguāng zǒng zài fēngyǔ hòu.",
+            "english": "Don't give up; the sun always shines after the storm."
+          },
+          {
+            "chinese": "只有努力过的人才明白，阳光总在风雨后。",
+            "pinyin": "Zhǐyǒu nǔlì guò de rén cái míngbai, yángguāng zǒng zài fēngyǔ hòu.",
+            "english": "Only those who have worked hard understand that sunshine comes after the rain."
+          },
+          {
+            "chinese": "坚持就是胜利，阳光总在风雨后。",
+            "pinyin": "Jiānchí jiùshì shènglì, yángguāng zǒng zài fēngyǔ hòu.",
+            "english": "Persistence is victory; sunshine always follows the storm."
           }
         ]
       }
@@ -864,13 +984,23 @@
     ],
     "grammar": [
       {
-        "point": "The conjunction 然而 (rán'ér)",
-        "explanation": "Means 'however' or 'but', used to indicate a turn in thought.",
+        "point": "The Conjunction 然而 (rán'ér)",
+        "explanation": "Means 'however' or 'but'. It is a formal word used to indicate a transition or contrast between two clauses.",
         "examples": [
           {
             "chinese": "他虽然很有钱，然而并不幸福。",
             "pinyin": "Tā suīrán hěn yǒu qián, rán'ér bìng bù xìngfú.",
             "english": "Although he is very rich, however, he is not happy."
+          },
+          {
+            "chinese": "我已经尽力了，然而还是失败了。",
+            "pinyin": "Wǒ yǐjīng jìnlì le, rán'ér háishì shībài le.",
+            "english": "I have already done my best, yet I still failed."
+          },
+          {
+            "chinese": "很多人想减肥，然而很少有人能坚持。",
+            "pinyin": "Hěn duō rén xiǎng jiǎnféi, rán'ér hěn shǎo yǒurén néng jiānchí.",
+            "english": "Many people want to lose weight, however few can persist."
           }
         ]
       }
@@ -943,13 +1073,23 @@
     ],
     "grammar": [
       {
-        "point": "The adverb 确实 (quèshí)",
-        "explanation": "Means 'indeed' or 'really', used to confirm a fact.",
+        "point": "The Adverb 确实 (quèshí)",
+        "explanation": "Means 'indeed' or 'really'. It is used to confirm that a statement is true or accurate.",
         "examples": [
           {
             "chinese": "读书确实有很多好处。",
             "pinyin": "Dúshū quèshí yǒu hěn duō hǎochù.",
             "english": "Reading indeed has many benefits."
+          },
+          {
+            "chinese": "你确实长高了不少。",
+            "pinyin": "Nǐ quèshí zhǎng gāo le bùshǎo.",
+            "english": "You indeed have grown quite a bit taller."
+          },
+          {
+            "chinese": "这个主意确实不错。",
+            "pinyin": "Zhège zhǔyi quèshí búcuò.",
+            "english": "This idea is indeed not bad."
           }
         ]
       }
@@ -1022,13 +1162,23 @@
     ],
     "grammar": [
       {
-        "point": "The preposition 通过 (tōngguò)",
-        "explanation": "Means 'through' or 'by means of', used to indicate the way or channel.",
+        "point": "The Preposition 通过 (tōngguò)",
+        "explanation": "Means 'through' or 'by means of'. It is used to indicate the channel, method, or intermediary by which an action is achieved.",
         "examples": [
           {
             "chinese": "通过观察，他发现了问题。",
             "pinyin": "Tōngguò guānchá, tā fāxiàn le wèntí.",
             "english": "Through observation, he discovered the problem."
+          },
+          {
+            "chinese": "我通过努力学习拿到了奖学金。",
+            "pinyin": "Wǒ tōngguò nǔlì xuéxí ná dào le jiǎngxuéjīn.",
+            "english": "I got the scholarship through hard study."
+          },
+          {
+            "chinese": "我们可以通过网络买票。",
+            "pinyin": "Wǒmen kěyǐ tōngguò wǎngluò mǎi piào.",
+            "english": "We can buy tickets through the internet."
           }
         ]
       }
@@ -1101,13 +1251,23 @@
     ],
     "grammar": [
       {
-        "point": "The adverb 慢慢 (mànmàn)",
-        "explanation": "Reduplicated adjective used as an adverb to mean 'slowly' or 'gradually'.",
+        "point": "Adverbial Reduplication: 慢慢 (mànmàn)",
+        "explanation": "An adjective like 慢 (slow) can be reduplicated to function as an adverb (慢慢), meaning 'slowly' or 'gradually'.",
         "examples": [
           {
             "chinese": "慢慢享受这种感觉。",
             "pinyin": "Mànmàn xiǎngshòu zhè zhǒng gǎnjué.",
             "english": "Slowly enjoy this feeling."
+          },
+          {
+            "chinese": "天色慢慢黑了。",
+            "pinyin": "Tiānsè mànmàn hēi le.",
+            "english": "The sky gradually darkened."
+          },
+          {
+            "chinese": "请慢慢说，我听得懂。",
+            "pinyin": "Qǐng mànmàn shuō, wǒ tīng de dǒng.",
+            "english": "Please speak slowly; I can understand."
           }
         ]
       }
@@ -1180,13 +1340,23 @@
     ],
     "grammar": [
       {
-        "point": "The verb 重视 (zhòngshì)",
-        "explanation": "Means 'to attach importance to' or 'to value'.",
+        "point": "The Verb 重视 (zhòngshì)",
+        "explanation": "Means 'to attach importance to' or 'to value'. It describes taking something seriously.",
         "examples": [
           {
             "chinese": "我们应该重视环境保护。",
             "pinyin": "Wǒmen yīnggāi zhòngshì huánjìng bǎohù.",
             "english": "We should value environmental protection."
+          },
+          {
+            "chinese": "经理非常重视这个项目。",
+            "pinyin": "Jīnglǐ fēicháng zhòngshì zhège xiàngmù.",
+            "english": "The manager attaches great importance to this project."
+          },
+          {
+            "chinese": "父母应该重视孩子的教育。",
+            "pinyin": "Fùmǔ yīnggāi zhòngshì háizi de jiàoyù.",
+            "english": "Parents should value their children's education."
           }
         ]
       }
@@ -1259,13 +1429,23 @@
     ],
     "grammar": [
       {
-        "point": "The adjective 严格 (yángé)",
-        "explanation": "Means 'strict' or 'rigorous'. Often used with 对.",
+        "point": "The Adjective 严格 (yángé)",
+        "explanation": "Means 'strict' or 'rigorous'. When used to describe a person's behavior towards someone, it is often followed by 对.",
         "examples": [
           {
             "chinese": "老师对他很严格。",
             "pinyin": "Lǎoshī duì tā hěn yángé.",
             "english": "The teacher is very strict with him."
+          },
+          {
+            "chinese": "我们要严格遵守规定。",
+            "pinyin": "Wǒmen yào yángé zūnshǒu guīdìng.",
+            "english": "We must strictly abide by the regulations."
+          },
+          {
+            "chinese": "这是一个严格的测试。",
+            "pinyin": "Zhè shì yí ge yángé de cèshì.",
+            "english": "This is a rigorous test."
           }
         ]
       }
@@ -1338,13 +1518,23 @@
     ],
     "grammar": [
       {
-        "point": "The verb 珍惜 (zhēnxī)",
-        "explanation": "Means 'to cherish' or 'to treasure'.",
+        "point": "The Verb 珍惜 (zhēnxī)",
+        "explanation": "Means 'to cherish' or 'to treasure'. Used for intangible things like time, friendship, or opportunities.",
         "examples": [
           {
             "chinese": "我们要珍惜时间。",
             "pinyin": "Wǒmen yào zhēnxī shíjiān.",
             "english": "We should cherish time."
+          },
+          {
+            "chinese": "请珍惜我们的友谊。",
+            "pinyin": "Qǐng zhēnxī wǒmen de yǒuyì.",
+            "english": "Please treasure our friendship."
+          },
+          {
+            "chinese": "你应该珍惜这次学习的机会。",
+            "pinyin": "Nǐ yīnggāi zhēnxī zhè cì xuéxí de jīhuì.",
+            "english": "You should cherish this learning opportunity."
           }
         ]
       }
@@ -1417,13 +1607,23 @@
     ],
     "grammar": [
       {
-        "point": "The verb 信任 (xìnrèn)",
-        "explanation": "Means 'to trust' or 'to have confidence in'.",
+        "point": "The Verb 信任 (xìnrèn)",
+        "explanation": "Means 'to trust' or 'to have confidence in'. It is both a verb and a noun.",
         "examples": [
           {
             "chinese": "朋友之间要互相信任。",
             "pinyin": "Péngyou zhījiān yào hùxiāng xìnrèn.",
             "english": "Friends should trust each other."
+          },
+          {
+            "chinese": "我很信任他。",
+            "pinyin": "Wǒ hěn xìnrèn tā.",
+            "english": "I trust him very much."
+          },
+          {
+            "chinese": "谢谢你对我的信任。",
+            "pinyin": "Xièxie nǐ duì wǒ de xìnrèn.",
+            "english": "Thank you for your trust in me."
           }
         ]
       }
@@ -1496,13 +1696,23 @@
     ],
     "grammar": [
       {
-        "point": "The structure 'A 对 B 有影响'",
-        "explanation": "Means 'A has an influence on B'.",
+        "point": "The Structure 'A 对 B 有影响'",
+        "explanation": "Used to express that A has an influence or impact on B.",
         "examples": [
           {
             "chinese": "网络对生活有很大影响。",
             "pinyin": "Wǎngluò duì shēnghuó yǒu hěn dà yǐngxiǎng.",
             "english": "The internet has a great influence on life."
+          },
+          {
+            "chinese": "环境对人的性格有影响。",
+            "pinyin": "Huánjìng duì rén de xìnggé yǒu yǐngxiǎng.",
+            "english": "The environment has an influence on a person's character."
+          },
+          {
+            "chinese": "老师对学生有很大的影响。",
+            "pinyin": "Lǎoshī duì xuésheng yǒu hěn dà de yǐngxiǎng.",
+            "english": "Teachers have a great impact on students."
           }
         ]
       }
@@ -1575,13 +1785,23 @@
     ],
     "grammar": [
       {
-        "point": "The verb 挑战 (tiǎozhàn)",
-        "explanation": "Can be a noun (challenge) or a verb (to challenge).",
+        "point": "The word 挑战 (tiǎozhàn) (Challenge)",
+        "explanation": "Can be used as a noun (a challenge) or a verb (to challenge). It often appears in the context of personal growth or competition.",
         "examples": [
           {
-            "chinese": "这是一次很大的挑战。",
+            "chinese": "这是一个很大的挑战。",
             "pinyin": "Zhè shì yí cì hěn dà de tiǎozhàn.",
             "english": "This is a very big challenge."
+          },
+          {
+            "chinese": "我喜欢挑战自己。",
+            "pinyin": "Wǒ xǐhuan tiǎozhàn zìjǐ.",
+            "english": "I like to challenge myself."
+          },
+          {
+            "chinese": "面对挑战，我们要勇敢。",
+            "pinyin": "Miàn duì tiǎozhàn, wǒmen yào yǒnggǎn.",
+            "english": "Facing challenges, we must be brave."
           }
         ]
       }
@@ -1655,12 +1875,22 @@
     "grammar": [
       {
         "point": "The structure '对...充满希望'",
-        "explanation": "Means 'to be full of hope for...'.",
+        "explanation": "Used to express being full of hope or optimism for something (e.g., the future).",
         "examples": [
           {
             "chinese": "我对未来充满希望。",
             "pinyin": "Wǒ duì wèilái chōngmǎn xīwàng.",
             "english": "I am full of hope for the future."
+          },
+          {
+            "chinese": "我们对这个计划充满希望。",
+            "pinyin": "Wǒmen duì zhège jìhuà chōngmǎn xīwàng.",
+            "english": "We are very optimistic about this plan."
+          },
+          {
+            "chinese": "她对生活总是充满希望。",
+            "pinyin": "Tā duì shēnghuó zǒngshì chōngmǎn xīwàng.",
+            "english": "She is always full of hope for life."
           }
         ]
       }
