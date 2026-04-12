@@ -1,0 +1,340 @@
+[
+  {
+    "lesson": 1,
+    "title": "简单的爱情",
+    "vocabulary": [
+      {"word": "法律", "pinyin": "fǎlǜ", "definition": "law"},
+      {"word": "俩", "pinyin": "liǎ", "definition": "two, both"},
+      {"word": "印象", "pinyin": "yìnxiàng", "definition": "impression"},
+      {"word": "深", "pinyin": "shēn", "definition": "deep"},
+      {"word": "熟悉", "pinyin": "shúxi", "definition": "to be familiar with"},
+      {"word": "不仅", "pinyin": "bùjǐn", "definition": "not only"},
+      {"word": "性格", "pinyin": "xìnggé", "definition": "character, personality"},
+      {"word": "开玩笑", "pinyin": "kāi wánxiào", "definition": "to joke"},
+      {"word": "从来", "pinyin": "cónglái", "definition": "always, all along"},
+      {"word": "最好", "pinyin": "zuìhǎo", "definition": "had better"},
+      {"word": "共同", "pinyin": "gòngtóng", "definition": "common, shared"},
+      {"word": "适合", "pinyin": "shìhé", "definition": "to suit, to fit"},
+      {"word": "幸福", "pinyin": "xìngfú", "definition": "happy, happiness"}
+    ],
+    "grammar": [
+      {
+        "point": "不仅...也/还/而且... (bùjǐn...yě/hái/érqiě...)",
+        "explanation": "This structure means 'not only... but also...'. It is used to connect two clauses that have a progressive relationship.",
+        "examples": [
+          {"chinese": "他不仅足球踢得好，性格也不错。", "pinyin": "Tā bùjǐn zúqiú tī de hǎo, xìnggé yě búcuò.", "english": "He not only plays football well, but also has a good personality."}
+        ]
+      }
+    ]
+  },
+  {
+    "lesson": 2,
+    "title": "真正的朋友",
+    "vocabulary": [
+      {"word": "适应", "pinyin": "shìyìng", "definition": "to adapt, to get used to"},
+      {"word": "交", "pinyin": "jiāo", "definition": "to make (friends)"},
+      {"word": "平时", "pinyin": "píngshí", "definition": "normally, usually"},
+      {"word": "逛", "pinyin": "guàng", "definition": "to stroll, to roam"},
+      {"word": "短信", "pinyin": "duǎnxìn", "definition": "text message"},
+      {"word": "正好", "pinyin": "zhènghǎo", "definition": "just in time, just right"},
+      {"word": "聚会", "pinyin": "jùhuì", "definition": "to gather; party"},
+      {"word": "联系", "pinyin": "liánxì", "definition": "to contact"},
+      {"word": "差不多", "pinyin": "chàbuduō", "definition": "almost, nearly"},
+      {"word": "专门", "pinyin": "zhuānmén", "definition": "specially"},
+      {"word": "毕业", "pinyin": "bìyè", "definition": "to graduate"},
+      {"word": "麻烦", "pinyin": "máfan", "definition": "to bother"},
+      {"word": "好像", "pinyin": "hǎoxiàng", "definition": "as if, seem"}
+    ]
+  },
+  {
+    "lesson": 3,
+    "title": "经理对我印象不错",
+    "vocabulary": [
+      {"word": "挺", "pinyin": "tǐng", "definition": "quite, rather"},
+      {"word": "紧张", "pinyin": "jǐnzhāng", "definition": "nervous"},
+      {"word": "信心", "pinyin": "xìnxīn", "definition": "confidence"},
+      {"word": "能力", "pinyin": "nénglì", "definition": "ability, competence"},
+      {"word": "招聘", "pinyin": "zhāopìn", "definition": "to recruit"},
+      {"word": "提供", "pinyin": "tígōng", "definition": "to provide"},
+      {"word": "负责", "pinyin": "fùzé", "definition": "to be in charge of"},
+      {"word": "本来", "pinyin": "běnlái", "definition": "originally"},
+      {"word": "应聘", "pinyin": "yìngpìn", "definition": "to apply for a job"},
+      {"word": "材料", "pinyin": "cáiliào", "definition": "data, material"},
+      {"word": "符合", "pinyin": "fúhé", "definition": "to accord with"},
+      {"word": "通知", "pinyin": "tōngzhī", "definition": "to inform"}
+    ]
+  },
+  {
+    "lesson": 4,
+    "title": "不要太着急赚钱",
+    "vocabulary": [
+      {"word": "提", "pinyin": "tí", "definition": "to mention"},
+      {"word": "以为", "pinyin": "yǐwéi", "definition": "to think (mistakenly)"},
+      {"word": "份", "pinyin": "fèn", "definition": "measure word for jobs"},
+      {"word": "完全", "pinyin": "wánquán", "definition": "completely"},
+      {"word": "赚", "pinyin": "zhuàn", "definition": "to earn"},
+      {"word": "调查", "pinyin": "diàochá", "definition": "to survey"},
+      {"word": "原来", "pinyin": "yuánlái", "definition": "original, formerly"},
+      {"word": "计划", "pinyin": "jìhuà", "definition": "plan, intend to"},
+      {"word": "提前", "pinyin": "tíqián", "definition": "in advance"},
+      {"word": "保证", "pinyin": "bǎozhèng", "definition": "to guarantee"},
+      {"word": "提醒", "pinyin": "tíxǐng", "definition": "to remind"}
+    ]
+  },
+  {
+    "lesson": 5,
+    "title": "只买对的，不买贵的",
+    "vocabulary": [
+      {"word": "家具", "pinyin": "jiājù", "definition": "furniture"},
+      {"word": "沙发", "pinyin": "shāfā", "definition": "sofa"},
+      {"word": "打折", "pinyin": "dǎzhé", "definition": "to give a discount"},
+      {"word": "价格", "pinyin": "jiàgé", "definition": "price"},
+      {"word": "质量", "pinyin": "zhìliàng", "definition": "quality"},
+      {"word": "肯定", "pinyin": "kěndìng", "definition": "surely, certainly"},
+      {"word": "流行", "pinyin": "liúxíng", "definition": "popular"},
+      {"word": "顺便", "pinyin": "shùnbiàn", "definition": "in passing, on the way"},
+      {"word": "台", "pinyin": "tái", "definition": "measure word for machines"},
+      {"word": "光", "pinyin": "guāng", "definition": "only, merely"}
+    ]
+  },
+  {
+    "lesson": 6,
+    "title": "一分钱一分货",
+    "vocabulary": [
+      {"word": "果汁", "pinyin": "guǒzhī", "definition": "fruit juice"},
+      {"word": "售货员", "pinyin": "shòuhuòyuán", "definition": "salesperson"},
+      {"word": "袜子", "pinyin": "wàzi", "definition": "socks"},
+      {"word": "打扰", "pinyin": "dǎrǎo", "definition": "to disturb"},
+      {"word": "竟然", "pinyin": "jìngrán", "definition": "unexpectedly"},
+      {"word": "西红柿", "pinyin": "xīhóngshì", "definition": "tomato"},
+      {"word": "百分之", "pinyin": "bǎifēnzhī", "definition": "percent"},
+      {"word": "倍", "pinyin": "bèi", "definition": "times, -fold"},
+      {"word": "皮肤", "pinyin": "pífū", "definition": "skin"},
+      {"word": "好处", "pinyin": "hǎochù", "definition": "benefit, advantage"}
+    ]
+  },
+  {
+    "lesson": 7,
+    "title": "最好的医生是自己",
+    "vocabulary": [
+      {"word": "鼻子", "pinyin": "bízi", "definition": "nose"},
+      {"word": "流血", "pinyin": "liúxuè", "definition": "to bleed"},
+      {"word": "擦", "pinyin": "cā", "definition": "to wipe"},
+      {"word": "气候", "pinyin": "qìhòu", "definition": "climate"},
+      {"word": "估计", "pinyin": "gūjì", "definition": "to estimate, to reckon"},
+      {"word": "咳嗽", "pinyin": "késou", "definition": "to cough"},
+      {"word": "严重", "pinyin": "yánzhòng", "definition": "serious, severe"},
+      {"word": "窗户", "pinyin": "chuānghu", "definition": "window"},
+      {"word": "空气", "pinyin": "kōngqì", "definition": "air"},
+      {"word": "抽烟", "pinyin": "chōuyān", "definition": "to smoke"}
+    ]
+  },
+  {
+    "lesson": 8,
+    "title": "生活中不缺少美",
+    "vocabulary": [
+      {"word": "巧克力", "pinyin": "qiǎokèlì", "definition": "chocolate"},
+      {"word": "亲戚", "pinyin": "qīnqi", "definition": "relative"},
+      {"word": "伤心", "pinyin": "shāngxīn", "definition": "sad, sorrowful"},
+      {"word": "使", "pinyin": "shǐ", "definition": "to make, to cause"},
+      {"word": "心情", "pinyin": "xīnqíng", "definition": "mood"},
+      {"word": "愉快", "pinyin": "yúkuài", "definition": "pleasant, cheerful"},
+      {"word": "景色", "pinyin": "jǐngsè", "definition": "scenery, view"},
+      {"word": "放松", "pinyin": "fàngsōng", "definition": "to relax"},
+      {"word": "压力", "pinyin": "yālì", "definition": "pressure, stress"},
+      {"word": "回忆", "pinyin": "huíyì", "definition": "to recall, memory"}
+    ]
+  },
+  {
+    "lesson": 9,
+    "title": "阳光总在风雨后",
+    "vocabulary": [
+      {"word": "阳光", "pinyin": "yángguāng", "definition": "sunshine"},
+      {"word": "风雨", "pinyin": "fēngyǔ", "definition": "wind and rain"},
+      {"word": "成功", "pinyin": "chénggōng", "definition": "success"},
+      {"word": "失败", "pinyin": "shībài", "definition": "failure"},
+      {"word": "勇敢", "pinyin": "yǒnggǎn", "definition": "brave"},
+      {"word": "结果", "pinyin": "jiéguǒ", "definition": "result"},
+      {"word": "至少", "pinyin": "zhìshǎo", "definition": "at least"},
+      {"word": "精神", "pinyin": "jīngshén", "definition": "spirit"},
+      {"word": "总结", "pinyin": "zǒngjié", "definition": "to summarize"},
+      {"word": "取", "pinyin": "qǔ", "definition": "to take, to get"}
+    ]
+  },
+  {
+    "lesson": 10,
+    "title": "幸福的标准",
+    "vocabulary": [
+      {"word": "标准", "pinyin": "biāozhǔn", "definition": "standard"},
+      {"word": "幸福", "pinyin": "xìngfú", "definition": "happiness"},
+      {"word": "无论", "pinyin": "wúlùn", "definition": "no matter what"},
+      {"word": "由于", "pinyin": "yóuyú", "definition": "due to"},
+      {"word": "然而", "pinyin": "rán'ér", "definition": "however"},
+      {"word": "质量", "pinyin": "zhìliàng", "definition": "quality"},
+      {"word": "生活", "pinyin": "shēnghuó", "definition": "life"},
+      {"word": "感觉", "pinyin": "gǎnjué", "definition": "feeling"},
+      {"word": "态度", "pinyin": "tàidù", "definition": "attitude"},
+      {"word": "经济", "pinyin": "jīngjì", "definition": "economy"}
+    ]
+  },
+  {
+    "lesson": 11,
+    "title": "读书好，读好书，好读书",
+    "vocabulary": [
+      {"word": "阅读", "pinyin": "yuèdú", "definition": "reading"},
+      {"word": "知识", "pinyin": "zhīshi", "definition": "knowledge"},
+      {"word": "增加", "pinyin": "zēngjiā", "definition": "to increase"},
+      {"word": "丰富", "pinyin": "fēngfù", "definition": "rich, abundant"},
+      {"word": "经验", "pinyin": "jīngyàn", "definition": "experience"},
+      {"word": "困难", "pinyin": "kùnnán", "definition": "difficulty"},
+      {"word": "解决", "pinyin": "jiějiué", "definition": "to solve"},
+      {"word": "养成", "pinyin": "yǎngchéng", "definition": "to form (a habit)"},
+      {"word": "习惯", "pinyin": "xíguàn", "definition": "habit"},
+      {"word": "确实", "pinyin": "quèshí", "definition": "indeed"}
+    ]
+  },
+  {
+    "lesson": 12,
+    "title": "用心发现世界",
+    "vocabulary": [
+      {"word": "发现", "pinyin": "fāxiàn", "definition": "to discover"},
+      {"word": "世界", "pinyin": "shìjiè", "definition": "world"},
+      {"word": "精彩", "pinyin": "jīngcǎi", "definition": "wonderful"},
+      {"word": "观察", "pinyin": "guānchá", "definition": "to observe"},
+      {"word": "仔细", "pinyin": "zǐxì", "definition": "careful, detailed"},
+      {"word": "考虑", "pinyin": "kǎolǜ", "definition": "to consider"},
+      {"word": "原因", "pinyin": "yuányīn", "definition": "reason"},
+      {"word": "方法", "pinyin": "fāngfǎ", "definition": "method"},
+      {"word": "准确", "pinyin": "zhǔnquè", "definition": "accurate"},
+      {"word": "通过", "pinyin": "tōngguò", "definition": "through"}
+    ]
+  },
+  {
+    "lesson": 13,
+    "title": "喝着茶看真情",
+    "vocabulary": [
+      {"word": "茶叶", "pinyin": "cháyè", "definition": "tea leaves"},
+      {"word": "茶具", "pinyin": "chájù", "definition": "tea set"},
+      {"word": "味道", "pinyin": "wèidào", "definition": "taste, flavor"},
+      {"word": "感觉", "pinyin": "gǎnjué", "definition": "to feel"},
+      {"word": "慢慢", "pinyin": "mànmàn", "definition": "slowly"},
+      {"word": "享受", "pinyin": "xiǎngshòu", "definition": "to enjoy"},
+      {"word": "心情", "pinyin": "xīnqíng", "definition": "mood"},
+      {"word": "复杂", "pinyin": "fùzá", "definition": "complex"},
+      {"word": "简单", "pinyin": "jiǎndān", "definition": "simple"},
+      {"word": "真诚", "pinyin": "zhēnchéng", "definition": "sincere"}
+    ]
+  },
+  {
+    "lesson": 14,
+    "title": "保护环境",
+    "vocabulary": [
+      {"word": "保护", "pinyin": "bǎohù", "definition": "to protect"},
+      {"word": "环境", "pinyin": "huánjìng", "definition": "environment"},
+      {"word": "节约", "pinyin": "jiéyuē", "definition": "to save, to conserve"},
+      {"word": "能源", "pinyin": "néngyuán", "definition": "energy"},
+      {"word": "污染", "pinyin": "wūrǎn", "definition": "pollution"},
+      {"word": "严重", "pinyin": "yánzhòng", "definition": "serious"},
+      {"word": "重视", "pinyin": "zhòngshì", "definition": "to attach importance to"},
+      {"word": "垃圾", "pinyin": "lājī", "definition": "garbage"},
+      {"word": "分类", "pinyin": "fēnlèi", "definition": "classification"},
+      {"word": "自然", "pinyin": "zìrán", "definition": "nature"}
+    ]
+  },
+  {
+    "lesson": 15,
+    "title": "教育的孩子",
+    "vocabulary": [
+      {"word": "教育", "pinyin": "jiàoyù", "definition": "education"},
+      {"word": "孩子", "pinyin": "háizi", "definition": "child"},
+      {"word": "严格", "pinyin": "yángé", "definition": "strict"},
+      {"word": "鼓励", "pinyin": "gǔlì", "definition": "to encourage"},
+      {"word": "赞扬", "pinyin": "zànyáng", "definition": "to praise"},
+      {"word": "自信", "pinyin": "zìxìn", "definition": "self-confidence"},
+      {"word": "成功", "pinyin": "chénggōng", "definition": "success"},
+      {"word": "将来", "pinyin": "jiānglái", "definition": "future"},
+      {"word": "负责", "pinyin": "fùzé", "definition": "responsible"},
+      {"word": "培养", "pinyin": "péiyǎng", "definition": "to cultivate"}
+    ]
+  },
+  {
+    "lesson": 16,
+    "title": "人生的哲理",
+    "vocabulary": [
+      {"word": "哲理", "pinyin": "zhélǐ", "definition": "philosophy"},
+      {"word": "人生", "pinyin": "rénshēng", "definition": "life"},
+      {"word": "理解", "pinyin": "lǐjiě", "definition": "to understand"},
+      {"word": "深刻", "pinyin": "shēnkè", "definition": "deep, profound"},
+      {"word": "幸福", "pinyin": "xìngfú", "definition": "happiness"},
+      {"word": "标准", "pinyin": "biāozhǔn", "definition": "standard"},
+      {"word": "选择", "pinyin": "xuǎnzé", "definition": "choice"},
+      {"word": "珍惜", "pinyin": "zhēnxī", "definition": "to cherish"},
+      {"word": "获得", "pinyin": "huòdé", "definition": "to obtain"},
+      {"word": "满足", "pinyin": "mǎnzú", "definition": "satisfaction"}
+    ]
+  },
+  {
+    "lesson": 17,
+    "title": "人际交往",
+    "vocabulary": [
+      {"word": "交往", "pinyin": "jiāowǎng", "definition": "intercourse, contact"},
+      {"word": "礼貌", "pinyin": "lǐmào", "definition": "politeness"},
+      {"word": "诚实", "pinyin": "chéngshí", "definition": "honest"},
+      {"word": "信任", "pinyin": "xìnrèn", "definition": "trust"},
+      {"word": "支持", "pinyin": "zhīchí", "definition": "support"},
+      {"word": "理解", "pinyin": "lǐjiě", "definition": "understanding"},
+      {"word": "沟通", "pinyin": "gōutōng", "definition": "communication"},
+      {"word": "关系", "pinyin": "guānxì", "definition": "relationship"},
+      {"word": "友谊", "pinyin": "yǒuyì", "definition": "friendship"},
+      {"word": "和谐", "pinyin": "héxié", "definition": "harmony"}
+    ]
+  },
+  {
+    "lesson": 18,
+    "title": "科技的发展",
+    "vocabulary": [
+      {"word": "科技", "pinyin": "kējì", "definition": "science and technology"},
+      {"word": "发展", "pinyin": "fāzhǎn", "definition": "development"},
+      {"word": "改变", "pinyin": "gǎibiàn", "definition": "change"},
+      {"word": "速度", "pinyin": "sùdù", "definition": "speed"},
+      {"word": "便利", "pinyin": "biànlì", "definition": "convenience"},
+      {"word": "网络", "pinyin": "wǎngluò", "definition": "network, internet"},
+      {"word": "影响", "pinyin": "yǐngxiǎng", "definition": "influence"},
+      {"word": "普遍", "pinyin": "pǔbiàn", "definition": "universal, widespread"},
+      {"word": "改善", "pinyin": "gǎishàn", "definition": "to improve"},
+      {"word": "进步", "pinyin": "jìnbù", "definition": "progress"}
+    ]
+  },
+  {
+    "lesson": 19,
+    "title": "职场生活",
+    "vocabulary": [
+      {"word": "职场", "pinyin": "zhíchǎng", "definition": "workplace"},
+      {"word": "压力", "pinyin": "yālì", "definition": "pressure"},
+      {"word": "竞争", "pinyin": "jìngzhēng", "definition": "competition"},
+      {"word": "挑战", "pinyin": "tiǎozhàn", "definition": "challenge"},
+      {"word": "机会", "pinyin": "jīhuì", "definition": "opportunity"},
+      {"word": "能力", "pinyin": "nénglì", "definition": "ability"},
+      {"word": "管理", "pinyin": "guǎnlǐ", "definition": "management"},
+      {"word": "效率", "pinyin": "xiàolǜ", "definition": "efficiency"},
+      {"word": "成果", "pinyin": "chéngguǒ", "definition": "result, fruit"},
+      {"word": "成功", "pinyin": "chénggōng", "definition": "success"}
+    ]
+  },
+  {
+    "lesson": 20,
+    "title": "未来的世界",
+    "vocabulary": [
+      {"word": "未来", "pinyin": "wèilái", "definition": "future"},
+      {"word": "想象", "pinyin": "xiǎngxiàng", "definition": "imagination"},
+      {"word": "期待", "pinyin": "qīdài", "definition": "to expect"},
+      {"word": "梦想", "pinyin": "mèngxiǎng", "definition": "dream"},
+      {"word": "现实", "pinyin": "xiànshí", "definition": "reality"},
+      {"word": "创造", "pinyin": "chuàngzào", "definition": "to create"},
+      {"word": "奇迹", "pinyin": "qíjì", "definition": "miracle"},
+      {"word": "希望", "pinyin": "xīwàng", "definition": "hope"},
+      {"word": "目标", "pinyin": "mùbiāo", "definition": "goal"},
+      {"word": "努力", "pinyin": "nǔlì", "definition": "effort"}
+    ]
+  }
+]

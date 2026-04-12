@@ -1,0 +1,434 @@
+[
+  {
+    "lesson": 1,
+    "title": "September is the best time to visit Beijing",
+    "vocabulary": [
+      {"word": "旅游", "pinyin": "lǚyóu", "definition": "to travel"},
+      {"word": "觉得", "pinyin": "juédé", "definition": "to think, to feel"},
+      {"word": "最", "pinyin": "zuì", "definition": "most"},
+      {"word": "为什么", "pinyin": "wèishéme", "definition": "why"},
+      {"word": "也", "pinyin": "yě", "definition": "also, too"},
+      {"word": "运动", "pinyin": "yùndòng", "definition": "sport, exercise"},
+      {"word": "踢足球", "pinyin": "tī zúqiú", "definition": "to play football"},
+      {"word": "一起", "pinyin": "yìqǐ", "definition": "together"},
+      {"word": "要", "pinyin": "yào", "definition": "to want, would like"},
+      {"word": "新", "pinyin": "xīn", "definition": "new"},
+      {"word": "它", "pinyin": "tā", "definition": "it"},
+      {"word": "眼睛", "pinyin": "yǎnjīng", "definition": "eye"}
+    ],
+    "grammar": [
+      {
+        "point": "The auxiliary verb 要 (yào)",
+        "explanation": "要 is used before a verb to indicate a desire or necessity ('to want to', 'need to').",
+        "examples": [
+          {"chinese": "我要去北京旅游。", "pinyin": "Wǒ yào qù Běijīng lǚyóu.", "english": "I want to go to Beijing to travel."}
+        ]
+      },
+      {
+        "point": "The adverb 最 (zuì)",
+        "explanation": "最 is used before an adjective or a verb to indicate the superlative degree ('most').",
+        "examples": [
+          {"chinese": "北京九月天气最好。", "pinyin": "Běijīng jiǔyuè tiānqì zuì hǎo.", "english": "The weather in Beijing is the best in September."}
+        ]
+      }
+    ]
+  },
+  {
+    "lesson": 2,
+    "title": "I get up at six every day",
+    "vocabulary": [
+      {"word": "生病", "pinyin": "shēngbìng", "definition": "to fall ill"},
+      {"word": "每", "pinyin": "měi", "definition": "every, each"},
+      {"word": "早上", "pinyin": "zǎoshang", "definition": "morning"},
+      {"word": "跑步", "pinyin": "pǎobù", "definition": "to run, to jog"},
+      {"word": "起床", "pinyin": "qǐchuáng", "definition": "to get up"},
+      {"word": "药", "pinyin": "yào", "definition": "medicine"},
+      {"word": "身体", "pinyin": "shēntǐ", "definition": "body, health"},
+      {"word": "出院", "pinyin": "chūyuàn", "definition": "to leave hospital"},
+      {"word": "高", "pinyin": "gāo", "definition": "tall, high"},
+      {"word": "米", "pinyin": "mǐ", "definition": "meter"},
+      {"word": "知道", "pinyin": "zhīdào", "definition": "to know"},
+      {"word": "休息", "pinyin": "xiūxi", "definition": "to rest"},
+      {"word": "忙", "pinyin": "máng", "definition": "busy"},
+      {"word": "时间", "pinyin": "shíjiān", "definition": "time"}
+    ],
+    "grammar": [
+      {
+        "point": "The pronoun 每 (měi)",
+        "explanation": "每 means 'every' or 'each'. It is often used with a measure word.",
+        "examples": [
+          {"chinese": "我每天六点起床。", "pinyin": "Wǒ měitiān liù diǎn qǐchuáng.", "english": "I get up at six every day."}
+        ]
+      },
+      {
+        "point": "Interrogative pronoun 多 (duō) + Adjective",
+        "explanation": "Used to ask about the degree of something (how tall, how old, etc.).",
+        "examples": [
+          {"chinese": "你多高？", "pinyin": "Nǐ duō gāo?", "english": "How tall are you?"}
+        ]
+      }
+    ]
+  },
+  {
+    "lesson": 3,
+    "title": "Which watch is yours?",
+    "vocabulary": [
+      {"word": "手表", "pinyin": "shǒubiǎo", "definition": "watch"},
+      {"word": "千", "pinyin": "qiān", "definition": "thousand"},
+      {"word": "报纸", "pinyin": "bàozhǐ", "definition": "newspaper"},
+      {"word": "送", "pinyin": "sòng", "definition": "to send, to deliver"},
+      {"word": "一下", "pinyin": "yíxià", "definition": "indicating a short action"},
+      {"word": "牛奶", "pinyin": "niúnǎi", "definition": "milk"},
+      {"word": "房间", "pinyin": "fángjiān", "definition": "room"},
+      {"word": "丈夫", "pinyin": "zhàngfu", "definition": "husband"},
+      {"word": "旁边", "pinyin": "pángbiān", "definition": "beside, side"},
+      {"word": "真", "pinyin": "zhēn", "definition": "really, indeed"},
+      {"word": "粉色", "pinyin": "fěnsè", "definition": "pink"},
+      {"word": "颜色", "pinyin": "yánsè", "definition": "color"},
+      {"word": "左边", "pinyin": "zuǒbian", "definition": "left side"},
+      {"word": "红色", "pinyin": "hóngsè", "definition": "red"}
+    ],
+    "grammar": [
+      {
+        "point": "The '的' phrase",
+        "explanation": "A '的' phrase is formed by adding '的' to a noun, pronoun, or adjective, acting as a noun.",
+        "examples": [
+          {"chinese": "这块手表是我的。", "pinyin": "Zhè kuài shǒubiǎo shì wǒ de.", "english": "This watch is mine."}
+        ]
+      },
+      {
+        "point": "The numeral-classifier '一下' (yíxià)",
+        "explanation": "Used after a verb to indicate a short or brief action.",
+        "examples": [
+          {"chinese": "你看一下。", "pinyin": "Nǐ kàn yíxià.", "english": "Have a look."}
+        ]
+      }
+    ]
+  },
+  {
+    "lesson": 4,
+    "title": "He recommended me for this job",
+    "vocabulary": [
+      {"word": "生日", "pinyin": "shēngrì", "definition": "birthday"},
+      {"word": "快乐", "pinyin": "kuàilè", "definition": "happy"},
+      {"word": "给", "pinyin": "gěi", "definition": "to, for; to give"},
+      {"word": "接", "pinyin": "jiē", "definition": "to receive, meet"},
+      {"word": "晚上", "pinyin": "wǎnshang", "definition": "evening, night"},
+      {"word": "问", "pinyin": "wèn", "definition": "to ask"},
+      {"word": "非常", "pinyin": "fēicháng", "definition": "very, extremely"},
+      {"word": "开始", "pinyin": "kāishǐ", "definition": "to start, begin"},
+      {"word": "已经", "pinyin": "yǐjīng", "definition": "already"},
+      {"word": "介绍", "pinyin": "jièshào", "definition": "to introduce"},
+      {"word": "帮", "pinyin": "bāng", "definition": "to help"},
+      {"word": "长", "pinyin": "zhǎng", "definition": "to grow"}
+    ],
+    "grammar": [
+      {
+        "point": "The '是...的' construction (emphasizing agent)",
+        "explanation": "Used to emphasize the person who performed a past action.",
+        "examples": [
+          {"chinese": "这本书是哥哥买的。", "pinyin": "Zhè běn shū shì gēge mǎi de.", "english": "This book was bought by my older brother."}
+        ]
+      },
+      {
+        "point": "The adverb 已经 (yǐjīng)",
+        "explanation": "Used to indicate that an action has already taken place or a state has reached a certain point.",
+        "examples": [
+          {"chinese": "我已经吃药了。", "pinyin": "Wǒ yǐjīng chī yào le.", "english": "I have already taken the medicine."}
+        ]
+      }
+    ]
+  },
+  {
+    "lesson": 5,
+    "title": "Take this one",
+    "vocabulary": [
+      {"word": "准备", "pinyin": "zhǔnbèi", "definition": "to prepare, plan"},
+      {"word": "就", "pinyin": "jiù", "definition": "conclusion/resolution"},
+      {"word": "鱼", "pinyin": "yú", "definition": "fish"},
+      {"word": "吧", "pinyin": "ba", "definition": "suggestion/request"},
+      {"word": "件", "pinyin": "jiàn", "definition": "measure word for clothes"},
+      {"word": "还", "pinyin": "hái", "definition": "passably, fairly"},
+      {"word": "可以", "pinyin": "kěyǐ", "definition": "not bad, okay"},
+      {"word": "不错", "pinyin": "búcuò", "definition": "pretty good"},
+      {"word": "考试", "pinyin": "kǎoshì", "definition": "test, exam"},
+      {"word": "意思", "pinyin": "yìsi", "definition": "meaning"},
+      {"word": "咖啡", "pinyin": "kāfēi", "definition": "coffee"},
+      {"word": "对", "pinyin": "duì", "definition": "to, for (prep)"},
+      {"word": "以后", "pinyin": "yǐhòu", "definition": "after, afterwards"}
+    ],
+    "grammar": [
+      {
+        "point": "The adverb 就 (jiù)",
+        "explanation": "Used to indicate a conclusion or resolution reached based on what has been said.",
+        "examples": [
+          {"chinese": "你就买这件吧。", "pinyin": "Nǐ jiù mǎi zhè jiàn ba.", "english": "Then just buy this one."}
+        ]
+      },
+      {
+        "point": "Comparison using 比 (bǐ)",
+        "explanation": "The basic form is 'A + 比 + B + Adjective'.",
+        "examples": [
+          {"chinese": "今天比昨天热。", "pinyin": "Jīntiān bǐ zuótiān rè.", "english": "Today is hotter than yesterday."}
+        ]
+      }
+    ]
+  },
+  {
+    "lesson": 6,
+    "title": "Why don't you eat more?",
+    "vocabulary": [
+      {"word": "门", "pinyin": "mén", "definition": "door"},
+      {"word": "外", "pinyin": "wài", "definition": "outside"},
+      {"word": "自行车", "pinyin": "zìxíngchē", "definition": "bicycle"},
+      {"word": "羊肉", "pinyin": "yángròu", "definition": "mutton, lamb"},
+      {"word": "好吃", "pinyin": "hǎochī", "definition": "delicious"},
+      {"word": "面条", "pinyin": "miàntiáo", "definition": "noodles"},
+      {"word": "打篮球", "pinyin": "dǎ lánqiú", "definition": "to play basketball"},
+      {"word": "因为", "pinyin": "yīnwèi", "definition": "because"},
+      {"word": "所以", "pinyin": "suǒyǐ", "definition": "so"},
+      {"word": "游泳", "pinyin": "yóuyǒng", "definition": "to swim"},
+      {"word": "经常", "pinyin": "jīngcháng", "definition": "often"},
+      {"word": "公斤", "pinyin": "gōngjīn", "definition": "kilogram"}
+    ],
+    "grammar": [
+      {
+        "point": "The structure 从...到... (cóng... dào...)",
+        "explanation": "Used to indicate a range in time or space ('from... to...').",
+        "examples": [
+          {"chinese": "从北京到上海", "pinyin": "cóng Běijīng dào Shànghǎi", "english": "from Beijing to Shanghai"}
+        ]
+      },
+      {
+        "point": "The preposition 离 (lí)",
+        "explanation": "Used to indicate the distance between two places.",
+        "examples": [
+          {"chinese": "我家离学校很近。", "pinyin": "Wǒ jiā lí xuéxiào hěn jìn.", "english": "My home is very close to the school."}
+        ]
+      }
+    ]
+  },
+  {
+    "lesson": 7,
+    "title": "It's not far from here",
+    "vocabulary": [
+      {"word": "机场", "pinyin": "jīchǎng", "definition": "airport"},
+      {"word": "路", "pinyin": "lù", "definition": "road, path"},
+      {"word": "离", "pinyin": "lí", "definition": "away from (distance)"},
+      {"word": "公司", "pinyin": "gōngsī", "definition": "company"},
+      {"word": "远", "pinyin": "yuǎn", "definition": "far"},
+      {"word": "小时", "pinyin": "xiǎoshí", "definition": "hour"},
+      {"word": "慢", "pinyin": "màn", "definition": "slow"},
+      {"word": "快", "pinyin": "kuài", "definition": "fast, quick"},
+      {"word": "过", "pinyin": "guò", "definition": "to pass (time)"},
+      {"word": "走", "pinyin": "zǒu", "definition": "to walk, go"},
+      {"word": "到", "pinyin": "dào", "definition": "to arrive, reach"}
+    ],
+    "grammar": [
+      {
+        "point": "The particle 着 (zhe) indicating state",
+        "explanation": "Attached to a verb to indicate that a state is continuing.",
+        "examples": [
+          {"chinese": "门开着呢。", "pinyin": "Mén kāi zhe ne.", "english": "The door is open."}
+        ]
+      }
+    ]
+  },
+  {
+    "lesson": 8,
+    "title": "Let me think about it",
+    "vocabulary": [
+      {"word": "再", "pinyin": "zài", "definition": "again, once more"},
+      {"word": "让", "pinyin": "ràng", "definition": "to let, allow"},
+      {"word": "告诉", "pinyin": "gàosu", "definition": "to tell"},
+      {"word": "等", "pinyin": "děng", "definition": "to wait"},
+      {"word": "找", "pinyin": "zhǎo", "definition": "to look for"},
+      {"word": "服务员", "pinyin": "fúwùyuán", "definition": "waiter/waitress"},
+      {"word": "白", "pinyin": "bái", "definition": "white"},
+      {"word": "黑", "pinyin": "hēi", "definition": "black"},
+      {"word": "贵", "pinyin": "guì", "definition": "expensive"}
+    ],
+    "grammar": [
+      {
+        "point": "The adverbs 也 (yě) and 都 (dōu) for total negation",
+        "explanation": "Used with '一 + Measure Word + Noun' to indicate complete negation.",
+        "examples": [
+          {"chinese": "我一个苹果也不想吃。", "pinyin": "Wǒ yí ge píngguǒ yě bù xiǎng chī.", "english": "I don't want to eat even one apple."}
+        ]
+      }
+    ]
+  },
+  {
+    "lesson": 9,
+    "title": "There were too many questions; I didn't finish",
+    "vocabulary": [
+      {"word": "错", "pinyin": "cuò", "definition": "wrong, mistaken"},
+      {"word": "从", "pinyin": "cóng", "definition": "from"},
+      {"word": "跳舞", "pinyin": "tiàowǔ", "definition": "to dance"},
+      {"word": "第一", "pinyin": "dì-yī", "definition": "first"},
+      {"word": "希望", "pinyin": "xīwàng", "definition": "to hope"},
+      {"word": "问题", "pinyin": "wèntí", "definition": "question, problem"},
+      {"word": "欢迎", "pinyin": "huānyíng", "definition": "to welcome"},
+      {"word": "上班", "pinyin": "shàngbān", "definition": "to go to work"},
+      {"word": "懂", "pinyin": "dǒng", "definition": "to understand"},
+      {"word": "完", "pinyin": "wán", "definition": "to finish, end"},
+      {"word": "题", "pinyin": "tí", "definition": "question (in test)"}
+    ],
+    "grammar": [
+      {
+        "point": "Result Complements",
+        "explanation": "A verb or adjective used after a verb to indicate the result of the action (e.g., 完, 懂, 对, 好).",
+        "examples": [
+          {"chinese": "题我做完了。", "pinyin": "Tí wǒ zuò wán le.", "english": "I have finished doing the questions."}
+        ]
+      },
+      {
+        "point": "就 (jiù) vs 才 (cái)",
+        "explanation": "就 indicates that an action happens early/fast, while 才 indicates it happens late/slow.",
+        "examples": [
+          {"chinese": "他八点就来了。", "pinyin": "Tā bā diǎn jiù lái le.", "english": "He came as early as eight o'clock."}
+        ]
+      }
+    ]
+  },
+  {
+    "lesson": 10,
+    "title": "Stop looking for your phone",
+    "vocabulary": [
+      {"word": "别", "pinyin": "bié", "definition": "don't"},
+      {"word": "手机", "pinyin": "shǒujī", "definition": "mobile phone"},
+      {"word": "洗", "pinyin": "xǐ", "definition": "to wash"},
+      {"word": "正在", "pinyin": "zhèngzài", "definition": "in process of"},
+      {"word": "呢", "pinyin": "ne", "definition": "indicating a state"},
+      {"word": "帮助", "pinyin": "bāngzhù", "definition": "to help"},
+      {"word": "课", "pinyin": "kè", "definition": "lesson, class"}
+    ],
+    "grammar": [
+      {
+        "point": "The particle 过 (guò)",
+        "explanation": "Used after a verb to indicate a past experience ('have done').",
+        "examples": [
+          {"chinese": "我见过他。", "pinyin": "Wǒ jiàn guo tā.", "english": "I have seen him before."}
+        ]
+      }
+    ]
+  },
+  {
+    "lesson": 11,
+    "title": "He is three years older than me",
+    "vocabulary": [
+      {"word": "唱歌", "pinyin": "chànggē", "definition": "to sing"},
+      {"word": "男", "pinyin": "nán", "definition": "male"},
+      {"word": "女", "pinyin": "nǚ", "definition": "female"},
+      {"word": "孩子", "pinyin": "háizi", "definition": "child"},
+      {"word": "右边", "pinyin": "yòubian", "definition": "right side"},
+      {"word": "比", "pinyin": "bǐ", "definition": "than (comparison)"},
+      {"word": "便宜", "pinyin": "piányi", "definition": "cheap"},
+      {"word": "说话", "pinyin": "shuōhuà", "definition": "to speak, talk"},
+      {"word": "可能", "pinyin": "kěnéng", "definition": "maybe, possible"},
+      {"word": "去年", "pinyin": "qùnián", "definition": "last year"},
+      {"word": "姓", "pinyin": "xìng", "definition": "surname"}
+    ],
+    "grammar": [
+      {
+        "point": "Comparison using 比 (bǐ) (2)",
+        "explanation": "A + 比 + B + Adjective + Complement (e.g., 一点儿, 一些, 多了, 得多).",
+        "examples": [
+          {"chinese": "他比我大三岁。", "pinyin": "Tā bǐ wǒ dà sān suì.", "english": "He is three years older than me."}
+        ]
+      }
+    ]
+  },
+  {
+    "lesson": 12,
+    "title": "You're wearing too little",
+    "vocabulary": [
+      {"word": "下雪", "pinyin": "xiàxuě", "definition": "to snow"},
+      {"word": "零", "pinyin": "líng", "definition": "zero"},
+      {"word": "度", "pinyin": "dù", "definition": "degree"},
+      {"word": "穿", "pinyin": "chuān", "definition": "to wear"},
+      {"word": "进", "pinyin": "jìn", "definition": "to enter"},
+      {"word": "弟弟", "pinyin": "dìdi", "definition": "younger brother"},
+      {"word": "近", "pinyin": "jìn", "definition": "near, close"}
+    ],
+    "grammar": [
+      {
+        "point": "The structure '要...了' (yào... le) for imminent action",
+        "explanation": "Indicates that an action is about to happen soon.",
+        "examples": [
+          {"chinese": "要下雨了。", "pinyin": "Yào xià yǔ le.", "english": "It is going to rain."}
+        ]
+      }
+    ]
+  },
+  {
+    "lesson": 13,
+    "title": "The door is open",
+    "vocabulary": [
+      {"word": "着", "pinyin": "zhe", "definition": "indicating a state"},
+      {"word": "手", "pinyin": "shǒu", "definition": "hand"},
+      {"word": "拿", "pinyin": "ná", "definition": "to hold, take"},
+      {"word": "铅笔", "pinyin": "qiānbǐ", "definition": "pencil"},
+      {"word": "班", "pinyin": "bān", "definition": "class, grade"},
+      {"word": "长", "pinyin": "zhǎng", "definition": "long"},
+      {"word": "笑", "pinyin": "xiào", "definition": "to smile, laugh"},
+      {"word": "宾馆", "pinyin": "bīnguǎn", "definition": "hotel"},
+      {"word": "一直", "pinyin": "yìzhí", "definition": "straight, all along"},
+      {"word": "往", "pinyin": "wǎng", "definition": "towards"},
+      {"word": "路口", "pinyin": "lùkǒu", "definition": "intersection"}
+    ],
+    "grammar": [
+      {
+        "point": "The '把' (bǎ) sentence (1)",
+        "explanation": "Subject + 把 + Object + Verb + Other elements. Used when an object is affected by an action.",
+        "examples": [
+          {"chinese": "我把书放在桌子上了。", "pinyin": "Wǒ bǎ shū fàng zài zhuōzi shang le.", "english": "I put the book on the table."}
+        ]
+      }
+    ]
+  },
+  {
+    "lesson": 14,
+    "title": "Have you seen that movie?",
+    "vocabulary": [
+      {"word": "有意思", "pinyin": "yǒu yìsi", "definition": "interesting"},
+      {"word": "虽然", "pinyin": "suīrán", "definition": "although"},
+      {"word": "但是", "pinyin": "dànshì", "definition": "but"},
+      {"word": "次", "pinyin": "cì", "definition": "times (measure word)"},
+      {"word": "玩儿", "pinyin": "wánr", "definition": "to play, have fun"},
+      {"word": "晴", "pinyin": "qíng", "definition": "sunny, clear"},
+      {"word": "百", "pinyin": "bǎi", "definition": "hundred"}
+    ],
+    "grammar": [
+      {
+        "point": "The '被' (bèi) sentence (passive voice)",
+        "explanation": "Object + 被 + Subject + Verb + Other elements.",
+        "examples": [
+          {"chinese": "蛋糕被弟弟吃了。", "pinyin": "Dàngāo bèi dìdi chī le.", "english": "The cake was eaten by my younger brother."}
+        ]
+      }
+    ]
+  },
+  {
+    "lesson": 15,
+    "title": "The New Year is coming",
+    "vocabulary": [
+      {"word": "新年", "pinyin": "xīnnián", "definition": "New Year"},
+      {"word": "票", "pinyin": "piào", "definition": "ticket"},
+      {"word": "火车站", "pinyin": "huǒchēzhàn", "definition": "train station"},
+      {"word": "大家", "pinyin": "dàjiā", "definition": "everyone"},
+      {"word": "更", "pinyin": "gèng", "definition": "more"},
+      {"word": "妹妹", "pinyin": "mèimei", "definition": "younger sister"},
+      {"word": "阴", "pinyin": "yīn", "definition": "cloudy"}
+    ],
+    "grammar": [
+      {
+        "point": "Reduplication of verbs",
+        "explanation": "Verb reduplication (AA or ABAB) indicates a short, quick, or casual action.",
+        "examples": [
+          {"chinese": "休息休息", "pinyin": "xiūxi xiūxi", "english": "to have a short rest"}
+        ]
+      }
+    ]
+  }
+]

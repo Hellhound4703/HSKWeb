@@ -1,0 +1,447 @@
+[
+  {
+    "lesson": 1,
+    "title": "你好",
+    "vocabulary": [
+      {"word": "你", "pinyin": "nǐ", "definition": "you"},
+      {"word": "好", "pinyin": "hǎo", "definition": "good/well"},
+      {"word": "您", "pinyin": "nín", "definition": "you (polite)"},
+      {"word": "你们", "pinyin": "nǐmen", "definition": "you (plural)"},
+      {"word": "对不起", "pinyin": "duìbuqǐ", "definition": "sorry"},
+      {"word": "没关系", "pinyin": "méi guānxi", "definition": "it doesn't matter"}
+    ],
+    "grammar": [
+      {
+        "point": "The pronoun 您 (nín)",
+        "explanation": "您 is the polite form of 你 (nǐ), used to show respect to elders or superiors.",
+        "examples": [
+          {"chinese": "老师，您好！", "pinyin": "Lǎoshī, nín hǎo!", "english": "Teacher, hello!"}
+        ]
+      }
+    ]
+  },
+  {
+    "lesson": 2,
+    "title": "谢谢你",
+    "vocabulary": [
+      {"word": "谢谢", "pinyin": "xièxie", "definition": "thanks"},
+      {"word": "不", "pinyin": "bù", "definition": "no/not"},
+      {"word": "不客气", "pinyin": "bú kèqi", "definition": "you're welcome"},
+      {"word": "再见", "pinyin": "zàijiàn", "definition": "goodbye"}
+    ],
+    "grammar": [
+      {
+        "point": "Negation with 不 (bù)",
+        "explanation": "不 is used to negate verbs and adjectives. When followed by a 4th tone syllable, it changes to 2nd tone (bú).",
+        "examples": [
+          {"chinese": "不客气。", "pinyin": "Bú kèqi.", "english": "You're welcome."}
+        ]
+      }
+    ]
+  },
+  {
+    "lesson": 3,
+    "title": "你叫什么名字",
+    "vocabulary": [
+      {"word": "叫", "pinyin": "jiào", "definition": "to be called"},
+      {"word": "什么", "pinyin": "shénme", "definition": "what"},
+      {"word": "名字", "pinyin": "míngzi", "definition": "name"},
+      {"word": "我", "pinyin": "wǒ", "definition": "I/me"},
+      {"word": "李月", "pinyin": "Lǐ Yuè", "definition": "Li Yue (name)"},
+      {"word": "老师", "pinyin": "lǎoshī", "definition": "teacher"},
+      {"word": "学生", "pinyin": "xuésheng", "definition": "student"},
+      {"word": "人", "pinyin": "rén", "definition": "person/people"}
+    ],
+    "grammar": [
+      {
+        "point": "Interrogative pronoun 什么 (shénme)",
+        "explanation": "什么 is used to ask 'what'. It can be used alone or before a noun.",
+        "examples": [
+          {"chinese": "你叫什么名字？", "pinyin": "Nǐ jiào shénme míngzi?", "english": "What is your name?"}
+        ]
+      },
+      {
+        "point": "The '是' (shì) sentence",
+        "explanation": "The verb 是 is used to equate two things (A is B).",
+        "examples": [
+          {"chinese": "我是学生。", "pinyin": "Wǒ shì xuésheng.", "english": "I am a student."}
+        ]
+      }
+    ]
+  },
+  {
+    "lesson": 4,
+    "title": "她是我的汉语老师",
+    "vocabulary": [
+      {"word": "她", "pinyin": "tā", "definition": "she/her"},
+      {"word": "谁", "pinyin": "shéi/shuí", "definition": "who"},
+      {"word": "的", "pinyin": "de", "definition": "possessive particle"},
+      {"word": "汉语", "pinyin": "Hànyǔ", "definition": "Chinese (language)"},
+      {"word": "哪", "pinyin": "nǎ/něi", "definition": "which"},
+      {"word": "国", "pinyin": "guó", "definition": "country/nation"},
+      {"word": "他", "pinyin": "tā", "definition": "he/him"},
+      {"word": "同学", "pinyin": "tóngxué", "definition": "classmate"},
+      {"word": "朋友", "pinyin": "péngyou", "definition": "friend"}
+    ],
+    "grammar": [
+      {
+        "point": "Interrogative pronouns 谁 (shéi) and 哪 (nǎ)",
+        "explanation": "谁 means 'who' and 哪 means 'which'.",
+        "examples": [
+          {"chinese": "他是谁？", "pinyin": "Tā shì shéi?", "english": "Who is he?"},
+          {"chinese": "你是哪国人？", "pinyin": "Nǐ shì nǎ guó rén?", "english": "Which country are you from?"}
+        ]
+      },
+      {
+        "point": "Structural particle 的 (de)",
+        "explanation": "的 is used after a noun or pronoun to indicate possession.",
+        "examples": [
+          {"chinese": "我的老师", "pinyin": "wǒ de lǎoshī", "english": "my teacher"}
+        ]
+      }
+    ]
+  },
+  {
+    "lesson": 5,
+    "title": "她女儿今年二十岁",
+    "vocabulary": [
+      {"word": "家", "pinyin": "jiā", "definition": "family/home"},
+      {"word": "有", "pinyin": "yǒu", "definition": "to have"},
+      {"word": "口", "pinyin": "kǒu", "definition": "measure word for family"},
+      {"word": "女儿", "pinyin": "nǚ'ér", "definition": "daughter"},
+      {"word": "几", "pinyin": "jǐ", "definition": "how many"},
+      {"word": "岁", "pinyin": "suì", "definition": "year (of age)"},
+      {"word": "了", "pinyin": "le", "definition": "particle indicating change"},
+      {"word": "今年", "pinyin": "jīnnián", "definition": "this year"},
+      {"word": "多", "pinyin": "duō", "definition": "many/much"},
+      {"word": "大", "pinyin": "dà", "definition": "big/old"}
+    ],
+    "grammar": [
+      {
+        "point": "Interrogative pronoun 几 (jǐ)",
+        "explanation": "几 is used to ask about numbers, usually for amounts less than 10.",
+        "examples": [
+          {"chinese": "你家有几口人？", "pinyin": "Nǐ jiā yǒu jǐ kǒu rén?", "english": "How many people are there in your family?"}
+        ]
+      },
+      {
+        "point": "The particle 了 (le) for change",
+        "explanation": "Used at the end of a sentence to indicate a change in a situation or a new state.",
+        "examples": [
+          {"chinese": "她女儿二十岁了。", "pinyin": "Tā nǚ'ér èrshí suì le.", "english": "Her daughter is 20 years old now."}
+        ]
+      }
+    ]
+  },
+  {
+    "lesson": 6,
+    "title": "我会说汉语",
+    "vocabulary": [
+      {"word": "会", "pinyin": "huì", "definition": "can/to be able to"},
+      {"word": "说", "pinyin": "shuō", "definition": "to speak"},
+      {"word": "妈妈", "pinyin": "māma", "definition": "mother"},
+      {"word": "菜", "pinyin": "cài", "definition": "dish/vegetable"},
+      {"word": "很", "pinyin": "hěn", "definition": "very"},
+      {"word": "好吃", "pinyin": "hǎochī", "definition": "delicious"},
+      {"word": "做", "pinyin": "zuò", "definition": "to do/make"},
+      {"word": "写", "pinyin": "xiě", "definition": "to write"},
+      {"word": "汉字", "pinyin": "Hànzì", "definition": "Chinese character"},
+      {"word": "字", "pinyin": "zì", "definition": "character"},
+      {"word": "怎么", "pinyin": "zěnme", "definition": "how"},
+      {"word": "读", "pinyin": "dú", "definition": "to read"}
+    ],
+    "grammar": [
+      {
+        "point": "Modal verb 会 (huì)",
+        "explanation": "会 indicates an acquired skill ('know how to').",
+        "examples": [
+          {"chinese": "我会说汉语。", "pinyin": "Wǒ huì shuō Hànyǔ.", "english": "I can speak Chinese."}
+        ]
+      },
+      {
+        "point": "Interrogative pronoun 怎么 (zěnme)",
+        "explanation": "怎么 is used before a verb to ask about the manner of an action.",
+        "examples": [
+          {"chinese": "这个字怎么写？", "pinyin": "Zhège zì zěnme xiě?", "english": "How do you write this character?"}
+        ]
+      }
+    ]
+  },
+  {
+    "lesson": 7,
+    "title": "今天几号",
+    "vocabulary": [
+      {"word": "请", "pinyin": "qǐng", "definition": "please"},
+      {"word": "问", "pinyin": "wèn", "definition": "to ask"},
+      {"word": "今天", "pinyin": "jīntiān", "definition": "today"},
+      {"word": "号", "pinyin": "hào", "definition": "date/number"},
+      {"word": "月", "pinyin": "yuè", "definition": "month"},
+      {"word": "星期", "pinyin": "xīngqī", "definition": "week"},
+      {"word": "昨天", "pinyin": "zuótiān", "definition": "yesterday"},
+      {"word": "明天", "pinyin": "míngtiān", "definition": "tomorrow"},
+      {"word": "去", "pinyin": "qù", "definition": "to go"},
+      {"word": "学校", "pinyin": "xuéxiào", "definition": "school"},
+      {"word": "看", "pinyin": "kàn", "definition": "to look/read/see"},
+      {"word": "书", "pinyin": "shū", "definition": "book"}
+    ],
+    "grammar": [
+      {
+        "point": "Sentence with a nominal predicate",
+        "explanation": "A sentence where the predicate is a noun or noun phrase, often used for dates, time, or age.",
+        "examples": [
+          {"chinese": "今天九月一号。", "pinyin": "Jīntiān jiǔyuè yī hào.", "english": "Today is September 1st."}
+        ]
+      },
+      {
+        "point": "Serial verb construction: 去 + Place + To do",
+        "explanation": "Used to express going somewhere to perform an action.",
+        "examples": [
+          {"chinese": "我去学校看书。", "pinyin": "Wǒ qù xuéxiào kàn shū.", "english": "I go to school to read books."}
+        ]
+      }
+    ]
+  },
+  {
+    "lesson": 8,
+    "title": "我想喝茶",
+    "vocabulary": [
+      {"word": "想", "pinyin": "xiǎng", "definition": "to want/think"},
+      {"word": "喝", "pinyin": "hē", "definition": "to drink"},
+      {"word": "茶", "pinyin": "chá", "definition": "tea"},
+      {"word": "吃", "pinyin": "chī", "definition": "to eat"},
+      {"word": "米饭", "pinyin": "mǐfàn", "definition": "cooked rice"},
+      {"word": "下午", "pinyin": "xiàwǔ", "definition": "afternoon"},
+      {"word": "商店", "pinyin": "shāngdiàn", "definition": "shop/store"},
+      {"word": "买", "pinyin": "mǎi", "definition": "to buy"},
+      {"word": "个", "pinyin": "ge", "definition": "general measure word"},
+      {"word": "杯子", "pinyin": "bēizi", "definition": "cup/glass"},
+      {"word": "这", "pinyin": "zhè", "definition": "this"},
+      {"word": "多少", "pinyin": "duōshao", "definition": "how much"},
+      {"word": "钱", "pinyin": "qián", "definition": "money"},
+      {"word": "块", "pinyin": "kuài", "definition": "unit of money (informal)"},
+      {"word": "那", "pinyin": "nà", "definition": "that"}
+    ],
+    "grammar": [
+      {
+        "point": "Modal verb 想 (xiǎng)",
+        "explanation": "想 indicates a desire or intention ('would like to').",
+        "examples": [
+          {"chinese": "我想喝茶。", "pinyin": "Wǒ xiǎng hē chá.", "english": "I would like to drink tea."}
+        ]
+      },
+      {
+        "point": "Interrogative pronoun 多少 (duōshao)",
+        "explanation": "多少 is used to ask for an amount, usually for numbers greater than 10.",
+        "examples": [
+          {"chinese": "这个杯子多少钱？", "pinyin": "Zhège bēizi duōshao qián?", "english": "How much is this cup?"}
+        ]
+      }
+    ]
+  },
+  {
+    "lesson": 9,
+    "title": "你儿子在哪儿工作",
+    "vocabulary": [
+      {"word": "小", "pinyin": "xiǎo", "definition": "small"},
+      {"word": "猫", "pinyin": "māo", "definition": "cat"},
+      {"word": "在", "pinyin": "zài", "definition": "at/in/on"},
+      {"word": "那儿", "pinyin": "nàr", "definition": "there"},
+      {"word": "狗", "pinyin": "gǒu", "definition": "dog"},
+      {"word": "椅子", "pinyin": "yǐzi", "definition": "chair"},
+      {"word": "下面", "pinyin": "xiàmiàn", "definition": "under/below"},
+      {"word": "哪儿", "pinyin": "nǎr", "definition": "where"},
+      {"word": "工作", "pinyin": "gōngzuò", "definition": "work/to work"},
+      {"word": "儿子", "pinyin": "érzi", "definition": "son"},
+      {"word": "医院", "pinyin": "yīyuàn", "definition": "hospital"},
+      {"word": "爸爸", "pinyin": "bàba", "definition": "father"}
+    ],
+    "grammar": [
+      {
+        "point": "Preposition 在 (zài)",
+        "explanation": "Used to indicate the location of someone or something.",
+        "examples": [
+          {"chinese": "我在家。", "pinyin": "Wǒ zài jiā.", "english": "I am at home."}
+        ]
+      },
+      {
+        "point": "Interrogative pronoun 哪儿 (nǎr)",
+        "explanation": "Used to ask 'where'.",
+        "examples": [
+          {"chinese": "你在哪儿？", "pinyin": "Nǐ zài nǎr?", "english": "Where are you?"}
+        ]
+      }
+    ]
+  },
+  {
+    "lesson": 10,
+    "title": "我能坐这儿吗",
+    "vocabulary": [
+      {"word": "桌子", "pinyin": "zhuōzi", "definition": "table/desk"},
+      {"word": "上", "pinyin": "shàng", "definition": "on/up"},
+      {"word": "电脑", "pinyin": "diànnǎo", "definition": "computer"},
+      {"word": "和", "pinyin": "hé", "definition": "and"},
+      {"word": "本", "pinyin": "běn", "definition": "measure word for books"},
+      {"word": "里", "pinyin": "lǐ", "definition": "inside"},
+      {"word": "前面", "pinyin": "qiánmiàn", "definition": "front"},
+      {"word": "后面", "pinyin": "hòumiàn", "definition": "back"},
+      {"word": "能量", "pinyin": "néngliàng", "definition": "energy"},
+      {"word": "这儿", "pinyin": "zhèr", "definition": "here"},
+      {"word": "没有", "pinyin": "méiyǒu", "definition": "not have/there is no"},
+      {"word": "能", "pinyin": "néng", "definition": "can/may"},
+      {"word": "坐", "pinyin": "zuò", "definition": "to sit"}
+    ],
+    "grammar": [
+      {
+        "point": "Sentences with 有 (yǒu) indicating possession",
+        "explanation": "有 indicates that someone has something.",
+        "examples": [
+          {"chinese": "桌子上有电脑。", "pinyin": "Zhuōzi shang yǒu diànnǎo.", "english": "There is a computer on the table."}
+        ]
+      },
+      {
+        "point": "Modal verb 能 (néng)",
+        "explanation": "能 indicates possibility or permission.",
+        "examples": [
+          {"chinese": "我能坐这儿吗？", "pinyin": "Wǒ néng zuò zhèr ma?", "english": "Can I sit here?"}
+        ]
+      }
+    ]
+  },
+  {
+    "lesson": 11,
+    "title": "现在几点",
+    "vocabulary": [
+      {"word": "现在", "pinyin": "xiànzài", "definition": "now"},
+      {"word": "点", "pinyin": "diǎn", "definition": "o'clock"},
+      {"word": "分", "pinyin": "fēn", "definition": "minute"},
+      {"word": "中午", "pinyin": "zhōngwǔ", "definition": "noon"},
+      {"word": "吃饭", "pinyin": "chī fàn", "definition": "to eat a meal"},
+      {"word": "时候", "pinyin": "shíhou", "definition": "time/moment"},
+      {"word": "回", "pinyin": "huí", "definition": "to return"},
+      {"word": "我们", "pinyin": "wǒmen", "definition": "we/us"},
+      {"word": "电影", "pinyin": "diànyǐng", "definition": "movie"},
+      {"word": "住", "pinyin": "zhù", "definition": "to live/stay"},
+      {"word": "前", "pinyin": "qián", "definition": "before/front"}
+    ],
+    "grammar": [
+      {
+        "point": "Telling time with 点 (diǎn) and 分 (fēn)",
+        "explanation": "点 is used for hours and 分 for minutes.",
+        "examples": [
+          {"chinese": "现在十点十分。", "pinyin": "Xiànzài shí diǎn shí fēn.", "english": "It is ten past ten now."}
+        ]
+      }
+    ]
+  },
+  {
+    "lesson": 12,
+    "title": "明天天气怎么样",
+    "vocabulary": [
+      {"word": "天气", "pinyin": "tiānqì", "definition": "weather"},
+      {"word": "怎么样", "pinyin": "zěnmeyàng", "definition": "how about"},
+      {"word": "太", "pinyin": "tài", "definition": "too/extremely"},
+      {"word": "热", "pinyin": "rè", "definition": "hot"},
+      {"word": "冷", "pinyin": "lěng", "definition": "cold"},
+      {"word": "下雨", "pinyin": "xià yǔ", "definition": "to rain"},
+      {"word": "水", "pinyin": "shuǐ", "definition": "water"},
+      {"word": "水果", "pinyin": "shuǐguǒ", "definition": "fruit"},
+      {"word": "医生", "pinyin": "yīshēng", "definition": "doctor"},
+      {"word": "爱", "pinyin": "ài", "definition": "to love"},
+      {"word": "身体", "pinyin": "shēntǐ", "definition": "body/health"},
+      {"word": "些", "pinyin": "xiē", "definition": "some/a few"}
+    ],
+    "grammar": [
+      {
+        "point": "Interrogative pronoun 怎么样 (zěnmeyàng)",
+        "explanation": "Used to ask about the condition of something or someone.",
+        "examples": [
+          {"chinese": "明天天气怎么样？", "pinyin": "Míngtiān tiānqì zěnmeyàng?", "english": "How will the weather be tomorrow?"}
+        ]
+      },
+      {
+        "point": "Adverb of degree 太 (tài)",
+        "explanation": "太 is often used with 了 to express 'too much' or 'extremely'.",
+        "examples": [
+          {"chinese": "太热了！", "pinyin": "Tài rè le!", "english": "It's too hot!"}
+        ]
+      }
+    ]
+  },
+  {
+    "lesson": 13,
+    "title": "他在学做中国菜吗",
+    "vocabulary": [
+      {"word": "喂", "pinyin": "wèi", "definition": "hello (on phone)"},
+      {"word": "也", "pinyin": "yě", "definition": "also/too"},
+      {"word": "学习", "pinyin": "xuéxí", "definition": "to study"},
+      {"word": "喜欢", "pinyin": "xǐhuan", "definition": "to like"},
+      {"word": "电视", "pinyin": "diànshì", "definition": "TV"},
+      {"word": "打电话", "pinyin": "dǎ diànhuà", "definition": "to make a phone call"},
+      {"word": "吧", "pinyin": "ba", "definition": "modal particle"}
+    ],
+    "grammar": [
+      {
+        "point": "The particle 呢 (ne) for action in progress",
+        "explanation": "Used at the end of a sentence to indicate that an action is currently happening.",
+        "examples": [
+          {"chinese": "他在打电话呢。", "pinyin": "Tā zài dǎ diànhuà ne.", "english": "He is making a phone call."}
+        ]
+      }
+    ]
+  },
+  {
+    "lesson": 14,
+    "title": "她买了不少衣服",
+    "vocabulary": [
+      {"word": "东西", "pinyin": "dōngxi", "definition": "thing/object"},
+      {"word": "一点儿", "pinyin": "yìdiǎnr", "definition": "a bit"},
+      {"word": "苹果", "pinyin": "píngguǒ", "definition": "apple"},
+      {"word": "看见", "pinyin": "kànjiàn", "definition": "to see/catch sight of"},
+      {"word": "先生", "pinyin": "xiānsheng", "definition": "Mr./gentleman"},
+      {"word": "开", "pinyin": "kāi", "definition": "to drive/open"},
+      {"word": "车", "pinyin": "chē", "definition": "car/vehicle"},
+      {"word": "回来", "pinyin": "huílai", "definition": "to come back"},
+      {"word": "分钟", "pinyin": "fēnzhōng", "definition": "minute"},
+      {"word": "后", "pinyin": "hòu", "definition": "after/back"},
+      {"word": "张", "pinyin": "zhāng", "definition": "measure word for flat things"},
+      {"word": "漂亮", "pinyin": "piàoliang", "definition": "beautiful"},
+      {"word": "啊", "pinyin": "a", "definition": "modal particle"},
+      {"word": "少", "pinyin": "shǎo", "definition": "few/little"},
+      {"word": "不少", "pinyin": "bùshǎo", "definition": "quite a few"},
+      {"word": "衣服", "pinyin": "yīfu", "definition": "clothes"}
+    ],
+    "grammar": [
+      {
+        "point": "The particle 了 (le) for completion",
+        "explanation": "Indicates that an action has been completed.",
+        "examples": [
+          {"chinese": "她买了点儿苹果。", "pinyin": "Tā mǎi le diǎnr píngguǒ.", "english": "She bought some apples."}
+        ]
+      }
+    ]
+  },
+  {
+    "lesson": 15,
+    "title": "我是坐飞机来的",
+    "vocabulary": [
+      {"word": "认识", "pinyin": "rènshi", "definition": "to know/recognize"},
+      {"word": "年", "pinyin": "nián", "definition": "year"},
+      {"word": "大学", "pinyin": "dàxué", "definition": "university"},
+      {"word": "饭店", "pinyin": "fàndiàn", "definition": "hotel/restaurant"},
+      {"word": "出租车", "pinyin": "chūzūchē", "definition": "taxi"},
+      {"word": "一起", "pinyin": "yìqǐ", "definition": "together"},
+      {"word": "高兴", "pinyin": "gāoxìng", "definition": "happy/glad"},
+      {"word": "听", "pinyin": "tīng", "definition": "to listen"},
+      {"word": "飞机", "pinyin": "fēijī", "definition": "airplane"}
+    ],
+    "grammar": [
+      {
+        "point": "The '是...的' construction for emphasis",
+        "explanation": "Used to emphasize the time, place, or manner of a past event.",
+        "examples": [
+          {"chinese": "我是昨天来的。", "pinyin": "Wǒ shì zuótiān lái de.", "english": "It was yesterday that I arrived."}
+        ]
+      }
+    ]
+  }
+]
