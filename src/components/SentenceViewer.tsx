@@ -34,7 +34,8 @@ const SentenceViewer: React.FC<SentenceViewerProps> = ({ user, level }) => {
   const initExercises = useCallback(() => {
     // Cast the imported data to match the interface
     const filtered = (sentenceData as any[]).filter(ex => ex.level === level) as SentenceExercise[];
-    const shuffled = filtered.sort(() => Math.random() - 0.5);
+    // Shuffle and pick exactly 10
+    const shuffled = filtered.sort(() => Math.random() - 0.5).slice(0, 10);
     setExercises(shuffled);
     setCurrentIndex(0);
     setScore(0);
