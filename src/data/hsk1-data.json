@@ -7,37 +7,37 @@
         "word": "你",
         "pinyin": "nǐ",
         "definition": "you",
-        "hint": "Focus on 'nǐ' to remember it means 'you'."
+        "hint": "Character Breakdown: 你 -> 亻 (person) + ⺈ + 小 (small)"
       },
       {
         "word": "好",
         "pinyin": "hǎo",
         "definition": "good/well",
-        "hint": "Focus on 'hǎo' to remember it means 'good/well'."
+        "hint": "Character Breakdown: 好 -> 女 (woman) + 子 (child)"
       },
       {
         "word": "您",
         "pinyin": "nín",
         "definition": "you (polite)",
-        "hint": "Focus on 'nín' to remember it means 'you (polite)'."
+        "hint": "Character Breakdown: 您 -> 亻 (person) + ⺈ + 小 (small) + 心 (heart)"
       },
       {
         "word": "你们",
         "pinyin": "nǐmen",
         "definition": "you (plural)",
-        "hint": "Focus on 'nǐmen' to remember it means 'you (plural)'."
+        "hint": "Character Breakdown: 你 -> 亻 (person) + ⺈ + 小 (small) | 们 -> 亻 (person) + 门 (door)"
       },
       {
         "word": "对不起",
         "pinyin": "duìbuqǐ",
         "definition": "sorry",
-        "hint": "Focus on 'duìbuqǐ' to remember it means 'sorry'."
+        "hint": "Character Breakdown: 对 -> 又 ((once) again) + 寸 (a unit of length) | 不 -> 一 (one) + 丿 (radical in Chinese characters (Kangxi radical 4)) + 卜 (surname Bu) | 起 -> 走 (walk) + 己 (self)"
       },
       {
         "word": "没关系",
         "pinyin": "méi guānxi",
         "definition": "it doesn't matter",
-        "hint": "Focus on 'méi guānxi' to remember it means 'it doesn't matter'."
+        "hint": "Character Breakdown: 没 -> 氵 (water) + 殳 (weapon) | 关 -> 丷 (\"eight\" component in Chinese characters) + 一 (one) + 大 (big) | 系 -> ㇒ + 糸 (silk)"
       }
     ],
     "grammar": [
@@ -62,25 +62,25 @@
         "word": "谢谢",
         "pinyin": "xièxie",
         "definition": "thanks",
-        "hint": "Focus on 'xièxie' to remember it means 'thanks'."
+        "hint": "Character Breakdown: 谢 -> 讠 (speech) + 身 (body) + 寸 (a unit of length) | 谢 -> 讠 (speech) + 身 (body) + 寸 (a unit of length)"
       },
       {
         "word": "不",
         "pinyin": "bù",
         "definition": "no/not",
-        "hint": "Focus on 'bù' to remember it means 'no/not'."
+        "hint": "Character Breakdown: 不 -> 一 (one) + 丿 (radical in Chinese characters (Kangxi radical 4)) + 卜 (surname Bu)"
       },
       {
         "word": "不客气",
         "pinyin": "bú kèqi",
         "definition": "you're welcome",
-        "hint": "Focus on 'bú kèqi' to remember it means 'you're welcome'."
+        "hint": "Character Breakdown: 不 -> 一 (one) + 丿 (radical in Chinese characters (Kangxi radical 4)) + 卜 (surname Bu) | 客 -> 宀 (roof) + 夂 (\"walk slowly\" component in Chinese characters) + 口 (mouth) | 气 (gas)"
       },
       {
         "word": "再见",
         "pinyin": "zàijiàn",
         "definition": "goodbye",
-        "hint": "Focus on 'zàijiàn' to remember it means 'goodbye'."
+        "hint": "Character Breakdown: 再 -> 一 (one) + 冂 (radical in Chinese characters (Kangxi radical 13), occurring in 用, 同, 网 etc) + 土 (earth) | 见 (to see)"
       }
     ],
     "grammar": [
@@ -105,49 +105,49 @@
         "word": "叫",
         "pinyin": "jiào",
         "definition": "to be called",
-        "hint": "Focus on 'jiào' to remember it means 'to be called'."
+        "hint": "Character Breakdown: 叫 -> 口 (mouth) + 丨 (radical in Chinese characters (Kangxi radical 2)) + ㇙"
       },
       {
         "word": "什么",
         "pinyin": "shénme",
         "definition": "what",
-        "hint": "Focus on 'shénme' to remember it means 'what'."
+        "hint": "Character Breakdown: 什 -> 亻 (person) + 十 (ten) | 么 -> 丿 (radical in Chinese characters (Kangxi radical 4)) + 厶"
       },
       {
         "word": "名字",
         "pinyin": "míngzi",
         "definition": "name",
-        "hint": "Focus on 'míngzi' to remember it means 'name'."
+        "hint": "Character Breakdown: 名 -> 夕 (dusk) + 口 (mouth) | 字 -> 宀 (roof) + 子 (child)"
       },
       {
         "word": "我",
         "pinyin": "wǒ",
         "definition": "I/me",
-        "hint": "Focus on 'wǒ' to remember it means 'I/me'."
+        "hint": "Character Breakdown: 我 -> 手 (hand) + 戈 (surname Ge)"
       },
       {
         "word": "李月",
         "pinyin": "Lǐ Yuè",
         "definition": "Li Yue (name)",
-        "hint": "Focus on 'Lǐ Yuè' to remember it means 'Li Yue (name)'."
+        "hint": "Character Breakdown: 李 -> 木 (wood) + 子 (child) | 月 (meat)"
       },
       {
         "word": "老师",
         "pinyin": "lǎoshī",
         "definition": "teacher",
-        "hint": "Focus on 'lǎoshī' to remember it means 'teacher'."
+        "hint": "Character Breakdown: 老 (prefix used before the surname of a person or a numeral indicating the order of birth of the children in a family or to indicate affection or familiarity) | 师 -> No glyph available + 一 (one) + 巾 (cloth)"
       },
       {
         "word": "学生",
         "pinyin": "xuésheng",
         "definition": "student",
-        "hint": "Focus on 'xuésheng' to remember it means 'student'."
+        "hint": "Character Breakdown: 学 -> ⺍ + 冖 (\"cover\" radical in Chinese characters (Kangxi radical 14), occurring in 军, 写, 冠 etc) + 子 (child) | 生 (life)"
       },
       {
         "word": "人",
         "pinyin": "rén",
         "definition": "person/people",
-        "hint": "Focus on 'rén' to remember it means 'person/people'."
+        "hint": "Character Breakdown: 人 (person)"
       }
     ],
     "grammar": [
@@ -183,55 +183,55 @@
         "word": "她",
         "pinyin": "tā",
         "definition": "she/her",
-        "hint": "Focus on 'tā' to remember it means 'she/her'."
+        "hint": "Character Breakdown: 她 -> 女 (woman) + 乚 (component in Chinese characters) + ㇆ + 丨 (radical in Chinese characters (Kangxi radical 2))"
       },
       {
         "word": "谁",
         "pinyin": "shéi/shuí",
         "definition": "who",
-        "hint": "Focus on 'shéi/shuí' to remember it means 'who'."
+        "hint": "Character Breakdown: 谁 -> 讠 (speech) + 隹 (bird)"
       },
       {
         "word": "的",
         "pinyin": "de",
         "definition": "possessive particle",
-        "hint": "Focus on 'de' to remember it means 'possessive particle'."
+        "hint": "Character Breakdown: 的 -> 白 (white) + 勹 (archaic variant of 包[bao1]) + 丶 (see 點|点[dian3])"
       },
       {
         "word": "汉语",
         "pinyin": "Hànyǔ",
         "definition": "Chinese (language)",
-        "hint": "Focus on 'Hànyǔ' to remember it means 'Chinese (language)'."
+        "hint": "Character Breakdown: 汉 -> 氵 (water) + 又 ((once) again) | 语 -> 讠 (speech) + 一 (one) + 力 (surname Li) + 一 (one) + 口 (mouth)"
       },
       {
         "word": "哪",
         "pinyin": "nǎ/něi",
         "definition": "which",
-        "hint": "Focus on 'nǎ/něi' to remember it means 'which'."
+        "hint": "Character Breakdown: 哪 -> 口 (mouth) + ㇆ + 二 (two) + 丨 (radical in Chinese characters (Kangxi radical 2)) + 阝 (city/mound)"
       },
       {
         "word": "国",
         "pinyin": "guó",
         "definition": "country/nation",
-        "hint": "Focus on 'guó' to remember it means 'country/nation'."
+        "hint": "Character Breakdown: 国 -> 囗 (enclosure) + 玉 (jade)"
       },
       {
         "word": "他",
         "pinyin": "tā",
         "definition": "he/him",
-        "hint": "Focus on 'tā' to remember it means 'he/him'."
+        "hint": "Character Breakdown: 他 -> 亻 (person) + 乚 (component in Chinese characters) + ㇆ + 丨 (radical in Chinese characters (Kangxi radical 2))"
       },
       {
         "word": "同学",
         "pinyin": "tóngxué",
         "definition": "classmate",
-        "hint": "Focus on 'tóngxué' to remember it means 'classmate'."
+        "hint": "Character Breakdown: 同 -> 冂 (radical in Chinese characters (Kangxi radical 13), occurring in 用, 同, 网 etc) + 一 (one) + 口 (mouth) | 学 -> ⺍ + 冖 (\"cover\" radical in Chinese characters (Kangxi radical 14), occurring in 军, 写, 冠 etc) + 子 (child)"
       },
       {
         "word": "朋友",
         "pinyin": "péngyou",
         "definition": "friend",
-        "hint": "Focus on 'péngyou' to remember it means 'friend'."
+        "hint": "Character Breakdown: 朋 (friend) | 友 -> 𠂇 + 又 ((once) again)"
       }
     ],
     "grammar": [
@@ -272,61 +272,61 @@
         "word": "家",
         "pinyin": "jiā",
         "definition": "family/home",
-        "hint": "Focus on 'jiā' to remember it means 'family/home'."
+        "hint": "Character Breakdown: 家 -> 宀 (roof) + 豕 (pig)"
       },
       {
         "word": "有",
         "pinyin": "yǒu",
         "definition": "to have",
-        "hint": "Focus on 'yǒu' to remember it means 'to have'."
+        "hint": "Character Breakdown: 有 -> 𠂇 + 月 (meat)"
       },
       {
         "word": "口",
         "pinyin": "kǒu",
         "definition": "measure word for family",
-        "hint": "Focus on 'kǒu' to remember it means 'measure word for family'."
+        "hint": "Character Breakdown: 口 (mouth)"
       },
       {
         "word": "女儿",
         "pinyin": "nǚ'ér",
         "definition": "daughter",
-        "hint": "Focus on 'nǚ'ér' to remember it means 'daughter'."
+        "hint": "Character Breakdown: 女 (woman) | 儿 (son)"
       },
       {
         "word": "几",
         "pinyin": "jǐ",
         "definition": "how many",
-        "hint": "Focus on 'jǐ' to remember it means 'how many'."
+        "hint": "Character Breakdown: 几 (small table)"
       },
       {
         "word": "岁",
         "pinyin": "suì",
         "definition": "year (of age)",
-        "hint": "Focus on 'suì' to remember it means 'year (of age)'."
+        "hint": "Character Breakdown: 岁 -> 山 (mountain) + 夕 (dusk)"
       },
       {
         "word": "了",
         "pinyin": "le",
         "definition": "particle indicating change",
-        "hint": "Focus on 'le' to remember it means 'particle indicating change'."
+        "hint": "Character Breakdown: 了 -> ㇇ + 亅 (\"vertical stroke with hook\" radical in Chinese characters (Kangxi radical 6))"
       },
       {
         "word": "今年",
         "pinyin": "jīnnián",
         "definition": "this year",
-        "hint": "Focus on 'jīnnián' to remember it means 'this year'."
+        "hint": "Character Breakdown: 今 -> 人 (person) + 丶 (see 點|点[dian3]) + ㇇ | 年 -> 丿 (radical in Chinese characters (Kangxi radical 4)) + 一 (one) + 十 (ten) + ㇗ + 丨 (radical in Chinese characters (Kangxi radical 2))"
       },
       {
         "word": "多",
         "pinyin": "duō",
         "definition": "many/much",
-        "hint": "Focus on 'duō' to remember it means 'many/much'."
+        "hint": "Character Breakdown: 多 (many)"
       },
       {
         "word": "大",
         "pinyin": "dà",
         "definition": "big/old",
-        "hint": "Focus on 'dà' to remember it means 'big/old'."
+        "hint": "Character Breakdown: 大 (big)"
       }
     ],
     "grammar": [
@@ -362,73 +362,73 @@
         "word": "会",
         "pinyin": "huì",
         "definition": "can/to be able to",
-        "hint": "Focus on 'huì' to remember it means 'can/to be able to'."
+        "hint": "Character Breakdown: 会 -> 人 (person) + 二 (two) + 厶"
       },
       {
         "word": "说",
         "pinyin": "shuō",
         "definition": "to speak",
-        "hint": "Focus on 'shuō' to remember it means 'to speak'."
+        "hint": "Character Breakdown: 说 -> 讠 (speech) + 丷 (\"eight\" component in Chinese characters) + 口 (mouth) + 儿 (son)"
       },
       {
         "word": "妈妈",
         "pinyin": "māma",
         "definition": "mother",
-        "hint": "Focus on 'māma' to remember it means 'mother'."
+        "hint": "Character Breakdown: 妈 -> 女 (woman) + 马 (horse) | 妈 -> 女 (woman) + 马 (horse)"
       },
       {
         "word": "菜",
         "pinyin": "cài",
         "definition": "dish/vegetable",
-        "hint": "Focus on 'cài' to remember it means 'dish/vegetable'."
+        "hint": "Character Breakdown: 菜 -> 艹 (grass) + 爫 (claw) + 木 (wood)"
       },
       {
         "word": "很",
         "pinyin": "hěn",
         "definition": "very",
-        "hint": "Focus on 'hěn' to remember it means 'very'."
+        "hint": "Character Breakdown: 很 -> 彳 (step) + 艮 (mountain)"
       },
       {
         "word": "好吃",
         "pinyin": "hǎochī",
         "definition": "delicious",
-        "hint": "Focus on 'hǎochī' to remember it means 'delicious'."
+        "hint": "Character Breakdown: 好 -> 女 (woman) + 子 (child) | 吃 -> 口 (mouth) + 丿 (radical in Chinese characters (Kangxi radical 4)) + 一 (one) + ㇠"
       },
       {
         "word": "做",
         "pinyin": "zuò",
         "definition": "to do/make",
-        "hint": "Focus on 'zuò' to remember it means 'to do/make'."
+        "hint": "Character Breakdown: 做 -> 亻 (person) + 十 (ten) + 口 (mouth) + ⺙"
       },
       {
         "word": "写",
         "pinyin": "xiě",
         "definition": "to write",
-        "hint": "Focus on 'xiě' to remember it means 'to write'."
+        "hint": "Character Breakdown: 写 -> 冖 (\"cover\" radical in Chinese characters (Kangxi radical 14), occurring in 军, 写, 冠 etc) + No glyph available + 一 (one)"
       },
       {
         "word": "汉字",
         "pinyin": "Hànzì",
         "definition": "Chinese character",
-        "hint": "Focus on 'Hànzì' to remember it means 'Chinese character'."
+        "hint": "Character Breakdown: 汉 -> 氵 (water) + 又 ((once) again) | 字 -> 宀 (roof) + 子 (child)"
       },
       {
         "word": "字",
         "pinyin": "zì",
         "definition": "character",
-        "hint": "Focus on 'zì' to remember it means 'character'."
+        "hint": "Character Breakdown: 字 -> 宀 (roof) + 子 (child)"
       },
       {
         "word": "怎么",
         "pinyin": "zěnme",
         "definition": "how",
-        "hint": "Focus on 'zěnme' to remember it means 'how'."
+        "hint": "Character Breakdown: 怎 -> 丿 (radical in Chinese characters (Kangxi radical 4)) + 一 (one) + 丨 (radical in Chinese characters (Kangxi radical 2)) + 二 (two) + 心 (heart) | 么 -> 丿 (radical in Chinese characters (Kangxi radical 4)) + 厶"
       },
       {
         "word": "读",
         "pinyin": "dú",
         "definition": "to read",
-        "hint": "Focus on 'dú' to remember it means 'to read'."
+        "hint": "Character Breakdown: 读 -> 讠 (speech) + 十 (ten) + ㇖ + 大 (big) + ⺀"
       }
     ],
     "grammar": [
@@ -464,73 +464,73 @@
         "word": "请",
         "pinyin": "qǐng",
         "definition": "please",
-        "hint": "Focus on 'qǐng' to remember it means 'please'."
+        "hint": "Character Breakdown: 请 -> 讠 (speech) + 青 (blue)"
       },
       {
         "word": "问",
         "pinyin": "wèn",
         "definition": "to ask",
-        "hint": "Focus on 'wèn' to remember it means 'to ask'."
+        "hint": "Character Breakdown: 问 -> 门 (door) + 口 (mouth)"
       },
       {
         "word": "今天",
         "pinyin": "jīntiān",
         "definition": "today",
-        "hint": "Focus on 'jīntiān' to remember it means 'today'."
+        "hint": "Character Breakdown: 今 -> 人 (person) + 丶 (see 點|点[dian3]) + ㇇ | 天 -> 一 (one) + 大 (big)"
       },
       {
         "word": "号",
         "pinyin": "hào",
         "definition": "date/number",
-        "hint": "Focus on 'hào' to remember it means 'date/number'."
+        "hint": "Character Breakdown: 号 -> 口 (mouth) + 一 (one) + ㇉"
       },
       {
         "word": "月",
         "pinyin": "yuè",
         "definition": "month",
-        "hint": "Focus on 'yuè' to remember it means 'month'."
+        "hint": "Character Breakdown: 月 (meat)"
       },
       {
         "word": "星期",
         "pinyin": "xīngqī",
         "definition": "week",
-        "hint": "Focus on 'xīngqī' to remember it means 'week'."
+        "hint": "Character Breakdown: 星 -> 日 (sun) + 生 (life) | 期 -> 甘 (sweet) + 一 (one) + 八 (eight) + 月 (meat)"
       },
       {
         "word": "昨天",
         "pinyin": "zuótiān",
         "definition": "yesterday",
-        "hint": "Focus on 'zuótiān' to remember it means 'yesterday'."
+        "hint": "Character Breakdown: 昨 -> 日 (sun) + 丿 (radical in Chinese characters (Kangxi radical 4)) + 一 (one) + 丨 (radical in Chinese characters (Kangxi radical 2)) + 二 (two) | 天 -> 一 (one) + 大 (big)"
       },
       {
         "word": "明天",
         "pinyin": "míngtiān",
         "definition": "tomorrow",
-        "hint": "Focus on 'míngtiān' to remember it means 'tomorrow'."
+        "hint": "Character Breakdown: 明 -> 日 (sun) + 月 (meat) | 天 -> 一 (one) + 大 (big)"
       },
       {
         "word": "去",
         "pinyin": "qù",
         "definition": "to go",
-        "hint": "Focus on 'qù' to remember it means 'to go'."
+        "hint": "Character Breakdown: 去 -> 土 (earth) + 厶"
       },
       {
         "word": "学校",
         "pinyin": "xuéxiào",
         "definition": "school",
-        "hint": "Focus on 'xuéxiào' to remember it means 'school'."
+        "hint": "Character Breakdown: 学 -> ⺍ + 冖 (\"cover\" radical in Chinese characters (Kangxi radical 14), occurring in 军, 写, 冠 etc) + 子 (child) | 校 -> 木 (wood) + 亠 + 八 (eight) + 乂 (to regulate)"
       },
       {
         "word": "看",
         "pinyin": "kàn",
         "definition": "to look/read/see",
-        "hint": "Focus on 'kàn' to remember it means 'to look/read/see'."
+        "hint": "Character Breakdown: 看 -> 龵 + 目 (eye)"
       },
       {
         "word": "书",
         "pinyin": "shū",
         "definition": "book",
-        "hint": "Focus on 'shū' to remember it means 'book'."
+        "hint": "Character Breakdown: 书 -> No glyph available + 丨 (radical in Chinese characters (Kangxi radical 2)) + 丶 (see 點|点[dian3])"
       }
     ],
     "grammar": [
@@ -566,91 +566,91 @@
         "word": "想",
         "pinyin": "xiǎng",
         "definition": "to want/think",
-        "hint": "Focus on 'xiǎng' to remember it means 'to want/think'."
+        "hint": "Character Breakdown: 想 -> 木 (wood) + 目 (eye) + 心 (heart)"
       },
       {
         "word": "喝",
         "pinyin": "hē",
         "definition": "to drink",
-        "hint": "Focus on 'hē' to remember it means 'to drink'."
+        "hint": "Character Breakdown: 喝 -> 口 (mouth) + 曰 (to speak) + 勹 (archaic variant of 包[bao1]) + 人 (person) + ㇗"
       },
       {
         "word": "茶",
         "pinyin": "chá",
         "definition": "tea",
-        "hint": "Focus on 'chá' to remember it means 'tea'."
+        "hint": "Character Breakdown: 茶 -> 艹 (grass) + 人 (person) + 十 (ten) + 小 (small)"
       },
       {
         "word": "吃",
         "pinyin": "chī",
         "definition": "to eat",
-        "hint": "Focus on 'chī' to remember it means 'to eat'."
+        "hint": "Character Breakdown: 吃 -> 口 (mouth) + 丿 (radical in Chinese characters (Kangxi radical 4)) + 一 (one) + ㇠"
       },
       {
         "word": "米饭",
         "pinyin": "mǐfàn",
         "definition": "cooked rice",
-        "hint": "Focus on 'mǐfàn' to remember it means 'cooked rice'."
+        "hint": "Character Breakdown: 米 (rice) | 饭 -> 饣 (eat) + ⺁ + 又 ((once) again)"
       },
       {
         "word": "下午",
         "pinyin": "xiàwǔ",
         "definition": "afternoon",
-        "hint": "Focus on 'xiàwǔ' to remember it means 'afternoon'."
+        "hint": "Character Breakdown: 下 -> 一 (one) + 卜 (surname Bu) | 午 -> 干 (surname Gan) + ㇒"
       },
       {
         "word": "商店",
         "pinyin": "shāngdiàn",
         "definition": "shop/store",
-        "hint": "Focus on 'shāngdiàn' to remember it means 'shop/store'."
+        "hint": "Character Breakdown: 商 -> 亠 + 丷 (\"eight\" component in Chinese characters) + 冂 (radical in Chinese characters (Kangxi radical 13), occurring in 用, 同, 网 etc) + 八 (eight) + 口 (mouth) | 店 -> 广 (surname Guang) + ⺊ + 口 (mouth)"
       },
       {
         "word": "买",
         "pinyin": "mǎi",
         "definition": "to buy",
-        "hint": "Focus on 'mǎi' to remember it means 'to buy'."
+        "hint": "Character Breakdown: 买 -> ㇖ + 大 (big) + ⺀"
       },
       {
         "word": "个",
         "pinyin": "ge",
         "definition": "general measure word",
-        "hint": "Focus on 'ge' to remember it means 'general measure word'."
+        "hint": "Character Breakdown: 个 -> 人 (person) + 丨 (radical in Chinese characters (Kangxi radical 2))"
       },
       {
         "word": "杯子",
         "pinyin": "bēizi",
         "definition": "cup/glass",
-        "hint": "Focus on 'bēizi' to remember it means 'cup/glass'."
+        "hint": "Character Breakdown: 杯 -> 木 (wood) + 一 (one) + 丿 (radical in Chinese characters (Kangxi radical 4)) + 卜 (surname Bu) | 子 (child)"
       },
       {
         "word": "这",
         "pinyin": "zhè",
         "definition": "this",
-        "hint": "Focus on 'zhè' to remember it means 'this'."
+        "hint": "Character Breakdown: 这 -> 辶 (movement) + 文 (surname Wen)"
       },
       {
         "word": "多少",
         "pinyin": "duōshao",
         "definition": "how much",
-        "hint": "Focus on 'duōshao' to remember it means 'how much'."
+        "hint": "Character Breakdown: 多 (many) | 少 -> 小 (small) + 丿 (radical in Chinese characters (Kangxi radical 4))"
       },
       {
         "word": "钱",
         "pinyin": "qián",
         "definition": "money",
-        "hint": "Focus on 'qián' to remember it means 'money'."
+        "hint": "Character Breakdown: 钱 -> 钅 (gold/metal) + 戋 (narrow)"
       },
       {
         "word": "块",
         "pinyin": "kuài",
         "definition": "unit of money (informal)",
-        "hint": "Focus on 'kuài' to remember it means 'unit of money (informal)'."
+        "hint": "Character Breakdown: 块 -> 土 (earth) + No glyph available + 丨 (radical in Chinese characters (Kangxi radical 2)) + 人 (person)"
       },
       {
         "word": "那",
         "pinyin": "nà",
         "definition": "that",
-        "hint": "Focus on 'nà' to remember it means 'that'."
+        "hint": "Character Breakdown: 那 -> ㇆ + 二 (two) + 丨 (radical in Chinese characters (Kangxi radical 2)) + 阝 (city/mound)"
       }
     ],
     "grammar": [
@@ -686,73 +686,73 @@
         "word": "小",
         "pinyin": "xiǎo",
         "definition": "small",
-        "hint": "Focus on 'xiǎo' to remember it means 'small'."
+        "hint": "Character Breakdown: 小 (small)"
       },
       {
         "word": "猫",
         "pinyin": "māo",
         "definition": "cat",
-        "hint": "Focus on 'māo' to remember it means 'cat'."
+        "hint": "Character Breakdown: 猫 -> 犭 (dog) + 艹 (grass) + 田 (field)"
       },
       {
         "word": "在",
         "pinyin": "zài",
         "definition": "at/in/on",
-        "hint": "Focus on 'zài' to remember it means 'at/in/on'."
+        "hint": "Character Breakdown: 在 -> 𠂇 + 亻 (person) + 土 (earth)"
       },
       {
         "word": "那儿",
         "pinyin": "nàr",
         "definition": "there",
-        "hint": "Focus on 'nàr' to remember it means 'there'."
+        "hint": "Character Breakdown: 那 -> ㇆ + 二 (two) + 丨 (radical in Chinese characters (Kangxi radical 2)) + 阝 (city/mound) | 儿 (son)"
       },
       {
         "word": "狗",
         "pinyin": "gǒu",
         "definition": "dog",
-        "hint": "Focus on 'gǒu' to remember it means 'dog'."
+        "hint": "Character Breakdown: 狗 -> 犭 (dog) + 勹 (archaic variant of 包[bao1]) + 口 (mouth)"
       },
       {
         "word": "椅子",
         "pinyin": "yǐzi",
         "definition": "chair",
-        "hint": "Focus on 'yǐzi' to remember it means 'chair'."
+        "hint": "Character Breakdown: 椅 -> 木 (wood) + 大 (big) + 一 (one) + 亅 (\"vertical stroke with hook\" radical in Chinese characters (Kangxi radical 6)) + 口 (mouth) | 子 (child)"
       },
       {
         "word": "下面",
         "pinyin": "xiàmiàn",
         "definition": "under/below",
-        "hint": "Focus on 'xiàmiàn' to remember it means 'under/below'."
+        "hint": "Character Breakdown: 下 -> 一 (one) + 卜 (surname Bu) | 面 (face)"
       },
       {
         "word": "哪儿",
         "pinyin": "nǎr",
         "definition": "where",
-        "hint": "Focus on 'nǎr' to remember it means 'where'."
+        "hint": "Character Breakdown: 哪 -> 口 (mouth) + ㇆ + 二 (two) + 丨 (radical in Chinese characters (Kangxi radical 2)) + 阝 (city/mound) | 儿 (son)"
       },
       {
         "word": "工作",
         "pinyin": "gōngzuò",
         "definition": "work/to work",
-        "hint": "Focus on 'gōngzuò' to remember it means 'work/to work'."
+        "hint": "Character Breakdown: 工 (work) | 作 -> 亻 (person) + 丿 (radical in Chinese characters (Kangxi radical 4)) + 一 (one) + 丨 (radical in Chinese characters (Kangxi radical 2)) + 二 (two)"
       },
       {
         "word": "儿子",
         "pinyin": "érzi",
         "definition": "son",
-        "hint": "Focus on 'érzi' to remember it means 'son'."
+        "hint": "Character Breakdown: 儿 (son) | 子 (child)"
       },
       {
         "word": "医院",
         "pinyin": "yīyuàn",
         "definition": "hospital",
-        "hint": "Focus on 'yīyuàn' to remember it means 'hospital'."
+        "hint": "Character Breakdown: 医 -> 匚 (radical in Chinese characters (Kangxi radical 22), occurring in 区, 医, 匹 etc) + 矢 (arrow) | 院 -> 阝 (city/mound) + 宀 (roof) + 二 (two) + 儿 (son)"
       },
       {
         "word": "爸爸",
         "pinyin": "bàba",
         "definition": "father",
-        "hint": "Focus on 'bàba' to remember it means 'father'."
+        "hint": "Character Breakdown: 爸 -> 父 (father) + 丨 (radical in Chinese characters (Kangxi radical 2)) + No glyph available + 丨 (radical in Chinese characters (Kangxi radical 2)) + 乚 (component in Chinese characters) | 爸 -> 父 (father) + 丨 (radical in Chinese characters (Kangxi radical 2)) + No glyph available + 丨 (radical in Chinese characters (Kangxi radical 2)) + 乚 (component in Chinese characters)"
       }
     ],
     "grammar": [
@@ -788,79 +788,79 @@
         "word": "桌子",
         "pinyin": "zhuōzi",
         "definition": "table/desk",
-        "hint": "Focus on 'zhuōzi' to remember it means 'table/desk'."
+        "hint": "Character Breakdown: 桌 -> ⺊ + 日 (sun) + 木 (wood) | 子 (child)"
       },
       {
         "word": "上",
         "pinyin": "shàng",
         "definition": "on/up",
-        "hint": "Focus on 'shàng' to remember it means 'on/up'."
+        "hint": "Character Breakdown: 上 -> ⺊ + 一 (one)"
       },
       {
         "word": "电脑",
         "pinyin": "diànnǎo",
         "definition": "computer",
-        "hint": "Focus on 'diànnǎo' to remember it means 'computer'."
+        "hint": "Character Breakdown: 电 -> 日 (sun) + 丨 (radical in Chinese characters (Kangxi radical 2)) + 乚 (component in Chinese characters) | 脑 -> 月 (meat) + 亠 + 凵 (receptacle) + 乂 (to regulate)"
       },
       {
         "word": "和",
         "pinyin": "hé",
         "definition": "and",
-        "hint": "Focus on 'hé' to remember it means 'and'."
+        "hint": "Character Breakdown: 和 -> 禾 (grain) + 口 (mouth)"
       },
       {
         "word": "本",
         "pinyin": "běn",
         "definition": "measure word for books",
-        "hint": "Focus on 'běn' to remember it means 'measure word for books'."
+        "hint": "Character Breakdown: 本 -> 木 (wood) + 一 (one)"
       },
       {
         "word": "里",
         "pinyin": "lǐ",
         "definition": "inside",
-        "hint": "Focus on 'lǐ' to remember it means 'inside'."
+        "hint": "Character Breakdown: 里 (village)"
       },
       {
         "word": "前面",
         "pinyin": "qiánmiàn",
         "definition": "front",
-        "hint": "Focus on 'qiánmiàn' to remember it means 'front'."
+        "hint": "Character Breakdown: 前 -> 丷 (\"eight\" component in Chinese characters) + 一 (one) + 月 (meat) + 刂 (\"knife\" radical in Chinese characters (Kangxi radical 18)) | 面 (face)"
       },
       {
         "word": "后面",
         "pinyin": "hòumiàn",
         "definition": "back",
-        "hint": "Focus on 'hòumiàn' to remember it means 'back'."
+        "hint": "Character Breakdown: 后 -> ⺁ + 一 (one) + 口 (mouth) | 面 (face)"
       },
       {
         "word": "能量",
         "pinyin": "néngliàng",
         "definition": "energy",
-        "hint": "Focus on 'néngliàng' to remember it means 'energy'."
+        "hint": "Character Breakdown: 能 -> 厶 + 月 (meat) + No glyph available | 量 -> 日 (sun) + 一 (one) + 里 (village)"
       },
       {
         "word": "这儿",
         "pinyin": "zhèr",
         "definition": "here",
-        "hint": "Focus on 'zhèr' to remember it means 'here'."
+        "hint": "Character Breakdown: 这 -> 辶 (movement) + 文 (surname Wen) | 儿 (son)"
       },
       {
         "word": "没有",
         "pinyin": "méiyǒu",
         "definition": "not have/there is no",
-        "hint": "Focus on 'méiyǒu' to remember it means 'not have/there is no'."
+        "hint": "Character Breakdown: 没 -> 氵 (water) + 殳 (weapon) | 有 -> 𠂇 + 月 (meat)"
       },
       {
         "word": "能",
         "pinyin": "néng",
         "definition": "can/may",
-        "hint": "Focus on 'néng' to remember it means 'can/may'."
+        "hint": "Character Breakdown: 能 -> 厶 + 月 (meat) + No glyph available"
       },
       {
         "word": "坐",
         "pinyin": "zuò",
         "definition": "to sit",
-        "hint": "Focus on 'zuò' to remember it means 'to sit'."
+        "hint": "Character Breakdown: 坐 -> 土 (earth) + 从 (surname Cong)"
       }
     ],
     "grammar": [
@@ -896,67 +896,67 @@
         "word": "现在",
         "pinyin": "xiànzài",
         "definition": "now",
-        "hint": "Focus on 'xiànzài' to remember it means 'now'."
+        "hint": "Character Breakdown: 现 -> 王 (surname Wang) + 见 (to see) | 在 -> 𠂇 + 亻 (person) + 土 (earth)"
       },
       {
         "word": "点",
         "pinyin": "diǎn",
         "definition": "o'clock",
-        "hint": "Focus on 'diǎn' to remember it means 'o'clock'."
+        "hint": "Character Breakdown: 点 -> ⺊ + 口 (mouth) + 灬"
       },
       {
         "word": "分",
         "pinyin": "fēn",
         "definition": "minute",
-        "hint": "Focus on 'fēn' to remember it means 'minute'."
+        "hint": "Character Breakdown: 分 -> 八 (eight) + 刀 (surname Dao)"
       },
       {
         "word": "中午",
         "pinyin": "zhōngwǔ",
         "definition": "noon",
-        "hint": "Focus on 'zhōngwǔ' to remember it means 'noon'."
+        "hint": "Character Breakdown: 中 -> 口 (mouth) + 丨 (radical in Chinese characters (Kangxi radical 2)) | 午 -> 干 (surname Gan) + ㇒"
       },
       {
         "word": "吃饭",
         "pinyin": "chī fàn",
         "definition": "to eat a meal",
-        "hint": "Focus on 'chī fàn' to remember it means 'to eat a meal'."
+        "hint": "Character Breakdown: 吃 -> 口 (mouth) + 丿 (radical in Chinese characters (Kangxi radical 4)) + 一 (one) + ㇠ | 饭 -> 饣 (eat) + ⺁ + 又 ((once) again)"
       },
       {
         "word": "时候",
         "pinyin": "shíhou",
         "definition": "time/moment",
-        "hint": "Focus on 'shíhou' to remember it means 'time/moment'."
+        "hint": "Character Breakdown: 时 -> 日 (sun) + 寸 (a unit of length) | 候 -> 亻 (person) + 丨 (radical in Chinese characters (Kangxi radical 2)) + No glyph available + 矢 (arrow)"
       },
       {
         "word": "回",
         "pinyin": "huí",
         "definition": "to return",
-        "hint": "Focus on 'huí' to remember it means 'to return'."
+        "hint": "Character Breakdown: 回 (to circle)"
       },
       {
         "word": "我们",
         "pinyin": "wǒmen",
         "definition": "we/us",
-        "hint": "Focus on 'wǒmen' to remember it means 'we/us'."
+        "hint": "Character Breakdown: 我 -> 手 (hand) + 戈 (surname Ge) | 们 -> 亻 (person) + 门 (door)"
       },
       {
         "word": "电影",
         "pinyin": "diànyǐng",
         "definition": "movie",
-        "hint": "Focus on 'diànyǐng' to remember it means 'movie'."
+        "hint": "Character Breakdown: 电 -> 日 (sun) + 丨 (radical in Chinese characters (Kangxi radical 2)) + 乚 (component in Chinese characters) | 影 -> 日 (sun) + 亠 + 口 (mouth) + 小 (small) + 彡"
       },
       {
         "word": "住",
         "pinyin": "zhù",
         "definition": "to live/stay",
-        "hint": "Focus on 'zhù' to remember it means 'to live/stay'."
+        "hint": "Character Breakdown: 住 -> 亻 (person) + 王 (surname Wang) + 丶 (see 點|点[dian3])"
       },
       {
         "word": "前",
         "pinyin": "qián",
         "definition": "before/front",
-        "hint": "Focus on 'qián' to remember it means 'before/front'."
+        "hint": "Character Breakdown: 前 -> 丷 (\"eight\" component in Chinese characters) + 一 (one) + 月 (meat) + 刂 (\"knife\" radical in Chinese characters (Kangxi radical 18))"
       }
     ],
     "grammar": [
@@ -981,73 +981,73 @@
         "word": "天气",
         "pinyin": "tiānqì",
         "definition": "weather",
-        "hint": "Focus on 'tiānqì' to remember it means 'weather'."
+        "hint": "Character Breakdown: 天 -> 一 (one) + 大 (big) | 气 (gas)"
       },
       {
         "word": "怎么样",
         "pinyin": "zěnmeyàng",
         "definition": "how about",
-        "hint": "Focus on 'zěnmeyàng' to remember it means 'how about'."
+        "hint": "Character Breakdown: 怎 -> 丿 (radical in Chinese characters (Kangxi radical 4)) + 一 (one) + 丨 (radical in Chinese characters (Kangxi radical 2)) + 二 (two) + 心 (heart) | 么 -> 丿 (radical in Chinese characters (Kangxi radical 4)) + 厶 | 样 -> 木 (wood) + 羊 (surname Yang)"
       },
       {
         "word": "太",
         "pinyin": "tài",
         "definition": "too/extremely",
-        "hint": "Focus on 'tài' to remember it means 'too/extremely'."
+        "hint": "Character Breakdown: 太 -> 大 (big) + 丶 (see 點|点[dian3])"
       },
       {
         "word": "热",
         "pinyin": "rè",
         "definition": "hot",
-        "hint": "Focus on 'rè' to remember it means 'hot'."
+        "hint": "Character Breakdown: 热 -> 扌 + 丿 (radical in Chinese characters (Kangxi radical 4)) + ㇈ + 丶 (see 點|点[dian3]) + 灬"
       },
       {
         "word": "冷",
         "pinyin": "lěng",
         "definition": "cold",
-        "hint": "Focus on 'lěng' to remember it means 'cold'."
+        "hint": "Character Breakdown: 冷 -> 冫 (\"ice\" radical in Chinese characters (Kangxi radical 15), occurring in 冰, 决, 次) + 人 (person) + 丶 (see 點|点[dian3]) + 龴"
       },
       {
         "word": "下雨",
         "pinyin": "xià yǔ",
         "definition": "to rain",
-        "hint": "Focus on 'xià yǔ' to remember it means 'to rain'."
+        "hint": "Character Breakdown: 下 -> 一 (one) + 卜 (surname Bu) | 雨 (rain)"
       },
       {
         "word": "水",
         "pinyin": "shuǐ",
         "definition": "water",
-        "hint": "Focus on 'shuǐ' to remember it means 'water'."
+        "hint": "Character Breakdown: 水 (water)"
       },
       {
         "word": "水果",
         "pinyin": "shuǐguǒ",
         "definition": "fruit",
-        "hint": "Focus on 'shuǐguǒ' to remember it means 'fruit'."
+        "hint": "Character Breakdown: 水 (water) | 果 -> 田 (field) + 木 (wood)"
       },
       {
         "word": "医生",
         "pinyin": "yīshēng",
         "definition": "doctor",
-        "hint": "Focus on 'yīshēng' to remember it means 'doctor'."
+        "hint": "Character Breakdown: 医 -> 匚 (radical in Chinese characters (Kangxi radical 22), occurring in 区, 医, 匹 etc) + 矢 (arrow) | 生 (life)"
       },
       {
         "word": "爱",
         "pinyin": "ài",
         "definition": "to love",
-        "hint": "Focus on 'ài' to remember it means 'to love'."
+        "hint": "Character Breakdown: 爱 -> 爫 (claw) + 冖 (\"cover\" radical in Chinese characters (Kangxi radical 14), occurring in 军, 写, 冠 etc) + 𠂇 + 又 ((once) again)"
       },
       {
         "word": "身体",
         "pinyin": "shēntǐ",
         "definition": "body/health",
-        "hint": "Focus on 'shēntǐ' to remember it means 'body/health'."
+        "hint": "Character Breakdown: 身 (body) | 体 -> 亻 (person) + 木 (wood) + 一 (one)"
       },
       {
         "word": "些",
         "pinyin": "xiē",
         "definition": "some/a few",
-        "hint": "Focus on 'xiē' to remember it means 'some/a few'."
+        "hint": "Character Breakdown: 些 -> 止 (stop) + 匕 (dagger) + 二 (two)"
       }
     ],
     "grammar": [
@@ -1083,43 +1083,43 @@
         "word": "喂",
         "pinyin": "wèi",
         "definition": "hello (on phone)",
-        "hint": "Focus on 'wèi' to remember it means 'hello (on phone)'."
+        "hint": "Character Breakdown: 喂 -> 口 (mouth) + 田 (field) + 一 (one) + 乚 (component in Chinese characters) + No glyph available"
       },
       {
         "word": "也",
         "pinyin": "yě",
         "definition": "also/too",
-        "hint": "Focus on 'yě' to remember it means 'also/too'."
+        "hint": "Character Breakdown: 也 -> 乚 (component in Chinese characters) + ㇆ + 丨 (radical in Chinese characters (Kangxi radical 2))"
       },
       {
         "word": "学习",
         "pinyin": "xuéxí",
         "definition": "to study",
-        "hint": "Focus on 'xuéxí' to remember it means 'to study'."
+        "hint": "Character Breakdown: 学 -> ⺍ + 冖 (\"cover\" radical in Chinese characters (Kangxi radical 14), occurring in 军, 写, 冠 etc) + 子 (child) | 习 -> ㇆ + 亠"
       },
       {
         "word": "喜欢",
         "pinyin": "xǐhuan",
         "definition": "to like",
-        "hint": "Focus on 'xǐhuan' to remember it means 'to like'."
+        "hint": "Character Breakdown: 喜 -> 士 (surname Shi) + 口 (mouth) + 丷 (\"eight\" component in Chinese characters) + 一 (one) + 口 (mouth) | 欢 -> 又 ((once) again) + 欠 (deficient)"
       },
       {
         "word": "电视",
         "pinyin": "diànshì",
         "definition": "TV",
-        "hint": "Focus on 'diànshì' to remember it means 'TV'."
+        "hint": "Character Breakdown: 电 -> 日 (sun) + 丨 (radical in Chinese characters (Kangxi radical 2)) + 乚 (component in Chinese characters) | 视 -> 礻 (spirit) + 见 (to see)"
       },
       {
         "word": "打电话",
         "pinyin": "dǎ diànhuà",
         "definition": "to make a phone call",
-        "hint": "Focus on 'dǎ diànhuà' to remember it means 'to make a phone call'."
+        "hint": "Character Breakdown: 打 -> 扌 + 一 (one) + 亅 (\"vertical stroke with hook\" radical in Chinese characters (Kangxi radical 6)) | 电 -> 日 (sun) + 丨 (radical in Chinese characters (Kangxi radical 2)) + 乚 (component in Chinese characters) | 话 -> 讠 (speech) + 舌 (tongue)"
       },
       {
         "word": "吧",
         "pinyin": "ba",
         "definition": "modal particle",
-        "hint": "Focus on 'ba' to remember it means 'modal particle'."
+        "hint": "Character Breakdown: 吧 -> 口 (mouth) + 丨 (radical in Chinese characters (Kangxi radical 2)) + No glyph available + 丨 (radical in Chinese characters (Kangxi radical 2)) + 乚 (component in Chinese characters)"
       }
     ],
     "grammar": [
@@ -1144,97 +1144,97 @@
         "word": "东西",
         "pinyin": "dōngxi",
         "definition": "thing/object",
-        "hint": "Focus on 'dōngxi' to remember it means 'thing/object'."
+        "hint": "Character Breakdown: 东 -> 乚 (component in Chinese characters) + 一 (one) + 小 (small) | 西 (the West)"
       },
       {
         "word": "一点儿",
         "pinyin": "yìdiǎnr",
         "definition": "a bit",
-        "hint": "Focus on 'yìdiǎnr' to remember it means 'a bit'."
+        "hint": "Character Breakdown: 一 (one) | 点 -> ⺊ + 口 (mouth) + 灬 | 儿 (son)"
       },
       {
         "word": "苹果",
         "pinyin": "píngguǒ",
         "definition": "apple",
-        "hint": "Focus on 'píngguǒ' to remember it means 'apple'."
+        "hint": "Character Breakdown: 苹 -> 艹 (grass) + 干 (surname Gan) + 丷 (\"eight\" component in Chinese characters) | 果 -> 田 (field) + 木 (wood)"
       },
       {
         "word": "看见",
         "pinyin": "kànjiàn",
         "definition": "to see/catch sight of",
-        "hint": "Focus on 'kànjiàn' to remember it means 'to see/catch sight of'."
+        "hint": "Character Breakdown: 看 -> 龵 + 目 (eye) | 见 (to see)"
       },
       {
         "word": "先生",
         "pinyin": "xiānsheng",
         "definition": "Mr./gentleman",
-        "hint": "Focus on 'xiānsheng' to remember it means 'Mr./gentleman'."
+        "hint": "Character Breakdown: 先 -> ⺧ + 儿 (son) | 生 (life)"
       },
       {
         "word": "开",
         "pinyin": "kāi",
         "definition": "to drive/open",
-        "hint": "Focus on 'kāi' to remember it means 'to drive/open'."
+        "hint": "Character Breakdown: 开 -> 一 (one) + 廾 (hands joined)"
       },
       {
         "word": "车",
         "pinyin": "chē",
         "definition": "car/vehicle",
-        "hint": "Focus on 'chē' to remember it means 'car/vehicle'."
+        "hint": "Character Breakdown: 车 (cart)"
       },
       {
         "word": "回来",
         "pinyin": "huílai",
         "definition": "to come back",
-        "hint": "Focus on 'huílai' to remember it means 'to come back'."
+        "hint": "Character Breakdown: 回 (to circle) | 来 -> 木 (wood) + 一 (one) + 丷 (\"eight\" component in Chinese characters)"
       },
       {
         "word": "分钟",
         "pinyin": "fēnzhōng",
         "definition": "minute",
-        "hint": "Focus on 'fēnzhōng' to remember it means 'minute'."
+        "hint": "Character Breakdown: 分 -> 八 (eight) + 刀 (surname Dao) | 钟 -> 钅 (gold/metal) + 口 (mouth) + 丨 (radical in Chinese characters (Kangxi radical 2))"
       },
       {
         "word": "后",
         "pinyin": "hòu",
         "definition": "after/back",
-        "hint": "Focus on 'hòu' to remember it means 'after/back'."
+        "hint": "Character Breakdown: 后 -> ⺁ + 一 (one) + 口 (mouth)"
       },
       {
         "word": "张",
         "pinyin": "zhāng",
         "definition": "measure word for flat things",
-        "hint": "Focus on 'zhāng' to remember it means 'measure word for flat things'."
+        "hint": "Character Breakdown: 张 -> 弓 (surname Gong) + 长 (long)"
       },
       {
         "word": "漂亮",
         "pinyin": "piàoliang",
         "definition": "beautiful",
-        "hint": "Focus on 'piàoliang' to remember it means 'beautiful'."
+        "hint": "Character Breakdown: 漂 -> 氵 (water) + 覀 + 示 (spirit) | 亮 -> 亠 + 口 (mouth) + 冖 (\"cover\" radical in Chinese characters (Kangxi radical 14), occurring in 军, 写, 冠 etc) + 几 (small table)"
       },
       {
         "word": "啊",
         "pinyin": "a",
         "definition": "modal particle",
-        "hint": "Focus on 'a' to remember it means 'modal particle'."
+        "hint": "Character Breakdown: 啊 -> 口 (mouth) + 阝 (city/mound) + 一 (one) + 亅 (\"vertical stroke with hook\" radical in Chinese characters (Kangxi radical 6)) + 口 (mouth)"
       },
       {
         "word": "少",
         "pinyin": "shǎo",
         "definition": "few/little",
-        "hint": "Focus on 'shǎo' to remember it means 'few/little'."
+        "hint": "Character Breakdown: 少 -> 小 (small) + 丿 (radical in Chinese characters (Kangxi radical 4))"
       },
       {
         "word": "不少",
         "pinyin": "bùshǎo",
         "definition": "quite a few",
-        "hint": "Focus on 'bùshǎo' to remember it means 'quite a few'."
+        "hint": "Character Breakdown: 不 -> 一 (one) + 丿 (radical in Chinese characters (Kangxi radical 4)) + 卜 (surname Bu) | 少 -> 小 (small) + 丿 (radical in Chinese characters (Kangxi radical 4))"
       },
       {
         "word": "衣服",
         "pinyin": "yīfu",
         "definition": "clothes",
-        "hint": "Focus on 'yīfu' to remember it means 'clothes'."
+        "hint": "Character Breakdown: 衣 (clothes) | 服 -> 月 (meat) + 卩 + 又 ((once) again)"
       }
     ],
     "grammar": [
@@ -1259,55 +1259,55 @@
         "word": "认识",
         "pinyin": "rènshi",
         "definition": "to know/recognize",
-        "hint": "Focus on 'rènshi' to remember it means 'to know/recognize'."
+        "hint": "Character Breakdown: 认 -> 讠 (speech) + 人 (person) | 识 -> 讠 (speech) + 口 (mouth) + 八 (eight)"
       },
       {
         "word": "年",
         "pinyin": "nián",
         "definition": "year",
-        "hint": "Focus on 'nián' to remember it means 'year'."
+        "hint": "Character Breakdown: 年 -> 丿 (radical in Chinese characters (Kangxi radical 4)) + 一 (one) + 十 (ten) + ㇗ + 丨 (radical in Chinese characters (Kangxi radical 2))"
       },
       {
         "word": "大学",
         "pinyin": "dàxué",
         "definition": "university",
-        "hint": "Focus on 'dàxué' to remember it means 'university'."
+        "hint": "Character Breakdown: 大 (big) | 学 -> ⺍ + 冖 (\"cover\" radical in Chinese characters (Kangxi radical 14), occurring in 军, 写, 冠 etc) + 子 (child)"
       },
       {
         "word": "饭店",
         "pinyin": "fàndiàn",
         "definition": "hotel/restaurant",
-        "hint": "Focus on 'fàndiàn' to remember it means 'hotel/restaurant'."
+        "hint": "Character Breakdown: 饭 -> 饣 (eat) + ⺁ + 又 ((once) again) | 店 -> 广 (surname Guang) + ⺊ + 口 (mouth)"
       },
       {
         "word": "出租车",
         "pinyin": "chūzūchē",
         "definition": "taxi",
-        "hint": "Focus on 'chūzūchē' to remember it means 'taxi'."
+        "hint": "Character Breakdown: 出 (to go out) | 租 -> 禾 (grain) + 月 (meat) + 一 (one) | 车 (cart)"
       },
       {
         "word": "一起",
         "pinyin": "yìqǐ",
         "definition": "together",
-        "hint": "Focus on 'yìqǐ' to remember it means 'together'."
+        "hint": "Character Breakdown: 一 (one) | 起 -> 走 (walk) + 己 (self)"
       },
       {
         "word": "高兴",
         "pinyin": "gāoxìng",
         "definition": "happy/glad",
-        "hint": "Focus on 'gāoxìng' to remember it means 'happy/glad'."
+        "hint": "Character Breakdown: 高 (high) | 兴 -> ⺍ + 一 (one) + 八 (eight)"
       },
       {
         "word": "听",
         "pinyin": "tīng",
         "definition": "to listen",
-        "hint": "Focus on 'tīng' to remember it means 'to listen'."
+        "hint": "Character Breakdown: 听 -> 口 (mouth) + 斤 (axe)"
       },
       {
         "word": "飞机",
         "pinyin": "fēijī",
         "definition": "airplane",
-        "hint": "Focus on 'fēijī' to remember it means 'airplane'."
+        "hint": "Character Breakdown: 飞 (fly) | 机 -> 木 (wood) + 几 (small table)"
       }
     ],
     "grammar": [
