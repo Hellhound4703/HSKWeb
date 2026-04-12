@@ -31,6 +31,7 @@ const SRSViewer: React.FC<SRSViewerProps> = ({ user, level, allWords }) => {
   const [currentIndex, setCurrentIndex] = useState(0);
   const [flipped, setFlipped] = useState(false);
   const [loading, setLoading] = useState(true);
+  const [debugInfo, setDebugInfo] = useState<{totalInDb: number, due: number}>({ totalInDb: 0, due: 0 });
 
   const fetchSRSQueue = useCallback(async () => {
     if (!user) return;
@@ -42,13 +43,17 @@ const SRSViewer: React.FC<SRSViewerProps> = ({ user, level, allWords }) => {
       
       const dueItems: {word: Word, srs: SRSData}[] = [];
       const srsMap = new Map<string, SRSData>();
+      let total = 0;
       
       querySnapshot.forEach((doc) => {
+        total++;
         const data = doc.data() as SRSData;
         if (data.nextReview.toDate() <= now) {
           srsMap.set(data.word, data);
         }
       });
+
+      setDebugInfo({ totalInDb: total, due: srsMap.size });
 
       // Match SRS data with Word definitions from the local JSON
       allWords.forEach(w => {
@@ -105,6 +110,7 @@ const SRSViewer: React.FC<SRSViewerProps> = ({ user, level, allWords }) => {
         setFlipped(false);
       } else {
         setQueue([]); // Queue finished
+        setDebugInfo(prev => ({ ...prev, due: prev.due - 1 }));
       }
     } catch (error) {
       console.error("Error saving SRS progress:", error);
@@ -135,13 +141,27 @@ const SRSViewer: React.FC<SRSViewerProps> = ({ user, level, allWords }) => {
     return (
       <div className="text-center p-12 bg-green-50 rounded-xl border-2 border-dashed border-green-200 mx-2">
         <h3 className="text-2xl font-bold text-green-800 mb-2">All Caught Up! 🎉</h3>
-        <p className="text-green-600 mb-6">You have no words due for review in HSK {level}.</p>
+        <p className="text-green-600 mb-2">You have no words due for review in HSK {level}.</p>
+        <p className="text-xs text-gray-400 mb-6 font-medium">
+          Words in your HSK {level} library: {debugInfo.totalInDb} | Due for review: {debugInfo.due}
+        </p>
         <button 
           onClick={fetchSRSQueue}
           className="px-6 py-2 bg-green-600 text-white rounded-full font-bold hover:bg-green-700 transition-all shadow-md active:scale-95"
         >
           Check Again
         </button>
+        {debugInfo.totalInDb === 0 && (
+          <div className="mt-8 bg-blue-50 p-4 rounded-xl border border-blue-100">
+            <p className="text-sm text-blue-800 font-bold mb-1">How to start reviewing:</p>
+            <p className="text-xs text-blue-600 leading-relaxed">
+              1. Switch to <b>Vocabulary</b> mode.<br/>
+              2. Find a word you want to memorize.<br/>
+              3. Click <b>"Mark as Learned"</b> on the back of the card.<br/>
+              4. It will appear here for review tomorrow!
+            </p>
+          </div>
+        )}
       </div>
     );
   }
@@ -198,7 +218,7 @@ const SRSViewer: React.FC<SRSViewerProps> = ({ user, level, allWords }) => {
       )}
 
       {!flipped && (
-        <p className="mt-8 text-gray-400 text-sm animate-pulse">Tap card to reveal and grade yourself</p>
+        <p className="mt-8 text-gray-400 text-sm animate-pulse font-medium">Tap card to reveal and grade yourself</p>
       )}
     </div>
   );
