@@ -19,28 +19,28 @@ const LessonSelector: React.FC<LessonSelectorProps> = ({
   onToggleAll 
 }) => {
   return (
-    <div className="bg-white p-6 rounded-lg shadow-md mb-8">
+    <div className="bg-white p-4 sm:p-6 rounded-xl shadow-sm mb-6 sm:mb-8 border border-gray-100">
       <div className="flex justify-between items-center mb-4">
-        <h3 className="text-xl font-semibold text-gray-800">Select Lessons to Study</h3>
+        <h3 className="text-base sm:text-xl font-bold text-gray-800">Lessons</h3>
         <button 
           onClick={onToggleAll}
-          className="text-blue-500 hover:text-blue-700 text-sm font-medium transition-colors"
+          className="text-blue-500 hover:text-blue-700 text-xs sm:text-sm font-bold transition-colors uppercase tracking-wider"
         >
-          {selectedLessons.length === lessons.length ? 'Deselect All' : 'Select All'}
+          {selectedLessons.length === lessons.length ? 'None' : 'All'}
         </button>
       </div>
-      <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-5 gap-3">
+      <div className="grid grid-cols-3 sm:grid-cols-4 md:grid-cols-5 gap-2 sm:gap-3">
         {lessons.map((lesson) => (
           <button
             key={lesson.lesson}
             onClick={() => onToggle(lesson.lesson)}
-            className={`px-4 py-2 rounded-md text-sm transition-all duration-200 ${
+            className={`py-2 rounded-lg text-xs sm:text-sm font-medium transition-all duration-200 border-2 ${
               selectedLessons.includes(lesson.lesson)
-                ? 'bg-blue-600 text-white shadow-sm'
-                : 'bg-gray-100 text-gray-700 hover:bg-gray-200'
+                ? 'bg-blue-600 text-white border-blue-600 shadow-sm'
+                : 'bg-gray-50 text-gray-500 border-transparent hover:border-gray-200'
             }`}
           >
-            Lesson {lesson.lesson}
+            {lesson.lesson}
           </button>
         ))}
       </div>

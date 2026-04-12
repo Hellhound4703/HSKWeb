@@ -29,30 +29,30 @@ const GrammarViewer: React.FC<GrammarViewerProps> = ({ selectedLessonsData }) =>
 
   if (allGrammar.length === 0) {
     return (
-      <div className="text-center p-12 bg-gray-50 rounded-lg border-2 border-dashed border-gray-300">
-        <p className="text-gray-500 text-lg">No grammar points found for the selected lessons. Try selecting Lesson 1 or 2!</p>
+      <div className="text-center p-8 sm:p-12 bg-gray-50 rounded-lg border-2 border-dashed border-gray-300 mx-2">
+        <p className="text-gray-500 text-base sm:text-lg">No grammar points found for these lessons yet.</p>
       </div>
     );
   }
 
   return (
-    <div className="space-y-8 max-w-2xl mx-auto">
+    <div className="space-y-6 sm:space-y-8 max-w-2xl mx-auto px-2 sm:px-0">
       {allGrammar.map((g, index) => (
-        <div key={index} className="bg-white p-6 rounded-xl shadow-md border-l-4 border-blue-600">
-          <div className="flex justify-between items-start mb-2">
-            <h3 className="text-xl font-bold text-gray-900">{g.point}</h3>
-            <span className="text-xs font-bold bg-blue-100 text-blue-800 px-2 py-1 rounded">Lesson {g.lesson}</span>
+        <div key={index} className="bg-white p-5 sm:p-6 rounded-xl shadow-sm border-l-4 border-blue-600 border border-gray-100">
+          <div className="flex justify-between items-start mb-3 gap-2">
+            <h3 className="text-lg sm:text-xl font-bold text-gray-900 leading-tight">{g.point}</h3>
+            <span className="text-[10px] font-black bg-blue-100 text-blue-800 px-2 py-0.5 rounded whitespace-nowrap">L {g.lesson}</span>
           </div>
-          <p className="text-gray-700 mb-6 bg-blue-50 p-3 rounded-lg border border-blue-100">
+          <p className="text-sm sm:text-base text-gray-700 mb-6 bg-gray-50 p-3 rounded-lg border border-gray-100">
             {g.explanation}
           </p>
           <div className="space-y-4">
-            <h4 className="text-sm font-bold text-gray-400 uppercase tracking-wider">Examples</h4>
+            <h4 className="text-[10px] font-black text-gray-400 uppercase tracking-[0.2em]">Examples</h4>
             {g.examples.map((ex, i) => (
-              <div key={i} className="pl-4 border-l-2 border-gray-200">
-                <p className="text-lg font-medium text-gray-900">{ex.chinese}</p>
-                <p className="text-gray-500 italic text-sm">{ex.pinyin}</p>
-                <p className="text-gray-700">{ex.english}</p>
+              <div key={i} className="pl-4 border-l-2 border-blue-100">
+                <p className="text-base sm:text-lg font-bold text-gray-900">{ex.chinese}</p>
+                <p className="text-gray-400 italic text-xs mb-1">{ex.pinyin}</p>
+                <p className="text-gray-600 text-sm sm:text-base">{ex.english}</p>
               </div>
             ))}
           </div>

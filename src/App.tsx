@@ -100,26 +100,26 @@ function App() {
   }, [selectedLessons, lessons]);
 
   return (
-    <div className="min-h-screen bg-gray-50 py-12 px-4 sm:px-6 lg:px-8">
+    <div className="min-h-screen bg-gray-50 py-6 sm:py-12 px-2 sm:px-6 lg:px-8">
       <div className="max-w-4xl mx-auto">
-        <header className="flex flex-col sm:flex-row justify-between items-center mb-12 gap-6">
+        <header className="flex flex-col sm:flex-row justify-between items-center mb-8 sm:mb-12 gap-4 sm:gap-6 px-2">
           <div className="text-center sm:text-left">
-            <h1 className="text-4xl font-extrabold text-blue-800 mb-2">HSK Flashcards</h1>
-            <p className="text-gray-600 font-medium">Textbook Mastery with Audio & Grammar</p>
+            <h1 className="text-3xl sm:text-4xl font-extrabold text-blue-800 mb-1 sm:mb-2">HSK Mastery</h1>
+            <p className="text-gray-500 text-sm sm:text-base font-medium italic">Your personalized Chinese study app</p>
           </div>
           <Auth user={user} />
         </header>
 
-        <nav className="flex flex-col items-center mb-8 gap-6">
-          <div className="flex justify-center gap-2 overflow-x-auto pb-2 w-full sm:w-auto">
+        <nav className="flex flex-col items-center mb-6 sm:mb-8 gap-4 sm:gap-6 sticky top-0 z-10 bg-gray-50/95 backdrop-blur-sm py-2">
+          <div className="flex justify-center gap-1.5 sm:gap-2 overflow-x-auto pb-1 w-full no-scrollbar">
             {[1, 2, 3, 4].map((level) => (
               <button
                 key={level}
                 onClick={() => setSelectedLevel(level)}
-                className={`px-6 py-2 rounded-full font-bold transition-all whitespace-nowrap ${
+                className={`px-4 sm:px-6 py-1.5 sm:py-2 rounded-full font-bold transition-all whitespace-nowrap text-xs sm:text-sm ${
                   selectedLevel === level
-                    ? 'bg-blue-600 text-white shadow-lg scale-105'
-                    : 'bg-white text-gray-600 hover:bg-gray-100 border border-gray-200'
+                    ? 'bg-blue-600 text-white shadow-md'
+                    : 'bg-white text-gray-500 hover:bg-gray-100 border border-gray-200'
                 }`}
               >
                 HSK {level}
@@ -127,15 +127,15 @@ function App() {
             ))}
           </div>
 
-          <div className="flex bg-white p-1 rounded-xl shadow-inner border border-gray-200 overflow-x-auto w-full sm:w-auto">
+          <div className="flex bg-white p-1 rounded-xl shadow-sm border border-gray-200 overflow-x-auto w-full no-scrollbar justify-center">
             {(['vocabulary', 'grammar', 'quiz', 'progress'] as LearningMode[]).map((mode) => (
               <button
                 key={mode}
                 onClick={() => setLearningMode(mode)}
-                className={`px-8 py-2 rounded-lg font-semibold transition-all capitalize whitespace-nowrap ${
+                className={`px-4 sm:px-8 py-1.5 sm:py-2 rounded-lg font-semibold transition-all capitalize whitespace-nowrap text-xs sm:text-sm ${
                   learningMode === mode
-                    ? 'bg-blue-100 text-blue-700 shadow-sm'
-                    : 'text-gray-500 hover:text-gray-700 hover:bg-gray-50'
+                    ? 'bg-blue-50 text-blue-700 font-bold'
+                    : 'text-gray-400 hover:text-gray-600'
                 }`}
               >
                 {mode}
@@ -144,7 +144,7 @@ function App() {
           </div>
         </nav>
 
-        <main>
+        <main className="min-h-[60vh]">
           {learningMode !== 'progress' && (
             <LessonSelector 
               lessons={lessons} 
@@ -155,36 +155,38 @@ function App() {
           )}
 
           {!user && (learningMode === 'quiz' || learningMode === 'progress') && (
-            <div className="mb-6 bg-yellow-50 border-l-4 border-yellow-400 p-4 text-yellow-700 text-sm font-medium">
-              Note: Sign in with Google to save your scores and track your progress!
+            <div className="mb-6 mx-2 bg-yellow-50 border-l-4 border-yellow-400 p-3 sm:p-4 text-yellow-700 text-[10px] sm:text-xs font-bold uppercase tracking-wider">
+              ⚠️ Sign in with Google to sync your progress!
             </div>
           )}
 
           {learningMode !== 'progress' && (
-            <div className="mb-4 text-sm font-bold text-blue-600 uppercase tracking-widest text-center">
-              HSK {selectedLevel} • {learningMode}
+            <div className="mb-4 text-[10px] sm:text-xs font-black text-blue-400 uppercase tracking-[0.2em] text-center">
+              HSK {selectedLevel} Level • {learningMode} Mode
             </div>
           )}
 
-          {learningMode === 'vocabulary' && (
-            <FlashcardViewer words={selectedWords} user={user} />
-          )}
+          <div className="px-1 sm:px-0">
+            {learningMode === 'vocabulary' && (
+              <FlashcardViewer words={selectedWords} user={user} level={selectedLevel} />
+            )}
 
-          {learningMode === 'grammar' && (
-            <GrammarViewer selectedLessonsData={selectedLessonsData} />
-          )}
+            {learningMode === 'grammar' && (
+              <GrammarViewer selectedLessonsData={selectedLessonsData} />
+            )}
 
-          {learningMode === 'quiz' && (
-            <QuizViewer words={selectedWords} user={user} />
-          )}
+            {learningMode === 'quiz' && (
+              <QuizViewer words={selectedWords} user={user} level={selectedLevel} />
+            )}
 
-          {learningMode === 'progress' && (
-            <ProgressDashboard user={user} />
-          )}
+            {learningMode === 'progress' && (
+              <ProgressDashboard user={user} level={selectedLevel} />
+            )}
+          </div>
         </main>
 
-        <footer className="mt-20 text-center text-gray-400 text-sm border-t border-gray-200 pt-8">
-          <p>© 2026 HSK Mastery App • Powered by Textbook Data & Audio</p>
+        <footer className="mt-16 sm:mt-20 text-center text-gray-400 text-[10px] sm:text-xs border-t border-gray-200 pt-6 sm:pt-8 pb-8">
+          <p>© 2026 HSK Mastery • Cloud Sync & Character Mnemonics</p>
         </footer>
       </div>
     </div>
