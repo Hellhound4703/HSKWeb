@@ -1,8 +1,9 @@
-import React, { useState, useEffect, useCallback } from 'react';
+import React, { useState, useEffect } from 'react';
 import { type User } from 'firebase/auth';
 import { db } from '../firebase';
 import { doc, setDoc, getDoc, updateDoc, arrayUnion, arrayRemove, Timestamp } from 'firebase/firestore';
 import Flashcard from './Flashcard';
+import { speakChinese, stopChineseAudio } from '../utils/audio';
 
 interface Word {
   word: string;
@@ -48,20 +49,11 @@ const FlashcardViewer: React.FC<FlashcardViewerProps> = ({ words, user, level })
     fetchLearnedWords();
   }, [user, level]);
 
-  const speakWord = useCallback((text: string) => {
-    if ('speechSynthesis' in window) {
-      window.speechSynthesis.cancel();
-      const utterance = new SpeechSynthesisUtterance(text);
-      utterance.lang = 'zh-CN';
-      window.speechSynthesis.speak(utterance);
-    }
-  }, []);
-
   const handleFlip = () => {
     const newFlippedState = !flipped;
     setFlipped(newFlippedState);
     if (newFlippedState && shuffledWords[currentIndex]) {
-      speakWord(shuffledWords[currentIndex].word);
+      speakChinese(shuffledWords[currentIndex].word);
     }
   };
 
@@ -121,7 +113,7 @@ const FlashcardViewer: React.FC<FlashcardViewerProps> = ({ words, user, level })
     if (currentIndex < shuffledWords.length - 1) {
       setCurrentIndex(currentIndex + 1);
       setFlipped(false);
-      window.speechSynthesis.cancel();
+      stopChineseAudio();
     }
   };
 
@@ -129,7 +121,7 @@ const FlashcardViewer: React.FC<FlashcardViewerProps> = ({ words, user, level })
     if (currentIndex > 0) {
       setCurrentIndex(currentIndex - 1);
       setFlipped(false);
-      window.speechSynthesis.cancel();
+      stopChineseAudio();
     }
   };
 
@@ -138,7 +130,7 @@ const FlashcardViewer: React.FC<FlashcardViewerProps> = ({ words, user, level })
     setShuffledWords(shuffled);
     setCurrentIndex(0);
     setFlipped(false);
-    window.speechSynthesis.cancel();
+    stopChineseAudio();
   };
 
   if (shuffledWords.length === 0) {
@@ -162,7 +154,7 @@ const FlashcardViewer: React.FC<FlashcardViewerProps> = ({ words, user, level })
         word={currentWord} 
         flipped={flipped} 
         onFlip={handleFlip} 
-        onPlayAudio={speakWord}
+        onPlayAudio={speakChinese}
         isLearned={isLearned}
         onToggleLearned={() => toggleLearned()}
       />

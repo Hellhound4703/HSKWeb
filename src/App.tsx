@@ -12,6 +12,7 @@ import QuizViewer from './components/QuizViewer';
 import SRSViewer from './components/SRSViewer';
 import ExamViewer from './components/ExamViewer';
 import SentenceViewer from './components/SentenceViewer';
+import GlobalSearch from './components/GlobalSearch';
 import ProgressDashboard from './components/ProgressDashboard';
 import Auth from './components/Auth';
 import './App.css';
@@ -49,7 +50,7 @@ const levelDataMap: Record<number, any> = {
   4: hsk4Data,
 };
 
-type LearningMode = 'vocabulary' | 'grammar' | 'quiz' | 'srs' | 'sentences' | 'exams' | 'progress';
+type LearningMode = 'vocabulary' | 'grammar' | 'quiz' | 'srs' | 'sentences' | 'exams' | 'search' | 'progress';
 
 function App() {
   const [user, setUser] = useState<User | null>(null);
@@ -137,7 +138,7 @@ function App() {
           </div>
 
           <div className="flex bg-white p-1 rounded-xl shadow-sm border border-gray-200 overflow-x-auto w-full no-scrollbar justify-center">
-            {(['vocabulary', 'grammar', 'quiz', 'srs', 'sentences', 'exams', 'progress'] as LearningMode[]).map((mode) => (
+            {(['vocabulary', 'grammar', 'quiz', 'srs', 'sentences', 'exams', 'search', 'progress'] as LearningMode[]).map((mode) => (
               <button
                 key={mode}
                 onClick={() => setLearningMode(mode)}
@@ -154,7 +155,7 @@ function App() {
         </nav>
 
         <main className="min-h-[60vh]">
-          {learningMode !== 'progress' && learningMode !== 'srs' && learningMode !== 'exams' && learningMode !== 'sentences' && (
+          {learningMode !== 'progress' && learningMode !== 'srs' && learningMode !== 'exams' && learningMode !== 'sentences' && learningMode !== 'search' && (
             <LessonSelector 
               lessons={lessons} 
               selectedLessons={selectedLessons} 
@@ -169,7 +170,7 @@ function App() {
             </div>
           )}
 
-          {learningMode !== 'progress' && (
+          {learningMode !== 'progress' && learningMode !== 'search' && (
             <div className="mb-4 text-[10px] sm:text-xs font-black text-blue-400 uppercase tracking-[0.2em] text-center">
               HSK {selectedLevel} Level • {learningMode} Mode
             </div>
@@ -200,6 +201,10 @@ function App() {
               <ExamViewer user={user} level={selectedLevel} />
             )}
 
+            {learningMode === 'search' && (
+              <GlobalSearch />
+            )}
+
             {learningMode === 'progress' && (
               <ProgressDashboard user={user} level={selectedLevel} />
             )}
@@ -207,7 +212,7 @@ function App() {
         </main>
 
         <footer className="mt-16 sm:mt-20 text-center text-gray-400 text-[10px] sm:text-xs border-t border-gray-200 pt-6 sm:pt-8 pb-8">
-          <p>© 2026 HSK Mastery • Cloud Sync & Writing Practice</p>
+          <p>© 2026 HSK Mastery • Cloud Sync & Smart Study Tools</p>
         </footer>
       </div>
     </div>

@@ -3,6 +3,7 @@ import { type User } from 'firebase/auth';
 import { db } from '../firebase';
 import { doc, setDoc, collection, getDocs, Timestamp } from 'firebase/firestore';
 import Flashcard from './Flashcard';
+import { speakChinese, stopChineseAudio } from '../utils/audio';
 
 interface Word {
   word: string;
@@ -110,21 +111,14 @@ const SRSViewer: React.FC<SRSViewerProps> = ({ user, level, allWords }) => {
       if (currentIndex < queue.length - 1) {
         setCurrentIndex(currentIndex + 1);
         setFlipped(false);
+        stopChineseAudio();
       } else {
         setQueue([]); // Queue finished
         setDebugInfo(prev => ({ ...prev, due: Math.max(0, prev.due - 1) }));
+        stopChineseAudio();
       }
     } catch (error) {
       console.error("Error saving SRS progress:", error);
-    }
-  };
-
-  const speakWord = (text: string) => {
-    if ('speechSynthesis' in window) {
-      window.speechSynthesis.cancel();
-      const utterance = new SpeechSynthesisUtterance(text);
-      utterance.lang = 'zh-CN';
-      window.speechSynthesis.speak(utterance);
     }
   };
 
@@ -197,9 +191,9 @@ const SRSViewer: React.FC<SRSViewerProps> = ({ user, level, allWords }) => {
         flipped={flipped} 
         onFlip={() => {
           setFlipped(!flipped);
-          if (!flipped) speakWord(currentItem.word.word);
+          if (!flipped) speakChinese(currentItem.word.word);
         }} 
-        onPlayAudio={speakWord}
+        onPlayAudio={speakChinese}
       />
 
       {flipped && (

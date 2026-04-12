@@ -20,9 +20,15 @@ interface VocabularyStats {
   learned: string[];
 }
 
+interface MistakeStats {
+  vocabulary?: string[];
+  sentences?: string[];
+}
+
 const ProgressDashboard: React.FC<ProgressDashboardProps> = ({ user, level }) => {
   const [stats, setStats] = useState<UserStats | null>(null);
   const [vocab, setVocab] = useState<VocabularyStats | null>(null);
+  const [mistakes, setMistakes] = useState<MistakeStats | null>(null);
   const [loading, setLoading] = useState(true);
 
   useEffect(() => {
@@ -35,6 +41,7 @@ const ProgressDashboard: React.FC<ProgressDashboardProps> = ({ user, level }) =>
 
     const progressRef = doc(db, 'users', user.uid, 'stats', `hsk${level}_overall`);
     const vocabRef = doc(db, 'users', user.uid, 'stats', `hsk${level}_vocabulary`);
+    const mistakeRef = doc(db, 'users', user.uid, 'stats', `hsk${level}_mistakes`);
 
     // Log today's study date
     const logStudyDate = async () => {
@@ -57,12 +64,17 @@ const ProgressDashboard: React.FC<ProgressDashboardProps> = ({ user, level }) =>
 
     const unsubVocab = onSnapshot(vocabRef, (doc) => {
       if (doc.exists()) setVocab(doc.data() as VocabularyStats);
+    });
+
+    const unsubMistakes = onSnapshot(mistakeRef, (doc) => {
+      if (doc.exists()) setMistakes(doc.data() as MistakeStats);
       setLoading(false);
     });
 
     return () => {
       unsubStats();
       unsubVocab();
+      unsubMistakes();
     };
   }, [user, level]);
 
@@ -135,9 +147,30 @@ const ProgressDashboard: React.FC<ProgressDashboardProps> = ({ user, level }) =>
         </div>
       </div>
 
+      {/* Weaknesses Section */}
+      {(mistakes?.vocabulary?.length || 0) > 0 && (
+        <div className="bg-white p-6 sm:p-8 rounded-2xl shadow-lg border border-red-100">
+          <h3 className="text-sm font-black text-red-400 uppercase tracking-widest mb-6 flex items-center gap-2">
+            <span className="w-8 h-px bg-red-100"></span>
+            Focus Areas (Mistakes)
+          </h3>
+          <div className="flex flex-wrap gap-2">
+            {mistakes?.vocabulary?.map((word, idx) => (
+              <span key={idx} className="px-3 py-1 bg-red-50 text-red-600 rounded-full text-sm font-bold border border-red-100">
+                {word}
+              </span>
+            ))}
+          </div>
+          <p className="mt-4 text-[10px] text-gray-400 font-medium">These words were answered incorrectly in recent quizzes. Get them right to clear them!</p>
+        </div>
+      )}
+
       {/* Heatmap Section */}
       <div className="bg-white p-6 sm:p-8 rounded-2xl shadow-lg border border-gray-100">
-        <h3 className="text-sm font-black text-gray-400 uppercase tracking-widest mb-6">Activity (Last 4 Weeks)</h3>
+        <h3 className="text-sm font-black text-gray-400 uppercase tracking-widest mb-6 flex items-center gap-2">
+          <span className="w-8 h-px bg-gray-100"></span>
+          Activity (Last 4 Weeks)
+        </h3>
         <div className="grid grid-cols-7 gap-2 max-w-xs mx-auto sm:max-w-none sm:grid-cols-14 lg:grid-cols-28">
           {heatmapDays.map((day, idx) => (
             <div 
@@ -151,7 +184,10 @@ const ProgressDashboard: React.FC<ProgressDashboardProps> = ({ user, level }) =>
 
       {/* Achievements */}
       <div className="bg-white p-6 sm:p-8 rounded-2xl shadow-lg border border-gray-100">
-        <h3 className="text-sm font-black text-gray-400 uppercase tracking-widest mb-6">Badges & Achievements</h3>
+        <h3 className="text-sm font-black text-gray-400 uppercase tracking-widest mb-6 flex items-center gap-2">
+          <span className="w-8 h-px bg-gray-100"></span>
+          Badges & Achievements
+        </h3>
         <div className="flex flex-wrap gap-4">
           {achievements.map((ach, idx) => (
             <div key={idx} className="flex flex-col items-center gap-2 p-4 bg-yellow-50 rounded-2xl border border-yellow-100 min-w-[80px] animate-in zoom-in duration-500">

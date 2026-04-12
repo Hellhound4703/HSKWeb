@@ -1,8 +1,9 @@
 import React, { useState, useEffect, useCallback } from 'react';
 import { type User } from 'firebase/auth';
 import { db } from '../firebase';
-import { doc, setDoc, increment } from 'firebase/firestore';
+import { doc, setDoc, increment, updateDoc, arrayUnion, arrayRemove } from 'firebase/firestore';
 import sentenceData from '../data/sentences-data.json';
+import { speakChinese } from '../utils/audio';
 
 interface SentenceExercise {
   id: string;
@@ -32,9 +33,7 @@ const SentenceViewer: React.FC<SentenceViewerProps> = ({ user, level }) => {
   const [finished, setFinished] = useState(false);
 
   const initExercises = useCallback(() => {
-    // Cast the imported data to match the interface
     const filtered = (sentenceData as any[]).filter(ex => ex.level === level) as SentenceExercise[];
-    // Shuffle and pick exactly 10
     const shuffled = filtered.sort(() => Math.random() - 0.5).slice(0, 10);
     setExercises(shuffled);
     setCurrentIndex(0);
@@ -65,11 +64,12 @@ const SentenceViewer: React.FC<SentenceViewerProps> = ({ user, level }) => {
 
   const checkAnswer = async () => {
     const current = exercises[currentIndex];
+    const fullAnswer = current.correct || current.answer;
     let isCorrect = false;
 
     if (current.type === 'reorder') {
       const userAnswer = userReorder.join('');
-      isCorrect = userAnswer === (current.correct || current.answer);
+      isCorrect = userAnswer === fullAnswer;
     } else {
       isCorrect = userFill.trim() === current.answer;
     }
@@ -77,8 +77,24 @@ const SentenceViewer: React.FC<SentenceViewerProps> = ({ user, level }) => {
     if (isCorrect) {
       setScore(score + 1);
       setFeedback({ isCorrect: true, message: 'Correct! Well done.' });
+      speakChinese(fullAnswer);
     } else {
-      setFeedback({ isCorrect: false, message: `Incorrect. The correct answer is: ${current.correct || current.answer}` });
+      setFeedback({ isCorrect: false, message: `Incorrect. The correct answer is: ${fullAnswer}` });
+    }
+
+    // Mistake tracking
+    if (user) {
+      try {
+        const mistakeRef = doc(db, 'users', user.uid, 'stats', `hsk${level}_mistakes`);
+        await setDoc(mistakeRef, {}, { merge: true });
+        await updateDoc(mistakeRef, {
+          sentences: isCorrect 
+            ? arrayRemove(current.id) 
+            : arrayUnion(current.id)
+        });
+      } catch (e) {
+        console.error("Error logging mistake", e);
+      }
     }
   };
 
@@ -94,7 +110,7 @@ const SentenceViewer: React.FC<SentenceViewerProps> = ({ user, level }) => {
           const statsRef = doc(db, 'users', user.uid, 'stats', `hsk${level}_sentences`);
           await setDoc(statsRef, {
             totalSessions: increment(1),
-            totalCorrect: increment(score + (feedback?.isCorrect ? 0 : 0)), // score is already updated
+            totalCorrect: increment(score),
             lastSessionDate: new Date().toISOString()
           }, { merge: true });
         } catch (e) {
@@ -128,6 +144,7 @@ const SentenceViewer: React.FC<SentenceViewerProps> = ({ user, level }) => {
   }
 
   const current = exercises[currentIndex];
+  const fullSentenceText = current.type === 'fill' ? `${current.sentencePrefix}${current.answer}${current.sentenceSuffix}` : (current.correct || current.answer);
 
   return (
     <div className="max-w-2xl mx-auto px-4 pb-12 animate-in fade-in duration-500">
@@ -136,7 +153,7 @@ const SentenceViewer: React.FC<SentenceViewerProps> = ({ user, level }) => {
         <span className="text-[10px] font-black text-blue-600 bg-blue-50 px-3 py-1 rounded-full">Score: {score}</span>
       </div>
 
-      <div className="bg-white rounded-3xl shadow-xl border border-gray-100 p-6 sm:p-10 mb-8">
+      <div className="bg-white rounded-3xl shadow-xl border border-gray-100 p-6 sm:p-10 mb-8 relative">
         <div className="mb-8 text-center">
           <p className="text-sm sm:text-lg text-gray-500 italic mb-2">"{current.translation}"</p>
           <div className="h-1 w-12 bg-blue-100 mx-auto rounded-full"></div>
@@ -144,7 +161,6 @@ const SentenceViewer: React.FC<SentenceViewerProps> = ({ user, level }) => {
 
         {current.type === 'reorder' ? (
           <div className="space-y-10">
-            {/* Build Box */}
             <div className="min-h-[100px] p-4 bg-gray-50 rounded-2xl border-2 border-dashed border-gray-200 flex flex-wrap gap-2 items-center justify-center">
               {userReorder.map((part, idx) => (
                 <button
@@ -159,7 +175,6 @@ const SentenceViewer: React.FC<SentenceViewerProps> = ({ user, level }) => {
               {userReorder.length === 0 && <p className="text-gray-300 font-bold uppercase tracking-widest text-xs">Tap words below</p>}
             </div>
 
-            {/* Scrambled Box */}
             <div className="flex flex-wrap gap-2 justify-center">
               {current.parts?.map((part, idx) => {
                 const countInAnswer = userReorder.filter(p => p === part).length;
@@ -207,10 +222,21 @@ const SentenceViewer: React.FC<SentenceViewerProps> = ({ user, level }) => {
         )}
 
         {feedback && (
-          <div className={`mt-10 p-6 rounded-2xl border-2 animate-in zoom-in duration-300 ${feedback.isCorrect ? 'bg-green-50 border-green-100 text-green-800' : 'bg-red-50 border-red-100 text-red-800'}`}>
-            <div className="flex items-center gap-3 mb-2">
-              <span className="text-2xl">{feedback.isCorrect ? '✅' : '❌'}</span>
-              <p className="font-black uppercase tracking-wider text-sm">{feedback.isCorrect ? 'Correct!' : 'Keep practicing'}</p>
+          <div className={`mt-10 p-6 rounded-2xl border-2 animate-in zoom-in duration-300 relative ${feedback.isCorrect ? 'bg-green-50 border-green-100 text-green-800' : 'bg-red-50 border-red-100 text-red-800'}`}>
+            <div className="flex items-center justify-between mb-2">
+              <div className="flex items-center gap-3">
+                <span className="text-2xl">{feedback.isCorrect ? '✅' : '❌'}</span>
+                <p className="font-black uppercase tracking-wider text-sm">{feedback.isCorrect ? 'Correct!' : 'Keep practicing'}</p>
+              </div>
+              <button 
+                onClick={() => speakChinese(fullSentenceText)}
+                className="p-2 bg-white/50 text-current rounded-full hover:bg-white/80 transition-colors"
+                title="Play Full Sentence"
+              >
+                <svg xmlns="http://www.w3.org/2000/svg" className="h-5 w-5" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M15.536 8.464a5 5 0 010 7.072m2.828-9.9a9 9 0 010 12.728M5.586 15H4a1 1 0 01-1-1v-4a1 1 0 011-1h1.586l4.707-4.707C10.923 3.663 12 4.109 12 5v14c0 .891-1.077 1.337-1.707.707L5.586 15z" />
+                </svg>
+              </button>
             </div>
             <p className="font-medium">{feedback.message}</p>
           </div>

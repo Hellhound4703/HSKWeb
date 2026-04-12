@@ -1,7 +1,7 @@
 import React, { useState, useEffect, useCallback } from 'react';
 import { type User } from 'firebase/auth';
 import { db } from '../firebase';
-import { doc, setDoc, increment } from 'firebase/firestore';
+import { doc, setDoc, increment, updateDoc, arrayUnion, arrayRemove } from 'firebase/firestore';
 
 interface Word {
   word: string;
@@ -83,7 +83,7 @@ const QuizViewer: React.FC<QuizViewerProps> = ({ words, user, level }) => {
     }
   };
 
-  const handleAnswer = (optionIndex: number) => {
+  const handleAnswer = async (optionIndex: number) => {
     if (answered !== null) return;
 
     setSelectedOption(optionIndex);
@@ -92,6 +92,21 @@ const QuizViewer: React.FC<QuizViewerProps> = ({ words, user, level }) => {
     
     if (isCorrect) {
       setScore(score + 1);
+    }
+
+    // Mistake tracking
+    if (user) {
+      try {
+        const mistakeRef = doc(db, 'users', user.uid, 'stats', `hsk${level}_mistakes`);
+        await setDoc(mistakeRef, {}, { merge: true }); // Ensure doc exists
+        await updateDoc(mistakeRef, {
+          vocabulary: isCorrect 
+            ? arrayRemove(questions[currentIndex].word.word) 
+            : arrayUnion(questions[currentIndex].word.word)
+        });
+      } catch (e) {
+        console.error("Error logging mistake", e);
+      }
     }
   };
 
