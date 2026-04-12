@@ -1,7 +1,7 @@
 import React, { useState, useEffect, useCallback } from 'react';
 import { type User } from 'firebase/auth';
 import { db } from '../firebase';
-import { doc, setDoc, getDoc, updateDoc, arrayUnion, arrayRemove } from 'firebase/firestore';
+import { doc, setDoc, getDoc, updateDoc, arrayUnion, arrayRemove, Timestamp } from 'firebase/firestore';
 import Flashcard from './Flashcard';
 
 interface Word {
@@ -80,15 +80,33 @@ const FlashcardViewer: React.FC<FlashcardViewerProps> = ({ words, user, level })
     );
 
     try {
-      const progressRef = doc(db, 'users', user.uid, 'stats', `hsk${level}_vocabulary`);
-      const docSnap = await getDoc(progressRef);
+      const vocabRef = doc(db, 'users', user.uid, 'stats', `hsk${level}_vocabulary`);
+      const vocabSnap = await getDoc(vocabRef);
       
-      if (!docSnap.exists()) {
-        await setDoc(progressRef, { learned: [currentWord] });
+      if (!vocabSnap.exists()) {
+        await setDoc(vocabRef, { learned: [currentWord] });
       } else {
-        await updateDoc(progressRef, {
+        await updateDoc(vocabRef, {
           learned: isNowLearned ? arrayUnion(currentWord) : arrayRemove(currentWord)
         });
+      }
+
+      // If marking as learned, ALSO initialize in SRS
+      if (isNowLearned) {
+        const srsRef = doc(db, 'users', user.uid, `hsk${level}_srs`, currentWord);
+        const srsSnap = await getDoc(srsRef);
+        if (!srsSnap.exists()) {
+          const tomorrow = new Date();
+          tomorrow.setDate(tomorrow.getDate() + 1);
+          await setDoc(srsRef, {
+            word: currentWord,
+            nextReview: Timestamp.fromDate(tomorrow),
+            interval: 1,
+            easeFactor: 2.5,
+            repetitions: 0,
+            level: level
+          });
+        }
       }
     } catch (error) {
       console.error("Error updating learned words", error);

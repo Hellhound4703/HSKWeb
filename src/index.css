@@ -15,3 +15,23 @@
 @utility rotate-y-180 {
   transform: rotateY(180deg);
 }
+
+@utility no-scrollbar {
+  &::-webkit-scrollbar {
+    display: none;
+  }
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+}
+
+@layer base {
+  body {
+    @apply bg-gray-50 text-gray-900 antialiased;
+  }
+}
+
+@layer components {
+  .btn-primary {
+    @apply bg-blue-600 text-white font-bold py-2 px-6 rounded-full hover:bg-blue-700 transition-all shadow-md active:scale-95;
+  }
+}
