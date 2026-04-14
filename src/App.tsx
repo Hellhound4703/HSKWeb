@@ -5,6 +5,8 @@ import hsk1Data from './data/hsk1-data.json';
 import hsk2Data from './data/hsk2-data.json';
 import hsk3Data from './data/hsk3-data.json';
 import hsk4Data from './data/hsk4-data.json';
+import hsk5Data from './data/hsk5-data.json';
+import hsk6Data from './data/hsk6-data.json';
 import LessonSelector from './components/LessonSelector';
 import FlashcardViewer from './components/FlashcardViewer';
 import GrammarViewer from './components/GrammarViewer';
@@ -55,11 +57,14 @@ const levelDataMap: Record<number, any> = {
   2: hsk2Data,
   3: hsk3Data,
   4: hsk4Data,
+  5: hsk5Data,
+  6: hsk6Data,
 };
 
 import LessonReadingViewer from './components/LessonReadingViewer';
+import DictationViewer from './components/DictationViewer';
 
-type LearningMode = 'vocabulary' | 'grammar' | 'reading' | 'quiz' | 'srs' | 'sentences' | 'exams' | 'search' | 'progress';
+type LearningMode = 'vocabulary' | 'grammar' | 'reading' | 'dictation' | 'quiz' | 'srs' | 'sentences' | 'exams' | 'search' | 'progress';
 
 function App() {
   const [user, setUser] = useState<User | null>(null);
@@ -165,7 +170,7 @@ function App() {
 
         <nav className="flex flex-col items-center mb-6 sm:mb-8 gap-3 sm:gap-6 sticky top-0 z-10 bg-gray-50/95 backdrop-blur-sm py-2 border-b border-transparent transition-all">
           <div className="flex justify-start sm:justify-center gap-1.5 sm:gap-2 overflow-x-auto pb-1 w-full no-scrollbar px-2">
-            {[1, 2, 3, 4].map((level) => (
+            {[1, 2, 3, 4, 5, 6].map((level) => (
               <button
                 key={level}
                 onClick={() => setSelectedLevel(level)}
@@ -181,7 +186,7 @@ function App() {
           </div>
 
           <div className="flex bg-white p-1 rounded-xl shadow-sm border border-gray-200 overflow-x-auto w-full no-scrollbar justify-start sm:justify-center px-2">
-            {(['vocabulary', 'grammar', 'reading', 'quiz', 'srs', 'sentences', 'exams', 'search', 'progress'] as LearningMode[]).map((mode) => (
+            {(['vocabulary', 'grammar', 'reading', 'dictation', 'quiz', 'srs', 'sentences', 'exams', 'search', 'progress'] as LearningMode[]).map((mode) => (
               <button
                 key={mode}
                 onClick={() => setLearningMode(mode)}
@@ -230,6 +235,10 @@ function App() {
 
             {learningMode === 'reading' && (
               <LessonReadingViewer level={selectedLevel} selectedLessons={selectedLessons} allWords={allWordsForLevel} user={user} />
+            )}
+
+            {learningMode === 'dictation' && (
+              <DictationViewer words={selectedWords} user={user} />
             )}
 
             {learningMode === 'quiz' && (

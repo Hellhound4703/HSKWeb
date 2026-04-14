@@ -5,6 +5,7 @@ import { db } from '../firebase';
 import { doc, setDoc, getDoc, Timestamp } from 'firebase/firestore';
 import { speakChinese, playDialogue, stopChineseAudio } from '../utils/audio';
 import { awardXP } from '../utils/gamification';
+import HandwritingPractice from './HandwritingPractice';
 
 interface Word {
   word: string;
@@ -16,6 +17,11 @@ interface ReadingLesson {
   lesson: number;
   title: string;
   content: string;
+  quiz?: {
+    question: string;
+    options: string[];
+    answer: number;
+  }[];
 }
 
 interface LessonReadingViewerProps {
@@ -30,6 +36,18 @@ const readingData: Record<string, ReadingLesson[]> = readingDataRaw;
 const LessonReadingViewer: React.FC<LessonReadingViewerProps> = ({ level, selectedLessons, allWords, user }) => {
   const [selectedWord, setSelectedWord] = useState<Word | null>(null);
   const [playingIdx, setPlayingIdx] = useState<string | null>(null);
+  const [showPractice, setShowPractice] = useState(false);
+  const [quizAnswers, setQuizAnswers] = useState<Record<string, number>>({});
+
+  const handleQuizAnswer = (lessonId: number, qIdx: number, optionIdx: number, correct: number) => {
+    const key = `${lessonId}-${qIdx}`;
+    if (quizAnswers[key] !== undefined) return;
+
+    setQuizAnswers(prev => ({ ...prev, [key]: optionIdx }));
+    if (optionIdx === correct && user) {
+      awardXP(user.uid, 10);
+    }
+  };
 
   const lessonsToShow = useMemo(() => {
     const levelLessons = readingData[level.toString()] || [];
@@ -301,6 +319,47 @@ const LessonReadingViewer: React.FC<LessonReadingViewerProps> = ({ level, select
                 </div>
               ))}
             </div>
+
+            {lesson.quiz && (
+              <div className="mt-16 pt-12 border-t-2 border-gray-50">
+                <h4 className="text-lg font-black text-gray-800 uppercase tracking-widest mb-8 flex items-center gap-3">
+                  <span className="w-8 h-8 bg-green-100 text-green-600 rounded-lg flex items-center justify-center text-sm">?</span>
+                  Test Your Understanding
+                </h4>
+                <div className="space-y-8">
+                  {lesson.quiz.map((q, qIdx) => {
+                    const answerKey = `${lesson.lesson}-${qIdx}`;
+                    const selected = quizAnswers[answerKey];
+                    
+                    return (
+                      <div key={qIdx} className="bg-gray-50/50 p-6 rounded-2xl border border-gray-100">
+                        <p className="text-xl font-chinese text-gray-800 mb-6">{q.question}</p>
+                        <div className="grid grid-cols-1 sm:grid-cols-2 gap-3">
+                          {q.options.map((opt, oIdx) => (
+                            <button
+                              key={oIdx}
+                              onClick={() => handleQuizAnswer(lesson.lesson, qIdx, oIdx, q.answer)}
+                              disabled={selected !== undefined}
+                              className={`p-4 rounded-xl text-left font-chinese transition-all border-2 ${
+                                selected === oIdx
+                                  ? oIdx === q.answer
+                                    ? 'bg-green-50 border-green-500 text-green-700'
+                                    : 'bg-red-50 border-red-500 text-red-700'
+                                  : selected !== undefined && oIdx === q.answer
+                                    ? 'bg-green-50 border-green-500 text-green-700'
+                                    : 'bg-white border-transparent hover:border-gray-200 text-gray-600 shadow-sm'
+                              }`}
+                            >
+                              {opt}
+                            </button>
+                          ))}
+                        </div>
+                      </div>
+                    );
+                  })}
+                </div>
+              </div>
+            )}
           </div>
         );
       })}
@@ -318,19 +377,30 @@ const LessonReadingViewer: React.FC<LessonReadingViewerProps> = ({ level, select
               <hr className="w-12 border-blue-100 mx-auto mb-6" />
               <p className="text-xl text-gray-700">{selectedWord.definition}</p>
               
-              <div className="mt-8 flex gap-3">
-                <button
-                  onClick={() => speakChinese(selectedWord.word)}
-                  className="flex-1 py-3 bg-blue-50 text-blue-600 rounded-2xl font-bold hover:bg-blue-100 transition-all flex items-center justify-center gap-2"
-                >
-                  <svg xmlns="http://www.w3.org/2000/svg" className="h-5 w-5" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M15.536 8.464a5 5 0 010 7.072m2.828-9.9a9 9 0 010 12.728M5.586 15H4a1 1 0 01-1-1v-4a1 1 0 011-1h1.586l4.707-4.707C10.923 3.663 12 4.109 12 5v14c0 .891-1.077 1.337-1.707.707L5.586 15z" />
-                  </svg>
-                  Listen
-                </button>
+              <div className="mt-8 flex flex-col gap-3">
+                <div className="flex gap-3">
+                  <button
+                    onClick={() => speakChinese(selectedWord.word)}
+                    className="flex-1 py-3 bg-blue-50 text-blue-600 rounded-2xl font-bold hover:bg-blue-100 transition-all flex items-center justify-center gap-2"
+                  >
+                    <svg xmlns="http://www.w3.org/2000/svg" className="h-5 w-5" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                      <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M15.536 8.464a5 5 0 010 7.072m2.828-9.9a9 9 0 010 12.728M5.586 15H4a1 1 0 01-1-1v-4a1 1 0 011-1h1.586l4.707-4.707C10.923 3.663 12 4.109 12 5v14c0 .891-1.077 1.337-1.707.707L5.586 15z" />
+                    </svg>
+                    Listen
+                  </button>
+                  <button
+                    onClick={() => setShowPractice(true)}
+                    className="flex-1 py-3 bg-purple-50 text-purple-600 rounded-2xl font-bold hover:bg-purple-100 transition-all flex items-center justify-center gap-2"
+                  >
+                    <svg xmlns="http://www.w3.org/2000/svg" className="h-5 w-5" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                      <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M15.232 5.232l3.536 3.536m-2.036-5.036a2.5 2.5 0 113.536 3.536L6.5 21.036H3v-3.572L16.732 3.732z" />
+                    </svg>
+                    Write
+                  </button>
+                </div>
                 <button
                   onClick={() => setSelectedWord(null)}
-                  className="px-6 py-3 bg-gray-900 text-white rounded-2xl font-bold hover:bg-black transition-all"
+                  className="w-full py-3 bg-gray-900 text-white rounded-2xl font-bold hover:bg-black transition-all"
                 >
                   Close
                 </button>
@@ -338,6 +408,13 @@ const LessonReadingViewer: React.FC<LessonReadingViewerProps> = ({ level, select
             </div>
           </div>
         </div>
+      )}
+
+      {showPractice && selectedWord && (
+        <HandwritingPractice 
+          character={selectedWord.word} 
+          onClose={() => setShowPractice(false)} 
+        />
       )}
     </div>
   );
