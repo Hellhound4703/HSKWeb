@@ -185,20 +185,37 @@ function App() {
             ))}
           </div>
 
-          <div className="flex bg-white p-1 rounded-xl shadow-sm border border-gray-200 overflow-x-auto w-full no-scrollbar justify-start sm:justify-center px-2">
-            {(['vocabulary', 'grammar', 'reading', 'dictation', 'quiz', 'srs', 'sentences', 'exams', 'search', 'progress'] as LearningMode[]).map((mode) => (
-              <button
-                key={mode}
-                onClick={() => setLearningMode(mode)}
-                className={`px-4 sm:px-8 py-1.5 sm:py-2 rounded-lg font-semibold transition-all capitalize whitespace-nowrap text-xs sm:text-sm flex-shrink-0 ${
-                  learningMode === mode
-                    ? 'bg-blue-50 text-blue-700 font-bold'
-                    : 'text-gray-400 hover:text-gray-600'
-                }`}
-              >
-                {mode === 'srs' ? 'Review' : mode}
-              </button>
-            ))}
+          <div className="w-full flex flex-col gap-2">
+            <div className="flex bg-white p-1 rounded-xl shadow-sm border border-gray-200 overflow-x-auto justify-start px-2 gap-1">
+              {(['vocabulary', 'grammar', 'reading', 'dictation'] as LearningMode[]).map((mode) => (
+                <button
+                  key={mode}
+                  onClick={() => setLearningMode(mode)}
+                  className={`px-4 py-1.5 rounded-lg font-bold transition-all capitalize whitespace-nowrap text-xs flex-shrink-0 ${
+                    learningMode === mode
+                      ? 'bg-blue-600 text-white shadow-md'
+                      : 'text-gray-400 hover:text-gray-600 bg-gray-50/50'
+                  }`}
+                >
+                  {mode}
+                </button>
+              ))}
+            </div>
+            <div className="flex bg-white p-1 rounded-xl shadow-sm border border-gray-200 overflow-x-auto justify-start px-2 gap-1">
+              {(['quiz', 'srs', 'sentences', 'exams', 'search', 'progress'] as LearningMode[]).map((mode) => (
+                <button
+                  key={mode}
+                  onClick={() => setLearningMode(mode)}
+                  className={`px-4 py-1.5 rounded-lg font-bold transition-all capitalize whitespace-nowrap text-xs flex-shrink-0 ${
+                    learningMode === mode
+                      ? 'bg-purple-600 text-white shadow-md'
+                      : 'text-gray-400 hover:text-gray-600 bg-gray-50/50'
+                  }`}
+                >
+                  {mode === 'srs' ? 'Review' : mode}
+                </button>
+              ))}
+            </div>
           </div>
         </nav>
 
