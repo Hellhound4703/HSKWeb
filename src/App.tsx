@@ -50,7 +50,9 @@ const levelDataMap: Record<number, any> = {
   4: hsk4Data,
 };
 
-type LearningMode = 'vocabulary' | 'grammar' | 'quiz' | 'srs' | 'sentences' | 'exams' | 'search' | 'progress';
+import LessonReadingViewer from './components/LessonReadingViewer';
+
+type LearningMode = 'vocabulary' | 'grammar' | 'reading' | 'quiz' | 'srs' | 'sentences' | 'exams' | 'search' | 'progress';
 
 function App() {
   const [user, setUser] = useState<User | null>(null);
@@ -138,7 +140,7 @@ function App() {
           </div>
 
           <div className="flex bg-white p-1 rounded-xl shadow-sm border border-gray-200 overflow-x-auto w-full no-scrollbar justify-start sm:justify-center px-2">
-            {(['vocabulary', 'grammar', 'quiz', 'srs', 'sentences', 'exams', 'search', 'progress'] as LearningMode[]).map((mode) => (
+            {(['vocabulary', 'grammar', 'reading', 'quiz', 'srs', 'sentences', 'exams', 'search', 'progress'] as LearningMode[]).map((mode) => (
               <button
                 key={mode}
                 onClick={() => setLearningMode(mode)}
@@ -183,6 +185,10 @@ function App() {
 
             {learningMode === 'grammar' && (
               <GrammarViewer selectedLessonsData={selectedLessonsData} />
+            )}
+
+            {learningMode === 'reading' && (
+              <LessonReadingViewer level={selectedLevel} selectedLessons={selectedLessons} allWords={allWordsForLevel} />
             )}
 
             {learningMode === 'quiz' && (
