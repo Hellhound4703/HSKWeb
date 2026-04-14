@@ -4,6 +4,7 @@ import { db } from '../firebase';
 import { doc, setDoc, getDoc, updateDoc, arrayUnion, arrayRemove, Timestamp } from 'firebase/firestore';
 import Flashcard from './Flashcard';
 import { speakChinese, stopChineseAudio } from '../utils/audio';
+import { awardXP } from '../utils/gamification';
 
 interface Word {
   word: string;
@@ -85,6 +86,7 @@ const FlashcardViewer: React.FC<FlashcardViewerProps> = ({ words, user, level })
 
       // If marking as learned, ALSO initialize in SRS
       if (isNowLearned) {
+        awardXP(user.uid, 10); // 10 XP for learning a new word
         const srsRef = doc(db, 'users', user.uid, `hsk${level}_srs`, currentWord);
         const srsSnap = await getDoc(srsRef);
         if (!srsSnap.exists()) {

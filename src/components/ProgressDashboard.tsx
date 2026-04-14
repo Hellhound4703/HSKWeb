@@ -16,6 +16,11 @@ interface UserStats {
   studyDates?: string[]; // Array of YYYY-MM-DD
 }
 
+interface GlobalUserDoc {
+  xp: number;
+  streak: number;
+}
+
 interface VocabularyStats {
   learned: string[];
 }
@@ -27,6 +32,7 @@ interface MistakeStats {
 
 const ProgressDashboard: React.FC<ProgressDashboardProps> = ({ user, level }) => {
   const [stats, setStats] = useState<UserStats | null>(null);
+  const [globalDoc, setGlobalDoc] = useState<GlobalUserDoc | null>(null);
   const [vocab, setVocab] = useState<VocabularyStats | null>(null);
   const [mistakes, setMistakes] = useState<MistakeStats | null>(null);
   const [loading, setLoading] = useState(true);
@@ -39,9 +45,15 @@ const ProgressDashboard: React.FC<ProgressDashboardProps> = ({ user, level }) =>
 
     setLoading(true);
 
+    const userRef = doc(db, 'users', user.uid);
     const progressRef = doc(db, 'users', user.uid, 'stats', `hsk${level}_overall`);
     const vocabRef = doc(db, 'users', user.uid, 'stats', `hsk${level}_vocabulary`);
     const mistakeRef = doc(db, 'users', user.uid, 'stats', `hsk${level}_mistakes`);
+
+    // Listen for Global Doc (XP/Streak)
+    const unsubGlobal = onSnapshot(userRef, (doc) => {
+      if (doc.exists()) setGlobalDoc(doc.data() as GlobalUserDoc);
+    });
 
     // Log today's study date
     const logStudyDate = async () => {
@@ -75,6 +87,7 @@ const ProgressDashboard: React.FC<ProgressDashboardProps> = ({ user, level }) =>
       unsubStats();
       unsubVocab();
       unsubMistakes();
+      unsubGlobal();
     };
   }, [user, level]);
 
@@ -128,21 +141,21 @@ const ProgressDashboard: React.FC<ProgressDashboardProps> = ({ user, level }) =>
         </div>
 
         <div className="grid grid-cols-2 lg:grid-cols-4 gap-3 sm:gap-6">
-          <div className="bg-blue-50 p-4 sm:p-6 rounded-xl text-center border border-blue-100">
-            <p className="text-[10px] sm:text-sm font-bold text-blue-400 uppercase tracking-widest mb-1">Learned</p>
-            <p className="text-2xl sm:text-4xl font-black text-blue-700">{vocab?.learned?.length || 0}</p>
+          <div className="bg-orange-50 p-4 sm:p-6 rounded-xl text-center border border-orange-100">
+            <p className="text-[10px] sm:text-sm font-bold text-orange-400 uppercase tracking-widest mb-1">Study Streak</p>
+            <p className="text-2xl sm:text-4xl font-black text-orange-700">🔥 {globalDoc?.streak || 0}</p>
           </div>
-          <div className="bg-purple-50 p-4 sm:p-6 rounded-xl text-center border border-purple-100">
-            <p className="text-[10px] sm:text-sm font-bold text-purple-400 uppercase tracking-widest mb-1">Quizzes</p>
-            <p className="text-2xl sm:text-4xl font-black text-purple-700">{stats?.totalQuizzes || 0}</p>
+          <div className="bg-blue-50 p-4 sm:p-6 rounded-xl text-center border border-blue-100">
+            <p className="text-[10px] sm:text-sm font-bold text-blue-400 uppercase tracking-widest mb-1">Total XP</p>
+            <p className="text-2xl sm:text-4xl font-black text-blue-700">⭐ {globalDoc?.xp || 0}</p>
           </div>
           <div className="bg-green-50 p-4 sm:p-6 rounded-xl text-center border border-green-100">
             <p className="text-[10px] sm:text-sm font-bold text-green-400 uppercase tracking-widest mb-1">Accuracy</p>
             <p className="text-2xl sm:text-4xl font-black text-green-700">{accuracy}%</p>
           </div>
-          <div className="bg-orange-50 p-4 sm:p-6 rounded-xl text-center border border-orange-100">
-            <p className="text-[10px] sm:text-sm font-bold text-orange-400 uppercase tracking-widest mb-1">Questions</p>
-            <p className="text-2xl sm:text-4xl font-black text-orange-700">{stats?.totalQuestions || 0}</p>
+          <div className="bg-purple-50 p-4 sm:p-6 rounded-xl text-center border border-purple-100">
+            <p className="text-[10px] sm:text-sm font-bold text-purple-400 uppercase tracking-widest mb-1">Quizzes</p>
+            <p className="text-2xl sm:text-4xl font-black text-purple-700">{stats?.totalQuizzes || 0}</p>
           </div>
         </div>
       </div>

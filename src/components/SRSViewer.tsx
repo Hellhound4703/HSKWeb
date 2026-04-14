@@ -4,12 +4,14 @@ import { db } from '../firebase';
 import { doc, setDoc, collection, getDocs, Timestamp } from 'firebase/firestore';
 import Flashcard from './Flashcard';
 import { speakChinese, stopChineseAudio } from '../utils/audio';
+import { awardXP } from '../utils/gamification';
 
 interface Word {
   word: string;
   pinyin: string;
   definition: string;
   hint?: string;
+  type?: 'word' | 'sentence';
 }
 
 interface SRSData {
@@ -34,13 +36,15 @@ const SRSViewer: React.FC<SRSViewerProps> = ({ user, level, allWords }) => {
   const [loading, setLoading] = useState(true);
   const [debugInfo, setDebugInfo] = useState<{totalInDb: number, due: number}>({ totalInDb: 0, due: 0 });
   const [isInstant, setIsInstant] = useState(false);
+  const [srsType, setSrsType] = useState<'vocabulary' | 'sentences'>('vocabulary');
 
   const fetchSRSQueue = useCallback(async (forceAll = false) => {
     if (!user) return;
     setLoading(true);
     setIsInstant(forceAll);
     try {
-      const srsRef = collection(db, 'users', user.uid, `hsk${level}_srs`);
+      const collectionName = srsType === 'vocabulary' ? `hsk${level}_srs` : `hsk${level}_sentences_srs`;
+      const srsRef = collection(db, 'users', user.uid, collectionName);
       const querySnapshot = await getDocs(srsRef);
       const now = new Date();
       
@@ -58,12 +62,22 @@ const SRSViewer: React.FC<SRSViewerProps> = ({ user, level, allWords }) => {
 
       setDebugInfo({ totalInDb: total, due: srsMap.size });
 
-      // Match SRS data with Word definitions from the local JSON
-      allWords.forEach(w => {
-        if (srsMap.has(w.word)) {
-          dueItems.push({ word: w, srs: srsMap.get(w.word)! });
-        }
-      });
+      if (srsType === 'vocabulary') {
+        // Match SRS data with Word definitions from the local JSON
+        allWords.forEach(w => {
+          if (srsMap.has(w.word)) {
+            dueItems.push({ word: w, srs: srsMap.get(w.word)! });
+          }
+        });
+      } else {
+        // Sentences are self-contained in DB
+        srsMap.forEach((data, text) => {
+          dueItems.push({ 
+            word: { word: text, pinyin: '', definition: 'Contextual Sentence', type: 'sentence' }, 
+            srs: data 
+          });
+        });
+      }
 
       // Shuffle the due items
       setQueue(dueItems.sort(() => Math.random() - 0.5));
@@ -74,7 +88,7 @@ const SRSViewer: React.FC<SRSViewerProps> = ({ user, level, allWords }) => {
     } finally {
       setLoading(false);
     }
-  }, [user, level, allWords]);
+  }, [user, level, allWords, srsType]);
 
   useEffect(() => {
     fetchSRSQueue(false);
@@ -106,7 +120,9 @@ const SRSViewer: React.FC<SRSViewerProps> = ({ user, level, allWords }) => {
     };
 
     try {
-      await setDoc(doc(db, 'users', user.uid, `hsk${level}_srs`, current.word.word), updatedSRS);
+      const collectionName = srsType === 'vocabulary' ? `hsk${level}_srs` : `hsk${level}_sentences_srs`;
+      await setDoc(doc(db, 'users', user.uid, collectionName, current.word.word), updatedSRS);
+      awardXP(user.uid, 5); // 5 XP per review
       
       if (currentIndex < queue.length - 1) {
         setCurrentIndex(currentIndex + 1);
@@ -179,6 +195,25 @@ const SRSViewer: React.FC<SRSViewerProps> = ({ user, level, allWords }) => {
 
   return (
     <div className="flex flex-col items-center w-full px-2">
+      <div className="flex bg-white p-1 rounded-xl shadow-sm border border-gray-100 mb-8 w-full max-w-xs mx-auto">
+        <button
+          onClick={() => setSrsType('vocabulary')}
+          className={`flex-1 py-2 rounded-lg text-xs font-bold transition-all ${
+            srsType === 'vocabulary' ? 'bg-blue-600 text-white shadow-md' : 'text-gray-400 hover:text-gray-600'
+          }`}
+        >
+          Vocabulary
+        </button>
+        <button
+          onClick={() => setSrsType('sentences')}
+          className={`flex-1 py-2 rounded-lg text-xs font-bold transition-all ${
+            srsType === 'sentences' ? 'bg-blue-600 text-white shadow-md' : 'text-gray-400 hover:text-gray-600'
+          }`}
+        >
+          Sentences
+        </button>
+      </div>
+
       <div className="mb-4 flex flex-col items-center gap-1">
         <div className="text-blue-600 font-black text-xs uppercase tracking-widest">
           {isInstant ? '🚀 Practice Mode' : '📅 SRS Review'}: {currentIndex + 1} / {queue.length}

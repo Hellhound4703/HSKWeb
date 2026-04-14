@@ -1,6 +1,10 @@
 import React, { useState, useMemo } from 'react';
 import readingDataRaw from '../data/reading-data.json';
+import { type User } from 'firebase/auth';
+import { db } from '../firebase';
+import { doc, setDoc, getDoc, Timestamp } from 'firebase/firestore';
 import { speakChinese, playDialogue, stopChineseAudio } from '../utils/audio';
+import { awardXP } from '../utils/gamification';
 
 interface Word {
   word: string;
@@ -18,11 +22,12 @@ interface LessonReadingViewerProps {
   level: number;
   selectedLessons: number[];
   allWords: Word[];
+  user: User | null;
 }
 
 const readingData: Record<string, ReadingLesson[]> = readingDataRaw;
 
-const LessonReadingViewer: React.FC<LessonReadingViewerProps> = ({ level, selectedLessons, allWords }) => {
+const LessonReadingViewer: React.FC<LessonReadingViewerProps> = ({ level, selectedLessons, allWords, user }) => {
   const [selectedWord, setSelectedWord] = useState<Word | null>(null);
   const [playingIdx, setPlayingIdx] = useState<string | null>(null);
 
@@ -73,6 +78,75 @@ const LessonReadingViewer: React.FC<LessonReadingViewerProps> = ({ level, select
     setPlayingIdx(id);
     await playDialogue(lines);
     setPlayingIdx(null);
+  };
+
+  const [isRecording, setIsRecording] = useState<string | null>(null);
+  const [feedback, setFeedback] = useState<{ text: string, score: number } | null>(null);
+
+  const startPronunciationCheck = (targetText: string) => {
+    const SpeechRecognition = (window as any).SpeechRecognition || (window as any).webkitSpeechRecognition;
+    if (!SpeechRecognition) {
+      alert("Speech recognition is not supported in this browser. Please use Chrome or Edge.");
+      return;
+    }
+
+    setIsRecording(targetText);
+    const recognition = new SpeechRecognition();
+    recognition.lang = 'zh-CN';
+    recognition.interimResults = false;
+    recognition.maxAlternatives = 1;
+
+    recognition.onresult = (event: any) => {
+      const speechToText = event.results[0][0].transcript;
+      // Simple score based on overlap
+      let matches = 0;
+      const targetChars = targetText.replace(/[^\u4e00-\u9fa5]/g, '').split('');
+      const heardChars = speechToText.replace(/[^\u4e00-\u9fa5]/g, '').split('');
+      
+      targetChars.forEach(char => {
+        if (heardChars.includes(char)) matches++;
+      });
+
+      const score = Math.round((matches / Math.max(1, targetChars.length)) * 100);
+      setFeedback({ text: speechToText, score });
+      if (score >= 80 && user) awardXP(user.uid, 15); // Bonus XP for good pronunciation
+    };
+
+    recognition.onerror = () => setIsRecording(null);
+    recognition.onend = () => setIsRecording(null);
+
+    recognition.start();
+  };
+
+  const addToSRS = async (text: string) => {
+    if (!user) {
+      alert("Please sign in to add to SRS!");
+      return;
+    }
+
+    try {
+      const srsRef = doc(db, 'users', user.uid, `hsk${level}_sentences_srs`, text);
+      const srsSnap = await getDoc(srsRef);
+      
+      if (!srsSnap.exists()) {
+        const tomorrow = new Date();
+        tomorrow.setDate(tomorrow.getDate() + 1);
+        await setDoc(srsRef, {
+          word: text,
+          nextReview: Timestamp.fromDate(tomorrow),
+          interval: 1,
+          easeFactor: 2.5,
+          repetitions: 0,
+          level: level,
+          type: 'sentence'
+        });
+        alert("Added to review queue!");
+      } else {
+        alert("Already in your review queue!");
+      }
+    } catch (error) {
+      console.error("Error adding to SRS", error);
+    }
   };
 
   if (lessonsToShow.length === 0) {
@@ -153,12 +227,57 @@ const LessonReadingViewer: React.FC<LessonReadingViewerProps> = ({ level, select
 
                   <div className="space-y-6">
                     {section.lines.map((line, lIdx) => (
-                      <div key={lIdx} className="flex flex-col group/line">
-                        {line.speaker && (
-                          <span className="text-[10px] font-black text-gray-300 uppercase tracking-widest mb-1 group-hover/line:text-blue-300 transition-colors">
-                            {line.speaker}
-                          </span>
+                      <div key={lIdx} className="flex flex-col group/line relative">
+                        <div className="flex justify-between items-start">
+                          {line.speaker && (
+                            <span className="text-[10px] font-black text-gray-300 uppercase tracking-widest mb-1 group-hover/line:text-blue-300 transition-colors">
+                              {line.speaker}
+                            </span>
+                          )}
+                          <div className="flex gap-2 opacity-0 group-hover/line:opacity-100 transition-opacity">
+                            <button 
+                              onClick={() => addToSRS(line.text)}
+                              className="p-1 text-gray-400 hover:text-blue-500 transition-colors"
+                              title="Add to SRS"
+                            >
+                              <svg xmlns="http://www.w3.org/2000/svg" className="h-4 w-4" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                                <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M12 4v16m8-8H4" />
+                              </svg>
+                            </button>
+                            <button 
+                              onClick={() => startPronunciationCheck(line.text)}
+                              className={`p-1 transition-colors ${
+                                isRecording === line.text ? 'text-red-500 animate-pulse' : 'text-gray-400 hover:text-green-500'
+                              }`}
+                              title="Practice Pronunciation"
+                            >
+                              <svg xmlns="http://www.w3.org/2000/svg" className="h-4 w-4" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                                <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M19 11a7 7 0 01-7 7m0 0a7 7 0 01-7-7m7 7v4m0 0H8m4 0h4m-4-8a3 3 0 01-3-3V5a3 3 0 116 0v6a3 3 0 01-3 3z" />
+                              </svg>
+                            </button>
+                          </div>
+                        </div>
+
+                        {feedback && isRecording === null && line.text.includes(feedback.text.slice(0, 2)) && (
+                          <div className="mt-2 p-3 bg-gray-50 rounded-xl border border-gray-100 animate-in fade-in slide-in-from-top-2">
+                            <div className="flex justify-between items-center mb-1">
+                              <span className="text-[10px] font-black text-gray-400 uppercase tracking-widest">You said:</span>
+                              <span className={`text-[10px] font-black uppercase px-2 py-0.5 rounded-full ${
+                                feedback.score >= 80 ? 'bg-green-100 text-green-700' : 'bg-orange-100 text-orange-700'
+                              }`}>
+                                Accuracy: {feedback.score}%
+                              </span>
+                            </div>
+                            <p className="text-lg font-chinese text-gray-600 italic">"{feedback.text}"</p>
+                            <button 
+                              onClick={() => setFeedback(null)}
+                              className="text-[10px] font-bold text-blue-500 mt-2 hover:underline"
+                            >
+                              Dismiss
+                            </button>
+                          </div>
                         )}
+
                         <div className="text-2xl sm:text-3xl text-gray-800 leading-loose font-chinese">
                           {tokenize(line.text).map((token, idx) => {
                             if (typeof token === 'string') {

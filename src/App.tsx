@@ -15,7 +15,14 @@ import SentenceViewer from './components/SentenceViewer';
 import GlobalSearch from './components/GlobalSearch';
 import ProgressDashboard from './components/ProgressDashboard';
 import Auth from './components/Auth';
+import { db } from './firebase';
+import { doc, onSnapshot } from 'firebase/firestore';
 import './App.css';
+
+interface UserStats {
+  xp: number;
+  streak: number;
+}
 
 interface GrammarExample {
   chinese: string;
@@ -56,6 +63,7 @@ type LearningMode = 'vocabulary' | 'grammar' | 'reading' | 'quiz' | 'srs' | 'sen
 
 function App() {
   const [user, setUser] = useState<User | null>(null);
+  const [gamification, setGamification] = useState<UserStats>({ xp: 0, streak: 0 });
   const [selectedLevel, setSelectedLevel] = useState<number>(2);
   const [selectedLessons, setSelectedLessons] = useState<number[]>([1]);
   const [learningMode, setLearningMode] = useState<LearningMode>('vocabulary');
@@ -69,6 +77,25 @@ function App() {
     });
     return () => unsubscribe();
   }, []);
+
+  // Listen for Gamification Stats
+  useEffect(() => {
+    if (!user) {
+      setGamification({ xp: 0, streak: 0 });
+      return;
+    }
+    const userRef = doc(db, 'users', user.uid);
+    const unsubscribe = onSnapshot(userRef, (doc) => {
+      if (doc.exists()) {
+        const data = doc.data();
+        setGamification({
+          xp: data.xp || 0,
+          streak: data.streak || 0
+        });
+      }
+    });
+    return () => unsubscribe();
+  }, [user]);
 
   // Reset selected lessons when level changes
   useEffect(() => {
@@ -119,7 +146,21 @@ function App() {
             <h1 className="text-2xl sm:text-4xl font-extrabold text-blue-800 mb-1 sm:mb-2">HSK Mastery</h1>
             <p className="text-gray-500 text-xs sm:text-base font-medium italic">Your personalized Chinese study app</p>
           </div>
-          <Auth user={user} />
+          <div className="flex items-center gap-4">
+            {user && (
+              <div className="flex gap-3">
+                <div className="flex items-center gap-1.5 px-3 py-1.5 bg-orange-50 text-orange-600 rounded-full border border-orange-100 shadow-sm animate-in slide-in-from-top-4">
+                  <span className="text-lg">🔥</span>
+                  <span className="font-black text-sm">{gamification.streak}</span>
+                </div>
+                <div className="flex items-center gap-1.5 px-3 py-1.5 bg-blue-50 text-blue-600 rounded-full border border-blue-100 shadow-sm animate-in slide-in-from-top-4 duration-300">
+                  <span className="text-xs font-black uppercase tracking-tighter">XP</span>
+                  <span className="font-black text-sm">{gamification.xp}</span>
+                </div>
+              </div>
+            )}
+            <Auth user={user} />
+          </div>
         </header>
 
         <nav className="flex flex-col items-center mb-6 sm:mb-8 gap-3 sm:gap-6 sticky top-0 z-10 bg-gray-50/95 backdrop-blur-sm py-2 border-b border-transparent transition-all">
@@ -188,7 +229,7 @@ function App() {
             )}
 
             {learningMode === 'reading' && (
-              <LessonReadingViewer level={selectedLevel} selectedLessons={selectedLessons} allWords={allWordsForLevel} />
+              <LessonReadingViewer level={selectedLevel} selectedLessons={selectedLessons} allWords={allWordsForLevel} user={user} />
             )}
 
             {learningMode === 'quiz' && (

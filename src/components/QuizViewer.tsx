@@ -2,6 +2,7 @@ import React, { useState, useEffect, useCallback } from 'react';
 import { type User } from 'firebase/auth';
 import { db } from '../firebase';
 import { doc, setDoc, increment, updateDoc, arrayUnion, arrayRemove } from 'firebase/firestore';
+import { awardXP } from '../utils/gamification';
 
 interface Word {
   word: string;
@@ -75,6 +76,8 @@ const QuizViewer: React.FC<QuizViewerProps> = ({ words, user, level }) => {
         lastQuizDate: new Date().toISOString()
       }, { merge: true });
       
+      await awardXP(user.uid, 20); // 20 XP bonus for completing quiz
+      
       console.log("Progress saved successfully for level", level);
     } catch (error) {
       console.error("Error saving progress", error);
@@ -92,6 +95,7 @@ const QuizViewer: React.FC<QuizViewerProps> = ({ words, user, level }) => {
     
     if (isCorrect) {
       setScore(score + 1);
+      if (user) awardXP(user.uid, 5); // 5 XP per correct answer
     }
 
     // Mistake tracking
