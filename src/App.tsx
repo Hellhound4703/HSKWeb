@@ -1,6 +1,7 @@
 import { useState, useMemo, useEffect } from 'react';
 import { onAuthStateChanged, type User } from 'firebase/auth';
-import { auth } from './firebase';
+import { auth, db } from './firebase';
+import { doc, onSnapshot } from 'firebase/firestore';
 import hsk1Data from './data/hsk1-data.json';
 import hsk2Data from './data/hsk2-data.json';
 import hsk3Data from './data/hsk3-data.json';
@@ -17,8 +18,8 @@ import SentenceViewer from './components/SentenceViewer';
 import GlobalSearch from './components/GlobalSearch';
 import ProgressDashboard from './components/ProgressDashboard';
 import Auth from './components/Auth';
-import { db } from './firebase';
-import { doc, onSnapshot } from 'firebase/firestore';
+import LessonReadingViewer from './components/LessonReadingViewer';
+import DictationViewer from './components/DictationViewer';
 import './App.css';
 
 interface UserStats {
@@ -60,9 +61,6 @@ const levelDataMap: Record<number, any> = {
   5: hsk5Data,
   6: hsk6Data,
 };
-
-import LessonReadingViewer from './components/LessonReadingViewer';
-import DictationViewer from './components/DictationViewer';
 
 type LearningMode = 'vocabulary' | 'grammar' | 'reading' | 'dictation' | 'quiz' | 'srs' | 'sentences' | 'exams' | 'search' | 'progress';
 
